@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#default editor
+export edit=vim
+export edit_flags=-p
+
+#config
+export cfgdir=~/cfg
+export cfgscriptsdir=$cfgdir/scripts
+
+#bash
+export bashrc=~/.bashrc
+export bashalias=~/.bash_aliases
+export bashvar=~/.bash_variables
+
+#vim
+export vimrc=~/.vimrc
+export vimdir=~/.vim
+
+#git
+export git_user_name=avivilloz
+export git_user_email=avivilloz@gmail.com
+
+#work
+export workdir=~/work
