@@ -22,8 +22,6 @@ alias filess="du -sch .[!.]* * |sort -h"
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias nvidiaup="sudo nvidia-xconfig"
 
-alias switchgc="sudo envycontrol --switch"
-
 #exec
 
 alias mappen="bash $cfgscriptsdir/mappen.sh"
@@ -31,6 +29,7 @@ alias chrome="/opt/google/chrome/google-chrome"
 
 #config
 
+alias edpolybar="vim ~/.config/bspwm/polybar/* -p"
 alias edsxhkd="vim ~/.config/sxhkd/sxhkdrc"
 alias edbspwm="vim ~/.config/bspwm/bspwmrc"
 alias edgrub="sudo vim /etc/default/grub"
@@ -152,7 +151,9 @@ alias mkproject="bash $cfgscriptsdir/project.sh"
 alias currplink="readlink ~/.currp"
 alias currpupdatelink="ln -sf $currpdir ~/.currp"
 
-#youtube-dl
+#mpd
 
-alias ytdl="youtube-dl"
-alias ytdlmp3="youtube-dl --extract-audio --audio-format mp3"
+alias msp="mpc searchplay"
+alias mpl="mpc playlist"
+alias mup="mpc update && mpc ls | mpc add"
+alias mcl="mpc clear"
