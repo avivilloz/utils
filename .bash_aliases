@@ -15,9 +15,9 @@ alias ctrlv='xclip -selection c -o'
 alias addscript="bash $cfgscriptsdir/addscript.sh"
 alias setrr="xset r rate 250 50"
 
-alias diskspace="du -sh *"
-alias hdiskspace="du -hs .[^.]*"
-alias filess="du -sch .[!.]* * |sort -h"
+alias ds="du -sh *"
+alias dshidden="du -hs .[^.]*"
+alias dsall="du -sch .[!.]* * |sort -h"
 
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias nvidiaup="sudo nvidia-xconfig"

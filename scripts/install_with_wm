@@ -1,2 +1,2 @@
-yay -S picom alacritty rofi nitrogen polybar feh xfce4-power-manager xfce-polkit ksuperkey xsettingsd mpd light dunst networkmanager-dmenu
-
+yay -S picom alacritty rofi polybar feh xsettingsd light dunst 
+yay -S xfce4-power-manager xfce-polkit ksuperkey networkmanager-dmenu gnome-keyring mpd
