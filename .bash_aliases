@@ -22,6 +22,8 @@ alias filess="du -sch .[!.]* * |sort -h"
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias nvidiaup="sudo nvidia-xconfig"
 
+alias findappname="xprop | grep WM_CLASS"
+
 #exec
 
 alias mappen="bash $cfgscriptsdir/mappen.sh"
