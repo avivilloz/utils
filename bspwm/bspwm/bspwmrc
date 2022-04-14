@@ -84,7 +84,7 @@ for i in ${office[@]}; do
    bspc rule -a $i desktop='^5' follow=on focus=on; done
 
 # 6 > Communication
-declare -a comm=(Thunderbird TelegramDesktop Hexchat discord)
+declare -a comm=(Thunderbird TelegramDesktop Hexchat discord zoom)
 for i in ${comm[@]}; do
    bspc rule -a $i desktop='^6' follow=on focus=on; done
 

@@ -48,7 +48,7 @@ font-2 = "google\-mdi:size=12;3"
 font-3 = "Iosevka:style=bold:"size=12;3"
 
 modules-left = mod sep bspwm
-modules-center = sep date sep playerctl sep
+modules-center = date sep playerctl
 modules-right = network sep volume sep backlight sep battery
 
 separator =

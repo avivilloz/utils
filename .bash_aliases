@@ -16,8 +16,8 @@ alias addscript="bash $cfgscriptsdir/addscript.sh"
 alias setrr="xset r rate 250 50"
 
 alias ds="du -sh *"
-alias dshidden="du -hs .[^.]*"
-alias dsall="du -sch .[!.]* * |sort -h"
+alias dsh="du -hs .[^.]*"
+alias dsa="du -sch .[!.]* * |sort -h"
 
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias nvidiaup="sudo nvidia-xconfig"
