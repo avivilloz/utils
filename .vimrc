@@ -80,5 +80,5 @@ endif
 
 set background=dark
 
-colorscheme nord
+colorscheme onedark
 
