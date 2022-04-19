@@ -24,6 +24,8 @@ alias nvidiaup="sudo nvidia-xconfig"
 
 alias findappname="xprop | grep WM_CLASS"
 
+alias at='alacritty-themes'
+
 #exec
 
 alias mappen="bash $cfgscriptsdir/mappen.sh"
@@ -31,11 +33,10 @@ alias chrome="/opt/google/chrome/google-chrome"
 
 #config
 
-alias edpolybar="vim ~/.config/bspwm/polybar/* -p"
-alias edsxhkd="vim ~/.config/sxhkd/sxhkdrc"
-alias edbspwm="vim ~/.config/bspwm/bspwmrc"
+alias edalacritty="vim ~/.config/alacritty/alacritty.yml"
 alias edgrub="sudo vim /etc/default/grub"
 alias edgdm="sudo vim /etc/gdm/custom.conf"
+alias edsddm="sudo vim /etc/sddm.conf"
 alias edpacman="sudo vim /etc/pacman.conf"
 alias eddnf="sudo vim /etc/dnf/dnf.conf"
 alias edlogind="sudo -H vim /etc/systemd/logind.conf"

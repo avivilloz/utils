@@ -80,5 +80,4 @@ endif
 
 set background=dark
 
-colorscheme onedark
-
+colorscheme gruvbox
