@@ -65,11 +65,10 @@ set nocompatible
 call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
-Plug 'joshdick/onedark.vim'
+Plug 'jiangmiao/auto-pairs'
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim'
 Plug 'arcticicestudio/nord-vim'
-Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -80,4 +79,4 @@ endif
 
 set background=dark
 
-colorscheme gruvbox
+colorscheme nord
