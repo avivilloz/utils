@@ -3,8 +3,13 @@
 #general
 
 alias vi="vim"
+alias v="vim"
 alias c="clear"
 alias e="exit"
+alias r="ranger"
+alias t="htop"
+alias h="htop"
+
 alias hgrep="history | grep"
 alias psgrep="ps -e | grep"
 alias findstr="sudo grep -iRn"
@@ -15,9 +20,9 @@ alias ctrlv='xclip -selection c -o'
 alias addscript="bash $cfgscriptsdir/addscript.sh"
 alias setrr="xset r rate 250 50"
 
-alias ds="du -sh *"
-alias dsh="du -hs .[^.]*"
-alias dsa="du -sch .[!.]* * |sort -h"
+alias dus="du -sh *"
+alias duh="du -hs .[^.]*"
+alias dua="du -sch .[!.]* * |sort -h"
 
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias nvidiaup="sudo nvidia-xconfig"
