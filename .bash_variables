@@ -4,8 +4,12 @@
 export edit=vim
 export edit_flags=-p
 
+#gitdir
+
+export gitdir=~/git
+
 #config
-export cfgdir=~/cfg
+export cfgdir=$gitdir/cfg
 export cfgscriptsdir=$cfgdir/scripts
 
 #bash
@@ -22,4 +26,4 @@ export git_user_name=avivilloz
 export git_user_email=avivilloz@gmail.com
 
 #work
-export workdir=~/work
+export workdir=$gitdir/work

@@ -11,34 +11,18 @@ if [ $ans  = "y" ]; then
 fi
 
 echo -------------------------------------------------------------------------
-echo create link to cfg dir - necessary if cfg is on sda1 and not home
-echo -------------------------------------------------------------------------
-
-echo do you want to create link to cfg in home? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-    ln -sf /mnt/sda1/cfg ~/cfg
-fi
-
-echo -------------------------------------------------------------------------
 echo create link for directories on sda in home
 echo -------------------------------------------------------------------------
 
 echo do you want to create link to directories on sda in home? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    ln -sf /mnt/sda1 /sda1
+    sudo ln -sf /mnt/sda1 /sda1
     ln -sf /mnt/sda1 ~/sda1
-    ln -sf /mnt/sda1/code ~/code
-    ln -sf /mnt/sda1/games ~/games
-    ln -sf /mnt/sda1/themes ~/themes
-    ln -sf /mnt/sda1/godot ~/godot
     ln -sf /mnt/sda1/documents ~/Documents/documents
-    ln -sf /mnt/sda1/books ~/Documents/books
     ln -sf /mnt/sda1/music ~/Music/music
     ln -sf /mnt/sda1/pictures ~/Pictures/pictures
     ln -sf /mnt/sda1/videos ~/Videos/videos
-    ln -sf /mnt/sda1/downloads ~/Downloads/downloads
 fi
 
 echo -------------------------------------------------------------------------
@@ -48,9 +32,9 @@ echo -------------------------------------------------------------------------
 echo do you want to setup bash? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    ln -sf ~/cfg/.bashrc ~/.bashrc
-    ln -sf ~/cfg/.bash_aliases ~/.bash_aliases
-    ln -sf ~/cfg/.bash_variables ~/.bash_variables
+    ln -sf ~/git/cfg/.bashrc ~/.bashrc
+    ln -sf ~/git/cfg/.bash_aliases ~/.bash_aliases
+    ln -sf ~/git/cfg/.bash_variables ~/.bash_variables
 fi
 
 echo -------------------------------------------------------------------------
@@ -60,7 +44,7 @@ echo -------------------------------------------------------------------------
 echo do you want to setup vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    ln -sf ~/cfg/.vimrc ~/.vimrc
+    ln -sf ~/git/cfg/.vimrc ~/.vimrc
     mkdir ~/.vim
     mkdir ~/.vim/autoload
     mkdir ~/.vim/plugged
@@ -103,16 +87,6 @@ read ans
 if [ $ans  = "y" ]; then
     sudo ln -sf /usr/share/icons ~/.icons
     sudo ln -sf /usr/share/themes ~/.themes
-fi
-
-echo -------------------------------------------------------------------------
-echo create Applications dir
-echo -------------------------------------------------------------------------
-
-echo do you want to create Applications dir? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-    mkdir ~/Applications
 fi
 
 echo -------------------------------------------------------------------------
