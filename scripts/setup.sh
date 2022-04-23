@@ -18,7 +18,6 @@ echo do you want to create link to directories on sda in home? [y/n]
 read ans
 if [ $ans  = "y" ]; then
     sudo ln -sf /mnt/sda1 /sda1
-    ln -sf /mnt/sda1 ~/sda1
     ln -sf /mnt/sda1/documents ~/Documents/documents
     ln -sf /mnt/sda1/music ~/Music/music
     ln -sf /mnt/sda1/pictures ~/Pictures/pictures
