@@ -20,6 +20,8 @@ alias ctrlv='xclip -selection c -o'
 alias addscript="bash $cfgscriptsdir/addscript.sh"
 alias setrr="xset r rate 250 50"
 
+alias maze="command -V"
+
 alias dus="du -sh *"
 alias duh="du -hs .[^.]*"
 alias dua="du -sch .[!.]* * |sort -h"
