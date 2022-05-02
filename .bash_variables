@@ -27,3 +27,6 @@ export git_user_email=avivilloz@gmail.com
 
 #work
 export workdir=$gitdir/work
+
+#path
+export PATH="$HOME/.local/bin:$PATH"

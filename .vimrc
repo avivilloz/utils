@@ -79,4 +79,4 @@ endif
 
 set background=dark
 
-colorscheme dracula
+colorscheme nord
