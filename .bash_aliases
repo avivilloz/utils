@@ -53,8 +53,12 @@ alias edvar="$edit $bashvar"
 alias edvim="$edit $vimrc"
 alias edsetup="$edit $cfgscriptsdir/setup.sh"
 
-alias kdefilesltg="bash $cfgscriptsdir/kdefiles_local_to_git.sh"
-alias kdefilesgtl="bash $cfgscriptsdir/kdefiles_git_to_local.sh"
+#local to git / git to local
+
+alias ltg-kde="bash $cfgscriptsdir/ltg-kde.sh"
+alias gtl-kde="bash $cfgscriptsdir/gtl-kde.sh"
+alias ltg-alacritty="bash $cfgscriptsdir/ltg-alacritty.sh"
+alias gtl-alacritty="bash $cfgscriptsdir/gtl-alacritty.sh"
 
 #graphic cards
 
