@@ -805,30 +805,30 @@ window:
   # Print all received window events.
   #print_events: false
 colors:
-  name: Chalk (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#151515"
-    foreground: "#d0d0d0"
-  cursor:
-    text: "#151515"
-    cursor: "#d0d0d0"
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
   normal:
-    black: "#151515"
-    red: "#fb9fb1"
-    green: "#acc267"
-    yellow: "#ddb26f"
-    blue: "#6fc2ef"
-    magenta: "#e1a3ee"
-    cyan: "#12cfc0"
-    white: "#d0d0d0"
+    black: '#000000'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#caa9fa'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#bfbfbf'
+
+  # Bright colors
   bright:
-    black: "#505050"
-    red: "#fb9fb1"
-    green: "#acc267"
-    yellow: "#ddb26f"
-    blue: "#6fc2ef"
-    magenta: "#e1a3ee"
-    cyan: "#12cfc0"
-    white: "#f5f5f5"
-theme: Chalk.dark
+    black: '#575b70'
+    red: '#ff6e67'
+    green: '#5af78e'
+    yellow: '#f4f99d'
+    blue: '#caa9fa'
+    magenta: '#ff92d0'
+    cyan: '#9aedfe'
+    white: '#e6e6e6'
+theme: Dracula
