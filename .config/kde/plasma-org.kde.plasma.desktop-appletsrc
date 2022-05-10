@@ -163,10 +163,6 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
 ToolBoxButtonY=22
 
-[Containments][30][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/Pictures/ign-0009.png
-SlidePaths=/usr/share/wallpapers
-
 [Containments][8]
 activityId=
 formfactor=2
@@ -297,10 +293,6 @@ DialogWidth=800
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
 ToolBoxButtonY=22
-
-[Containments][80][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/Pictures/ign-0009.png
-SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments2Appletsts][57][Configuration][General]
 animateScroll=false
