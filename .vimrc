@@ -71,4 +71,4 @@ call plug#end()
 
 "background and theming related commands
 "set background=dark
-"colorscheme nord
+"colorscheme dracula

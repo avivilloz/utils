@@ -155,7 +155,7 @@ smallestReadableFont=Iosevka,8,-1,5,50,0,0,0,0,0
 toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 
 [Icons]
-Theme=Tela-nord
+Theme=breeze-dark
 
 [KDE]
 AnimationDurationFactor=0
