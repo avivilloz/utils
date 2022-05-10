@@ -11,9 +11,6 @@ eDP-1 Width 1920x1080=619
 CompletionMode=1
 History=setting,settin
 
-[PlasmaTransientsConfig]
-PreloadWeight=34
-
 [PlasmaViews][Panel 2]
 alignment=132
 panelOpacity=1

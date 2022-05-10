@@ -96,7 +96,9 @@ window:
   # Scrolling distance multiplier.
   #multiplier: 3
   # Font configuration
-  #font:
+font:
+  normal:
+    family: Iosevka
   # Normal (roman) font face
   #normal:
   # Font family

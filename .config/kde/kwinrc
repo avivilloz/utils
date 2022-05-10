@@ -75,6 +75,10 @@ untileByDragging=false
 [Script-forceblur]
 patterns=yakuake\nurxvt\nkeepassxc\nalacritty
 
+[SubSession: 1766729a-4671-4fd9-a6c2-987b338d2dc4]
+active=-1
+count=0
+
 [SubSession: 2beefe9a-e3f2-4c6a-b969-00fd4e983018]
 active=-1
 count=0

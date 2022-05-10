@@ -142,8 +142,7 @@ History Items[$e]=file:$HOME/notes
 [General]
 AccentColor=170,170,255
 BrowserApplication=brave-browser.desktop
-ColorScheme=BreezeDark
-ColorSchemeHash=b3be2b2ed64585ac01294911276f7d28bafaa84c
+ColorSchemeHash=d0b3d2da363261958945ede41bfed4e1744dd286
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 XftHintStyle=hintslight

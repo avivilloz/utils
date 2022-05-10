@@ -42,7 +42,9 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][103][Configuration][General]
+boldFont=false
 containmentType=Plasma
+filterActivityInfo=false
 
 [Containments][2][Applets][18]
 immutability=1
