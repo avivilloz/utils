@@ -14,21 +14,23 @@ echo -------------------------------------------------------------------------
 echo create link for directories on sda in home
 echo -------------------------------------------------------------------------
 
-echo do you want to create link to directories on sda in home? [y/n]
+echo do you want to create link to /mnt/sda1 in /? [y/n]
 read ans
 if [ $ans  = "y" ]; then
     sudo ln -sf /mnt/sda1 /sda1
-    ln -sf /mnt/sda1/documents ~/Documents/documents
-    ln -sf /mnt/sda1/music ~/Music/music
-    ln -sf /mnt/sda1/pictures ~/Pictures/pictures
-    ln -sf /mnt/sda1/videos ~/Videos/videos
 fi
 
 echo -------------------------------------------------------------------------
 echo setup bash
 echo -------------------------------------------------------------------------
 
-echo do you want to setup bash? [y/n]
+echo do you want to move current .bashrc to .bashrc_system? [y/n]
+read ans
+if [ $ans  = "y" ]; then
+    mv ~/.bashrc ~/.bashrc_system
+fi
+
+echo do you want to create bash links? [y/n]
 read ans
 if [ $ans  = "y" ]; then
     ln -sf ~/git/cfg/.bashrc ~/.bashrc
@@ -75,27 +77,6 @@ if [ $ans  = "y" ]; then
     . ~/.bash_variables
     git config --global user.email $git_user_email
     git config --global user.name $git_user_name
-fi
-
-echo -------------------------------------------------------------------------
-echo setup icons and themes directories
-echo -------------------------------------------------------------------------
-
-echo do you want to setup icons and themes directories? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-    sudo ln -sf /usr/share/icons ~/.icons
-    sudo ln -sf /usr/share/themes ~/.themes
-fi
-
-echo -------------------------------------------------------------------------
-echo reboot
-echo -------------------------------------------------------------------------
-
-echo do you want to reboot? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-     reboot
 fi
 
 cd

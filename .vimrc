@@ -66,17 +66,9 @@ call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
-Plug 'morhetz/gruvbox'
-Plug 'dracula/vim'
-Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
 "background and theming related commands
-if (has("termguicolors"))
-    set termguicolors
-endif
-
-set background=dark
-
-colorscheme nord
+"set background=dark
+"colorscheme nord
