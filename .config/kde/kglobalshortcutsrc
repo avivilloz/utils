@@ -3,7 +3,6 @@ update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_sh
 
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-1766729a-4671-4fd9-a6c2-987b338d2dc4=none,none,Switch to activity "ILRD"
 switch-to-activity-790d39d9-8b48-419f-ae47-f103a52947f3=none,none,Switch to activity "Default"
 switch-to-activity-fead6ac1-9029-42ea-99c5-d27d0a2b4c0a=none,none,Switch to activity "MS"
 
@@ -359,7 +358,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Activity switching
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2

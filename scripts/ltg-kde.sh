@@ -9,4 +9,5 @@ cp -r ~/.config/kcminputrc \
 ~/.config/kwinrc \
 ~/.config/plasmashellrc \
 ~/.config/kwinrulesrc \
+~/.config/kactivitymanagerdrc \
 ~/git/cfg/.config/kde/

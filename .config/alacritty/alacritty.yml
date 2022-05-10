@@ -63,7 +63,7 @@ window:
     # Window opacity as a floating point number from `0.0` to `1.0`.
     # The value `0.0` is completely transparent and `1.0` is opaque.
     #opacity: 1.0
-  opacity: 0.7
+  opacity: 0.5
   # Startup Mode (changes require restart)
   #
   # Values for `startup_mode`:
@@ -805,30 +805,30 @@ window:
   # Print all received window events.
   #print_events: false
 colors:
-  # Default colors
+  name: Chalk (dark)
+  author: Chris Kempson
   primary:
-    background: '#282a36'
-    foreground: '#f8f8f2'
-
-  # Normal colors
+    background: "#151515"
+    foreground: "#d0d0d0"
+  cursor:
+    text: "#151515"
+    cursor: "#d0d0d0"
   normal:
-    black: '#000000'
-    red: '#ff5555'
-    green: '#50fa7b'
-    yellow: '#f1fa8c'
-    blue: '#caa9fa'
-    magenta: '#ff79c6'
-    cyan: '#8be9fd'
-    white: '#bfbfbf'
-
-  # Bright colors
+    black: "#151515"
+    red: "#fb9fb1"
+    green: "#acc267"
+    yellow: "#ddb26f"
+    blue: "#6fc2ef"
+    magenta: "#e1a3ee"
+    cyan: "#12cfc0"
+    white: "#d0d0d0"
   bright:
-    black: '#575b70'
-    red: '#ff6e67'
-    green: '#5af78e'
-    yellow: '#f4f99d'
-    blue: '#caa9fa'
-    magenta: '#ff92d0'
-    cyan: '#9aedfe'
-    white: '#e6e6e6'
-theme: Dracula
+    black: "#505050"
+    red: "#fb9fb1"
+    green: "#acc267"
+    yellow: "#ddb26f"
+    blue: "#6fc2ef"
+    magenta: "#e1a3ee"
+    cyan: "#12cfc0"
+    white: "#f5f5f5"
+theme: Chalk.dark

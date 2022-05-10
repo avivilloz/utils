@@ -1,7 +1,6 @@
 #!/bin/bash
 
 #general
-
 alias vi="vim"
 alias v="vim"
 alias c="clear"
@@ -34,12 +33,10 @@ alias findappname="xprop | grep WM_CLASS"
 alias at='alacritty-themes'
 
 #exec
-
 alias mappen="bash $cfgscriptsdir/mappen.sh"
 alias chrome="/opt/google/chrome/google-chrome"
 
 #config
-
 alias edalacritty="vim ~/.config/alacritty/alacritty.yml"
 alias edgrub="sudo vim /etc/default/grub"
 alias edgdm="sudo vim /etc/gdm/custom.conf"
@@ -54,37 +51,31 @@ alias edvim="$edit $vimrc"
 alias edsetup="$edit $cfgscriptsdir/setup.sh"
 
 #local to git / git to local
-
 alias ltg-kde="bash $cfgscriptsdir/ltg-kde.sh"
 alias gtl-kde="bash $cfgscriptsdir/gtl-kde.sh"
 alias ltg-alacritty="bash $cfgscriptsdir/ltg-alacritty.sh"
 alias gtl-alacritty="bash $cfgscriptsdir/gtl-alacritty.sh"
 
 #graphic cards
-
 alias currgc="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
 
 #boot options
-
 alias bootopl="efibootmgr"
 alias bootoprm="sudo efibootmgr -Bb" 
 
 #apt
-
 alias aptin="sudo apt install"
 alias aptrm="sudo apt remove"
 alias aptarm="sudo apt autoremove"
 alias aptup="sudo apt update && sudo apt upgrade"
 
 #snap
-
 alias snapin="sudo snap install"
 alias snaprm="sudo snap remove"
 alias snapup="sudo snap refresh"
 alias snapl="snap list"
 
 #flatpak
-
 alias fpin="flatpak install"
 alias fprm="flatpak uninstall"
 alias fparm="flatpak uninstall --unused"
@@ -99,7 +90,6 @@ alias fpremoterm="flatpak remote-delete"
 alias fpremotes="flatpak remotes"
 
 #pacman
-
 alias pmin="sudo pacman -S"
 alias pmrm="sudo pacman -Rns"
 alias pmup="sudo pacman -Syu"
@@ -107,7 +97,6 @@ alias pmarm="sudo pacman -Qdtq | sudo pacman -Rs -"
 alias pml="pacman -Qe"
 
 #yay
-
 alias yayin="yay -S"
 alias yayup="yay -Syu"
 alias yayrm="yay -Rns"
@@ -115,7 +104,6 @@ alias yayarm="yay -Yc"
 alias yayl="yay -Qe"
 
 #dnf
-
 alias dnfin="sudo dnf install"
 alias dnfrm="sudo dnf remove"
 alias dnfup="sudo dnf upgrade --refresh"
@@ -124,13 +112,11 @@ alias dnfcc="sudo dnf clean packages"
 alias dnfl="sudo dnf list installed"
 
 #all packet managers
-
 alias fedup="bash $cfgscriptsdir/fedup.sh"
 alias archup="bash $cfgscriptsdir/archup.sh"
 alias debup="bash $cfgscriptsdir/debup.sh"
 
 #gcc compilation aliases: debug mode, release mode
-
 alias gd='gcc -ansi -pedantic-errors -Wall -Wextra -g'
 alias gr='gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
 alias gd99='gcc -std=c99 -pedantic-errors -Wall -Wextra -g'
@@ -142,12 +128,10 @@ alias gdpp11='g++ -std=gnu++11 -Weffc++ -pedantic-errors -Wall -Wextra -g'
 alias grpp11='g++ -std=gnu++11 -Weffc++ -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
 
 #valgrind
-
 alias vlg='valgrind --leak-check=yes --track-origins=yes'
 alias hlg='valgrind --tool=helgrind'
 
 #git
-
 alias gadd="git add ."
 alias gcomm="git commit -m"
 alias gpush="bash $cfgscriptsdir/gitpush.sh"
@@ -159,17 +143,14 @@ alias gdiff="git diff"
 alias gpull="git pull"
 
 #learning/projects scripts
-
 alias lab="bash $cfgscriptsdir/lab.sh"
 alias mkproject="bash $cfgscriptsdir/project.sh"
 
 #currp (current project)
-
 alias currplink="readlink ~/.currp"
 alias currpupdatelink="ln -sf $currpdir ~/.currp"
 
 #mpd
-
 alias msp="mpc searchplay"
 alias mpl="mpc playlist"
 alias mup="mpc update && mpc ls | mpc add"
