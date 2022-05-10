@@ -12,7 +12,7 @@ CompletionMode=1
 History=setting,settin
 
 [PlasmaTransientsConfig]
-PreloadWeight=42
+PreloadWeight=34
 
 [PlasmaViews][Panel 2]
 alignment=132
