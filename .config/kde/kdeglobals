@@ -44,8 +44,8 @@ ForegroundActive=111,125,154
 ForegroundLink=111,125,154
 
 [Colors:Selection]
-BackgroundAlternate=79,89,110
-BackgroundNormal=79,89,110
+BackgroundAlternate=95,107,132
+BackgroundNormal=95,107,132
 DecorationFocus=111,125,154
 DecorationHover=111,125,154
 ForegroundActive=111,125,154
@@ -106,7 +106,8 @@ History Items[$e]=file:$HOME/notes
 [General]
 AccentColor=111,125,154
 BrowserApplication=brave-browser.desktop
-ColorSchemeHash=b3be2b2ed64585ac01294911276f7d28bafaa84c
+ColorScheme=NordicDarker
+ColorSchemeHash=d0b3d2da363261958945ede41bfed4e1744dd286
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 XftHintStyle=hintslight

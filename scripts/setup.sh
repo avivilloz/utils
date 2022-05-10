@@ -89,6 +89,16 @@ if [ $ans  = "y" ]; then
     cp ~/git/cfg/.config/alacritty/alacritty.yml ~/.config/alacritty/
 fi
 
+echo -------------------------------------------------------------------------
+echo setup kde
+echo -------------------------------------------------------------------------
+
+echo do you want to setup kde? [y/n]
+read ans
+if [ $ans  = "y" ]; then
+    cp ~/git/cfg/.config/kde/* ~/.config/
+fi
+
 cd
 
 exit 0

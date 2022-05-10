@@ -53,6 +53,9 @@ alias edvar="$edit $bashvar"
 alias edvim="$edit $vimrc"
 alias edsetup="$edit $cfgscriptsdir/setup.sh"
 
+alias kdefilesltg="bash $cfgscriptsdir/kdefiles_local_to_git.sh"
+alias kdefilesgtl="bash $cfgscriptsdir/kdefiles_git_to_local.sh"
+
 #graphic cards
 
 alias currgc="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
