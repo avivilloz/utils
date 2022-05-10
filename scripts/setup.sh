@@ -86,7 +86,7 @@ echo -------------------------------------------------------------------------
 echo do you want to setup alacritty? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    cp ~/git/cfg/alacritty.yml ~/.config/alacritty/
+    cp ~/git/cfg/.config/alacritty/alacritty.yml ~/.config/alacritty/
 fi
 
 cd
