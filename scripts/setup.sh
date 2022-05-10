@@ -79,6 +79,16 @@ if [ $ans  = "y" ]; then
     git config --global user.name $git_user_name
 fi
 
+echo -------------------------------------------------------------------------
+echo setup alacritty
+echo -------------------------------------------------------------------------
+
+echo do you want to setup alacritty? [y/n]
+read ans
+if [ $ans  = "y" ]; then
+    cp ~/git/cfg/alacritty.yml ~/.config/alacritty/
+fi
+
 cd
 
 exit 0
