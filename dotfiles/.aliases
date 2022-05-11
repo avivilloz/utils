@@ -50,11 +50,10 @@ alias edvar="$edit $variables"
 alias edvim="$edit $vimrc"
 alias edsetup="$edit $scriptsdir/setup/setup.sh"
 
-#local to git / git to local
-alias ltg-kde="bash $scriptsdir/sync/ltg-kde.sh"
-alias gtl-kde="bash $scriptsdir/sync/gtl-kde.sh"
-alias ltg-alacritty="bash $scriptsdir/sync/ltg-alacritty.sh"
-alias gtl-alacritty="bash $scriptsdir/sync/gtl-alacritty.sh"
+#sync
+alias addsync="bash $scriptsdir/sync/addsync.sh"
+alias synckde="bash $scriptsdir/sync/synckde.sh"
+alias syncalacritty="bash $scriptsdir/sync/syncalacritty.sh"
 
 #graphic cards
 alias currgc="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"

@@ -1,0 +1,46 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10144e2d5e5000165108963900000008200005
+count=1
+program1=/usr/lib/DiscoverNotifier
+restartCommand1=/usr/lib/DiscoverNotifier,-session,10144e2d5e5000165108963900000008200005_1651090123_598910
+restartStyleHint1=0
+userId1=avivilloz
+
+[SubSession: 1766729a-4671-4fd9-a6c2-987b338d2dc4]
+count=0
+
+[SubSession: 2beefe9a-e3f2-4c6a-b969-00fd4e983018]
+count=0
+
+[SubSession: 4c35cb16-9c08-4abe-ac33-97d27bec00f0]
+count=0
+
+[SubSession: 4e06a134-ea48-433b-bbb1-c5ec3086c5c0]
+count=0
+
+[SubSession: 6921c859-1c8d-44a0-b27c-6a0fa6306210]
+count=0
+
+[SubSession: 7bfab3df-703d-4938-9b4c-5f5e4e60afc5]
+count=0
+
+[SubSession: 8dff929a-b2bb-4d81-a4d0-338714593999]
+count=0
+
+[SubSession: 95e6db09-cc41-4252-b8bc-d61f27dc3563]
+count=0
+
+[SubSession: da5c80d2-e00d-4d63-bc2a-b6b6b3e3d589]
+count=0
+
+[SubSession: e7dc6d0e-0baa-49b6-b31b-6f2fb7166236]
+count=0

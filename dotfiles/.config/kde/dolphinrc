@@ -1,0 +1,33 @@
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+RememberOpenedTabs=false
+Version=201
+ViewPropsTimestamp=2022,4,17,3,19,34.104
+
+[IconsMode]
+FontWeight=50
+PreviewSize=80
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=479
+eDP-1 Width 1920x1080=409
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP-1 Height 1920x1080=1044
+eDP-1 Width 1920x1080=1906
+eDP-1 XPosition 1920x1080=7
+eDP-1 YPosition 1920x1080=29
+
+[PreviewSettings]
+Plugins=kritathumbnail,djvuthumbnail,ebookthumbnail,windowsimagethumbnail,exrthumbnail,fontthumbnail,windowsexethumbnail,opendocumentthumbnail,comicbookthumbnail,imagethumbnail,directorythumbnail,appimagethumbnail,jpegthumbnail,audiothumbnail,svgthumbnail,cursorthumbnail
