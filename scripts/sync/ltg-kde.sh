@@ -15,20 +15,20 @@ cp -r \
 ~/.config/plasmashellrc \
 ~/.config/plasmarc \
 ~/.config/dolphinrc \
-~/git/cfg/.config/kde/
+~/git/utils/.config/kde/
 
 cp -r \
 ~/.local/share/color_schemes/* \
-~/git/cfg/resources/color_schemes/
+~/git/utils/resources/color_schemes/
 
 cp -r \
 ~/.local/share/icons/* \
-~/git/cfg/resources/icons/
+~/git/utils/resources/icons/
 
 cp -r \
 ~/.local/share/wallpapers/* \
-~/git/cfg/resources/wallpapers/
+~/git/utils/resources/wallpapers/
 
 cp -r \
 ~/.local/share/plasma/* \
-~/git/cfg/resources/plasma/
+~/git/utils/resources/plasma/

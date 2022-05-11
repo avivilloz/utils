@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp -r ~/git/cfg/.config/kde/* ~/.config/
+cp -r ~/git/utils/.config/kde/* ~/.config/

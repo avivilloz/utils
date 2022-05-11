@@ -9,13 +9,13 @@ export edit_flags=-p
 export gitdir=~/git
 
 #config
-export cfgdir=$gitdir/cfg
-export cfgscriptsdir=$cfgdir/scripts
+export utilsdir=$gitdir/utils
+export scriptsdir=$utilsdir/scripts
 
 #bash
 export bashrc=~/.bashrc
-export bashalias=~/.bash_aliases
-export bashvar=~/.bash_variables
+export aliases=~/.aliases
+export variables=~/.variables
 
 #vim
 export vimrc=~/.vimrc

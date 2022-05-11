@@ -11,7 +11,7 @@ if [ $ans  = "y" ]; then
 fi
 
 echo -------------------------------------------------------------------------
-echo create link for directories on sda in home
+echo create link for sda1
 echo -------------------------------------------------------------------------
 
 echo do you want to create link to /mnt/sda1 in /? [y/n]
@@ -33,9 +33,9 @@ fi
 echo do you want to create bash links? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    ln -sf ~/git/cfg/.bashrc ~/.bashrc
-    ln -sf ~/git/cfg/.bash_aliases ~/.bash_aliases
-    ln -sf ~/git/cfg/.bash_variables ~/.bash_variables
+    ln -sf ~/git/utils/.bashrc ~/.bashrc
+    ln -sf ~/git/utils/.aliases ~/.aliases
+    ln -sf ~/git/utils/.variables ~/.variables
 fi
 
 echo -------------------------------------------------------------------------
@@ -45,7 +45,7 @@ echo -------------------------------------------------------------------------
 echo do you want to setup vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    ln -sf ~/git/cfg/.vimrc ~/.vimrc
+    ln -sf ~/git/utils/.vimrc ~/.vimrc
     mkdir ~/.vim
     mkdir ~/.vim/autoload
     mkdir ~/.vim/plugged
@@ -77,26 +77,6 @@ if [ $ans  = "y" ]; then
     . ~/.bash_variables
     git config --global user.email $git_user_email
     git config --global user.name $git_user_name
-fi
-
-echo -------------------------------------------------------------------------
-echo setup alacritty
-echo -------------------------------------------------------------------------
-
-echo do you want to setup alacritty? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-    cp ~/git/cfg/.config/alacritty/alacritty.yml ~/.config/alacritty/
-fi
-
-echo -------------------------------------------------------------------------
-echo setup kde
-echo -------------------------------------------------------------------------
-
-echo do you want to setup kde? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-    cp ~/git/cfg/.config/kde/* ~/.config/
 fi
 
 cd

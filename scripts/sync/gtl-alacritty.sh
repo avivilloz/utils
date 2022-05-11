@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp ~/git/cfg/.config/alacritty/alacritty.yml ~/.config/alacritty/
+cp ~/git/utils/.config/alacritty/alacritty.yml ~/.config/alacritty/

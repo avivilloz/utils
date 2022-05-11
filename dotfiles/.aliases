@@ -16,7 +16,7 @@ alias findfile="sudo find . -iname"
 alias osrelease="cat /etc/os-release"
 alias ctrlc='xclip -selection c'
 alias ctrlv='xclip -selection c -o'
-alias addscript="bash $cfgscriptsdir/addscript.sh"
+alias addscript="bash $scriptsdir/addscript.sh"
 alias setrr="xset r rate 250 50"
 
 alias maze="command -V"
@@ -33,10 +33,10 @@ alias findappname="xprop | grep WM_CLASS"
 alias at='alacritty-themes'
 
 #exec
-alias mappen="bash $cfgscriptsdir/mappen.sh"
+alias mappen="bash $scriptsdir/random/mappen.sh"
 alias chrome="/opt/google/chrome/google-chrome"
 
-#config
+#edit
 alias edalacritty="vim ~/.config/alacritty/alacritty.yml"
 alias edgrub="sudo vim /etc/default/grub"
 alias edgdm="sudo vim /etc/gdm/custom.conf"
@@ -45,16 +45,16 @@ alias edpacman="sudo vim /etc/pacman.conf"
 alias eddnf="sudo vim /etc/dnf/dnf.conf"
 alias edlogind="sudo -H vim /etc/systemd/logind.conf"
 alias edbash="$edit $bashrc"
-alias edalias="$edit $bashalias"
-alias edvar="$edit $bashvar"
+alias edalias="$edit $aliases"
+alias edvar="$edit $variables"
 alias edvim="$edit $vimrc"
-alias edsetup="$edit $cfgscriptsdir/setup.sh"
+alias edsetup="$edit $scriptsdir/setup/setup.sh"
 
 #local to git / git to local
-alias ltg-kde="bash $cfgscriptsdir/ltg-kde.sh"
-alias gtl-kde="bash $cfgscriptsdir/gtl-kde.sh"
-alias ltg-alacritty="bash $cfgscriptsdir/ltg-alacritty.sh"
-alias gtl-alacritty="bash $cfgscriptsdir/gtl-alacritty.sh"
+alias ltg-kde="bash $scriptsdir/sync/ltg-kde.sh"
+alias gtl-kde="bash $scriptsdir/sync/gtl-kde.sh"
+alias ltg-alacritty="bash $scriptsdir/sync/ltg-alacritty.sh"
+alias gtl-alacritty="bash $scriptsdir/sync/gtl-alacritty.sh"
 
 #graphic cards
 alias currgc="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
@@ -112,9 +112,9 @@ alias dnfcc="sudo dnf clean packages"
 alias dnfl="sudo dnf list installed"
 
 #all packet managers
-alias fedup="bash $cfgscriptsdir/fedup.sh"
-alias archup="bash $cfgscriptsdir/archup.sh"
-alias debup="bash $cfgscriptsdir/debup.sh"
+alias fedup="bash $scriptsdir/update/fedup.sh"
+alias archup="bash $scriptsdir/update/archup.sh"
+alias debup="bash $scriptsdir/update/debup.sh"
 
 #gcc compilation aliases: debug mode, release mode
 alias gd='gcc -ansi -pedantic-errors -Wall -Wextra -g'
@@ -134,17 +134,17 @@ alias hlg='valgrind --tool=helgrind'
 #git
 alias gadd="git add ."
 alias gcomm="git commit -m"
-alias gpush="bash $cfgscriptsdir/gitpush.sh"
+alias gpush="bash $scriptsdir/git/gitpush.sh"
 alias gstat="git status"
 alias glog="git log"
-alias gconfig="bash $cfgscriptsdir/gitconfig.sh"
+alias gconfig="bash $scriptsdir/git/gitconfig.sh"
 alias gclone="git clone"
 alias gdiff="git diff"
 alias gpull="git pull"
 
 #learning/projects scripts
-alias lab="bash $cfgscriptsdir/lab.sh"
-alias mkproject="bash $cfgscriptsdir/project.sh"
+alias lab="bash $scriptsdir/code/lab.sh"
+alias mkproject="bash $scriptsdir/code/project.sh"
 
 #currp (current project)
 alias currplink="readlink ~/.currp"

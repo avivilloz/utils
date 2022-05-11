@@ -6,7 +6,7 @@ then
 	exit 1
 fi
 
-cp $cfgdir/$1/files/lab.$1 ./$2.$1
+cp $utilsdir/$1/files/lab.$1 ./$2.$1
 
 #vim $2.$1
 

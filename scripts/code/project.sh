@@ -9,6 +9,6 @@ then
 	exit 1
 fi
 
-bash $cfgdir/$1/project.sh $2 $3
+bash $utilsdir/$1/project.sh $2 $3
 
 exit 0

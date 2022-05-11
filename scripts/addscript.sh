@@ -2,6 +2,6 @@
 
 . ~/.bash_variables
 
-touch $cfgscriptsdir/$1.sh 
-echo "#!/bin/bash" >> $cfgscriptsdir/$1.sh
-vim $cfgscriptsdir/$1.sh
+touch $scriptsdir/$1.sh 
+echo "#!/bin/bash" >> $scriptsdir/$1.sh
+vim $scriptsdir/$1.sh
