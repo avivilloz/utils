@@ -37,6 +37,7 @@ if [ $ans  = "y" ]; then
     ln -sf ~/git/utils/.aliases ~/.aliases
     ln -sf ~/git/utils/.variables ~/.variables
 fi
+. ~/.bashrc
 
 echo -------------------------------------------------------------------------
 echo setup vim
@@ -74,7 +75,6 @@ echo -------------------------------------------------------------------------
 echo do you want to setup git? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    . ~/.bash_variables
     git config --global user.email $git_user_email
     git config --global user.name $git_user_name
 fi
