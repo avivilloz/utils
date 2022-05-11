@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #general
+alias nf="neofetch"
 alias vi="vim"
 alias v="vim"
 alias c="clear"
