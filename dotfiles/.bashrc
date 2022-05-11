@@ -10,13 +10,13 @@ if [ -f ~/.bashrc_system ]; then
 fi
 
 #variables
-if [ -f ~/.bash_variables ]; then
-    . ~/.bash_variables
+if [ -f ~/.variables ]; then
+    . ~/.variables
 fi
 
 #aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.aliases ]; then
+    . ~/.aliases
 fi
 
 #work setup
