@@ -19,16 +19,16 @@ cp -r \
 
 cp -r \
 ~/.local/share/color_schemes/* \
-~/git/cfg/themes/color_schemes/
+~/git/cfg/resources/color_schemes/
 
 cp -r \
 ~/.local/share/icons/* \
-~/git/cfg/themes/icons/
+~/git/cfg/resources/icons/
 
 cp -r \
 ~/.local/share/wallpapers/* \
-~/git/cfg/themes/wallpapers/
+~/git/cfg/resources/wallpapers/
 
 cp -r \
 ~/.local/share/plasma/* \
-~/git/cfg/themes/plasma/
+~/git/cfg/resources/plasma/
