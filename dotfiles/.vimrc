@@ -46,7 +46,8 @@ set incsearch
 set colorcolumn=80
 
 "sets column's color
-highlight ColorColumn ctermbg=0 guibg=lightgrey
+"highlight ColorColumn ctermbg=0 guibg=lightgrey
+highlight ColorColumn ctermbg=0
 
 "alt+down switches line with line bellow
 nnoremap <A-Down> ddp
