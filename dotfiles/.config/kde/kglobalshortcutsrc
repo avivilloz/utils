@@ -58,21 +58,15 @@ toggle_window_floating=none,Meta+F,Toggle Active Window Floating
 
 [brave-browser.desktop]
 _k_friendly_name=Brave
-_launch=Meta+W,none,Brave
+_launch=none,none,Brave
 new-private-window=none,none,New Incognito Window
 new-window=none,none,New Window
 
 [firefox.desktop]
 _k_friendly_name=Firefox
 _launch=none,none,Firefox
-new-private-window=none,none,New Private Window
-new-window=none,none,New Window
-
-[google-chrome.desktop]
-_k_friendly_name=Google Chrome
-_launch=none,none,Google Chrome
-new-private-window=none,none,New Incognito Window
-new-window=none,none,New Window
+new-private-window=Meta+P,none,New Private Window
+new-window=Meta+W,none,New Window
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off

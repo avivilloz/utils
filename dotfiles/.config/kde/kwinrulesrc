@@ -585,8 +585,8 @@ wmclass=desktopeditors
 wmclassmatch=1
 
 [General]
-count=31
-rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
+count=32
+rules=f43631dc-5d00-419e-a183-750a590366ee,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31
 
 [a34464cc-e816-4299-88b1-4a0f8869998c]
 Description=Application settings for calligrawords
@@ -754,6 +754,15 @@ clientmachine=localhost
 desktops=617749dc-3fb8-407d-8b58-848b51eec6db
 desktopsrule=3
 wmclass=font-manager
+wmclassmatch=1
+
+[f43631dc-5d00-419e-a183-750a590366ee]
+Description=Application settings for firefox
+clientmachine=localhost
+desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
+desktopsrule=2
+wmclass=navigator firefox
+wmclasscomplete=true
 wmclassmatch=1
 
 [fcda577e-4176-4a0b-9c3d-f4de16ae7c92]
