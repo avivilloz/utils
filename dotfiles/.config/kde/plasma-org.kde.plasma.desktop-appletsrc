@@ -51,6 +51,17 @@ boldFont=false
 containmentType=Plasma
 filterActivityInfo=false
 
+[Containments][2][Applets][104]
+immutability=1
+plugin=org.kde.plasma.notes
+
+[Containments][2][Applets][104][Configuration]
+PreloadWeight=55
+
+[Containments][2][Applets][104][Configuration][General]
+fontSize=11
+noteId=0de849bd-bfc5-4f8e-92af-2ae2e07896
+
 [Containments][2][Applets][18]
 immutability=1
 plugin=org.kde.plasma.digitalclock
