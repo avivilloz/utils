@@ -33,9 +33,9 @@ fi
 echo do you want to create bash links? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    ln -sf ~/git/utils/.bashrc ~/.bashrc
-    ln -sf ~/git/utils/.aliases ~/.aliases
-    ln -sf ~/git/utils/.variables ~/.variables
+    ln -sf ~/git/utils/dotfiles/.bashrc ~/.bashrc
+    ln -sf ~/git/utils/dotfiles/.aliases ~/.aliases
+    ln -sf ~/git/utils/dotfiles/.variables ~/.variables
 fi
 . ~/.bashrc
 
@@ -46,7 +46,7 @@ echo -------------------------------------------------------------------------
 echo do you want to setup vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    ln -sf ~/git/utils/.vimrc ~/.vimrc
+    ln -sf ~/git/utils/dotfiles/.vimrc ~/.vimrc
     mkdir ~/.vim
     mkdir ~/.vim/autoload
     mkdir ~/.vim/plugged
