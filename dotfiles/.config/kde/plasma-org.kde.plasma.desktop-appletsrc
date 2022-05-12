@@ -51,16 +51,9 @@ boldFont=false
 containmentType=Plasma
 filterActivityInfo=false
 
-[Containments][2][Applets][104]
+[Containments][2][Applets][105]
 immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][2][Applets][104][Configuration]
-PreloadWeight=55
-
-[Containments][2][Applets][104][Configuration][General]
-fontSize=11
-noteId=0de849bd-bfc5-4f8e-92af-2ae2e07896
+plugin=org.kde.plasma.caffeine-plus
 
 [Containments][2][Applets][18]
 immutability=1
@@ -176,7 +169,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=52;84;4;85;103;66;24;7;69;18;86;87;90;88
+AppletOrder=52;84;4;85;103;66;24;105;7;69;18;86;87;90;88
 
 [Containments][8]
 activityId=
@@ -296,6 +289,9 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde
 [Containments2Appletsts][103][Configuration][General]
 boldFont=false
 filterActivityInfo=false
+
+[Containments2Appletsts][105][Configuration][General]
+enableRestore=true
 
 [Containments2Appletsts][57][Configuration][General]
 animateScroll=false
