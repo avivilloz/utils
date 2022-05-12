@@ -106,8 +106,7 @@ History Items[$e]=file:$HOME/notes
 [General]
 AccentColor=111,125,154
 BrowserApplication=brave-browser.desktop
-ColorScheme=NordicDarker
-ColorSchemeHash=d0b3d2da363261958945ede41bfed4e1744dd286
+ColorSchemeHash=b3be2b2ed64585ac01294911276f7d28bafaa84c
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
@@ -122,7 +121,7 @@ toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 Theme=Tela-nord
 
 [KDE]
-AnimationDurationFactor=0
+AnimationDurationFactor=0.5
 LookAndFeelPackage=org.kde.breezedark.desktop
 
 [KFileDialog Settings]

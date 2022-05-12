@@ -2,6 +2,9 @@
 eDP-1 Height 1920x1080=600
 eDP-1 Width 1920x1080=980
 
+[KFileDialog Settings]
+detailViewIconSize=16
+
 [LatteSettingsDialog]
 downloadWindowSize=980,600
 windowSize=1100,750
@@ -21,7 +24,7 @@ sortOrder=0
 windowSize=980,630
 
 [PlasmaTransientsConfig]
-PreloadWeight=26
+PreloadWeight=2
 
 [ScreenConnectors]
 10=eDP-1:::0,0 1920x1080

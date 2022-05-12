@@ -6,5 +6,8 @@ NumLock=0
 RepeatDelay=250
 RepeatRate=50
 
+[Mouse]
+XLbInptNaturalScroll=false
+
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

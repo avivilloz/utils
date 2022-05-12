@@ -26,7 +26,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=22
 
 [Containments][101][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/git/utils/resources/wallpapers/ign-0009.png
+Image=file:///home/avivilloz/git/utils/resources/wallpapers/ign-0009.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][2]
