@@ -24,7 +24,7 @@ sortOrder=0
 windowSize=980,630
 
 [PlasmaTransientsConfig]
-PreloadWeight=2
+PreloadWeight=0
 
 [ScreenConnectors]
 10=eDP-1:::0,0 1920x1080

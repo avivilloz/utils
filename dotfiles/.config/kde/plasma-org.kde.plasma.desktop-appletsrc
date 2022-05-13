@@ -51,9 +51,37 @@ boldFont=false
 containmentType=Plasma
 filterActivityInfo=false
 
+[Containments][2][Applets][104]
+immutability=1
+plugin=org.kde.plasma.showdesktop
+
 [Containments][2][Applets][105]
 immutability=1
-plugin=org.kde.plasma.caffeine-plus
+plugin=org.kde.plasma.showActivityManager
+
+[Containments][2][Applets][105][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][2][Applets][105][Configuration][General]
+showActivityName=false
+
+[Containments][2][Applets][106]
+immutability=1
+plugin=com.gitlab.jnuutinen.minimalmenu
+
+[Containments][2][Applets][106][Configuration]
+PreloadWeight=100
+
+[Containments][2][Applets][106][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][2][Applets][106][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][2][Applets][106][Shortcuts]
+global=Meta+A
 
 [Containments][2][Applets][18]
 immutability=1
@@ -98,22 +126,6 @@ wrapPage=true
 [Containments][2][Applets][4][Shortcuts]
 global=
 
-[Containments][2][Applets][52]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
-[Containments][2][Applets][52][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][66]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
-[Containments][2][Applets][66][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][2][Applets][69]
 immutability=1
 plugin=org.kde.latte.separator
@@ -125,10 +137,6 @@ plugin=org.kde.plasma.systemtray
 [Containments][2][Applets][7][Configuration]
 PreloadWeight=100
 SystrayContainmentId=8
-
-[Containments][2][Applets][84]
-immutability=1
-plugin=org.kde.latte.separator
 
 [Containments][2][Applets][85]
 immutability=1
@@ -169,7 +177,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=52;84;4;85;103;66;24;105;7;69;18;86;87;90;88
+AppletOrder=106;105;4;85;103;24;7;69;18;86;87;90;88;104
 
 [Containments][8]
 activityId=
@@ -290,8 +298,9 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde
 boldFont=false
 filterActivityInfo=false
 
-[Containments2Appletsts][105][Configuration][General]
-enableRestore=true
+[Containments2Appletsts][106][Configuration][General]
+animateScrollSpeed=450
+showAtCenter=true
 
 [Containments2Appletsts][57][Configuration][General]
 animateScroll=false

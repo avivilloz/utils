@@ -17,30 +17,11 @@ onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
-timerHide=0
+timerHide=100
 timerShow=0
 viewType=0
 visibility=1
 wallpaperplugin=org.kde.image
-
-[Containments][1][Applets][11]
-immutability=1
-plugin=com.gitlab.jnuutinen.minimalmenu
-
-[Containments][1][Applets][11][Configuration]
-PreloadWeight=100
-
-[Containments][1][Applets][11][Configuration][ConfigDialog]
-DialogHeight=1042
-DialogWidth=948
-
-[Containments][1][Applets][11][Configuration][General]
-animateScrollSpeed=450
-favoritesPortedToKAstats=true
-showAtCenter=true
-
-[Containments][1][Applets][11][Shortcuts]
-global=Meta+A
 
 [Containments][1][Applets][8]
 immutability=1
@@ -60,7 +41,7 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=11;8
+appletOrder=8
 appletShadowsEnabled=false
 backgroundRadius=35
 backgroundShadowSize=12
@@ -68,6 +49,7 @@ blurEnabled=false
 configurationSticker=true
 durationTime=x1
 iconSize=54
+inConfigureAppletsMode=true
 panelSize=100
 screenEdgeMargin=16
 shadowOpacity=60
@@ -89,9 +71,11 @@ enabled=true
 type=org.kde.latte.default
 
 [Containments][1][Indicator][org.kde.latte.default][General]
+activeStyle=Dot
 backgroundCornerMargin=0.5
 glowApplyTo=OnActive
 lengthPadding=0.1
+minimizedTaskColoredDifferently=true
 thickMargin=0.1
 
 [LayoutSettings]
