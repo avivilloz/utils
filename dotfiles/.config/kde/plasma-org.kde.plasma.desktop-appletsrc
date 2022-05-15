@@ -68,7 +68,7 @@ showActivityName=false
 
 [Containments][2][Applets][106]
 immutability=1
-plugin=org.kde.plasma.simplemenu
+plugin=com.gitlab.jnuutinen.minimalmenu
 
 [Containments][2][Applets][106][Configuration]
 PreloadWeight=100
@@ -78,6 +78,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][106][Configuration][General]
+animateScroll=false
 favoritesPortedToKAstats=true
 
 [Containments][2][Applets][106][Shortcuts]
