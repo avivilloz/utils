@@ -23,8 +23,8 @@ sortColumn=2
 sortOrder=0
 windowSize=980,630
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
+[PlasmaThemeExtended]
+outlineWidth=1
 
 [ScreenConnectors]
 10=eDP-1:::0,0 1920x1080

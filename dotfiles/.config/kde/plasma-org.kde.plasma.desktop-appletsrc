@@ -68,7 +68,7 @@ showActivityName=false
 
 [Containments][2][Applets][106]
 immutability=1
-plugin=com.gitlab.jnuutinen.minimalmenu
+plugin=org.kde.plasma.simplemenu
 
 [Containments][2][Applets][106][Configuration]
 PreloadWeight=100

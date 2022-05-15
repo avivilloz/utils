@@ -58,24 +58,34 @@ wmclass=steam
 wmclassmatch=1
 
 [1]
-Description=Application settings for thunderbird
+Description=Application settings for wireshark
 clientmachine=localhost
-desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
+desktops=827f18c5-be55-4322-8df9-688afe67fcfe
 desktopsrule=2
-wmclass=mail thunderbird
-wmclasscomplete=true
+wmclass=wireshark
 wmclassmatch=1
 
 [10]
-Description=Application settings for virtualbox manager
+Description=Application settings for balena-etcher-electron
 clientmachine=localhost
 desktops=6094e0d0-0750-45a9-a216-4b22c5784050
 desktopsrule=2
 noborder=true
-wmclass=virtualbox manager
+wmclass=balena-etcher-electron
 wmclassmatch=1
 
 [11]
+Description=Application settings for virtualbox manager
+clientmachine=localhost
+desktops=6094e0d0-0750-45a9-a216-4b22c5784050
+desktopsrule=2
+maximizehoriz=true
+maximizevert=true
+noborder=true
+wmclass=virtualbox manager
+wmclassmatch=1
+
+[12]
 Description=Application settings for qbittorrent
 clientmachine=localhost
 desktops=7a47ee5d-b293-45f1-90d4-20664eae0de2
@@ -84,18 +94,6 @@ maximizehoriz=true
 maximizevert=true
 noborder=true
 wmclass=qbittorrent
-wmclassmatch=1
-
-[12]
-Description=Application settings for desktopeditors
-clientmachine=localhost
-desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
-desktopsrule=2
-maximizehoriz=true
-maximizevert=true
-noborder=true
-noborderrule=3
-wmclass=desktopeditors
 wmclassmatch=1
 
 [12074ce4-aea0-4cb9-bebf-0ff567e73da2]
@@ -107,6 +105,18 @@ wmclass=alacritty
 wmclassmatch=1
 
 [13]
+Description=Application settings for desktopeditors
+clientmachine=localhost
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
+desktopsrule=2
+maximizehoriz=true
+maximizevert=true
+noborder=true
+noborderrule=3
+wmclass=desktopeditors
+wmclassmatch=1
+
+[14]
 Description=Application settings for steam
 clientmachine=localhost
 desktops=62c3e04b-0481-4bb4-8ba5-b0875a7b3b50
@@ -117,13 +127,11 @@ noborderrule=2
 wmclass=steam
 wmclassmatch=1
 
-[14]
+[15]
 Description=Application settings for aseprite
 clientmachine=localhost
 desktops=0fe31765-4d96-4731-9bfd-dab6647cbb36
 desktopsrule=2
-maximizehoriz=true
-maximizevert=true
 wmclass=aseprite
 wmclassmatch=1
 
@@ -202,11 +210,12 @@ wmclass=systemsettings
 wmclassmatch=1
 
 [2]
-Description=Application settings for kcharselect
+Description=Application settings for thunderbird
 clientmachine=localhost
-desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
+desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
 desktopsrule=2
-wmclass=kcharselect
+wmclass=mail thunderbird
+wmclasscomplete=true
 wmclassmatch=1
 
 [20]
@@ -341,11 +350,11 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [3]
-Description=Application settings for netflix-nativefier-b2d713
+Description=Application settings for kcharselect
 clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
 desktopsrule=2
-wmclass=netflix-nativefier-b2d713
+wmclass=kcharselect
 wmclassmatch=1
 
 [30]
@@ -462,11 +471,11 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [4]
-Description=Application settings for whatsappweb-nativefier-d40211
+Description=Application settings for netflix-nativefier-b2d713
 clientmachine=localhost
-desktops=c9158591-e668-402d-b396-b277c0676a87
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
-wmclass=whatsappweb-nativefier-d40211
+wmclass=netflix-nativefier-b2d713
 wmclassmatch=1
 
 [42ed3af2-7039-4b43-882a-ad8316cf7ff7]
@@ -520,13 +529,13 @@ wmclass=balena-etcher-electron
 wmclassmatch=1
 
 [5]
-Description=Application settings for youtube-nativefier-dba51b
+Description=Application settings for whatsappweb-nativefier-d40211
 clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktops=c9158591-e668-402d-b396-b277c0676a87
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-wmclass=youtube-nativefier-dba51b
+wmclass=whatsappweb-nativefier-d40211
 wmclassmatch=1
 
 [55858532-16cc-426f-8dd6-591ce09aede1]
@@ -563,11 +572,11 @@ wmclass=obsidian
 wmclassmatch=1
 
 [6]
-Description=Application settings for freetube
+Description=Application settings for youtube-nativefier-dba51b
 clientmachine=localhost
 desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
-wmclass=freetube
+wmclass=youtube-nativefier-dba51b
 wmclassmatch=1
 
 [6143f85a-f5f6-4385-8074-7fcd5de3a2c9]
@@ -595,12 +604,11 @@ wmclass=timeshift-gtk
 wmclassmatch=1
 
 [7]
-Description=Application settings for firefox
+Description=Application settings for freetube
 clientmachine=localhost
-desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
-wmclass=navigator firefox
-wmclasscomplete=true
+wmclass=freetube
 wmclassmatch=1
 
 [7538a46c-077e-4d80-9057-6c56ae5315fe]
@@ -612,11 +620,12 @@ wmclass=spotify
 wmclassmatch=1
 
 [8]
-Description=Application settings for github desktop
+Description=Application settings for firefox
 clientmachine=localhost
-desktops=358ce474-a158-4706-a7d3-81193331cc79
+desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
 desktopsrule=2
-wmclass=github desktop
+wmclass=navigator firefox
+wmclasscomplete=true
 wmclassmatch=1
 
 [8d315655-c6fc-4d46-9d85-00f1d4bd6f63]
@@ -628,13 +637,13 @@ wmclass=dolphin
 wmclassmatch=1
 
 [9]
-Description=Application settings for balena-etcher-electron
+Description=Application settings for github desktop
 clientmachine=localhost
-desktops=6094e0d0-0750-45a9-a216-4b22c5784050
+desktops=358ce474-a158-4706-a7d3-81193331cc79
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-wmclass=balena-etcher-electron
+wmclass=github desktop
 wmclassmatch=1
 
 [92364f2d-f197-4fdf-a6d6-c60d94cfdac1]
@@ -684,7 +693,7 @@ wmclassmatch=1
 
 [General]
 count=37
-rules=08295226-1352-4717-b2f3-42062064af53,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37
+rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37
 
 [a34464cc-e816-4299-88b1-4a0f8869998c]
 Description=Application settings for calligrawords
