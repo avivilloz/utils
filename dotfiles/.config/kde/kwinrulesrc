@@ -58,42 +58,44 @@ wmclass=steam
 wmclassmatch=1
 
 [1]
-Description=Application settings for wireshark
+Description=Application settings for libreoffice-calc
 clientmachine=localhost
-desktops=827f18c5-be55-4322-8df9-688afe67fcfe
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
 desktopsrule=2
-wmclass=wireshark
+wmclass=libreoffice libreoffice-calc
+wmclasscomplete=true
 wmclassmatch=1
 
 [10]
-Description=Application settings for balena-etcher-electron
+Description=Application settings for youtube-nativefier-dba51b
 clientmachine=localhost
-desktops=6094e0d0-0750-45a9-a216-4b22c5784050
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
 noborder=true
-wmclass=balena-etcher-electron
+wmclass=youtube-nativefier-dba51b
 wmclassmatch=1
 
 [11]
-Description=Application settings for virtualbox manager
+Description=Application settings for freetube
 clientmachine=localhost
-desktops=6094e0d0-0750-45a9-a216-4b22c5784050
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
 noborder=true
-wmclass=virtualbox manager
+wmclass=freetube
 wmclassmatch=1
 
 [12]
-Description=Application settings for qbittorrent
+Description=Application settings for firefox
 clientmachine=localhost
-desktops=7a47ee5d-b293-45f1-90d4-20664eae0de2
+desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
 noborder=true
-wmclass=qbittorrent
+wmclass=navigator firefox
+wmclasscomplete=true
 wmclassmatch=1
 
 [12074ce4-aea0-4cb9-bebf-0ff567e73da2]
@@ -105,44 +107,45 @@ wmclass=alacritty
 wmclassmatch=1
 
 [13]
-Description=Application settings for desktopeditors
+Description=Application settings for github desktop
 clientmachine=localhost
-desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
+desktops=358ce474-a158-4706-a7d3-81193331cc79
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
 noborder=true
-noborderrule=3
-wmclass=desktopeditors
+wmclass=github desktop
 wmclassmatch=1
 
 [14]
-Description=Application settings for steam
+Description=Application settings for balena-etcher-electron
 clientmachine=localhost
-desktops=62c3e04b-0481-4bb4-8ba5-b0875a7b3b50
+desktops=6094e0d0-0750-45a9-a216-4b22c5784050
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-noborderrule=2
-wmclass=steam
+noborder=true
+wmclass=balena-etcher-electron
 wmclassmatch=1
 
 [15]
-Description=Application settings for aseprite
+Description=Application settings for virtualbox manager
 clientmachine=localhost
-desktops=0fe31765-4d96-4731-9bfd-dab6647cbb36
+desktops=6094e0d0-0750-45a9-a216-4b22c5784050
 desktopsrule=2
-wmclass=aseprite
+noborder=true
+wmclass=virtualbox manager
 wmclassmatch=1
 
 [16]
-Description=Application settings for stremio
+Description=Application settings for qbittorrent
 clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktops=7a47ee5d-b293-45f1-90d4-20664eae0de2
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-wmclass=stremio
+noborder=true
+wmclass=qbittorrent
 wmclassmatch=1
 
 [163489ec-1128-4ec1-bfdd-d07235b47dcc]
@@ -154,23 +157,26 @@ wmclass=github desktop
 wmclassmatch=1
 
 [17]
-Description=Application settings for spotify
+Description=Application settings for desktopeditors
 clientmachine=localhost
-desktops=724f53ae-63da-4732-8d74-64f9f4903f4a
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-wmclass=spotify
+noborder=true
+noborderrule=3
+wmclass=desktopeditors
 wmclassmatch=1
 
 [18]
-Description=Application settings for bitwarden
+Description=Application settings for steam
 clientmachine=localhost
-desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktops=62c3e04b-0481-4bb4-8ba5-b0875a7b3b50
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-wmclass=bitwarden
+noborderrule=2
+wmclass=steam
 wmclassmatch=1
 
 [18cc9090-f5e7-4e22-ba60-ce2da6f16cc7]
@@ -182,14 +188,13 @@ wmclass=netflix-nativefier-b2d713
 wmclassmatch=1
 
 [19]
-Description=Application settings for brave-browser
+Description=Application settings for aseprite
 clientmachine=localhost
-desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
+desktops=0fe31765-4d96-4731-9bfd-dab6647cbb36
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-noborderrule=2
-wmclass=brave-browser
+wmclass=aseprite
 wmclassmatch=1
 
 [1daab4be-3c5a-4d14-b248-68c1975bc734]
@@ -210,15 +215,56 @@ wmclass=systemsettings
 wmclassmatch=1
 
 [2]
-Description=Application settings for thunderbird
+Description=Application settings for libreoffice-writer
 clientmachine=localhost
-desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
 desktopsrule=2
-wmclass=mail thunderbird
+wmclass=libreoffice libreoffice-writer
 wmclasscomplete=true
 wmclassmatch=1
 
 [20]
+Description=Application settings for stremio
+clientmachine=localhost
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktopsrule=2
+maximizehoriz=true
+maximizevert=true
+wmclass=stremio
+wmclassmatch=1
+
+[21]
+Description=Application settings for spotify
+clientmachine=localhost
+desktops=724f53ae-63da-4732-8d74-64f9f4903f4a
+desktopsrule=2
+maximizehoriz=true
+maximizevert=true
+wmclass=spotify
+wmclassmatch=1
+
+[22]
+Description=Application settings for bitwarden
+clientmachine=localhost
+desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktopsrule=2
+maximizehoriz=true
+maximizevert=true
+wmclass=bitwarden
+wmclassmatch=1
+
+[23]
+Description=Application settings for brave-browser
+clientmachine=localhost
+desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
+desktopsrule=2
+maximizehoriz=true
+maximizevert=true
+noborderrule=2
+wmclass=brave-browser
+wmclassmatch=1
+
+[24]
 Description=Application settings for audacious
 clientmachine=localhost
 desktops=724f53ae-63da-4732-8d74-64f9f4903f4a
@@ -228,54 +274,12 @@ maximizevert=true
 wmclass=audacious
 wmclassmatch=1
 
-[21]
+[25]
 Description=Application settings for stacer
 clientmachine=localhost
 desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
 desktopsrule=2
-maximizehoriz=true
-maximizevert=true
 wmclass=stacer
-wmclassmatch=1
-
-[22]
-Description=Application settings for superproductivity
-clientmachine=localhost
-desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
-desktopsrule=2
-maximizehoriz=true
-maximizevert=true
-wmclass=superproductivity
-wmclassmatch=1
-
-[23]
-Description=Application settings for obsidian
-clientmachine=localhost
-desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
-desktopsrule=2
-maximizehoriz=true
-maximizevert=true
-noborderrule=2
-wmclass=obsidian
-wmclassmatch=1
-
-[24]
-Description=Application settings for popcorn-time
-clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
-desktopsrule=2
-maximizehoriz=true
-maximizevert=true
-noborderrule=2
-wmclass=popcorn-time
-wmclassmatch=1
-
-[25]
-Description=Application settings for postman
-clientmachine=localhost
-desktops=827f18c5-be55-4322-8df9-688afe67fcfe
-desktopsrule=2
-wmclass=postman
 wmclassmatch=1
 
 [250d0545-96c4-4d5f-bce8-bae97ce59a18]
@@ -288,31 +292,29 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [26]
-Description=Application settings for zoom
+Description=Application settings for superproductivity
 clientmachine=localhost
-desktops=c9158591-e668-402d-b396-b277c0676a87
+desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
 desktopsrule=2
-noborder=true
-wmclass=zoom\s
+wmclass=superproductivity
 wmclassmatch=1
 
 [27]
-Description=Application settings for audacity
+Description=Application settings for obsidian
 clientmachine=localhost
-desktops=724f53ae-63da-4732-8d74-64f9f4903f4a
+desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
 desktopsrule=2
-noborder=true
-wmclass=audacity
+noborderrule=2
+wmclass=obsidian
 wmclassmatch=1
 
 [28]
-Description=Application settings for font-manager
+Description=Application settings for popcorn-time
 clientmachine=localhost
-desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
-noborder=true
 noborderrule=2
-wmclass=font-manager
+wmclass=popcorn-time
 wmclassmatch=1
 
 [288c1d8a-cf1c-4a4e-af20-cc27a614bdcf]
@@ -325,11 +327,12 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [29]
-Description=Application settings for discord
+Description=Application settings for postman
 clientmachine=localhost
-desktops=c9158591-e668-402d-b396-b277c0676a87
+desktops=827f18c5-be55-4322-8df9-688afe67fcfe
 desktopsrule=2
-wmclass=discord
+noborder=true
+wmclass=postman
 wmclassmatch=1
 
 [2d92c1f9-30fc-40b5-a3bd-cee2637442e5]
@@ -350,27 +353,29 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [3]
-Description=Application settings for kcharselect
+Description=Application settings for bleachbit
 clientmachine=localhost
-desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
+desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
 desktopsrule=2
-wmclass=kcharselect
+wmclass=bleachbit
 wmclassmatch=1
 
 [30]
-Description=Application settings for kdenlive
+Description=Application settings for zoom
 clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktops=c9158591-e668-402d-b396-b277c0676a87
 desktopsrule=2
-wmclass=kdenlive
+noborder=true
+wmclass=zoom\s
 wmclassmatch=1
 
 [31]
-Description=Application settings for krita
+Description=Application settings for audacity
 clientmachine=localhost
-desktops=0fe31765-4d96-4731-9bfd-dab6647cbb36
+desktops=724f53ae-63da-4732-8d74-64f9f4903f4a
 desktopsrule=2
-wmclass=krita
+noborder=true
+wmclass=audacity
 wmclassmatch=1
 
 [317d4d16-05bf-4bbd-9d66-f3a556c7fb75]
@@ -382,19 +387,21 @@ wmclass=desktopeditors
 wmclassmatch=1
 
 [32]
-Description=Application settings for timeshift-gtk
+Description=Application settings for font-manager
 clientmachine=localhost
-desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
 desktopsrule=2
-wmclass=timeshift-gtk
+noborder=true
+noborderrule=2
+wmclass=font-manager
 wmclassmatch=1
 
 [33]
-Description=Application settings for dolphin
+Description=Application settings for discord
 clientmachine=localhost
-desktops=7a47ee5d-b293-45f1-90d4-20664eae0de2
+desktops=c9158591-e668-402d-b396-b277c0676a87
 desktopsrule=2
-wmclass=dolphin
+wmclass=discord
 wmclassmatch=1
 
 [33c8d833-58f1-44c5-b801-24b8ae04f8cb]
@@ -406,19 +413,19 @@ wmclass=whatsappweb-nativefier-d40211
 wmclassmatch=1
 
 [34]
-Description=Application settings for systemsettings
+Description=Application settings for kdenlive
 clientmachine=localhost
-desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
-wmclass=systemsettings
+wmclass=kdenlive
 wmclassmatch=1
 
 [35]
-Description=Application settings for alacritty
+Description=Application settings for krita
 clientmachine=localhost
-desktops=9adde762-95cd-4826-b72f-c114f59aa5bd
+desktops=0fe31765-4d96-4731-9bfd-dab6647cbb36
 desktopsrule=2
-wmclass=alacritty
+wmclass=krita
 wmclassmatch=1
 
 [35634f61-d8a5-45ae-b53d-f06008f78ab2]
@@ -430,11 +437,11 @@ wmclass=vlc
 wmclassmatch=1
 
 [36]
-Description=Application settings for code
+Description=Application settings for timeshift-gtk
 clientmachine=localhost
-desktops=617749dc-3fb8-407d-8b58-848b51eec6db
+desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
 desktopsrule=2
-wmclass=code
+wmclass=timeshift-gtk
 wmclassmatch=1
 
 [36dd4504-8050-4b99-afd5-fb4c604a26d3]
@@ -446,11 +453,19 @@ wmclass=zettlr
 wmclassmatch=1
 
 [37]
-Description=Application settings for godot
+Description=Application settings for dolphin
 clientmachine=localhost
-desktops=62c3e04b-0481-4bb4-8ba5-b0875a7b3b50
+desktops=7a47ee5d-b293-45f1-90d4-20664eae0de2
 desktopsrule=2
-wmclass=godot
+wmclass=dolphin
+wmclassmatch=1
+
+[38]
+Description=Application settings for systemsettings
+clientmachine=localhost
+desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktopsrule=2
+wmclass=systemsettings
 wmclassmatch=1
 
 [38c0e8cf-eca9-4313-bc66-fc2e7d28eadf]
@@ -459,6 +474,14 @@ clientmachine=localhost
 desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
 desktopsrule=2
 wmclass=bitwarden
+wmclassmatch=1
+
+[39]
+Description=Application settings for alacritty
+clientmachine=localhost
+desktops=9adde762-95cd-4826-b72f-c114f59aa5bd
+desktopsrule=2
+wmclass=alacritty
 wmclassmatch=1
 
 [3f9ddcb0-40d1-4475-8f2f-c40519717c7a]
@@ -471,11 +494,28 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [4]
-Description=Application settings for netflix-nativefier-b2d713
+Description=Application settings for google-chrome
 clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
 desktopsrule=2
-wmclass=netflix-nativefier-b2d713
+noborderrule=2
+wmclass=google-chrome
+wmclassmatch=1
+
+[40]
+Description=Application settings for code
+clientmachine=localhost
+desktops=617749dc-3fb8-407d-8b58-848b51eec6db
+desktopsrule=2
+wmclass=code
+wmclassmatch=1
+
+[41]
+Description=Application settings for godot
+clientmachine=localhost
+desktops=62c3e04b-0481-4bb4-8ba5-b0875a7b3b50
+desktopsrule=2
+wmclass=godot
 wmclassmatch=1
 
 [42ed3af2-7039-4b43-882a-ad8316cf7ff7]
@@ -529,13 +569,22 @@ wmclass=balena-etcher-electron
 wmclassmatch=1
 
 [5]
-Description=Application settings for whatsappweb-nativefier-d40211
+Description=Application settings for wireshark
 clientmachine=localhost
-desktops=c9158591-e668-402d-b396-b277c0676a87
+desktops=827f18c5-be55-4322-8df9-688afe67fcfe
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-wmclass=whatsappweb-nativefier-d40211
+wmclass=wireshark
+wmclassmatch=1
+
+[5560192b-1c9f-4671-aec7-07abc3a5fe6b]
+Description=Application settings for libreoffice-calc
+clientmachine=localhost
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
+desktopsrule=2
+wmclass=libreoffice libreoffice-calc
+wmclasscomplete=true
 wmclassmatch=1
 
 [55858532-16cc-426f-8dd6-591ce09aede1]
@@ -572,11 +621,12 @@ wmclass=obsidian
 wmclassmatch=1
 
 [6]
-Description=Application settings for youtube-nativefier-dba51b
+Description=Application settings for thunderbird
 clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
 desktopsrule=2
-wmclass=youtube-nativefier-dba51b
+wmclass=mail thunderbird
+wmclasscomplete=true
 wmclassmatch=1
 
 [6143f85a-f5f6-4385-8074-7fcd5de3a2c9]
@@ -604,11 +654,11 @@ wmclass=timeshift-gtk
 wmclassmatch=1
 
 [7]
-Description=Application settings for freetube
+Description=Application settings for kcharselect
 clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
 desktopsrule=2
-wmclass=freetube
+wmclass=kcharselect
 wmclassmatch=1
 
 [7538a46c-077e-4d80-9057-6c56ae5315fe]
@@ -620,12 +670,12 @@ wmclass=spotify
 wmclassmatch=1
 
 [8]
-Description=Application settings for firefox
+Description=Application settings for netflix-nativefier-b2d713
 clientmachine=localhost
-desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
-wmclass=navigator firefox
-wmclasscomplete=true
+fullscreenrule=3
+wmclass=netflix-nativefier-b2d713
 wmclassmatch=1
 
 [8d315655-c6fc-4d46-9d85-00f1d4bd6f63]
@@ -637,13 +687,13 @@ wmclass=dolphin
 wmclassmatch=1
 
 [9]
-Description=Application settings for github desktop
+Description=Application settings for whatsappweb-nativefier-d40211
 clientmachine=localhost
-desktops=358ce474-a158-4706-a7d3-81193331cc79
+desktops=c9158591-e668-402d-b396-b277c0676a87
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
-wmclass=github desktop
+wmclass=whatsappweb-nativefier-d40211
 wmclassmatch=1
 
 [92364f2d-f197-4fdf-a6d6-c60d94cfdac1]
@@ -692,8 +742,8 @@ wmclass=desktopeditors
 wmclassmatch=1
 
 [General]
-count=37
-rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37
+count=41
+rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41
 
 [a34464cc-e816-4299-88b1-4a0f8869998c]
 Description=Application settings for calligrawords
@@ -709,6 +759,15 @@ clientmachine=localhost
 desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
 desktopsrule=3
 wmclass=postman
+wmclassmatch=1
+
+[acb333ef-5810-4599-aa86-fe7562ba485a]
+Description=Application settings for google-chrome
+clientmachine=localhost
+desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
+desktopsrule=3
+noborderrule=3
+wmclass=google-chrome
 wmclassmatch=1
 
 [b0367aef-40d5-4d15-8d77-6d71f1b25437]
@@ -740,6 +799,15 @@ clientmachine=localhost
 desktops=14d62b67-ec98-409d-a6f5-05d22fdcff03
 desktopsrule=3
 wmclass=discord
+wmclassmatch=1
+
+[bb7abd50-d690-4105-ab80-aafbe60f6211]
+Description=Application settings for libreoffice-writer
+clientmachine=localhost
+desktops=db24d454-4ede-453a-84ef-5f9750f9f5a7
+desktopsrule=2
+wmclass=libreoffice libreoffice-writer
+wmclasscomplete=true
 wmclassmatch=1
 
 [bc78db98-4fa6-4828-bcfb-274ee8227b60]
@@ -829,6 +897,14 @@ desktops=c9158591-e668-402d-b396-b277c0676a87
 desktopsrule=3
 wmclass=gl mpv
 wmclasscomplete=true
+wmclassmatch=1
+
+[d76672aa-010d-4fdf-8eed-47b0c78858e6]
+Description=Application settings for bleachbit
+clientmachine=localhost
+desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktopsrule=2
+wmclass=bleachbit
 wmclassmatch=1
 
 [e1260fcc-3e13-4f67-b40d-bfd6b3a3718e]
