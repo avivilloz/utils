@@ -4,12 +4,42 @@ Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/
 detailViewIconSize=16
 
 [KPropertiesDialog]
-eDP-1 Height 1920x1080=482
-eDP-1 Width 1920x1080=619
+eDP-1 Height 1920x1080=469
+eDP-1 Width 1920x1080=431
 
 [Open-with settings]
 CompletionMode=1
 History=setting,settin
+
+[PlasmaViews][Panel 107]
+alignment=132
+panelOpacity=1
+panelVisibility=1
+
+[PlasmaViews][Panel 107][Defaults]
+maxLength=1920
+minLength=128
+thickness=56
+
+[PlasmaViews][Panel 107][Horizontal1920]
+maxLength=1920
+minLength=128
+thickness=56
+
+[PlasmaViews][Panel 118]
+alignment=132
+panelOpacity=1
+panelVisibility=1
+
+[PlasmaViews][Panel 118][Defaults]
+maxLength=1920
+minLength=128
+thickness=56
+
+[PlasmaViews][Panel 118][Horizontal1920]
+maxLength=1920
+minLength=128
+thickness=56
 
 [PlasmaViews][Panel 2]
 alignment=132

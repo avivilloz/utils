@@ -678,6 +678,13 @@ fullscreenrule=3
 wmclass=netflix-nativefier-b2d713
 wmclassmatch=1
 
+[82c90857-f594-40bd-8e4e-433c19c9d6d8]
+Description=Application settings for
+clientmachine=localhost
+desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
+desktopsrule=2
+wmclassmatch=1
+
 [8d315655-c6fc-4d46-9d85-00f1d4bd6f63]
 Description=Application settings for dolphin
 activity=8dff929a-b2bb-4d81-a4d0-338714593999
@@ -742,8 +749,8 @@ wmclass=desktopeditors
 wmclassmatch=1
 
 [General]
-count=41
-rules=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41
+count=42
+rules=82c90857-f594-40bd-8e4e-433c19c9d6d8,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41
 
 [a34464cc-e816-4299-88b1-4a0f8869998c]
 Description=Application settings for calligrawords
