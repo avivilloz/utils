@@ -6,8 +6,8 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][101]
-ItemGeometries-1920x1080=Applet-109:0,0,64,64,0;Applet-105:64,0,192,64,0;
-ItemGeometriesHorizontal=Applet-109:0,0,64,64,0;Applet-105:64,0,192,64,0;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=fead6ac1-9029-42ea-99c5-d27d0a2b4c0a
 formfactor=0
 immutability=1
@@ -16,36 +16,6 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][101][Applets][105]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
-[Containments][101][Applets][105][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][101][Applets][105][Configuration][General]
-showActivityName=false
-
-[Containments][101][Applets][109]
-immutability=1
-plugin=com.gitlab.jnuutinen.minimalmenu
-
-[Containments][101][Applets][109][Configuration]
-PreloadWeight=100
-
-[Containments][101][Applets][109][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][101][Applets][109][Configuration][General]
-animateScroll=false
-favoritesPortedToKAstats=true
-showAtCenter=true
-
-[Containments][101][Applets][109][Shortcuts]
-global=Meta+A
-
 [Containments][101][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
@@ -53,10 +23,10 @@ DialogWidth=800
 [Containments][101][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=22
+ToolBoxButtonY=20
 
 [Containments][101][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/wallpapers/ign-0009.png
+Image=/home/avivilloz/.local/share/wallpapers/ign-0009.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][2]
@@ -79,7 +49,10 @@ DialogWidth=800
 [Containments][2][Applets][103][Configuration][General]
 boldFont=false
 containmentType=Plasma
-filterActivityInfo=false
+
+[Containments][2][Applets][105]
+immutability=1
+plugin=org.kde.plasma.appmenu
 
 [Containments][2][Applets][18]
 immutability=1
@@ -134,6 +107,7 @@ DialogWidth=800
 
 [Containments][2][Applets][69][Configuration][General]
 lengthMargin=0
+thickMargin=1
 
 [Containments][2][Applets][7]
 immutability=1
@@ -160,6 +134,7 @@ DialogWidth=800
 
 [Containments][2][Applets][86][Configuration][General]
 lengthMargin=0
+thickMargin=1
 
 [Containments][2][Applets][87]
 immutability=1
@@ -190,13 +165,14 @@ DialogWidth=800
 
 [Containments][2][Applets][90][Configuration][General]
 lengthMargin=0
+thickMargin=1
 
 [Containments][2][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;85;103;24;7;69;18;86;87;90;88
+AppletOrder=4;85;103;105;24;7;69;18;86;87;90;88
 
 [Containments][8]
 activityId=
