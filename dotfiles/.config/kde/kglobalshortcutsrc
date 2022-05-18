@@ -57,12 +57,6 @@ toggle_three_column_layout=none,,Toggle Three Column Layout
 toggle_tile_layout=none,Meta+T,Toggle Tile Layout
 toggle_window_floating=none,Meta+F,Toggle Active Window Floating
 
-[firefox.desktop]
-_k_friendly_name=Firefox
-_launch=none,none,Firefox
-new-private-window=none,none,New Private Window
-new-window=none,none,New Window
-
 [google-chrome.desktop]
 _k_friendly_name=Google Chrome
 _launch=none,none,Google Chrome
@@ -274,7 +268,7 @@ activate entry 6=Meta+6,Meta+6,Activate Entry 6
 activate entry 7=Meta+7,Meta+7,Activate Entry 7
 activate entry 8=Meta+8,Meta+8,Activate Entry 8
 activate entry 9=Meta+9,Meta+9,Activate Entry 9
-activate widget 9=none,none,Activate Minimal Menu Widget
+activate widget 43=Meta+A,none,Activate Minimal Menu Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=none,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
@@ -366,7 +360,7 @@ activate task manager entry 7=none,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=none,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=none,Meta+9,Activate Task Manager Entry 9
 activate widget 127=none,none,Activate Icons-only Task Manager Widget
-activate widget 130=Meta+A,none,Activate Minimal Menu Widget
+activate widget 130=,none,Activate Minimal Menu Widget
 activate widget 4=none,none,Activate Pager Widget
 activate widget 50=none,none,Activate Lock/Logout Widget
 activate widget 8=none,none,Activate System Tray Widget
