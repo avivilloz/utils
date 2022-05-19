@@ -9,28 +9,32 @@ alias e="exit"
 alias r="ranger"
 alias t="htop"
 alias h="htop"
-
 alias hgrep="history | grep"
 alias psgrep="ps -e | grep"
 alias findstr="sudo grep -iRn"
 alias findfile="sudo find . -iname"
 alias osrelease="cat /etc/os-release"
-alias ctrlc='xclip -selection c'
-alias ctrlv='xclip -selection c -o'
 alias addscript="bash $scriptsdir/addscript.sh"
-alias setrr="xset r rate 250 50"
-
 alias maze="command -V"
-
 alias dus="du -sh *"
 alias duh="du -hs .[^.]*"
 alias dua="du -sch .[!.]* * |sort -h"
-
-alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-alias nvidiaup="sudo nvidia-xconfig"
-
 alias findappname="xprop | grep WM_CLASS"
 
+#keyboard 
+alias ctrlc='xclip -selection c'
+alias ctrlv='xclip -selection c -o'
+alias setrr="xset r rate 250 50"
+
+#grub
+alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+
+#nvidia
+alias nvup="sudo nvidia-xconfig"
+alias nvrun="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
+alias nvsmi="nvidia-smi"
+
+#alacritty
 alias at='alacritty-themes'
 
 #exec

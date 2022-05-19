@@ -46,6 +46,23 @@ DialogWidth=800
 Image=file:///home/avivilloz/.local/share/wallpapers/ign-0009.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
+[Containments][107]
+activityId=2a98bbc4-a46c-4da4-bb6c-1073da83dbd3
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][107][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][107][Wallpaper][org.kde.image][General]
+Image=file:///home/avivilloz/.local/share/wallpapers/ign-0009.png
+SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -299,14 +316,17 @@ plugin=org.kde.plasma.nightcolorcontrol
 immutability=1
 plugin=org.kde.kdeconnect
 
+[Containments][8][Applets][97][Configuration]
+PreloadWeight=60
+
 [Containments][8][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
 [Containments][8][General]
-extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
+extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.kdeconnect
 hiddenItems=Discover Notifier_org.kde.DiscoverNotifier
-knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
+knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.kdeconnect
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
