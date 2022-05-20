@@ -23,7 +23,7 @@ DialogWidth=800
 [Containments][101][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=20
+ToolBoxButtonY=22
 
 [Containments][101][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/.local/share/wallpapers/ign-0009.png
@@ -43,7 +43,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][106][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/ign-0009.png
+Image=file:///home/avivilloz/Pictures/guardicore_akamai.jpg
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][107]
@@ -60,7 +60,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][107][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/ign-0009.png
+Image=file:///home/avivilloz/Pictures/budget.jpg
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][2]
@@ -317,7 +317,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][8][Applets][97][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][8][ConfigDialog]
 DialogHeight=540

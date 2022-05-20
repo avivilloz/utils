@@ -76,6 +76,7 @@ ignoreClass=yakuake,spectacle,Conky,systemsettings,godot,kronometer
 keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
+newWindowAsMaster=true
 preventProtrusion=false
 screenGapBottom=5
 screenGapLeft=5
