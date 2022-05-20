@@ -1,3 +1,7 @@
+[KPropertiesDialog]
+eDP-1 Height 1920x1080=482
+eDP-1 Width 1920x1080=424
+
 [LatteSettingsDialog]
 downloadWindowSize=980,600
 windowSize=1100,750
@@ -30,7 +34,7 @@ launchers=
 memoryUsage=0
 metaPressAndHoldEnabled=true
 mouseSensitivity=2
-screenTrackerInterval=1000
+screenTrackerInterval=2500
 showInfoWindow=true
 singleModeLayoutName=My Layout
 userConfiguredAutostart=true
