@@ -2,9 +2,9 @@
 update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_shortcuts_from_kwin.upd:bismuth-shortcuts-from-kwin
 
 [ActivityManager]
-_k_friendly_name=Activity Manager
+_k_friendly_name=Plasma
 switch-to-activity-1766729a-4671-4fd9-a6c2-987b338d2dc4=none,none,Switch to activity "ILRD"
-switch-to-activity-2a98bbc4-a46c-4da4-bb6c-1073da83dbd3=none,none,Switch to activity "Project Budget"
+switch-to-activity-2a98bbc4-a46c-4da4-bb6c-1073da83dbd3=,none,Switch to activity "Project Budget"
 switch-to-activity-790d39d9-8b48-419f-ae47-f103a52947f3=none,none,Switch to activity "Default"
 switch-to-activity-fead6ac1-9029-42ea-99c5-d27d0a2b4c0a=none,none,Switch to activity "General"
 switch-to-activity-ff92c110-7e96-4ec9-8a30-594174f73e21=none,none,Switch to activity "Guardicore"

@@ -86,10 +86,6 @@ lengthFirstMargin=4
 lengthLastMargin=4
 spacing=8
 
-[Containments][2][Applets][109]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
 [Containments][2][Applets][18]
 immutability=1
 plugin=org.kde.plasma.digitalclock
@@ -142,7 +138,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][69][Configuration][General]
-lengthMargin=0
+lengthMargin=1
 thickMargin=1
 
 [Containments][2][Applets][7]
@@ -169,7 +165,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][86][Configuration][General]
-lengthMargin=0
+lengthMargin=1
 thickMargin=1
 
 [Containments][2][Applets][87]
@@ -200,7 +196,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][90][Configuration][General]
-lengthMargin=0
+lengthMargin=1
 thickMargin=1
 
 [Containments][2][ConfigDialog]
@@ -208,7 +204,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;85;103;109;24;7;69;18;86;87;90;88
+AppletOrder=4;85;103;24;7;69;18;86;87;90;88
 
 [Containments][8]
 activityId=
@@ -275,7 +271,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][8][Applets][17][Configuration]
-PreloadWeight=70
+PreloadWeight=80
 
 [Containments][8][Applets][20]
 immutability=1
@@ -317,7 +313,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][8][Applets][97][Configuration]
-PreloadWeight=65
+PreloadWeight=85
 
 [Containments][8][ConfigDialog]
 DialogHeight=540

@@ -362,7 +362,7 @@ wmclassmatch=1
 [3]
 Description=Application settings for plasma-systemmonitor
 clientmachine=localhost
-desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktops=c7489f8e-a038-4275-8932-e67823169aa9
 desktopsrule=2
 wmclass=plasma-systemmonitor
 wmclassmatch=1
@@ -521,7 +521,7 @@ wmclassmatch=1
 [41]
 Description=Application settings for timeshift-gtk
 clientmachine=localhost
-desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
+desktops=c7489f8e-a038-4275-8932-e67823169aa9
 desktopsrule=2
 wmclass=timeshift-gtk
 wmclassmatch=1
