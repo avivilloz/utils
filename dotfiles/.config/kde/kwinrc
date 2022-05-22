@@ -47,6 +47,10 @@ Name_9=\s
 Number=18
 Rows=1
 
+[Effect-Blur]
+BlurStrength=12
+NoiseStrength=4
+
 [Effect-PresentWindows]
 BorderActivateAll=9
 
@@ -67,12 +71,13 @@ NightTemperature=4400
 bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
+desktopgridEnabled=false
 forceblurEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
-kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_scaleEnabled=false
 overviewEnabled=true
+presentwindowsEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
@@ -90,11 +95,11 @@ layoutPerActivity=false
 layoutPerDesktop=false
 newWindowAsMaster=true
 preventProtrusion=false
-screenGapBottom=5
-screenGapLeft=5
-screenGapRight=5
-screenGapTop=5
-tileLayoutGap=5
+screenGapBottom=10
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+tileLayoutGap=10
 untileByDragging=false
 
 [Script-forceblur]

@@ -27,7 +27,7 @@ minLength=128
 thickness=56
 
 [PlasmaViews][Panel 108]
-panelOpacity=2
+panelOpacity=1
 
 [PlasmaViews][Panel 108][Defaults]
 thickness=20
@@ -52,17 +52,27 @@ thickness=56
 
 [PlasmaViews][Panel 135]
 alignment=132
-panelOpacity=2
+panelOpacity=1
 panelVisibility=1
 
 [PlasmaViews][Panel 135][Defaults]
 maxLength=1920
 minLength=1920
-thickness=40
+thickness=56
 
 [PlasmaViews][Panel 135][Horizontal1920]
 maxLength=1920
 minLength=1920
+thickness=56
+
+[PlasmaViews][Panel 150]
+panelOpacity=2
+panelVisibility=1
+
+[PlasmaViews][Panel 150][Defaults]
+thickness=40
+
+[PlasmaViews][Panel 150][Horizontal1920]
 thickness=40
 
 [PlasmaViews][Panel 2]
@@ -109,6 +119,11 @@ thickness=54
 
 [PlasmaViews][Panel 94][Vertical1080]
 thickness=54
+
+[ScreenConnectors]
+0=HDMI-0
+1=eDP-1
+2=eDP-1-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js

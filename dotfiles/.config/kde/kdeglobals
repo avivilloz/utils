@@ -122,7 +122,7 @@ toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 Theme=Tela-nord
 
 [KDE]
-AnimationDurationFactor=0.7071067811865475
+AnimationDurationFactor=0
 LookAndFeelPackage=org.kde.breezedark.desktop
 
 [KFileDialog Settings]
@@ -143,6 +143,10 @@ Sort directories first=true
 Sort reversed=true
 Speedbar Width=138
 View Style=DetailTree
+
+[KScreen]
+ScaleFactor=1
+ScreenScaleFactors=eDP-1=1;HDMI-1-0=1;
 
 [PreviewSettings]
 MaximumRemoteSize=0

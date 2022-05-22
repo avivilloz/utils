@@ -99,6 +99,7 @@ window:
 font:
   normal:
     family: Iosevka
+  size: 15
   # Normal (roman) font face
   #normal:
   # Font family
