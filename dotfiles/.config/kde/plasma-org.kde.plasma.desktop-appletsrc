@@ -98,10 +98,6 @@ plugin=org.kde.plasma.quicklaunch
 [Containments][2][Applets][109][Configuration][General]
 launcherUrls=file:///usr/share/applications/systemsettings.desktop
 
-[Containments][2][Applets][111]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
 [Containments][2][Applets][18]
 immutability=1
 plugin=org.kde.plasma.digitalclock
