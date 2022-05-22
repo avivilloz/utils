@@ -6,6 +6,7 @@ do
         d) 
             if [ ${OPTARG} == "ltg" ]
             then
+                rm -rf ~/git/utils/dotfiles/.config/kde/*
                 cp -rf \
                     ~/.config/kcminputrc \
                     ~/.config/ksmserverrc \
@@ -24,21 +25,26 @@ do
                     ~/.config/kdeconnect \
                     ~/git/utils/dotfiles/.config/kde/
 
+                rm -rf ~/git/utils/resources/color-schemes/*
                 cp -rf \
                     ~/.local/share/color-schemes/* \
                     ~/git/utils/resources/color-schemes/
 
+                rm -rf ~/git/utils/resources/icons/*
                 cp -rf \
                     ~/.local/share/icons/* \
                     ~/git/utils/resources/icons/
 
+                rm -rf ~/git/utils/resources/wallpapers/*
                 cp -rf \
                     ~/.local/share/wallpapers/* \
                     ~/git/utils/resources/wallpapers/
 
+                rm -rf ~/git/utils/resources/plasma/*
                 cp -rf \
                     ~/.local/share/plasma/* \
                     ~/git/utils/resources/plasma/
+
             elif [ ${OPTARG} == "gtl" ]
             then
                 cp -rf \
