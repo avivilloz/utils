@@ -4,7 +4,7 @@ update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminp
 [Keyboard]
 NumLock=0
 RepeatDelay=250
-RepeatRate=60
+RepeatRate=50
 
 [Mouse]
 XLbInptNaturalScroll=false

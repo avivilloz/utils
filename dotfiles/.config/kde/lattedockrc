@@ -42,10 +42,13 @@ inAdvancedModeForEditSettings=true
 isAvailableGeometryBroadcastedToPlasma=true
 launchers=
 memoryUsage=0
-metaPressAndHoldEnabled=true
+metaPressAndHoldEnabled=false
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
 singleModeLayoutName=My Layout
 userConfiguredAutostart=true
 version=2
+
+[UniversalSettings][ScreenScales]
+HDMI-0=1.339;1

@@ -29,5 +29,9 @@ eDP-1 Width 1920x1080=1906
 eDP-1 XPosition 1920x1080=7
 eDP-1 YPosition 1920x1080=29
 
+[Open-with settings]
+CompletionMode=1
+History=mpv
+
 [PreviewSettings]
 Plugins=kritathumbnail,djvuthumbnail,ebookthumbnail,windowsimagethumbnail,exrthumbnail,fontthumbnail,windowsexethumbnail,opendocumentthumbnail,comicbookthumbnail,imagethumbnail,directorythumbnail,appimagethumbnail,jpegthumbnail,audiothumbnail,svgthumbnail,cursorthumbnail

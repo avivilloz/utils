@@ -17,8 +17,8 @@ onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
-timerHide=25
-timerShow=25
+timerHide=100
+timerShow=0
 viewType=0
 visibility=1
 wallpaperplugin=org.kde.image
@@ -38,8 +38,11 @@ animationWindowInAttention=false
 animationWindowRemovedFromGroup=false
 hoverAction=PreviewWindows
 isInLatteDock=true
+isPreferredForDroppedLaunchers=false
 launchers59=applications:systemsettings.desktop,applications:org.kde.discover.desktop,applications:org.kde.dolphin.desktop,applications:firefox.desktop
 manualScrollTasksType=Disabled
+showInfoBadge=false
+showProgressBadge=false
 
 [Containments][1][Applets][43]
 immutability=1
@@ -59,7 +62,7 @@ favoritesPortedToKAstats=true
 showAtCenter=true
 
 [Containments][1][Applets][43][Shortcuts]
-global=Meta+A
+global=
 
 [Containments][1][Applets][44]
 immutability=1
@@ -71,7 +74,7 @@ plugin=org.kde.latte.separator
 
 [Containments][1][Applets][45][Configuration][ConfigDialog]
 DialogHeight=1046
-DialogWidth=948
+DialogWidth=1906
 
 [Containments][1][Applets][45][Configuration][General]
 lengthMargin=5
@@ -102,26 +105,27 @@ advanced=false
 alignmentUpgraded=true
 animationsEnabled=false
 appletOrder=43;2;45;44;7
-backgroundRadius=35
-backgroundShadowSize=16
-blurEnabled=false
+autoSizeEnabled=false
+backgroundShadowSize=12
 configurationSticker=true
 durationTime=x1
 editBackgroundOpacity=0.4
 iconSize=48
 inConfigureAppletsMode=true
 lockedZoomApplets=43
+mouseWheelActions=false
 panelSize=100
-proportionIconSize=4
+panelTransparency=80
+proportionIconSize=3.8000000000000003
 screenEdgeMargin=12
-shadowOpacity=50
+shadowOpacity=60
 shadows=All
 shadowsUpgraded=true
 showGlow=false
 splitterPosition=1
 splitterPosition2=3
 tasksUpgraded=true
-thickMargin=30
+thickMargin=25
 titleTooltips=false
 zoomLevel=0
 
@@ -132,7 +136,7 @@ type=org.kde.latte.default
 
 [Containments][1][Indicator][org.kde.latte.default][General]
 activeStyle=Dot
-backgroundCornerMargin=0.55
+enabledForApplets=false
 glowApplyTo=OnActive
 glowEnabled=true
 glowOpacity=0.3
@@ -150,7 +154,7 @@ icon=
 lastUsedActivity=fead6ac1-9029-42ea-99c5-d27d0a2b4c0a
 launchers=
 popUpMargin=-1
-preferredForShortcutsTouched=false
+preferredForShortcutsTouched=true
 schemeFile=
 showInMenu=true
 version=2
