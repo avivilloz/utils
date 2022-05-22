@@ -87,11 +87,6 @@ layoutPerActivity=false
 layoutPerDesktop=false
 newWindowAsMaster=true
 preventProtrusion=false
-screenGapBottom=5
-screenGapLeft=5
-screenGapRight=5
-screenGapTop=5
-tileLayoutGap=5
 untileByDragging=false
 
 [Script-forceblur]

@@ -7,7 +7,7 @@ switch-to-activity-1766729a-4671-4fd9-a6c2-987b338d2dc4=none,none,Switch to acti
 switch-to-activity-2a98bbc4-a46c-4da4-bb6c-1073da83dbd3=,none,Switch to activity "Project Budget"
 switch-to-activity-790d39d9-8b48-419f-ae47-f103a52947f3=none,none,Switch to activity "Default"
 switch-to-activity-fead6ac1-9029-42ea-99c5-d27d0a2b4c0a=,none,Switch to activity "General"
-switch-to-activity-ff92c110-7e96-4ec9-8a30-594174f73e21=none,none,Switch to activity "Guardicore"
+switch-to-activity-ff92c110-7e96-4ec9-8a30-594174f73e21=,none,Switch to activity "Guardicore"
 
 [Alacritty.desktop]
 New=none,none,New Terminal
@@ -270,11 +270,11 @@ activate entry 7=Meta+7,Meta+7,Activate Entry 7
 activate entry 8=Meta+8,Meta+8,Activate Entry 8
 activate entry 9=Meta+9,Meta+9,Activate Entry 9
 activate widget 43=Meta+A,none,Activate Minimal Menu Widget
-clear-history=none,none,Clear Clipboard History
+clear-history=none,,Clear Clipboard History
 clipboard_action=none,Ctrl+Alt+X,Enable Clipboard Actions
-cycleNextAction=none,none,Next History Item
-cyclePrevAction=none,none,Previous History Item
-edit_clipboard=none,none,Edit Contents…
+cycleNextAction=none,,Next History Item
+cyclePrevAction=none,,Previous History Item
+edit_clipboard=none,,Edit Contents…
 new instance for entry 1=none,Meta+Ctrl+1,New Instance for Entry 1
 new instance for entry 10=none,Meta+Ctrl+0,New Instance for Entry 10
 new instance for entry 11=none,Meta+Ctrl+Z,New Instance for Entry 11
@@ -298,7 +298,7 @@ repeat_action=none,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show latte global settings=none,Meta+W,Show Latte Global Settings
 show latte view=none,Meta+`,Show Latte Dock/Panel
 show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
-show-barcode=none,none,Show Barcode…
+show-barcode=none,,Show Barcode…
 show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 
 [mediacontrol]
@@ -349,7 +349,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Activity switching
+_k_friendly_name=Latte Dock
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2

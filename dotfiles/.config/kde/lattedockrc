@@ -22,8 +22,12 @@ sortColumn=2
 sortOrder=0
 windowSize=980,630
 
+[Open-with settings]
+CompletionMode=1
+History=sett
+
 [PlasmaTransientsConfig]
-PreloadWeight=26
+PreloadWeight=0
 
 [ScreenConnectors]
 10=eDP-1:::0,0 1920x1080
