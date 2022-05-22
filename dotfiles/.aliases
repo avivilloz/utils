@@ -174,11 +174,16 @@ alias mctl="ncmpcpp"
 
 #python
 alias pipin="python -m pip install"
-alias pipinr="python -m pip install -r"
-alias pipinrup="python -m pip install -U -r"
+alias pipinr="python -m pip install -r" #install all packages from requirements file (need to specify file)
+alias pipinrup="python -m pip install -U -r" #same as above but updates packages that need update
 alias piprm="python -m pip uninstall -y"
 alias piprmr="python -m pip uninstall -y -r"
-alias pipl="python -m pip list"
-alias pipshow="python -m pip show"
+alias pipl="python -m pip list" #lists environment packages
+alias pipshow="python -m pip show" #shows specific package
 alias pipcfgl="python3 -m pip config list -vv"
-alias pipfreeze="python -m pip freeze > requirements.txt"
+alias pipfreeze="python -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
+
+#python venv
+alias pyvecr="python -m venv venv"
+alias pyveact="source venv/bin/activate"
+alias pyvedeact="deactivate"
