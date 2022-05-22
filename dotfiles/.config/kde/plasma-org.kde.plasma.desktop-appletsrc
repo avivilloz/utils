@@ -45,7 +45,7 @@ DialogWidth=800
 [Containments][106][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=22
+ToolBoxButtonY=20
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/Pictures/guardicore_akamai.jpg
@@ -63,6 +63,10 @@ wallpaperplugin=org.kde.image
 [Containments][107][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
+
+[Containments][107][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=516
 
 [Containments][107][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/Pictures/budget.jpg
@@ -86,17 +90,43 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][103][Configuration][General]
+boldFont=false
+capitalFont=false
 containmentType=Plasma
 lengthFirstMargin=4
 lengthLastMargin=4
 spacing=8
+style=Title
 
-[Containments][2][Applets][109]
+[Containments][2][Applets][117]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][117][Configuration][General]
+length=537
+
+[Containments][2][Applets][125]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][2][Applets][125][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][2][Applets][125][Configuration][General]
+lengthMargin=1
+thickMargin=1
+
+[Containments][2][Applets][126]
 immutability=1
 plugin=org.kde.plasma.quicklaunch
 
-[Containments][2][Applets][109][Configuration][General]
-launcherUrls=file:///usr/share/applications/nvidia-settings.desktop,file:///usr/share/applications/org.kde.kinfocenter.desktop,file:///usr/share/applications/org.kde.plasma-systemmonitor.desktop,file:///usr/share/applications/systemsettings.desktop
+[Containments][2][Applets][126][Configuration][General]
+launcherUrls=file:///usr/share/applications/systemsettings.desktop
+
+[Containments][2][Applets][129]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][Applets][18]
 immutability=1
@@ -108,20 +138,13 @@ PreloadWeight=100
 [Containments][2][Applets][18][Configuration][Appearance]
 customDateFormat=dddd dd/MM/yyyy
 dateDisplayFormat=BesideTime
-dateFormat=custom
+dateFormat=longDate
 showSeconds=true
 use24hFormat=2
 
 [Containments][2][Applets][18][Configuration][ConfigDialog]
 DialogHeight=601
 DialogWidth=929
-
-[Containments][2][Applets][24]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][24][Configuration][General]
-length=822
 
 [Containments][2][Applets][4]
 immutability=1
@@ -135,6 +158,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][4][Configuration][General]
+currentDesktopSelected=ShowDesktop
 displayedText=Name
 wrapPage=true
 
@@ -161,13 +185,6 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=100
 SystrayContainmentId=8
 
-[Containments][2][Applets][85]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][85][Configuration][General]
-length=251
-
 [Containments][2][Applets][86]
 immutability=1
 plugin=org.kde.latte.separator
@@ -189,27 +206,15 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][2][Applets][87][Configuration][General]
-show_requestLogout=true
 show_requestReboot=true
-
-[Containments][2][Applets][90]
-immutability=1
-plugin=org.kde.latte.separator
-
-[Containments][2][Applets][90][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][2][Applets][90][Configuration][General]
-lengthMargin=1
-thickMargin=1
+show_suspendToRam=true
 
 [Containments][2][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;85;103;24;7;69;18;86;87;90;109
+AppletOrder=4;129;103;117;7;69;18;86;87;125;126
 
 [Containments][8]
 activityId=
