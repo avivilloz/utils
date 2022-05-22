@@ -48,7 +48,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=20
 
 [Containments][101][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/git/utils/resources/wallpapers/ign_manInStreet.png
+Image=/home/avivilloz/.local/share/wallpapers/ign_manInStreet.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][106]
