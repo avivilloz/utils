@@ -45,7 +45,7 @@ DialogWidth=800
 [Containments][106][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=20
+ToolBoxButtonY=22
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/Pictures/guardicore_akamai.jpg
@@ -96,7 +96,7 @@ immutability=1
 plugin=org.kde.plasma.quicklaunch
 
 [Containments][2][Applets][109][Configuration][General]
-launcherUrls=file:///usr/share/applications/nvidia-settings.desktop,file:///usr/share/applications/org.kde.kinfocenter.desktop,file:///usr/share/applications/systemsettings.desktop
+launcherUrls=file:///usr/share/applications/nvidia-settings.desktop,file:///usr/share/applications/org.kde.kinfocenter.desktop,file:///usr/share/applications/org.kde.plasma-systemmonitor.desktop,file:///usr/share/applications/systemsettings.desktop
 
 [Containments][2][Applets][18]
 immutability=1
@@ -166,7 +166,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][2][Applets][85][Configuration][General]
-length=391
+length=251
 
 [Containments][2][Applets][86]
 immutability=1
