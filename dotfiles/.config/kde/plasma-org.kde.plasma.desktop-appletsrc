@@ -86,6 +86,10 @@ lengthFirstMargin=4
 lengthLastMargin=4
 spacing=8
 
+[Containments][2][Applets][108]
+immutability=1
+plugin=org.kde.plasma.showdesktop
+
 [Containments][2][Applets][18]
 immutability=1
 plugin=org.kde.plasma.digitalclock
@@ -180,13 +184,6 @@ DialogWidth=800
 show_requestLogout=true
 show_requestReboot=true
 
-[Containments][2][Applets][88]
-immutability=1
-plugin=org.kde.plasma.quicklaunch
-
-[Containments][2][Applets][88][Configuration][General]
-launcherUrls=file:///usr/share/applications/systemsettings.desktop
-
 [Containments][2][Applets][90]
 immutability=1
 plugin=org.kde.latte.separator
@@ -204,7 +201,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;85;103;24;7;69;18;86;87;90;88
+AppletOrder=4;85;103;24;7;69;18;86;87;90;108
 
 [Containments][8]
 activityId=

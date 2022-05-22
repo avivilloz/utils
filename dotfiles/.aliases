@@ -99,6 +99,7 @@ alias pmrm="sudo pacman -Rns"
 alias pmup="sudo pacman -Syu"
 alias pmarm="sudo pacman -Qdtq | sudo pacman -Rs -"
 alias pml="pacman -Qe"
+alias pmq="pacman -Ss"
 
 #yay
 alias yyin="yay -S"
@@ -106,6 +107,7 @@ alias yyup="yay -Syu"
 alias yyrm="yay -Rns"
 alias yyarm="yay -Yc"
 alias yyl="yay -Qe"
+alias yyq="yay -Ss"
 
 #paru
 alias prin="paru -S"
@@ -113,6 +115,7 @@ alias prup="paru -Syu"
 alias prrm="paru -Rns"
 alias prarm="paru -Yc"
 alias prl="paru -Qe"
+alias prq="paru -Ss"
 
 #dnf
 alias dnfin="sudo dnf install"

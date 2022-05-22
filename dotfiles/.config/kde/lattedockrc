@@ -1,4 +1,6 @@
 [KFileDialog Settings]
+Recent Files[$e]=application-menu.svg,file:$HOME/.local/share/icons/Tela-nord/24/actions/application-menu.svg
+Recent URLs[$e]=file:$HOME/.local/share/icons/Tela-nord/24/actions/,file:$HOME/Pictures/
 detailViewIconSize=16
 
 [KPropertiesDialog]
