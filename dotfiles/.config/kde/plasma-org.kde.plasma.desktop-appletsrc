@@ -225,13 +225,6 @@ plugin=org.kde.plasma.panelspacer
 [Containments][108][Applets][186][Configuration][General]
 length=598
 
-[Containments][108][Applets][188]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][108][Applets][188][Configuration][General]
-length=501
-
 [Containments][108][Applets][194]
 immutability=1
 plugin=org.kde.plasma.quicklaunch
@@ -259,7 +252,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][108][General]
-AppletOrder=110;195;134;186;114;130;112;131;113;177;194;179
+AppletOrder=110;195;134;186;114;130;112;131;113;177;194
 
 [Containments][115]
 activityId=
