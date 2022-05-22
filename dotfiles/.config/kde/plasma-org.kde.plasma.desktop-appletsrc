@@ -42,6 +42,11 @@ wallpaperplugin=org.kde.image
 DialogHeight=600
 DialogWidth=800
 
+[Containments][106][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=516
+ToolBoxButtonY=20
+
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/Pictures/guardicore_akamai.jpg
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
@@ -89,6 +94,25 @@ spacing=8
 [Containments][2][Applets][108]
 immutability=1
 plugin=org.kde.plasma.showdesktop
+
+[Containments][2][Applets][109]
+immutability=1
+plugin=org.kde.plasma.quicklaunch
+
+[Containments][2][Applets][109][Configuration][General]
+launcherUrls=file:///usr/share/applications/systemsettings.desktop
+
+[Containments][2][Applets][110]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][2][Applets][110][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][2][Applets][110][Configuration][General]
+lengthMargin=1
+thickMargin=1
 
 [Containments][2][Applets][18]
 immutability=1
@@ -201,7 +225,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;85;103;24;7;69;18;86;87;90;108
+AppletOrder=4;85;103;24;7;69;18;86;87;90;109;108
 
 [Containments][8]
 activityId=
@@ -310,7 +334,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][8][Applets][97][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][8][ConfigDialog]
 DialogHeight=540
