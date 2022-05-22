@@ -91,10 +91,6 @@ lengthFirstMargin=4
 lengthLastMargin=4
 spacing=8
 
-[Containments][2][Applets][108]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
 [Containments][2][Applets][109]
 immutability=1
 plugin=org.kde.plasma.quicklaunch
@@ -102,17 +98,9 @@ plugin=org.kde.plasma.quicklaunch
 [Containments][2][Applets][109][Configuration][General]
 launcherUrls=file:///usr/share/applications/systemsettings.desktop
 
-[Containments][2][Applets][110]
+[Containments][2][Applets][111]
 immutability=1
-plugin=org.kde.latte.separator
-
-[Containments][2][Applets][110][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][2][Applets][110][Configuration][General]
-lengthMargin=1
-thickMargin=1
+plugin=org.kde.plasma.showdesktop
 
 [Containments][2][Applets][18]
 immutability=1
@@ -165,10 +153,6 @@ plugin=org.kde.latte.separator
 DialogHeight=600
 DialogWidth=800
 
-[Containments][2][Applets][69][Configuration][General]
-lengthMargin=1
-thickMargin=1
-
 [Containments][2][Applets][7]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -192,10 +176,6 @@ plugin=org.kde.latte.separator
 DialogHeight=600
 DialogWidth=800
 
-[Containments][2][Applets][86][Configuration][General]
-lengthMargin=1
-thickMargin=1
-
 [Containments][2][Applets][87]
 immutability=1
 plugin=org.kde.plasma.lock_logout
@@ -216,16 +196,12 @@ plugin=org.kde.latte.separator
 DialogHeight=600
 DialogWidth=800
 
-[Containments][2][Applets][90][Configuration][General]
-lengthMargin=1
-thickMargin=1
-
 [Containments][2][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=4;85;103;24;7;69;18;86;87;90;109;108
+AppletOrder=4;85;103;24;7;69;18;86;87;90;109
 
 [Containments][8]
 activityId=
