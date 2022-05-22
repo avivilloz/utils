@@ -21,6 +21,7 @@ do
                     ~/.config/plasmashellrc \
                     ~/.config/plasmarc \
                     ~/.config/dolphinrc \
+                    ~/.config/kdeconnect \
                     ~/git/utils/dotfiles/.config/kde/
 
                 cp -rf \
