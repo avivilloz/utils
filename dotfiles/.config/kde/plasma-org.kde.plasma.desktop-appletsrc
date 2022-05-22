@@ -193,6 +193,7 @@ boldFont=false
 capitalFont=false
 containmentType=Plasma
 spacing=7
+style=Title
 
 [Containments][108][Applets][177]
 immutability=1
@@ -238,6 +239,18 @@ plugin=org.kde.plasma.quicklaunch
 [Containments][108][Applets][194][Configuration][General]
 launcherUrls=file:///usr/share/applications/systemsettings.desktop
 
+[Containments][108][Applets][195]
+immutability=1
+plugin=org.kde.latte.spacer
+
+[Containments][108][Applets][195][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][108][Applets][195][Configuration][General]
+containmentType=Plasma
+lengthPixels=16
+
 [Containments][108][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -246,7 +259,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][108][General]
-AppletOrder=110;188;134;186;114;130;112;131;113;177;194;179
+AppletOrder=110;195;134;186;114;130;112;131;113;177;194;179
 
 [Containments][115]
 activityId=
