@@ -93,13 +93,12 @@ ignoreClass=yakuake,spectacle,Conky,systemsettings,godot,kronometer,qalculate-gt
 keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
-newWindowAsMaster=true
 preventProtrusion=false
-screenGapBottom=5
-screenGapLeft=5
-screenGapRight=5
-screenGapTop=5
-tileLayoutGap=5
+screenGapBottom=3
+screenGapLeft=3
+screenGapRight=3
+screenGapTop=3
+tileLayoutGap=3
 untileByDragging=false
 
 [Script-forceblur]

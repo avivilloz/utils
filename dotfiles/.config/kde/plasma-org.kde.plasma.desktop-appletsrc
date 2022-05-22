@@ -45,10 +45,10 @@ PreloadWeight=34
 [Containments][101][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=22
+ToolBoxButtonY=20
 
 [Containments][101][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/.local/share/wallpapers/ign_manInStreet.png
+Image=/home/avivilloz/git/utils/resources/wallpapers/ign_manInStreet.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][106]
@@ -173,6 +173,7 @@ DialogWidth=800
 boldFont=false
 capitalFont=false
 containmentType=Plasma
+italicFont=true
 lengthFirstMargin=4
 lengthMarginsLock=false
 spacing=7
@@ -226,7 +227,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][115][Applets][117][Configuration]
-PreloadWeight=52
+PreloadWeight=57
 
 [Containments][115][Applets][118]
 immutability=1
@@ -368,7 +369,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=42
 
 [Containments][149][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+Image=/home/avivilloz/git/utils/resources/wallpapers/ign_manInStreet.png
 
 [Containments][175]
 ItemGeometries-1920x1080=
@@ -386,7 +387,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][175][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+Image=/home/avivilloz/git/utils/resources/wallpapers/ign_manInStreet.png
 
 [Containments][204]
 activityId=
