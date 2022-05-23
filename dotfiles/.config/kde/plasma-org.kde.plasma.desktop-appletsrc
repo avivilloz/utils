@@ -40,7 +40,7 @@ DialogHeight=839
 DialogWidth=1175
 
 [Containments][101][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][101][General]
 ToolBoxButtonState=topcenter
@@ -48,7 +48,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=20
 
 [Containments][101][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/.local/share/wallpapers/dn.png
+Image=file:///home/avivilloz/.local/share/wallpapers/dn.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][106]
@@ -67,7 +67,7 @@ DialogHeight=816
 DialogWidth=1145
 
 [Containments][106][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
@@ -75,7 +75,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=20
 
 [Containments][106][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
+Image=file:///home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][107]
@@ -92,7 +92,7 @@ DialogHeight=822
 DialogWidth=1192
 
 [Containments][107][Configuration]
-PreloadWeight=26
+PreloadWeight=18
 
 [Containments][107][General]
 ToolBoxButtonState=topcenter
@@ -169,6 +169,21 @@ plugin=org.kde.plasma.panelspacer
 [Containments][108][Applets][223][Configuration][General]
 length=844
 
+[Containments][108][Applets][227]
+immutability=1
+plugin=org.kde.plasma.compact-shutdown
+
+[Containments][108][Applets][227][Configuration]
+PreloadWeight=100
+
+[Containments][108][Applets][232]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][108][Applets][232][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][108][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -177,7 +192,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=219;214;223;197;114
+AppletOrder=219;214;223;197;114;232;227
 
 [Containments][115]
 activityId=
@@ -372,25 +387,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][204][Applets][112]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][204][Applets][112][Configuration]
-PreloadWeight=100
-
-[Containments][204][Applets][112][Configuration][Appearance]
-customDateFormat=dddd d/MM/yyyy
-dateDisplayFormat=BesideTime
-dateFormat=custom
-showDate=false
-showSeconds=true
-use24hFormat=2
-
-[Containments][204][Applets][112][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][204][Applets][205]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -453,27 +449,38 @@ showAtCenter=true
 [Containments][204][Applets][216][Shortcuts]
 global=Meta+A
 
-[Containments][204][Applets][227]
-immutability=1
-plugin=org.kde.plasma.compact-shutdown
-
-[Containments][204][Applets][227][Configuration]
-PreloadWeight=75
-
-[Containments][204][Applets][228]
-immutability=1
-plugin=org.kde.latte.separator
-
 [Containments][204][Applets][229]
 immutability=1
 plugin=org.kde.latte.separator
+
+[Containments][204][Applets][229][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][230]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][204][Applets][230][Configuration]
+PreloadWeight=55
+
+[Containments][204][Applets][230][Configuration][Appearance]
+customDateFormat=dd/MM/yy
+dateDisplayFormat=BesideTime
+dateFormat=custom
+showSeconds=true
+use24hFormat=2
+
+[Containments][204][Applets][230][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=216;211;209;205;208;112;228;227;229;206
+AppletOrder=216;211;209;205;208;230;229;206
 
 [Containments][225]
 activityId=ff92c110-7e96-4ec9-8a30-594174f73e21
@@ -519,12 +526,13 @@ show_suspendToRam=true
 [Containments108Appletsts][153][Configuration][General]
 launchers=
 
+[Containments108Appletsts][228][Configuration][General]
+lengthMargin=0
+thickMargin=3
+
 [Containments118Appletsts][121][Configuration][General]
 animateScroll=false
 showAtCenter=true
-
-[Containments204Appletsts][112][Configuration][Appearance]
-showDate=false
 
 [Containments2Appletsts][103][Configuration][General]
 boldFont=false
