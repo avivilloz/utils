@@ -91,11 +91,11 @@ keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
 preventProtrusion=false
-screenGapBottom=5
-screenGapLeft=5
-screenGapRight=5
-screenGapTop=5
-tileLayoutGap=5
+screenGapBottom=3
+screenGapLeft=3
+screenGapRight=3
+screenGapTop=3
+tileLayoutGap=3
 untileByDragging=false
 
 [Script-forceblur]
@@ -153,5 +153,7 @@ NextFocusPrefersMouse=true
 WindowSnapZone=0
 
 [org.kde.kdecoration2]
+BorderSize=Tiny
+BorderSizeAuto=false
 library=org.kde.bismuth.decoration
 theme=Bismuth
