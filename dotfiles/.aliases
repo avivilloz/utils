@@ -185,6 +185,7 @@ alias pipcfgl="python3 -m pip config list -vv"
 alias pipfreeze="python -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
 
 #python venv
-alias pyvecr="python -m venv venv"
-alias pyveact="source venv/bin/activate"
+alias pyvecr="python -m venv"
+alias pyvecrssp="python -m venv --system-site-packages" #gives access to system site packages
+alias pyveact="source bin/activate"
 alias pyvedeact="deactivate"

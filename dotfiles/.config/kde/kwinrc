@@ -48,8 +48,8 @@ Number=18
 Rows=1
 
 [Effect-Blur]
-BlurStrength=12
-NoiseStrength=4
+BlurStrength=13
+NoiseStrength=7
 
 [Effect-PresentWindows]
 AllowClosingWindows=false
@@ -60,6 +60,12 @@ LayoutMode=1
 MiddleButtonDesktop=2
 MiddleButtonWindow=6
 RightButtonDesktop=2
+
+[ElectricBorders]
+BottomLeft=ApplicationLauncher
+BottomRight=ShowDesktop
+TopLeft=ActivityManager
+TopRight=LockScreen
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
@@ -149,12 +155,14 @@ active=-1
 count=0
 
 [TabBox]
+HighlightWindows=false
 LayoutName=compact
 
 [Windows]
 AutoRaiseInterval=700
 BorderSnapZone=0
 DelayFocusInterval=0
+ElectricBorderDelay=50
 FocusStealingPreventionLevel=0
 NextFocusPrefersMouse=true
 WindowSnapZone=0

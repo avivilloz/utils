@@ -1,5 +1,9 @@
 [General]
+ActivityAware=false
 RetainPriorSearch=false
 
 [PlasmaRunnerManager]
 migrated=true
+
+[Plugins]
+baloosearchEnabled=false
