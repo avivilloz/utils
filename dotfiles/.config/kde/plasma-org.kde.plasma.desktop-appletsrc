@@ -112,21 +112,6 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][108][Applets][113]
-immutability=1
-plugin=org.kde.plasma.lock_logout
-
-[Containments][108][Applets][113][Configuration]
-PreloadWeight=34
-
-[Containments][108][Applets][113][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][108][Applets][113][Configuration][General]
-show_requestReboot=true
-show_suspendToRam=true
-
 [Containments][108][Applets][114]
 immutability=1
 plugin=org.kde.plasma.systemtray
@@ -177,38 +162,12 @@ lengthLastMargin=4
 lengthMarginsLock=false
 spacing=7
 
-[Containments][108][Applets][220]
-immutability=1
-plugin=org.kde.latte.separator
-
-[Containments][108][Applets][220][Configuration]
-PreloadWeight=42
-
-[Containments][108][Applets][220][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][108][Applets][220][Configuration][General]
-lengthMargin=0
-
 [Containments][108][Applets][223]
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][108][Applets][223][Configuration][General]
 length=844
-
-[Containments][108][Applets][224]
-immutability=1
-plugin=org.kde.latte.spacer
-
-[Containments][108][Applets][224][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][108][Applets][224][Configuration][General]
-containmentType=Plasma
-lengthPixels=1
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
@@ -218,7 +177,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=219;214;223;197;114;220;113;224
+AppletOrder=219;214;223;197;114
 
 [Containments][115]
 activityId=
@@ -494,12 +453,27 @@ showAtCenter=true
 [Containments][204][Applets][216][Shortcuts]
 global=Meta+A
 
+[Containments][204][Applets][227]
+immutability=1
+plugin=org.kde.plasma.compact-shutdown
+
+[Containments][204][Applets][227][Configuration]
+PreloadWeight=75
+
+[Containments][204][Applets][228]
+immutability=1
+plugin=org.kde.latte.separator
+
+[Containments][204][Applets][229]
+immutability=1
+plugin=org.kde.latte.separator
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=216;211;209;205;208;112;206
+AppletOrder=216;211;209;205;208;112;228;227;229;206
 
 [Containments][225]
 activityId=ff92c110-7e96-4ec9-8a30-594174f73e21
