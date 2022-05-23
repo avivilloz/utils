@@ -40,7 +40,7 @@ DialogHeight=839
 DialogWidth=1175
 
 [Containments][101][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][101][General]
 ToolBoxButtonState=topcenter
@@ -67,7 +67,7 @@ DialogHeight=816
 DialogWidth=1145
 
 [Containments][106][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
@@ -94,7 +94,7 @@ DialogHeight=822
 DialogWidth=1192
 
 [Containments][107][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][107][General]
 ToolBoxButtonState=topcenter
@@ -184,7 +184,7 @@ DialogWidth=800
 
 [Containments][108][Applets][257][Configuration][General]
 containmentType=Plasma
-lengthPixels=1
+lengthPixels=2
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
@@ -465,7 +465,7 @@ PreloadWeight=100
 [Containments][204][Applets][254][Configuration][Appearance]
 customDateFormat=dddd dd/MM/yyyy
 dateDisplayFormat=BesideTime
-dateFormat=isoDate
+dateFormat=custom
 showSeconds=true
 use24hFormat=2
 
