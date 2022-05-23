@@ -107,10 +107,10 @@ alignment=132
 panelOpacity=2
 
 [PlasmaViews][Panel 204][Defaults]
-thickness=22
+thickness=24
 
 [PlasmaViews][Panel 204][Horizontal1920]
-thickness=22
+thickness=24
 
 [PlasmaViews][Panel 57]
 alignment=132
