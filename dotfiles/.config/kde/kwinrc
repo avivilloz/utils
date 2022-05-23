@@ -52,7 +52,14 @@ BlurStrength=12
 NoiseStrength=4
 
 [Effect-PresentWindows]
+AllowClosingWindows=false
 BorderActivateAll=9
+DrawWindowCaptions=false
+DrawWindowIcons=false
+LayoutMode=1
+MiddleButtonDesktop=2
+MiddleButtonWindow=6
+RightButtonDesktop=2
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
@@ -73,8 +80,6 @@ forceblurEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_scaleEnabled=false
-overviewEnabled=true
-presentwindowsEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
@@ -99,7 +104,9 @@ tileLayoutGap=3
 untileByDragging=false
 
 [Script-forceblur]
-patterns=yakuake\nurxvt\nkeepassxc\nalacritty
+blurExceptMatching=true
+blurMatching=false
+patterns=
 
 [SubSession: 1766729a-4671-4fd9-a6c2-987b338d2dc4]
 active=-1

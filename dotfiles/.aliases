@@ -161,6 +161,7 @@ alias lab="bash $scriptsdir/code/lab.sh"
 alias mkproject="bash $scriptsdir/code/project.sh"
 
 #currp (current project)
+alias currpcd="cd $currpdir"
 alias currplink="readlink ~/.currp"
 alias currpupdatelink="ln -sf $currpdir ~/.currp"
 

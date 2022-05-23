@@ -11,9 +11,6 @@ eDP-1 Width 1920x1080=431
 CompletionMode=1
 History=sett,setting,disco,monito,nvi,settin,info,monitor,syste,htop,settings
 
-[PlasmaTransientsConfig]
-PreloadWeight=18
-
 [PlasmaViews][Panel 107]
 alignment=132
 panelOpacity=1
@@ -110,10 +107,20 @@ alignment=132
 panelOpacity=2
 
 [PlasmaViews][Panel 204][Defaults]
-thickness=24
+thickness=28
 
 [PlasmaViews][Panel 204][Horizontal1920]
-thickness=24
+thickness=28
+
+[PlasmaViews][Panel 234]
+alignment=132
+panelOpacity=2
+
+[PlasmaViews][Panel 234][Defaults]
+thickness=20
+
+[PlasmaViews][Panel 234][Vertical1080]
+thickness=20
 
 [PlasmaViews][Panel 57]
 alignment=132

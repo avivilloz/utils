@@ -79,6 +79,8 @@ Image=file:///home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][107]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=2a98bbc4-a46c-4da4-bb6c-1073da83dbd3
 formfactor=0
 immutability=1
@@ -141,27 +143,6 @@ PreloadWeight=42
 DialogHeight=600
 DialogWidth=800
 
-[Containments][108][Applets][219]
-immutability=1
-plugin=org.kde.windowtitle
-
-[Containments][108][Applets][219][Configuration]
-PreloadWeight=42
-
-[Containments][108][Applets][219][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][108][Applets][219][Configuration][General]
-boldFont=false
-capitalFont=false
-containmentType=Plasma
-italicFont=true
-lengthFirstMargin=4
-lengthLastMargin=4
-lengthMarginsLock=false
-spacing=7
-
 [Containments][108][Applets][223]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -169,20 +150,21 @@ plugin=org.kde.plasma.panelspacer
 [Containments][108][Applets][223][Configuration][General]
 length=844
 
-[Containments][108][Applets][227]
+[Containments][108][Applets][237]
 immutability=1
-plugin=org.kde.plasma.compact-shutdown
+plugin=org.kde.windowtitle
 
-[Containments][108][Applets][227][Configuration]
-PreloadWeight=100
-
-[Containments][108][Applets][232]
-immutability=1
-plugin=org.kde.latte.separator
-
-[Containments][108][Applets][232][Configuration][ConfigDialog]
+[Containments][108][Applets][237][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
+
+[Containments][108][Applets][237][Configuration][General]
+capitalFont=false
+containmentType=Plasma
+italicFont=true
+lengthFirstMargin=4
+lengthLastMargin=4
+spacing=7
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
@@ -192,7 +174,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=219;214;223;197;114;232;227
+AppletOrder=237;214;223;197;114
 
 [Containments][115]
 activityId=
@@ -215,7 +197,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][115][Applets][117][Configuration]
-PreloadWeight=54
+PreloadWeight=59
 
 [Containments][115][Applets][118]
 immutability=1
@@ -405,6 +387,10 @@ wrapPage=true
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
+[Containments][204][Applets][206][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][204][Applets][208]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -449,25 +435,19 @@ showAtCenter=true
 [Containments][204][Applets][216][Shortcuts]
 global=Meta+A
 
-[Containments][204][Applets][229]
-immutability=1
-plugin=org.kde.latte.separator
-
-[Containments][204][Applets][229][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][204][Applets][230]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][230][Configuration]
-PreloadWeight=55
+PreloadWeight=100
 
 [Containments][204][Applets][230][Configuration][Appearance]
+boldText=true
 customDateFormat=dd/MM/yy
 dateDisplayFormat=BesideTime
 dateFormat=custom
+showDate=false
 showSeconds=true
 use24hFormat=2
 
@@ -475,12 +455,53 @@ use24hFormat=2
 DialogHeight=600
 DialogWidth=800
 
+[Containments][204][Applets][233]
+immutability=1
+plugin=org.kde.plasma.compact-shutdown
+
+[Containments][204][Applets][233][Configuration]
+PreloadWeight=70
+
+[Containments][204][Applets][235]
+immutability=1
+plugin=org.kde.plasma.showActivityManager
+
+[Containments][204][Applets][235][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][235][Configuration][General]
+showActivityName=false
+
+[Containments][204][Applets][238]
+immutability=1
+plugin=org.kde.milou
+
+[Containments][204][Applets][238][Configuration]
+PreloadWeight=95
+
+[Containments][204][Applets][238][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][242]
+immutability=1
+plugin=org.kde.latte.spacer
+
+[Containments][204][Applets][242][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][242][Configuration][General]
+containmentType=Plasma
+lengthPixels=2
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=216;211;209;205;208;230;229;206
+AppletOrder=216;238;235;211;209;205;208;230;242;233;206
 
 [Containments][225]
 activityId=ff92c110-7e96-4ec9-8a30-594174f73e21
