@@ -122,6 +122,12 @@ thickness=20
 [PlasmaViews][Panel 234][Vertical1080]
 thickness=20
 
+[PlasmaViews][Panel 263][Defaults]
+thickness=22
+
+[PlasmaViews][Panel 263][Horizontal1920]
+thickness=22
+
 [PlasmaViews][Panel 57]
 alignment=132
 panelOpacity=1

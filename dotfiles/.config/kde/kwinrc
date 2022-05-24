@@ -155,8 +155,7 @@ active=-1
 count=0
 
 [TabBox]
-HighlightWindows=false
-LayoutName=compact
+LayoutName=org.kde.breeze.desktop
 
 [Windows]
 AutoRaiseInterval=700
