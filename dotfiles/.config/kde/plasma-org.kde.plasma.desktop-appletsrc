@@ -40,7 +40,7 @@ DialogHeight=839
 DialogWidth=1175
 
 [Containments][101][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][101][General]
 ToolBoxButtonState=topcenter
@@ -67,7 +67,7 @@ DialogHeight=816
 DialogWidth=1145
 
 [Containments][106][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
@@ -150,41 +150,29 @@ plugin=org.kde.plasma.panelspacer
 [Containments][108][Applets][223][Configuration][General]
 length=844
 
-[Containments][108][Applets][253]
+[Containments][108][Applets][259]
+immutability=1
+plugin=org.kde.plasma.showActivityManager
+
+[Containments][108][Applets][259][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][108][Applets][260]
 immutability=1
 plugin=org.kde.windowtitle
 
-[Containments][108][Applets][253][Configuration][ConfigDialog]
+[Containments][108][Applets][260][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][108][Applets][253][Configuration][General]
+[Containments][108][Applets][260][Configuration][General]
 capitalFont=false
 containmentType=Plasma
+filterActivityInfo=false
 italicFont=true
-lengthFirstMargin=7
-lengthLastMargin=7
+lengthLastMargin=4
 lengthMarginsLock=false
-spacing=7
-
-[Containments][108][Applets][255]
-immutability=1
-plugin=org.kde.plasma.compact-shutdown
-
-[Containments][108][Applets][255][Configuration]
-PreloadWeight=80
-
-[Containments][108][Applets][257]
-immutability=1
-plugin=org.kde.latte.spacer
-
-[Containments][108][Applets][257][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][108][Applets][257][Configuration][General]
-containmentType=Plasma
-lengthPixels=2
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
@@ -194,7 +182,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=253;214;223;197;114;255;257
+AppletOrder=259;223;260;214;197;114
 
 [Containments][115]
 activityId=
@@ -431,10 +419,6 @@ maxStripes=1
 showOnlyCurrentDesktop=false
 unhideOnAttention=false
 
-[Containments][204][Applets][247]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
 [Containments][204][Applets][249]
 immutability=1
 plugin=org.kde.plasma.kickerdash
@@ -455,30 +439,29 @@ showRecentDocs=false
 [Containments][204][Applets][249][Shortcuts]
 global=Meta+A
 
-[Containments][204][Applets][254]
+[Containments][204][Applets][261]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][204][Applets][254][Configuration]
-PreloadWeight=100
-
-[Containments][204][Applets][254][Configuration][Appearance]
-customDateFormat=dddd dd/MM/yyyy
-dateDisplayFormat=BesideTime
-dateFormat=custom
+[Containments][204][Applets][261][Configuration][Appearance]
+showDate=false
 showSeconds=true
 use24hFormat=2
 
-[Containments][204][Applets][254][Configuration][ConfigDialog]
+[Containments][204][Applets][261][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
+
+[Containments][204][Applets][262]
+immutability=1
+plugin=org.kde.plasma.showdesktop
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=249;211;209;205;208;254;247
+AppletOrder=249;211;209;205;208;261;262
 
 [Containments][225]
 activityId=ff92c110-7e96-4ec9-8a30-594174f73e21
