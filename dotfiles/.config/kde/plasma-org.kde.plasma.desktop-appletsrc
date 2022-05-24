@@ -205,7 +205,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][115][Applets][117][Configuration]
-PreloadWeight=74
+PreloadWeight=94
 
 [Containments][115][Applets][118]
 immutability=1
@@ -250,7 +250,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][115][Applets][123][Configuration]
-PreloadWeight=44
+PreloadWeight=54
 
 [Containments][115][Applets][124]
 immutability=1
@@ -442,6 +442,9 @@ global=Meta+A
 [Containments][204][Applets][261]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][204][Applets][261][Configuration]
+PreloadWeight=60
 
 [Containments][204][Applets][261][Configuration][Appearance]
 showDate=false

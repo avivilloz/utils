@@ -94,7 +94,7 @@ Name=Nordic-Darker
 shadeSortColumn=true
 
 [KDE]
-contrast=3
+contrast=2
 
 [WM]
 activeBackground=47,52,63
