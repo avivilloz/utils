@@ -49,6 +49,9 @@ Rows=1
 BlurStrength=13
 NoiseStrength=7
 
+[Effect-Overview]
+BlurBackground=false
+
 [Effect-PresentWindows]
 AllowClosingWindows=false
 BorderActivateAll=9
@@ -79,7 +82,6 @@ NightTemperature=4400
 bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
-desktopgridEnabled=false
 forceblurEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
@@ -87,6 +89,7 @@ kwin4_effect_scaleEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
+wobblywindowsEnabled=true
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -134,6 +137,10 @@ active=-1
 count=0
 
 [SubSession: 3e4fe8c0-ed5c-4091-a111-d5396809719b]
+active=-1
+count=0
+
+[SubSession: 3e6401a6-ae55-4e2b-a74c-59386438aa61]
 active=-1
 count=0
 
@@ -185,6 +192,10 @@ count=0
 active=-1
 count=0
 
+[SubSession: 9b119e56-8c8b-43eb-a624-ab7ddf67f3e8]
+active=-1
+count=0
+
 [SubSession: aabee40e-aa2b-452f-94b6-a35c93f833bc]
 active=-1
 count=0
@@ -194,6 +205,10 @@ active=-1
 count=0
 
 [SubSession: da5c80d2-e00d-4d63-bc2a-b6b6b3e3d589]
+active=-1
+count=0
+
+[SubSession: e18d76b7-922d-4d6a-b379-262036306354]
 active=-1
 count=0
 
