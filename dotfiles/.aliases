@@ -171,7 +171,7 @@ alias mpl="mpc playlist"
 alias mup="mpc update && mpc ls | mpc add"
 alias mcl="mpc clear"
 alias mtg="mpc toggle"
-alias mctl="ncmpcpp"
+alias mctl="mpc update && mpc ls | mpc add && ncmpcpp && mpc clear"
 
 #python
 alias pipin="python -m pip install"
