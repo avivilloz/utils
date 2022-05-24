@@ -189,3 +189,6 @@ alias pyvecr="python -m venv"
 alias pyvecrssp="python -m venv --system-site-packages" #gives access to system site packages
 alias pyveact="source bin/activate"
 alias pyvedeact="deactivate"
+
+#kde plasma theme
+alias kdechwp="bash $scriptsdir/kde/kdechwp.sh"

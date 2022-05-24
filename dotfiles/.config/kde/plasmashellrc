@@ -1,32 +1,8 @@
-[KFileDialog Settings]
-Recent Files[$e]=Abstract-Nord.png,file:$HOME/Pictures/ign-0011.png,file:$HOME/Pictures/rebbe.jpg
-Recent URLs[$e]=file:$HOME/Pictures/,file:$HOME/,file:$HOME/Documents/
-detailViewIconSize=16
-
-[KPropertiesDialog]
-eDP-1 Height 1920x1080=469
-eDP-1 Width 1920x1080=431
-
-[Open-with settings]
-CompletionMode=1
-History=sett,setting,disco,monito,nvi,settin,info,monitor,syste,htop,settings
-
-[PlasmaViews][Panel 107]
-alignment=132
-panelOpacity=1
-panelVisibility=1
-
-[PlasmaViews][Panel 107][Defaults]
-maxLength=1920
-minLength=128
-thickness=56
-
-[PlasmaViews][Panel 107][Horizontal1920]
-maxLength=1920
-minLength=128
-thickness=56
+[PlasmaTransientsConfig]
+PreloadWeight=2
 
 [PlasmaViews][Panel 108]
+alignment=132
 panelOpacity=2
 
 [PlasmaViews][Panel 108][Defaults]
@@ -34,73 +10,6 @@ thickness=22
 
 [PlasmaViews][Panel 108][Horizontal1920]
 thickness=22
-
-[PlasmaViews][Panel 118]
-alignment=132
-panelOpacity=1
-panelVisibility=1
-
-[PlasmaViews][Panel 118][Defaults]
-maxLength=1920
-minLength=128
-thickness=56
-
-[PlasmaViews][Panel 118][Horizontal1920]
-maxLength=1920
-minLength=128
-thickness=56
-
-[PlasmaViews][Panel 135]
-alignment=132
-panelOpacity=1
-panelVisibility=1
-
-[PlasmaViews][Panel 135][Defaults]
-maxLength=1920
-minLength=1920
-thickness=56
-
-[PlasmaViews][Panel 135][Horizontal1920]
-maxLength=1920
-minLength=1920
-thickness=56
-
-[PlasmaViews][Panel 150]
-panelOpacity=2
-panelVisibility=1
-
-[PlasmaViews][Panel 150][Defaults]
-thickness=40
-
-[PlasmaViews][Panel 150][Horizontal1920]
-thickness=40
-
-[PlasmaViews][Panel 189]
-alignment=132
-panelOpacity=1
-panelVisibility=0
-
-[PlasmaViews][Panel 189][Defaults]
-maxLength=1920
-minLength=1920
-thickness=40
-
-[PlasmaViews][Panel 189][Horizontal1920]
-maxLength=1920
-minLength=1920
-thickness=40
-
-[PlasmaViews][Panel 2]
-alignment=132
-panelOpacity=1
-
-[PlasmaViews][Panel 2][Defaults]
-minLength=1920
-thickness=20
-
-[PlasmaViews][Panel 2][Horizontal1920]
-minLength=1920
-thickness=20
 
 [PlasmaViews][Panel 204]
 alignment=132
@@ -112,59 +21,15 @@ thickness=28
 [PlasmaViews][Panel 204][Horizontal1920]
 thickness=28
 
-[PlasmaViews][Panel 234]
-alignment=132
-panelOpacity=2
-
-[PlasmaViews][Panel 234][Defaults]
-thickness=20
-
-[PlasmaViews][Panel 234][Vertical1080]
-thickness=20
-
-[PlasmaViews][Panel 263][Defaults]
+[PlasmaViews][Panel 270][Defaults]
 thickness=22
 
-[PlasmaViews][Panel 263][Horizontal1920]
+[PlasmaViews][Panel 270][Horizontal1920]
 thickness=22
-
-[PlasmaViews][Panel 57]
-alignment=132
-panelOpacity=1
-panelVisibility=1
-
-[PlasmaViews][Panel 57][Defaults]
-maxLength=1920
-minLength=128
-thickness=48
-
-[PlasmaViews][Panel 57][Horizontal1920]
-maxLength=1920
-minLength=128
-thickness=48
-
-[PlasmaViews][Panel 94]
-alignment=132
-panelOpacity=1
-panelVisibility=1
-
-[PlasmaViews][Panel 94][Defaults]
-maxLength=1920
-minLength=112
-thickness=54
-
-[PlasmaViews][Panel 94][Horizontal1920]
-maxLength=1920
-minLength=112
-thickness=54
-
-[PlasmaViews][Panel 94][Vertical1080]
-thickness=54
 
 [ScreenConnectors]
 0=HDMI-0
-1=eDP-1
-2=eDP-1-1
+1=eDP-1-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js

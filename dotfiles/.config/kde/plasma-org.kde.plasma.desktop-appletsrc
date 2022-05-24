@@ -40,7 +40,7 @@ DialogHeight=839
 DialogWidth=1175
 
 [Containments][101][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][101][General]
 ToolBoxButtonState=topcenter
@@ -50,7 +50,7 @@ positions={"1920x1080":[]}
 sortMode=-1
 
 [Containments][101][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
+Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][106]
@@ -69,7 +69,7 @@ DialogHeight=816
 DialogWidth=1145
 
 [Containments][106][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
@@ -77,7 +77,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=20
 
 [Containments][106][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
+Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][107]
@@ -96,7 +96,7 @@ DialogHeight=822
 DialogWidth=1192
 
 [Containments][107][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][107][General]
 ToolBoxButtonState=topcenter
@@ -104,7 +104,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=20
 
 [Containments][107][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
+Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][108]
@@ -242,7 +242,11 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][115][Applets][122][Configuration]
-PreloadWeight=49
+PreloadWeight=54
+
+[Containments][115][Applets][122][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][115][Applets][122][Configuration][General]
 currentTab=streams
@@ -287,7 +291,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][115][Applets][128][Configuration]
-PreloadWeight=39
+PreloadWeight=49
 
 [Containments][115][Applets][129]
 immutability=1
@@ -308,6 +312,7 @@ extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
 
 [Containments][147]
+ItemGeometriesHorizontal=
 activityId=ff92c110-7e96-4ec9-8a30-594174f73e21
 formfactor=0
 immutability=1
@@ -320,9 +325,10 @@ wallpaperplugin=org.kde.image
 PreloadWeight=42
 
 [Containments][147][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][148]
+ItemGeometriesHorizontal=
 activityId=2a98bbc4-a46c-4da4-bb6c-1073da83dbd3
 formfactor=0
 immutability=1
@@ -335,7 +341,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=42
 
 [Containments][148][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Next/contents/images/1920x1080.jpg
+Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][149]
 ItemGeometries-1920x1080=
@@ -351,8 +357,13 @@ wallpaperplugin=org.kde.image
 [Containments][149][Configuration]
 PreloadWeight=42
 
+[Containments][149][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=516
+ToolBoxButtonY=22
+
 [Containments][149][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/git/utils/resources/wallpapers/ign_manInStreet.png
+Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][175]
 ItemGeometries-1920x1080=
@@ -370,7 +381,7 @@ DialogHeight=777
 DialogWidth=1128
 
 [Containments][175][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
+Image=/usr/share/wallpapers/Next/
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][204]
@@ -468,6 +479,7 @@ DialogWidth=1920
 AppletOrder=249;211;209;205;208;261;262
 
 [Containments][225]
+ItemGeometriesHorizontal=
 activityId=ff92c110-7e96-4ec9-8a30-594174f73e21
 formfactor=0
 immutability=1
@@ -486,10 +498,11 @@ ToolBoxButtonX=516
 ToolBoxButtonY=22
 
 [Containments][225][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
+Image=/usr/share/wallpapers/Next/
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][226]
+ItemGeometriesHorizontal=
 activityId=2a98bbc4-a46c-4da4-bb6c-1073da83dbd3
 formfactor=0
 immutability=1
@@ -503,7 +516,7 @@ DialogHeight=796
 DialogWidth=1264
 
 [Containments][226][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/ign_unsplash46.png
+Image=/usr/share/wallpapers/Next/
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][263]
@@ -553,6 +566,54 @@ DialogWidth=1920
 
 [Containments][263][General]
 AppletOrder=267;265;264;266
+
+[Containments][270]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=1
+location=3
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][270][Applets][271]
+immutability=1
+plugin=org.kde.windowtitle
+
+[Containments][270][Applets][271][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][270][Applets][271][Configuration][General]
+capitalFont=false
+containmentType=Plasma
+filterActivityInfo=false
+italicFont=true
+lengthLastMargin=4
+lengthMarginsLock=false
+spacing=7
+
+[Containments][270][Applets][272]
+immutability=1
+plugin=org.kde.plasma.appmenu
+
+[Containments][270][Applets][273]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][270][Applets][273][Configuration][General]
+length=766
+
+[Containments][270][Applets][274]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][270][ConfigDialog]
+DialogHeight=91
+DialogWidth=1920
+
+[Containments][270][General]
+AppletOrder=274;271;272;273
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
