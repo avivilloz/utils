@@ -89,7 +89,6 @@ kwin4_effect_scaleEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
-wobblywindowsEnabled=true
 
 [Script-bismuth]
 enableFloatingLayout=true

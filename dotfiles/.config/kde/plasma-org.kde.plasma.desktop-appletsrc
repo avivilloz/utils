@@ -456,7 +456,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][261][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][204][Applets][261][Configuration][Appearance]
 showDate=false
