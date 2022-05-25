@@ -175,10 +175,11 @@ alias mctl="mpc update && mpc ls | mpc add && ncmpcpp && mpc clear"
 
 #python
 alias pipin="python -m pip install"
-alias pipinr="python -m pip install -r" #install all packages from requirements file (need to specify file)
-alias pipinrup="python -m pip install -U -r" #same as above but updates packages that need update
+alias pipup="python -m pip install -U" #updates package
 alias piprm="python -m pip uninstall -y"
-alias piprmr="python -m pip uninstall -y -r"
+alias piprin="python -m pip install -r" #install all packages from requirements file (need to specify file)
+alias piprup="python -m pip install -U -r"
+alias piprrm="python -m pip uninstall -y -r"
 alias pipl="python -m pip list" #lists environment packages
 alias pipshow="python -m pip show" #shows specific package
 alias pipcfgl="python3 -m pip config list -vv"
@@ -187,7 +188,9 @@ alias pipfreeze="python -m pip freeze > requirements.txt" #add environment neede
 #python venv
 alias pyvecr="python -m venv"
 alias pyvecrssp="python -m venv --system-site-packages" #gives access to system site packages
-alias pyveact="source bin/activate"
+alias pyvecrwp="python -m venv --without-pip"
+alias pyvecrwpssp="python -m venv --without-pip --system-site-packages"
+alias pyveact=". $scriptsdir/python/pyveact.sh"
 alias pyvedeact="deactivate"
 
 #kde plasma theme
