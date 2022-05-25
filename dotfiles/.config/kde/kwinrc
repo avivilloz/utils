@@ -26,12 +26,12 @@ Id_8=62c3e04b-0481-4bb4-8ba5-b0875a7b3b50
 Id_9=0fe31765-4d96-4731-9bfd-dab6647cbb36
 Name_1=\s
 Name_10=\s
-Name_11=\s
-Name_12=\s
-Name_13=\s
+Name_11=\s
+Name_12=\s
+Name_13=\s
 Name_14=\s
 Name_15=\s
-Name_16=\s
+Name_16=\s
 Name_17=\s
 Name_18=\s
 Name_2=\s
@@ -52,7 +52,7 @@ NoiseStrength=7
 [Effect-DesktopGrid]
 BorderWidth=5
 CustomLayoutRows=3
-LayoutMode=2
+LayoutMode=1
 
 [Effect-Overview]
 BlurBackground=false
@@ -98,11 +98,12 @@ slidingpopupsEnabled=false
 [Script-bismuth]
 enableFloatingLayout=true
 enableMonocleLayout=false
-enableQuarterLayout=true
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
-ignoreClass=yakuake,spectacle,Conky,systemsettings,godot,kronometer,qalculate-gtk
+floatingClass=spectacle,systemsettings,godot,kronometer,qalculate-gtk
+ignoreClass=
+ignoreRole=
 keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
