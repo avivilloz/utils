@@ -49,6 +49,11 @@ Rows=1
 BlurStrength=13
 NoiseStrength=7
 
+[Effect-DesktopGrid]
+BorderWidth=5
+CustomLayoutRows=3
+LayoutMode=2
+
 [Effect-Overview]
 BlurBackground=false
 

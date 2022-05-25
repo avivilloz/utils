@@ -14,7 +14,6 @@ alias psgrep="ps -e | grep"
 alias findstr="sudo grep -iRn"
 alias findfile="sudo find . -iname"
 alias osrelease="cat /etc/os-release"
-alias addscript="bash $scriptsdir/addscript.sh"
 alias maze="command -V"
 alias dus="du -sh *"
 alias duh="du -hs .[^.]*"
@@ -42,6 +41,7 @@ alias mappen="bash $scriptsdir/random/mappen.sh"
 alias chrome="/opt/google/chrome/google-chrome"
 
 #edit
+alias edscript="bash $scriptsdir/edscript.sh"
 alias edalacritty="vim ~/.config/alacritty/alacritty.yml"
 alias edgrub="sudo vim /etc/default/grub"
 alias edgdm="sudo vim /etc/gdm/custom.conf"
@@ -191,4 +191,4 @@ alias pyveact="source bin/activate"
 alias pyvedeact="deactivate"
 
 #kde plasma theme
-alias kdechwp="bash $scriptsdir/kde/kdechwp.sh"
+alias kdechdwp="bash $scriptsdir/kde/kdechdwp.sh" #change kde default wallpaper
