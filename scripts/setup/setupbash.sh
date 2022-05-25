@@ -11,25 +11,19 @@ if [ $ans  = "y" ]; then
 fi
 
 echo -------------------------------------------------------------------------
-echo save system bashrc
-echo -------------------------------------------------------------------------
-
-echo do you want to move current .bashrc to .bashrc_system? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-    mv ~/.bashrc ~/.bashrc_system
-fi
-
-echo -------------------------------------------------------------------------
 echo setup bash
 echo -------------------------------------------------------------------------
 
 echo do you want to create bash links? [y/n]
 read ans
 if [ $ans  = "y" ]; then
+    #home
     ln -sf ~/git/utils/dotfiles/.bashrc ~/.bashrc
     ln -sf ~/git/utils/dotfiles/.aliases ~/.aliases
     ln -sf ~/git/utils/dotfiles/.variables ~/.variables
-fi
 
-exit 0
+    #root
+    sudo ln -sf ~/git/utils/dotfiles/.bashrc /root/.bashrc
+    sudo ln -sf ~/git/utils/dotfiles/.aliases /root/.aliases
+    sudo ln -sf ~/git/utils/dotfiles/.variables /root/.variables
+fi

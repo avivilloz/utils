@@ -6,5 +6,3 @@ bash ~/git/utils/scripts/setup/setupgit.sh
 bash ~/git/utils/scripts/setup/setupsda.sh
 bash ~/git/utils/scripts/setup/setupyay.sh
 bash ~/git/utils/scripts/setup/setupkde.sh
-
-exit 0

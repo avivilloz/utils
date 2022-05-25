@@ -11,5 +11,3 @@ if [ $ans  = "y" ]; then
     yay -S nerd-fonts-complete kwin-bismuth --needed
     bash ~/git/utils/scripts/sync/synckde.sh -d gtl
 fi
-
-exit 0

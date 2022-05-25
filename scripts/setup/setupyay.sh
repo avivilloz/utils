@@ -14,5 +14,3 @@ if [ $ans  = "y" ]; then
     cd ..
     rm -rf yay-git/
 fi
-
-exit 0 

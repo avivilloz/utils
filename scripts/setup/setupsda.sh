@@ -9,5 +9,3 @@ read ans
 if [ $ans  = "y" ]; then
     sudo ln -sf /mnt/sda1 /sda1
 fi
-
-exit 0
