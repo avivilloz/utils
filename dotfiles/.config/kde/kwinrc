@@ -107,7 +107,6 @@ ignoreRole=
 keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
-newWindowAsMaster=true
 preventProtrusion=false
 screenGapBottom=3
 screenGapLeft=3
@@ -226,11 +225,13 @@ AutoRaiseInterval=700
 BorderSnapZone=0
 DelayFocusInterval=0
 ElectricBorderDelay=50
+ElectricBorderTiling=false
 ElectricBorders=1
+FocusPolicy=FocusFollowsMouse
 FocusStealingPreventionLevel=0
-NextFocusPrefersMouse=true
 WindowSnapZone=0
 
 [org.kde.kdecoration2]
 BorderSize=Tiny
 BorderSizeAuto=false
+ShowToolTips=false
