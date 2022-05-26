@@ -106,17 +106,16 @@ History Items[$e]=file:$HOME/notes
 [General]
 AccentColor=111,125,154
 BrowserApplication=firefox.desktop
-ColorScheme=NordicDarker
 ColorSchemeHash=d912f872ee4a43675890870527bc91e4688464f2
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Iosevka,10,-1,5,50,0,0,0,0,0
+fixed=Iosevka,11,-1,5,50,0,0,0,0,0
 font=Iosevka,11,-1,5,50,0,0,0,0,0
-menuFont=Iosevka,10,-1,5,50,0,0,0,0,0
-smallestReadableFont=Iosevka,8,-1,5,50,0,0,0,0,0
-toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
+menuFont=Iosevka,11,-1,5,50,0,0,0,0,0
+smallestReadableFont=Iosevka,9,-1,5,50,0,0,0,0,0
+toolBarFont=Iosevka,11,-1,5,50,0,0,0,0,0
 
 [KDE]
 LookAndFeelPackage=org.kde.default.desktop
@@ -153,7 +152,7 @@ FullScreen=
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=Iosevka,10,-1,5,50,0,0,0,0,0
+activeFont=Iosevka,11,-1,5,50,0,0,0,0,0
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
