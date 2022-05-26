@@ -103,8 +103,8 @@ _k_friendly_name=Session Management
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
-Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+Tab\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+Expose=Ctrl+Tab,Ctrl+F9,Toggle Present Windows (Current desktop)
+ExposeAll=Ctrl+`\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 Increase Opacity=none,,Increase Opacity of Active Window by 5 %
 Invert=Meta+Ctrl+I,Meta+Ctrl+I,Toggle Invert Effect
