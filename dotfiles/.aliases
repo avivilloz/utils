@@ -60,6 +60,10 @@ alias addsync="bash $scriptsdir/sync/addsync.sh"
 alias synckde="bash $scriptsdir/sync/synckde.sh"
 alias syncalacritty="bash $scriptsdir/sync/syncalacritty.sh"
 
+#setup
+alias setup="bash $scriptsdir/setup/setup.sh"
+alias addsetup="bash $scriptsdir/setup/addsetup.sh"
+
 #graphic cards
 alias currgc="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
 
