@@ -17,5 +17,3 @@ do
                             ;;
     esac
 done
-
-exit 0

@@ -16,8 +16,6 @@ do
                     ~/.config/krunnerrc \
                     ~/.config/kwinrc \
                     ~/.config/kwinrulesrc \
-                    ~/.config/latte \
-                    ~/.config/lattedockrc \
                     ~/.config/plasma-org.kde.plasma.desktop-appletsrc \
                     ~/.config/plasmashellrc \
                     ~/.config/plasmarc \
@@ -75,5 +73,3 @@ do
                             ;;
     esac
 done
-
-exit 0

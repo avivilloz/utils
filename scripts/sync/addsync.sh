@@ -1,3 +1,5 @@
+#!/bin/bash
+
 . ~/.variables
 
 synctemplate=$scriptsdir/sync/synctemplate.sh

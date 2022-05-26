@@ -2,6 +2,11 @@
 
 . ~/.variables
 
-script=$scriptsdir/$1/$2.sh
+script=""
+if [ -z $2 ]; then
+    script=$scriptsdir/$1.sh
+else
+    script=$scriptsdir/$1/$2.sh
+fi
 
-vim $script
+$edit $edit_flags $script
