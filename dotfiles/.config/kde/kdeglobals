@@ -106,6 +106,7 @@ History Items[$e]=file:$HOME/notes
 [General]
 AccentColor=111,125,154
 BrowserApplication=firefox.desktop
+ColorScheme=NordicDarker
 ColorSchemeHash=d912f872ee4a43675890870527bc91e4688464f2
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop

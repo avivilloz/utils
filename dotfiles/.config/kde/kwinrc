@@ -16,6 +16,7 @@ Id_15=827f18c5-be55-4322-8df9-688afe67fcfe
 Id_16=e61bb637-0dca-4a44-9af1-bd3e10d8cc4f
 Id_17=c8bea3ef-adea-46e1-b204-1b0468c6187f
 Id_18=c7489f8e-a038-4275-8932-e67823169aa9
+Id_19=6aa2e1e7-cb3c-45a6-8fc0-5cbd4d66df44
 Id_2=0de04f99-8017-4cda-96c4-1ff218c0a219
 Id_3=7a47ee5d-b293-45f1-90d4-20664eae0de2
 Id_4=c9158591-e668-402d-b396-b277c0676a87
@@ -30,19 +31,20 @@ Name_11=\s
 Name_12=\s
 Name_13=\s
 Name_14=\s
-Name_15=\s
-Name_16=\s
+Name_15=\s
+Name_16=\s
 Name_17=\s
 Name_18=\s
+Name_19=\s
 Name_2=\s
-Name_3=\s
+Name_3=\s
 Name_4=\s
 Name_5=\s
 Name_6=\s
 Name_7=\s
 Name_8=\s
 Name_9=\s
-Number=18
+Number=19
 Rows=1
 
 [Effect-Blur]
@@ -104,9 +106,9 @@ enableThreeColumnLayout=false
 floatingClass=spectacle,systemsettings,godot,kronometer,qalculate-gtk
 ignoreClass=
 ignoreRole=
-keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
+newWindowAsMaster=true
 preventProtrusion=false
 screenGapBottom=3
 screenGapLeft=3
@@ -125,6 +127,10 @@ active=-1
 count=0
 
 [SubSession: 1766729a-4671-4fd9-a6c2-987b338d2dc4]
+active=-1
+count=0
+
+[SubSession: 2a98bbc4-a46c-4da4-bb6c-1073da83dbd3]
 active=-1
 count=0
 
@@ -227,7 +233,6 @@ DelayFocusInterval=0
 ElectricBorderDelay=50
 ElectricBorderTiling=false
 ElectricBorders=1
-FocusPolicy=FocusFollowsMouse
 FocusStealingPreventionLevel=0
 WindowSnapZone=0
 
