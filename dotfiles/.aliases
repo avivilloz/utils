@@ -20,6 +20,14 @@ alias duh="du -hs .[^.]*"
 alias dua="du -sch .[!.]* * |sort -h"
 alias findappname="xprop | grep WM_CLASS"
 
+#system
+alias sysctlstart="sudo systemctl start"
+alias sysctlstop="sudo systemctl stop"
+alias sysctle="sudo systemctl enable"
+alias sysctlr="sudo systemctl restart"
+alias sysctlstat="sudo systemctl status"
+alias sysctld="sudo systemctl disable"
+
 #keyboard 
 alias ctrlc='xclip -selection c'
 alias ctrlv='xclip -selection c -o'
