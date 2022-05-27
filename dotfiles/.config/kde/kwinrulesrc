@@ -160,7 +160,7 @@ wmclassmatch=1
 [17]
 Description=Application settings for konsole
 clientmachine=localhost
-desktops=827f18c5-be55-4322-8df9-688afe67fcfe
+desktops=e61bb637-0dca-4a44-9af1-bd3e10d8cc4f
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
@@ -314,7 +314,7 @@ wmclassmatch=1
 [26]
 Description=Application settings for github desktop
 clientmachine=localhost
-desktops=e61bb637-0dca-4a44-9af1-bd3e10d8cc4f
+desktops=827f18c5-be55-4322-8df9-688afe67fcfe
 desktopsrule=2
 wmclass=github desktop
 wmclassmatch=1
@@ -496,7 +496,7 @@ wmclassmatch=1
 [39]
 Description=Application settings for postman
 clientmachine=localhost
-desktops=6aa2e1e7-cb3c-45a6-8fc0-5cbd4d66df44
+desktops=c7489f8e-a038-4275-8932-e67823169aa9
 desktopsrule=2
 wmclass=postman
 wmclassmatch=1
@@ -593,7 +593,7 @@ wmclassmatch=1
 [47]
 Description=Application settings for alacritty
 clientmachine=localhost
-desktops=827f18c5-be55-4322-8df9-688afe67fcfe
+desktops=e61bb637-0dca-4a44-9af1-bd3e10d8cc4f
 desktopsrule=2
 wmclass=alacritty
 wmclassmatch=1
