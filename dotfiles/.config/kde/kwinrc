@@ -234,6 +234,7 @@ ElectricBorderDelay=50
 ElectricBorderTiling=false
 ElectricBorders=1
 FocusStealingPreventionLevel=0
+NextFocusPrefersMouse=true
 WindowSnapZone=0
 
 [org.kde.kdecoration2]
