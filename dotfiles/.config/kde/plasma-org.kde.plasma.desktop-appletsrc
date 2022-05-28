@@ -160,22 +160,18 @@ plugin=org.kde.plasma.showActivityManager
 DialogHeight=600
 DialogWidth=800
 
-[Containments][108][Applets][260]
+[Containments][108][Applets][275]
 immutability=1
 plugin=org.kde.windowtitle
 
-[Containments][108][Applets][260][Configuration][ConfigDialog]
+[Containments][108][Applets][275][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][108][Applets][260][Configuration][General]
+[Containments][108][Applets][275][Configuration][General]
 capitalFont=false
 containmentType=Plasma
 filterActivityInfo=false
-italicFont=true
-lengthLastMargin=4
-lengthMarginsLock=false
-placeHolder=Desktop
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
@@ -185,7 +181,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=259;223;260;214;197;114
+AppletOrder=259;223;275;214;197;114
 
 [Containments][115]
 activityId=
@@ -450,6 +446,9 @@ favoritesPortedToKAstats=true
 showRecentApps=false
 showRecentDocs=false
 
+[Containments][204][Applets][249][Shortcuts]
+global=Meta+A
+
 [Containments][204][Applets][261]
 immutability=1
 plugin=org.kde.plasma.digitalclock
@@ -472,6 +471,10 @@ DialogWidth=800
 [Containments][204][Applets][262]
 immutability=1
 plugin=org.kde.plasma.showdesktop
+
+[Containments][204][Applets][262][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
@@ -634,6 +637,9 @@ thickMargin=3
 [Containments118Appletsts][121][Configuration][General]
 animateScroll=false
 showAtCenter=true
+
+[Containments204Appletsts][211][Configuration][General]
+unhideOnAttention=false
 
 [Containments2Appletsts][103][Configuration][General]
 boldFont=false
