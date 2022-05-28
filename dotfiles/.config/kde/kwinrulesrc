@@ -128,17 +128,6 @@ desktopsrule=2
 wmclass=systemsettings
 wmclassmatch=1
 
-[14]
-Description=Application settings for libreoffice-writer
-clientmachine=localhost
-desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
-desktopsrule=2
-maximizehoriz=true
-maximizevert=true
-wmclass=libreoffice libreoffice-writer
-wmclasscomplete=true
-wmclassmatch=1
-
 [143b5556-6aae-4ac0-acf7-d3e7ace4875e]
 Description=Application settings for konsole
 clientmachine=localhost
@@ -943,8 +932,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=38
-rules=13d9f320-725a-4210-96e0-1e1a5bfeaa33,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37
+count=37
+rules=13d9f320-725a-4210-96e0-1e1a5bfeaa33,1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37
 
 [a34464cc-e816-4299-88b1-4a0f8869998c]
 Description=Application settings for calligrawords
