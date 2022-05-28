@@ -106,6 +106,7 @@ enableThreeColumnLayout=false
 floatingClass=spectacle,systemsettings,godot,kronometer,qalculate-gtk
 ignoreClass=
 ignoreRole=
+keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
 newWindowAsMaster=true
