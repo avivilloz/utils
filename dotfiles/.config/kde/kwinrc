@@ -53,6 +53,7 @@ NoiseStrength=7
 BorderWidth=5
 CustomLayoutRows=3
 LayoutMode=1
+ZoomDuration=200
 
 [Effect-Overview]
 BlurBackground=false
