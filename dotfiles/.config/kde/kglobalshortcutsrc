@@ -81,7 +81,9 @@ display=Display,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=Custom Shortcuts Service
+{21da10ab-c59a-4563-a1f3-1e0ea39f906e}=Alt+Shift+F11,none,plasmashell_restart
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
+{f96cca5d-1825-4a4c-a426-2354cb6021d9}=Meta+M,none,music_manager
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -253,59 +255,6 @@ view_actual_size=none,Meta+0,Actual Size
 view_zoom_in=Meta+=,Meta+=,Zoom In
 view_zoom_out=Meta+-,Meta+-,Zoom Out
 
-[lattedock]
-_k_friendly_name=Latte Dock
-activate entry 1=Meta+1,Meta+1,Activate Entry 1
-activate entry 10=Meta+0,Meta+0,Activate Entry 10
-activate entry 11=none,Meta+Z,Activate Entry 11
-activate entry 12=none,Meta+X,Activate Entry 12
-activate entry 13=none,Meta+C,Activate Entry 13
-activate entry 14=none,Meta+V,Activate Entry 14
-activate entry 15=none,Meta+B,Activate Entry 15
-activate entry 16=none,Meta+N,Activate Entry 16
-activate entry 17=none,Meta+M,Activate Entry 17
-activate entry 18=none,Meta+\\,,Activate Entry 18
-activate entry 19=none,Meta+.,Activate Entry 19
-activate entry 2=Meta+2,Meta+2,Activate Entry 2
-activate entry 3=Meta+3,Meta+3,Activate Entry 3
-activate entry 4=Meta+4,Meta+4,Activate Entry 4
-activate entry 5=Meta+5,Meta+5,Activate Entry 5
-activate entry 6=Meta+6,Meta+6,Activate Entry 6
-activate entry 7=Meta+7,Meta+7,Activate Entry 7
-activate entry 8=Meta+8,Meta+8,Activate Entry 8
-activate entry 9=Meta+9,Meta+9,Activate Entry 9
-activate widget 43=none,none,Activate Minimal Menu Widget
-clear-history=none,none,Clear Clipboard History
-clipboard_action=none,Ctrl+Alt+X,Enable Clipboard Actions
-cycleNextAction=none,none,Next History Item
-cyclePrevAction=none,none,Previous History Item
-edit_clipboard=none,none,Edit Contents…
-new instance for entry 1=none,Meta+Ctrl+1,New Instance for Entry 1
-new instance for entry 10=none,Meta+Ctrl+0,New Instance for Entry 10
-new instance for entry 11=none,Meta+Ctrl+Z,New Instance for Entry 11
-new instance for entry 12=none,Meta+Ctrl+X,New Instance for Entry 12
-new instance for entry 13=none,Meta+Ctrl+C,New Instance for Entry 13
-new instance for entry 14=none,Meta+Ctrl+V,New Instance for Entry 14
-new instance for entry 15=none,Meta+Ctrl+B,New Instance for Entry 15
-new instance for entry 16=none,Meta+Ctrl+N,New Instance for Entry 16
-new instance for entry 17=none,Meta+Ctrl+M,New Instance for Entry 17
-new instance for entry 18=none,Meta+Ctrl+\\,,New Instance for Entry 18
-new instance for entry 19=none,Meta+Ctrl+.,New Instance for Entry 19
-new instance for entry 2=none,Meta+Ctrl+2,New Instance for Entry 2
-new instance for entry 3=none,Meta+Ctrl+3,New Instance for Entry 3
-new instance for entry 4=none,Meta+Ctrl+4,New Instance for Entry 4
-new instance for entry 5=none,Meta+Ctrl+5,New Instance for Entry 5
-new instance for entry 6=none,Meta+Ctrl+6,New Instance for Entry 6
-new instance for entry 7=none,Meta+Ctrl+7,New Instance for Entry 7
-new instance for entry 8=none,Meta+Ctrl+8,New Instance for Entry 8
-new instance for entry 9=none,Meta+Ctrl+9,New Instance for Entry 9
-repeat_action=none,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
-show latte global settings=none,Meta+W,Show Latte Global Settings
-show latte view=none,Meta+`,Show Latte Dock/Panel
-show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
-show-barcode=none,none,Show Barcode…
-show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
-
 [mediacontrol]
 _k_friendly_name=Media Controller
 mediavolumedown=none,,Media volume down
@@ -391,17 +340,6 @@ switch to next activity=Ctrl+Alt+Right,,Switch to Next Activity
 switch to previous activity=Ctrl+Alt+Left,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
-[plasmawindowed]
-_k_friendly_name=plasmawindowed
-clear-history=none,none,Clear Clipboard History
-clipboard_action=none,Ctrl+Alt+X,Enable Clipboard Actions
-cycleNextAction=none,none,Next History Item
-cyclePrevAction=none,none,Previous History Item
-edit_clipboard=none,none,Edit Contents…
-repeat_action=none,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
-show-barcode=none,none,Show Barcode…
-show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
-
 [systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools\tMeta+/,Tools,System Settings
@@ -410,9 +348,3 @@ kcm-lookandfeel=none,none,Global Theme
 kcm-users=none,none,Users
 powerdevilprofilesconfig=none,none,Energy Saving
 screenlocker=none,none,Screen Locking
-
-[thunderbird.desktop]
-ComposeMessage=none,none,Write new message
-OpenAddressBook=none,none,Open address book
-_k_friendly_name=Thunderbird
-_launch=Meta+E,none,Thunderbird
