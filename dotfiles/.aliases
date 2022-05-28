@@ -106,18 +106,20 @@ alias fpremoterm="flatpak remote-delete"
 alias fpremotes="flatpak remotes"
 
 #pacman
-alias pmin="sudo pacman -S"
-alias pmrm="sudo pacman -Rns"
-alias pmup="sudo pacman -Syu"
-alias pmarm="sudo pacman -Qdtq | sudo pacman -Rs -"
-alias pml="pacman -Qe"
-alias pmq="pacman -Ss"
+alias pcmin="sudo pacman -S"
+alias pcmrm="sudo pacman -Rns"
+alias pcmup="sudo pacman -Syu"
+alias pcmarm="sudo pacman -Qdtq | sudo pacman -Rs -"
+alias pcmcrm="pacman -Scc"
+alias pcml="pacman -Qe"
+alias pcmq="pacman -Ss"
 
 #yay
 alias yyin="yay -S"
 alias yyup="yay -Syu"
 alias yyrm="yay -Rns"
 alias yyarm="yay -Yc"
+alias yycrm="yay -Scc"
 alias yyl="yay -Qe"
 alias yyq="yay -Ss"
 
@@ -125,7 +127,6 @@ alias yyq="yay -Ss"
 alias prin="paru -S"
 alias prup="paru -Syu"
 alias prrm="paru -Rns"
-alias prarm="paru -Yc"
 alias prl="paru -Qe"
 alias prq="paru -Ss"
 
@@ -183,7 +184,7 @@ alias mpl="mpc playlist"
 alias mup="mpc update && mpc ls | mpc add"
 alias mcl="mpc clear"
 alias mtg="mpc toggle"
-alias mm="bash $scriptsdir/mpd/mm.sh"
+alias mm="bash $scriptsdir/mpd/music_manager.sh"
 
 #python
 alias pipin="python -m pip install"
@@ -206,4 +207,5 @@ alias pyveact=". $scriptsdir/python/pyveact.sh"
 alias pyvedeact="deactivate"
 
 #kde plasma theme
-alias kdechdwp="bash $scriptsdir/kde/kdechdwp.sh" #change kde default wallpaper
+alias kdechdwp="bash $scriptsdir/kde/kde_change_default_wallpaper.sh" #change kde default wallpaper
+alias plshr="bash $scriptsdir/kde/plasmashell_restart.sh" #restart plasmashell
