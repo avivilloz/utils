@@ -77,7 +77,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=22
 
 [Containments][106][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
+Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][107]

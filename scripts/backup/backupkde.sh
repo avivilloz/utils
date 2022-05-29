@@ -1,14 +1,17 @@
 #!/bin/bash
 
-while getopts :d: flag
+while getopts :o: flag
 do
     case "${flag}" in
-        d) 
-            if [ ${OPTARG} == "backup" ]
-            then
+        o) 
+            if [ ${OPTARG} == "backup" ]; then
+                mkdir -p ~/git/utils/backup/dotfiles/config
+
                 cp -rf \
                     ~/git/utils/dotfiles/config/kde \
                     ~/git/utils/backup/dotfiles/config/
+
+                mkdir -p ~/git/utils/backup/resources
 
                 cp -rf \
                     ~/git/utils/resources/color-schemes \
@@ -26,11 +29,14 @@ do
                     ~/git/utils/resources/plasma \
                     ~/git/utils/backup/resources/
 
-            elif [ ${OPTARG} == "retrive" ]
-            then
+            elif [ ${OPTARG} == "retrive" ]; then
+                mkdir -p ~/git/utils/dotfiles/config
+
                 cp -rf \
                     ~/git/utils/backup/dotfiles/config/kde \
                     ~/git/utils/dotfiles/config/
+
+                mkdir -p ~/git/utils/resources
 
                 cp -rf \
                     ~/git/utils/backup/resources/color-schemes \
@@ -48,8 +54,15 @@ do
                     ~/git/utils/backup/resources/plasma \
                     ~/git/utils/resources/
 
+            elif [ ${OPTARG} == "clear" ]; then
+                    rm -rf ~/git/utils/backup/dotfiles/config/kde
+                    rm -rf ~/git/utils/backup/resources/color-schemes
+                    rm -rf ~/git/utils/backup/resources/icons
+                    rm -rf ~/git/utils/backup/resources/wallpapers
+                    rm -rf ~/git/utils/backup/resources/plasma
+
             else
-                echo "invalid argument - options are 'backup' or 'retrive'"
+                echo "invalid argument - options are 'backup', 'retrive' or 'clear'"
             fi
                             ;;
         *)

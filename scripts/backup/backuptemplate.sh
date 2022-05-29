@@ -1,15 +1,14 @@
 #!/bin/bash
 
-while getopts :d: flag
+while getopts :o: flag
 do
     case "${flag}" in
-        d) 
-            if [ ${OPTARG} == "backup" ]
-            then
-            elif [ ${OPTARG} == "retrive" ]
-            then
+        o) 
+            if [ ${OPTARG} == "backup" ]; then
+            elif [ ${OPTARG} == "retrive" ]; then
+            elif [ ${OPTARG} == "clear" ]; then
             else
-                echo "invalid argument - options are 'backup' or 'retrive'"
+                echo "invalid argument - options are 'backup', 'retrive' or 'clear'"
             fi
                             ;;
         *)

@@ -1,21 +1,21 @@
 #!/bin/bash
 
-while getopts :d: flag
+while getopts :o: flag
 do
     case "${flag}" in
-        d) 
-            if [ ${OPTARG} == "backup" ]
-            then
+        o) 
+            if [ ${OPTARG} == "backup" ]; then
                 cp -rf \
                     ~/git/utils/dotfiles/config/alacritty
                     ~/git/utils/backup/dotfiles/config/
-            elif [ ${OPTARG} == "retrive" ]
-            then
+            elif [ ${OPTARG} == "retrive" ]; then
                 cp -rf \
                     ~/git/utils/backup/dotfiles/config/alacritty
                     ~/git/utils/dotfiles/config/
+            elif [ ${OPTARG} == "clear" ]; then
+                    rm -rf ~/git/utils/backup/dotfiles/config/alacritty
             else
-                echo "invalid argument - options are 'backup' or 'retrive'"
+                echo "invalid argument - options are 'backup', 'retrive' or 'clear'"
             fi
                             ;;
         *)

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-while getopts :d: flag
+while getopts :o: flag
 do
     case "${flag}" in
-        d) 
+        o) 
             if [ ${OPTARG} == "backup" ]; then
                 cp -rf \
                     ~/git/utils/dotfiles/df
@@ -12,8 +12,10 @@ do
                 cp -rf \
                     ~/git/utils/backup/dotfiles/df
                     ~/git/utils/dotfiles/
+            elif [ ${OPTARG} == "clear" ]; then
+                    rm -rf ~/git/utils/backup/dotfiles/df
             else
-                echo "invalid argument - options are 'backup' or 'retrive'"
+                echo "invalid argument - options are 'backup', 'retrive' or 'clear'"
             fi
                             ;;
         *)
