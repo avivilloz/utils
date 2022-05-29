@@ -172,7 +172,6 @@ DialogWidth=800
 capitalFont=false
 containmentType=Plasma
 filterActivityInfo=false
-placeHolder=Desktop
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program"
 subsReplace="Telegram","Gimp","Gimp"
 
