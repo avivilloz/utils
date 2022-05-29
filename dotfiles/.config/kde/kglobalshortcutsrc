@@ -83,6 +83,7 @@ display=Display,Display\tMeta+P,Switch Display
 _k_friendly_name=Custom Shortcuts Service
 {21da10ab-c59a-4563-a1f3-1e0ea39f906e}=Alt+Shift+F11,none,plasmashell_restart
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
+{d7cd144e-22cc-40ed-a19a-ca388dd06074}=Meta+Shift+F10,none,kwin_restart
 {f96cca5d-1825-4a4c-a426-2354cb6021d9}=Meta+M,none,music_manager
 
 [kmix]
@@ -105,8 +106,8 @@ _k_friendly_name=Session Management
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
-Expose=Ctrl+Tab,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+`\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+Expose=,Ctrl+F9,Toggle Present Windows (Current desktop)
+ExposeAll=Ctrl+Tab\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 Increase Opacity=none,,Increase Opacity of Active Window by 5 %
 Invert=Meta+Ctrl+I,Meta+Ctrl+I,Toggle Invert Effect
@@ -122,7 +123,7 @@ MoveZoomUp=none,none,Move Zoomed Area Upwards
 Overview=none,Meta+W,Toggle Overview
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Show Desktop
-ShowDesktopGrid=Meta+Tab,Ctrl+F8,Show Desktop Grid
+ShowDesktopGrid=Ctrl+`,Ctrl+F8,Show Desktop Grid
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
 Switch One Desktop Up=Meta+Ctrl+Up,Meta+Ctrl+Up,Switch One Desktop Up
@@ -303,7 +304,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Activity switching
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
@@ -329,8 +330,8 @@ cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
 manage activities=Meta+`,Meta+Q,Show Activity Switcher
-next activity=none,Meta+Tab,Walk through activities
-previous activity=none,Meta+Shift+Tab,Walk through activities (Reverse)
+next activity=Meta+Tab,Meta+Tab,Walk through activities
+previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
 show-barcode=none,,Show Barcode…

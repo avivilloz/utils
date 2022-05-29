@@ -173,6 +173,21 @@ capitalFont=false
 containmentType=Plasma
 filterActivityInfo=false
 
+[Containments][108][Applets][276]
+immutability=1
+plugin=org.communia.apptitle
+
+[Containments][108][Applets][276][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][108][Applets][276][Configuration][General]
+bold=true
+noWindowText=
+noWindowType=text
+showApplicationIcon=true
+textType=1
+
 [Containments][108][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -281,7 +296,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][115][Applets][127][Configuration]
-PreloadWeight=84
+PreloadWeight=94
 
 [Containments][115][Applets][128]
 immutability=1
