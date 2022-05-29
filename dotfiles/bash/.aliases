@@ -37,7 +37,7 @@ alias setrr="xset r rate 250 50"
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 #nvidia
-alias nvup="sudo nvidia-xconfig"
+alias nvxup="sudo nvidia-xconfig"
 alias nvrun="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
 alias nvsmi="nvidia-smi"
 
@@ -63,14 +63,15 @@ alias edvar="$edit $variables"
 alias edvim="$edit $vimrc"
 alias edsetup="$edit $scriptsdir/setup/setup.sh"
 
-#sync
-alias addsync="bash $scriptsdir/sync/addsync.sh"
-alias synckde="bash $scriptsdir/sync/synckde.sh"
-alias syncalacritty="bash $scriptsdir/sync/syncalacritty.sh"
+#backup
+alias addbup="bash $scriptsdir/backup/addbackup.sh"
+alias bupkde="bash $scriptsdir/backup/backupkde.sh"
+alias bupalacritty="bash $scriptsdir/backup/backupalacritty.sh"
+alias bupdf="bash $scriptsdir/backup/backupdesktopfiles.sh"
 
 #setup
-alias setup="bash $scriptsdir/setup/setup.sh"
 alias addsetup="bash $scriptsdir/setup/addsetup.sh"
+alias setup="bash $scriptsdir/setup/setup.sh"
 
 #graphic cards
 alias currgc="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
@@ -207,5 +208,6 @@ alias pyveact=". $scriptsdir/python/pyveact.sh"
 alias pyvedeact="deactivate"
 
 #kde plasma theme
-alias kdechdwp="bash $scriptsdir/kde/kde_change_default_wallpaper.sh" #change kde default wallpaper
-alias plshr="bash $scriptsdir/kde/plasmashell_restart.sh" #restart plasmashell
+alias kdechdwp="bash $scriptsdir/kde/kdechdwp.sh" #change kde default wallpaper
+alias plshr="killall plasmashell && kstart plasmashell" #restart plasmashell
+alias kwinr="kwin_x11 --replace"

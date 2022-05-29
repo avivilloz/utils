@@ -31,4 +31,4 @@ export workdir=$gitdir/work
 export PATH="$HOME/.local/bin:$PATH"
 
 #current project
-export currpdir="$gitdir/guardicore_prep"
+export currpdir="$gitdir"
