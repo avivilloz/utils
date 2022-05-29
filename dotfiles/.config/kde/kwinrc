@@ -89,6 +89,7 @@ bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
 forceblurEnabled=false
+highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_scaleEnabled=false
@@ -226,6 +227,9 @@ active=-1
 count=0
 
 [TabBox]
+HighlightWindows=false
+
+[TabBoxAlternative]
 DesktopMode=2
 HighlightWindows=false
 

@@ -83,7 +83,7 @@ display=Display,Display\tMeta+P,Switch Display
 _k_friendly_name=Custom Shortcuts Service
 {21da10ab-c59a-4563-a1f3-1e0ea39f906e}=Alt+Shift+F11,none,plasmashell_restart
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
-{d7cd144e-22cc-40ed-a19a-ca388dd06074}=Meta+Shift+F10,none,kwin_restart
+{d7cd144e-22cc-40ed-a19a-ca388dd06074}=Alt+Shift+F10,none,kwin_restart
 {f96cca5d-1825-4a4c-a426-2354cb6021d9}=Meta+M,none,music_manager
 
 [kmix]
@@ -176,10 +176,10 @@ Walk Through Desktops=none,,Walk Through Desktops
 Walk Through Desktops (Reverse)=none,,Walk Through Desktops (Reverse)
 Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
 Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Backtab,Walk Through Windows (Reverse)
-Walk Through Windows Alternative=none,,Walk Through Windows Alternative
-Walk Through Windows Alternative (Reverse)=none,,Walk Through Windows Alternative (Reverse)
-Walk Through Windows of Current Application=Alt+`,Alt+`,Walk Through Windows of Current Application
-Walk Through Windows of Current Application (Reverse)=Alt+~,Alt+~,Walk Through Windows of Current Application (Reverse)
+Walk Through Windows Alternative=Alt+`,,Walk Through Windows Alternative
+Walk Through Windows Alternative (Reverse)=Alt+~,,Walk Through Windows Alternative (Reverse)
+Walk Through Windows of Current Application=,Alt+`,Walk Through Windows of Current Application
+Walk Through Windows of Current Application (Reverse)=,Alt+~,Walk Through Windows of Current Application (Reverse)
 Walk Through Windows of Current Application Alternative=none,,Walk Through Windows of Current Application Alternative
 Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,,Keep Window Above Others
@@ -304,7 +304,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Activity switching
+_k_friendly_name=Plasma
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
