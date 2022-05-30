@@ -49,17 +49,6 @@ set colorcolumn=80
 "highlight ColorColumn ctermbg=0 guibg=lightgrey
 highlight ColorColumn ctermbg=0
 
-"alt+down switches line with line bellow
-nnoremap <A-Down> ddp
-"alt+up switches line with line above
-nnoremap <A-Up> dd<Up>P
-
-"prevents yanking removed line when pasting over
-vnoremap p "0p
-vnoremap P "0P
-vnoremap y "0y
-vnoremap d "0d
-
 set nocompatible
 
 "plugins
@@ -74,3 +63,10 @@ call plug#end()
 "background and theming related commands
 "set background=dark
 "colorscheme dracula
+
+"alt+down switches line with line bellow
+nnoremap <A-Down> ddp
+"alt+up switches line with line above
+nnoremap <A-Up> dd<Up>P
+"F3 toggles NERDTree
+nmap <F3> :NERDTreeToggle<CR>
