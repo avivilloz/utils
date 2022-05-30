@@ -67,6 +67,7 @@ call plug#begin()
 
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 

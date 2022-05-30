@@ -172,6 +172,7 @@ DialogWidth=800
 capitalFont=false
 containmentType=Plasma
 filterActivityInfo=false
+placeHolder=“When you hold a part of the essence, you hold it all.”
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program"
 subsReplace="Telegram","Gimp","Gimp"
 
