@@ -179,7 +179,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][108][Applets][284][Configuration]
-PreloadWeight=75
+PreloadWeight=85
 
 [Containments][108][Applets][284][Configuration][Appearance]
 customDateFormat=dd/MM/yy
@@ -346,6 +346,11 @@ wallpaperplugin=org.kde.image
 
 [Containments][147][Configuration]
 PreloadWeight=42
+
+[Containments][147][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=566
+ToolBoxButtonY=20
 
 [Containments][147][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -603,26 +608,13 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][270][Applets][271]
-immutability=1
-plugin=org.kde.windowtitle
-
-[Containments][270][Applets][271][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][270][Applets][271][Configuration][General]
-capitalFont=false
-containmentType=Plasma
-filterActivityInfo=false
-italicFont=true
-lengthLastMargin=4
-lengthMarginsLock=false
-spacing=7
-
 [Containments][270][Applets][272]
 immutability=1
 plugin=org.kde.plasma.appmenu
+
+[Containments][270][Applets][272][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][270][Applets][273]
 immutability=1
@@ -635,12 +627,24 @@ length=766
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][270][Applets][286]
+immutability=1
+plugin=org.kde.windowtitle
+
+[Containments][270][Applets][286][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][270][Applets][286][Configuration][General]
+containmentType=Plasma
+filterActivityInfo=false
+
 [Containments][270][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][270][General]
-AppletOrder=274;271;272;273
+AppletOrder=274;286;272;273
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
