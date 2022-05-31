@@ -46,8 +46,7 @@ Number=18
 Rows=1
 
 [Effect-Blur]
-BlurStrength=13
-NoiseStrength=7
+BlurStrength=11
 
 [Effect-DesktopGrid]
 BorderWidth=5

@@ -74,7 +74,7 @@ PreloadWeight=0
 [Containments][106][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=28
+ToolBoxButtonY=22
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
