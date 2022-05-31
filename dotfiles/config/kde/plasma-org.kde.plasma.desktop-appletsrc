@@ -116,6 +116,14 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][108][Applets][114]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][108][Applets][114][Configuration]
+PreloadWeight=100
+SystrayContainmentId=115
+
 [Containments][108][Applets][197]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -165,24 +173,6 @@ subsReplace="Telegram","Gimp","Gimp","GitHub"
 immutability=1
 plugin=org.kde.plasma.appmenu
 
-[Containments][108][Applets][291]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][108][Applets][291][Configuration]
-PreloadWeight=100
-
-[Containments][108][Applets][291][Configuration][Appearance]
-customDateFormat=dddd dd/MM/yy
-dateDisplayFormat=BesideTime
-dateFormat=custom
-showSeconds=true
-use24hFormat=2
-
-[Containments][108][Applets][291][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][108][Applets][293]
 immutability=1
 plugin=org.kde.plasma.activitypager
@@ -197,14 +187,6 @@ displayedText=Number
 showOnlyCurrentScreen=true
 wrapPage=true
 
-[Containments][108][Applets][295]
-immutability=1
-plugin=org.kde.plasma.lock_logout
-
-[Containments][108][Applets][295][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][108][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -213,14 +195,14 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=293;223;281;282;197;291;295
+AppletOrder=293;223;281;282;197;114
 
 [Containments][115]
 activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
@@ -299,7 +281,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][115][Applets][125][Configuration]
-PreloadWeight=49
+PreloadWeight=54
 
 [Containments][115][Applets][126]
 immutability=1
@@ -427,14 +409,6 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][204][Applets][114]
-immutability=1
-plugin=org.kde.plasma.systemtray
-
-[Containments][204][Applets][114][Configuration]
-PreloadWeight=100
-SystrayContainmentId=115
-
 [Containments][204][Applets][205]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -508,12 +482,29 @@ use24hFormat=2
 DialogHeight=600
 DialogWidth=800
 
+[Containments][204][Applets][296]
+immutability=1
+plugin=org.kde.plasma.showdesktop
+
+[Containments][204][Applets][297]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][204][Applets][297][Configuration][Appearance]
+showDate=false
+showSeconds=true
+use24hFormat=2
+
+[Containments][204][Applets][297][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=249;211;209;205;208;114
+AppletOrder=249;211;209;205;208;297;296
 
 [Containments][225]
 ItemGeometriesHorizontal=
