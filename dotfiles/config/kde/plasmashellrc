@@ -23,10 +23,10 @@ minLength=1920
 thickness=20
 
 [PlasmaViews][Panel 270][Defaults]
-thickness=24
+thickness=20
 
 [PlasmaViews][Panel 270][Horizontal1920]
-thickness=24
+thickness=20
 
 [ScreenConnectors]
 0=HDMI-0

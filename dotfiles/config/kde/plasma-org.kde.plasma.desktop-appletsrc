@@ -359,8 +359,8 @@ PreloadWeight=42
 
 [Containments][147][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=516
-ToolBoxButtonY=24
+ToolBoxButtonX=566
+ToolBoxButtonY=20
 
 [Containments][147][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -649,7 +649,7 @@ containmentType=Plasma
 filterActivityInfo=false
 
 [Containments][270][ConfigDialog]
-DialogHeight=91
+DialogHeight=84
 DialogWidth=1920
 
 [Containments][270][General]
