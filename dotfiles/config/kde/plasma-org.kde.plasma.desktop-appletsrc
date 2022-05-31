@@ -167,8 +167,9 @@ DialogWidth=720
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
 filterActivityInfo=false
-subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program"
-subsReplace="Telegram","Gimp","Gimp"
+placeHolder=Desktop
+subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
+subsReplace="Telegram","Gimp","Gimp","GitHub"
 
 [Containments][108][Applets][282]
 immutability=1
