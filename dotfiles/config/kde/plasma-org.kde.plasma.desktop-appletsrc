@@ -73,8 +73,8 @@ PreloadWeight=0
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=566
-ToolBoxButtonY=20
+ToolBoxButtonX=516
+ToolBoxButtonY=28
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -104,7 +104,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=20
 
 [Containments][107][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
+Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][108]
@@ -133,14 +133,6 @@ plugin=org.kde.plasma.panelspacer
 [Containments][108][Applets][223][Configuration][General]
 length=844
 
-[Containments][108][Applets][259]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
-[Containments][108][Applets][259][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][108][Applets][276]
 immutability=1
 plugin=org.communia.apptitle
@@ -166,8 +158,6 @@ DialogWidth=720
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
-filterActivityInfo=false
-placeHolder=Desktop
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
 
@@ -180,7 +170,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][108][Applets][284][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][108][Applets][284][Configuration][Appearance]
 customDateFormat=dd/MM/yy
@@ -200,15 +190,33 @@ plugin=org.kde.plasma.compact-shutdown
 [Containments][108][Applets][285][Configuration]
 PreloadWeight=100
 
+[Containments][108][Applets][285][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][108][Applets][290]
+immutability=1
+plugin=org.kde.plasma.activitypager
+
+[Containments][108][Applets][290][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][108][Applets][290][Configuration][General]
+currentDesktopSelected=ShowDesktop
+displayedText=Number
+showOnlyCurrentScreen=true
+wrapPage=true
+
 [Containments][108][ConfigDialog]
-DialogHeight=84
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][108][Configuration]
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=259;223;281;282;197;284;285
+AppletOrder=290;223;281;282;197;284;285
 
 [Containments][115]
 activityId=
@@ -439,7 +447,6 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][Applets][205][Configuration][General]
-currentDesktopSelected=ShowDesktop
 displayedText=Name
 showOnlyCurrentScreen=true
 wrapPage=true
@@ -505,7 +512,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][ConfigDialog]
-DialogHeight=84
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
