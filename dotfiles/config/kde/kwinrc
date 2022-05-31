@@ -72,7 +72,6 @@ RightButtonWindow=6
 BottomLeft=ApplicationLauncher
 BottomRight=ShowDesktop
 TopLeft=ActivityManager
-TopRight=LockScreen
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
