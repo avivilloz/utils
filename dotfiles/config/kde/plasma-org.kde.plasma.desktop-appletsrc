@@ -73,8 +73,8 @@ PreloadWeight=0
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=566
-ToolBoxButtonY=22
+ToolBoxButtonX=516
+ToolBoxButtonY=24
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -195,12 +195,13 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][108][Applets][291][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 
 [Containments][108][Applets][291][Configuration][Appearance]
 customDateFormat=dddd dd/MM/yy
 dateDisplayFormat=BesideTime
 dateFormat=custom
+showDate=false
 showSeconds=true
 use24hFormat=2
 
@@ -358,8 +359,8 @@ PreloadWeight=42
 
 [Containments][147][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=566
-ToolBoxButtonY=22
+ToolBoxButtonX=516
+ToolBoxButtonY=24
 
 [Containments][147][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -512,7 +513,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][ConfigDialog]
-DialogHeight=84
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
@@ -648,7 +649,7 @@ containmentType=Plasma
 filterActivityInfo=false
 
 [Containments][270][ConfigDialog]
-DialogHeight=84
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][270][General]
