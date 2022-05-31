@@ -73,7 +73,7 @@ PreloadWeight=0
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=520
+ToolBoxButtonX=566
 ToolBoxButtonY=20
 
 [Containments][106][Wallpaper][org.kde.image][General]
@@ -115,14 +115,6 @@ lastScreen=0
 location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
-
-[Containments][108][Applets][114]
-immutability=1
-plugin=org.kde.plasma.systemtray
-
-[Containments][108][Applets][114][Configuration]
-PreloadWeight=100
-SystrayContainmentId=115
 
 [Containments][108][Applets][197]
 immutability=1
@@ -183,6 +175,31 @@ subsReplace="Telegram","Gimp","Gimp"
 immutability=1
 plugin=org.kde.plasma.appmenu
 
+[Containments][108][Applets][284]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][108][Applets][284][Configuration]
+PreloadWeight=60
+
+[Containments][108][Applets][284][Configuration][Appearance]
+customDateFormat=ddd dd/MM
+dateFormat=custom
+showDate=false
+showSeconds=true
+use24hFormat=2
+
+[Containments][108][Applets][284][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][108][Applets][285]
+immutability=1
+plugin=org.kde.plasma.compact-shutdown
+
+[Containments][108][Applets][285][Configuration]
+PreloadWeight=100
+
 [Containments][108][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
@@ -191,14 +208,14 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=259;223;281;282;197;114
+AppletOrder=259;223;281;282;197;284;285
 
 [Containments][115]
 activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=3
+location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
@@ -400,6 +417,14 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][204][Applets][114]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][204][Applets][114][Configuration]
+PreloadWeight=100
+SystrayContainmentId=115
+
 [Containments][204][Applets][205]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -435,7 +460,7 @@ DialogWidth=800
 
 [Containments][204][Applets][211][Configuration][General]
 groupedTaskVisualization=2
-launchers=
+launchers=applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:firefox.desktop
 maxStripes=1
 showOnlyCurrentDesktop=false
 
@@ -474,36 +499,12 @@ use24hFormat=2
 DialogHeight=600
 DialogWidth=800
 
-[Containments][204][Applets][262]
-immutability=1
-plugin=org.kde.plasma.showdesktop
-
-[Containments][204][Applets][262][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][277]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][204][Applets][277][Configuration]
-PreloadWeight=75
-
-[Containments][204][Applets][277][Configuration][Appearance]
-showDate=false
-showSeconds=true
-use24hFormat=2
-
-[Containments][204][Applets][277][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][204][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=249;211;209;205;208;277;262
+AppletOrder=249;211;209;205;208;114
 
 [Containments][225]
 ItemGeometriesHorizontal=
