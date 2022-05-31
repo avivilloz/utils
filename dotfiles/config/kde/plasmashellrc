@@ -1,12 +1,15 @@
+[PlasmaTransientsConfig]
+PreloadWeight=34
+
 [PlasmaViews][Panel 108]
 alignment=132
 panelOpacity=2
 
 [PlasmaViews][Panel 108][Defaults]
-thickness=20
+thickness=22
 
 [PlasmaViews][Panel 108][Horizontal1920]
-thickness=20
+thickness=22
 
 [PlasmaViews][Panel 204]
 alignment=132
@@ -15,18 +18,18 @@ panelOpacity=2
 [PlasmaViews][Panel 204][Defaults]
 maxLength=1920
 minLength=1920
-thickness=20
+thickness=28
 
 [PlasmaViews][Panel 204][Horizontal1920]
 maxLength=1920
 minLength=1920
-thickness=20
+thickness=28
 
 [PlasmaViews][Panel 270][Defaults]
-thickness=20
+thickness=22
 
 [PlasmaViews][Panel 270][Horizontal1920]
-thickness=20
+thickness=22
 
 [ScreenConnectors]
 0=HDMI-0

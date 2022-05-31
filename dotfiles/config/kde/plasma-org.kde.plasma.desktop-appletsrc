@@ -74,7 +74,7 @@ PreloadWeight=0
 [Containments][106][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=20
+ToolBoxButtonY=28
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -101,7 +101,7 @@ PreloadWeight=0
 [Containments][107][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=20
+ToolBoxButtonY=22
 
 [Containments][107][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -165,47 +165,43 @@ subsReplace="Telegram","Gimp","Gimp","GitHub"
 immutability=1
 plugin=org.kde.plasma.appmenu
 
-[Containments][108][Applets][285]
-immutability=1
-plugin=org.kde.plasma.compact-shutdown
-
-[Containments][108][Applets][285][Configuration]
-PreloadWeight=100
-
-[Containments][108][Applets][285][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][108][Applets][290]
-immutability=1
-plugin=org.kde.plasma.activitypager
-
-[Containments][108][Applets][290][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][108][Applets][290][Configuration][General]
-currentDesktopSelected=ShowDesktop
-displayedText=Number
-showOnlyCurrentScreen=true
-wrapPage=true
-
 [Containments][108][Applets][291]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][108][Applets][291][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 
 [Containments][108][Applets][291][Configuration][Appearance]
 customDateFormat=dddd dd/MM/yy
 dateDisplayFormat=BesideTime
 dateFormat=custom
-showDate=false
 showSeconds=true
 use24hFormat=2
 
 [Containments][108][Applets][291][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][108][Applets][293]
+immutability=1
+plugin=org.kde.plasma.activitypager
+
+[Containments][108][Applets][293][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][108][Applets][293][Configuration][General]
+currentDesktopSelected=ShowDesktop
+displayedText=Number
+showOnlyCurrentScreen=true
+wrapPage=true
+
+[Containments][108][Applets][295]
+immutability=1
+plugin=org.kde.plasma.lock_logout
+
+[Containments][108][Applets][295][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
@@ -217,7 +213,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=290;223;281;282;197;291;285
+AppletOrder=293;223;281;282;197;291;295
 
 [Containments][115]
 activityId=
@@ -303,7 +299,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][115][Applets][125][Configuration]
-PreloadWeight=44
+PreloadWeight=49
 
 [Containments][115][Applets][126]
 immutability=1
@@ -649,7 +645,7 @@ containmentType=Plasma
 filterActivityInfo=false
 
 [Containments][270][ConfigDialog]
-DialogHeight=84
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][270][General]
