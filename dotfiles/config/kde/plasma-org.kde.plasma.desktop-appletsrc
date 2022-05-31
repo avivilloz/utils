@@ -179,7 +179,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][108][Applets][284][Configuration]
-PreloadWeight=85
+PreloadWeight=90
 
 [Containments][108][Applets][284][Configuration][Appearance]
 customDateFormat=dd/MM/yy
@@ -464,7 +464,7 @@ DialogWidth=800
 
 [Containments][204][Applets][211][Configuration][General]
 groupedTaskVisualization=2
-launchers=applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.discover.desktop,applications:firefox.desktop
+launchers=
 maxStripes=1
 showOnlyCurrentDesktop=false
 
