@@ -74,7 +74,7 @@ PreloadWeight=0
 [Containments][106][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
-ToolBoxButtonY=24
+ToolBoxButtonY=20
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -210,7 +210,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][108][ConfigDialog]
-DialogHeight=84
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][108][Configuration]

@@ -3,10 +3,10 @@ alignment=132
 panelOpacity=2
 
 [PlasmaViews][Panel 108][Defaults]
-thickness=24
+thickness=20
 
 [PlasmaViews][Panel 108][Horizontal1920]
-thickness=24
+thickness=20
 
 [PlasmaViews][Panel 204]
 alignment=132
@@ -15,12 +15,12 @@ panelOpacity=2
 [PlasmaViews][Panel 204][Defaults]
 maxLength=1920
 minLength=1920
-thickness=28
+thickness=20
 
 [PlasmaViews][Panel 204][Horizontal1920]
 maxLength=1920
 minLength=1920
-thickness=28
+thickness=20
 
 [PlasmaViews][Panel 270][Defaults]
 thickness=24
