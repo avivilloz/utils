@@ -73,8 +73,8 @@ PreloadWeight=0
 
 [Containments][106][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=516
-ToolBoxButtonY=28
+ToolBoxButtonX=566
+ToolBoxButtonY=22
 
 [Containments][106][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -165,24 +165,6 @@ subsReplace="Telegram","Gimp","Gimp","GitHub"
 immutability=1
 plugin=org.kde.plasma.appmenu
 
-[Containments][108][Applets][284]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][108][Applets][284][Configuration]
-PreloadWeight=100
-
-[Containments][108][Applets][284][Configuration][Appearance]
-customDateFormat=dddd dd/MM/yy
-dateDisplayFormat=BesideTime
-dateFormat=custom
-showSeconds=true
-use24hFormat=2
-
-[Containments][108][Applets][284][Configuration][ConfigDialog]
-DialogHeight=671
-DialogWidth=793
-
 [Containments][108][Applets][285]
 immutability=1
 plugin=org.kde.plasma.compact-shutdown
@@ -208,15 +190,29 @@ displayedText=Number
 showOnlyCurrentScreen=true
 wrapPage=true
 
+[Containments][108][Applets][291]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][108][Applets][291][Configuration][Appearance]
+customDateFormat=dddd dd/MM/yy
+dateFormat=custom
+showSeconds=true
+use24hFormat=2
+
+[Containments][108][Applets][291][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][108][ConfigDialog]
-DialogHeight=91
+DialogHeight=84
 DialogWidth=1920
 
 [Containments][108][Configuration]
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=290;223;281;282;197;284;285
+AppletOrder=290;223;281;282;197;291;285
 
 [Containments][115]
 activityId=
@@ -358,8 +354,8 @@ PreloadWeight=42
 
 [Containments][147][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=516
-ToolBoxButtonY=28
+ToolBoxButtonX=566
+ToolBoxButtonY=22
 
 [Containments][147][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
@@ -512,7 +508,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][ConfigDialog]
-DialogHeight=91
+DialogHeight=84
 DialogWidth=1920
 
 [Containments][204][General]
@@ -648,7 +644,7 @@ containmentType=Plasma
 filterActivityInfo=false
 
 [Containments][270][ConfigDialog]
-DialogHeight=91
+DialogHeight=84
 DialogWidth=1920
 
 [Containments][270][General]
