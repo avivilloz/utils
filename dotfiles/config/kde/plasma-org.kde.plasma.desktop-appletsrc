@@ -167,7 +167,6 @@ DialogWidth=720
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
 filterActivityInfo=false
-placeHolder=Plasma Desktop
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program"
 subsReplace="Telegram","Gimp","Gimp"
 
@@ -180,10 +179,10 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][108][Applets][284][Configuration]
-PreloadWeight=60
+PreloadWeight=75
 
 [Containments][108][Applets][284][Configuration][Appearance]
-customDateFormat=ddd dd/MM
+customDateFormat=dd/MM/yy
 dateFormat=custom
 showDate=false
 showSeconds=true
@@ -349,7 +348,7 @@ wallpaperplugin=org.kde.image
 PreloadWeight=42
 
 [Containments][147][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/.local/share/wallpapers/Default/contents/images/1920x1080.png
+Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][148]
 ItemGeometriesHorizontal=
@@ -637,7 +636,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][270][ConfigDialog]
-DialogHeight=91
+DialogHeight=84
 DialogWidth=1920
 
 [Containments][270][General]
