@@ -5,4 +5,3 @@ sudo dnf autoremove
 sudo dnf clean packages
 flatpak update
 flatpak uninstall --unused
-sudo snap refresh

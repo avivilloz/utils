@@ -1,6 +1,7 @@
 [General]
 ActivityAware=false
 RetainPriorSearch=false
+history=
 
 [PlasmaRunnerManager]
 migrated=true
