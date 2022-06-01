@@ -14,20 +14,24 @@ do
                 mkdir -p ~/git/utils/backup/resources
 
                 cp -rf \
-                    ~/git/utils/resources/color-schemes \
-                    ~/git/utils/backup/resources/
+                    ~/git/utils/resources/share/color-schemes \
+                    ~/git/utils/backup/resources/share/
 
                 cp -rf \
-                    ~/git/utils/resources/icons \
-                    ~/git/utils/backup/resources/
+                    ~/git/utils/resources/share/icons \
+                    ~/git/utils/backup/resources/share/
 
                 cp -rf \
-                    ~/git/utils/resources/wallpapers \
-                    ~/git/utils/backup/resources/
+                    ~/git/utils/resources/share/wallpapers \
+                    ~/git/utils/backup/resources/share/
 
                 cp -rf \
-                    ~/git/utils/resources/plasma \
-                    ~/git/utils/backup/resources/
+                    ~/git/utils/resources/share/plasma \
+                    ~/git/utils/backup/resources/share/
+
+                cp -rf \
+                    ~/git/utils/resources/share/konsole \
+                    ~/git/utils/backup/resources/share/
 
             elif [ ${OPTARG} == "retrive" ]; then
                 mkdir -p ~/git/utils/dotfiles/config
@@ -39,27 +43,32 @@ do
                 mkdir -p ~/git/utils/resources
 
                 cp -rf \
-                    ~/git/utils/backup/resources/color-schemes \
-                    ~/git/utils/resources/
+                    ~/git/utils/backup/resources/share/color-schemes \
+                    ~/git/utils/resources/share/
 
                 cp -rf \
-                    ~/git/utils/backup/resources/icons \
-                    ~/git/utils/resources/
+                    ~/git/utils/backup/resources/share/icons \
+                    ~/git/utils/resources/share/
 
                 cp -rf \
-                    ~/git/utils/backup/resources/wallpapers \
-                    ~/git/utils/resources/
+                    ~/git/utils/backup/resources/share/wallpapers \
+                    ~/git/utils/resources/share/
 
                 cp -rf \
-                    ~/git/utils/backup/resources/plasma \
-                    ~/git/utils/resources/
+                    ~/git/utils/backup/resources/share/plasma \
+                    ~/git/utils/resources/share/
+
+                cp -rf \
+                    ~/git/utils/backup/resources/share/konsole \
+                    ~/git/utils/resources/share/
 
             elif [ ${OPTARG} == "clear" ]; then
                     rm -rf ~/git/utils/backup/dotfiles/config/kde
-                    rm -rf ~/git/utils/backup/resources/color-schemes
-                    rm -rf ~/git/utils/backup/resources/icons
-                    rm -rf ~/git/utils/backup/resources/wallpapers
-                    rm -rf ~/git/utils/backup/resources/plasma
+                    rm -rf ~/git/utils/backup/resources/share/color-schemes
+                    rm -rf ~/git/utils/backup/resources/share/icons
+                    rm -rf ~/git/utils/backup/resources/share/wallpapers
+                    rm -rf ~/git/utils/backup/resources/share/plasma
+                    rm -rf ~/git/utils/backup/resources/share/konsole
 
             else
                 echo "invalid argument - options are 'backup', 'retrive' or 'clear'"
