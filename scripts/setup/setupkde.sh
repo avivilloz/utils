@@ -43,6 +43,8 @@ if [ $ans  = "y" ]; then
     ln -sf ~/git/utils/dotfiles/config/kde/kdeconnect ~/.config/kdeconnect
     rm -rf ~/config/konsolerc
     ln -sf ~/git/utils/dotfiles/config/kde/konsolerc ~/.config/konsolerc
+    rm -rf ~/config/yakuakerc
+    ln -sf ~/git/utils/dotfiles/config/kde/yakuakerc ~/.config/yakuakerc
 
     #share
     rm -rf ~/.local/share/konsole

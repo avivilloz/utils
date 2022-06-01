@@ -1,0 +1,15 @@
+[Appearance]
+BackgroundColorOpacity=30
+HideSkinBorders=true
+
+[Desktop Entry]
+DefaultProfile=nord.profile
+
+[Dialogs]
+FirstRun=false
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[Window]
+KeepOpen=false

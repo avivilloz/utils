@@ -64,6 +64,10 @@ _launch=none,none,Firefox
 new-private-window=Meta+I,none,New Private Window
 new-window=Meta+B,none,New Window
 
+[github-desktop.desktop]
+_k_friendly_name=GitHub Desktop
+_launch=Meta+G,none,GitHub Desktop
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
