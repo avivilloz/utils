@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#default terminal
+export term=konsole
+
 #default editor
 export edit=vim
 export edit_flags=-p
