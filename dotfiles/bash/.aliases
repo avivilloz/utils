@@ -116,6 +116,7 @@ alias pcmup="sudo pacman -Syu"
 alias pcmarm="sudo pacman -Qdtq | sudo pacman -Rs -"
 alias pcmcrm="pacman -Scc"
 alias pcml="pacman -Qe"
+alias pcmlq="pacman -Qe | grep"
 alias pcmq="pacman -Ss"
 
 #yay
@@ -125,6 +126,7 @@ alias yyrm="yay -Rns"
 alias yyarm="yay -Yc"
 alias yycrm="yay -Scc"
 alias yyl="yay -Qe"
+alias yylq="yay -Qe | grep"
 alias yyq="yay -Ss"
 
 #paru

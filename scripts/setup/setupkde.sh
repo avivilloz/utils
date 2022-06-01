@@ -7,7 +7,7 @@ echo -------------------------------------------------------------------------
 echo do you want to do a complete install of kde on arch - includes fonts installation, and needs yay installed? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    sudo pacman -S plasma sddm kdeconnect ark dolphin konsole gwenview okular spectacle kcolorchooser packagekit-qt5 yakuake --needed
+    sudo pacman -S plasma sddm kdeconnect ark dolphin konsole gwenview okular spectacle kcolorchooser packagekit-qt5 yakuake kdepim-addons akregator --needed
     yay -S nerd-fonts-complete kwin-bismuth kclock --needed
 fi
 

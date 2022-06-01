@@ -295,7 +295,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][115][Applets][127][Configuration]
-PreloadWeight=96
+PreloadWeight=100
 
 [Containments][115][Applets][128]
 immutability=1
@@ -341,7 +341,7 @@ ToolBoxButtonX=566
 ToolBoxButtonY=20
 
 [Containments][147][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
+Image=file:///home/avivilloz/git/utils/resources/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][148]
 ItemGeometriesHorizontal=
@@ -379,7 +379,7 @@ ToolBoxButtonX=516
 ToolBoxButtonY=22
 
 [Containments][149][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/wallpapers/Default/contents/images/1920x1080.png
+Image=file:///home/avivilloz/git/utils/resources/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][175]
 ItemGeometries-1920x1080=
@@ -491,7 +491,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][204][Applets][297][Configuration][Appearance]
 showDate=false
