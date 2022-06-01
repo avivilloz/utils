@@ -267,7 +267,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][115][Applets][123][Configuration]
-PreloadWeight=69
+PreloadWeight=74
 
 [Containments][115][Applets][124]
 immutability=1
@@ -489,6 +489,9 @@ plugin=org.kde.plasma.showdesktop
 [Containments][204][Applets][297]
 immutability=1
 plugin=org.kde.plasma.digitalclock
+
+[Containments][204][Applets][297][Configuration]
+PreloadWeight=55
 
 [Containments][204][Applets][297][Configuration][Appearance]
 showDate=false

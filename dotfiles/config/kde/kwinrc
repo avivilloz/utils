@@ -16,7 +16,9 @@ Id_15=827f18c5-be55-4322-8df9-688afe67fcfe
 Id_16=e61bb637-0dca-4a44-9af1-bd3e10d8cc4f
 Id_17=c8bea3ef-adea-46e1-b204-1b0468c6187f
 Id_18=c7489f8e-a038-4275-8932-e67823169aa9
+Id_19=aa5139fa-6666-4b1f-9f2a-a4d6e4b728bd
 Id_2=0de04f99-8017-4cda-96c4-1ff218c0a219
+Id_20=23fe864c-5ec0-47e2-baa5-8403d52d83f9
 Id_3=7a47ee5d-b293-45f1-90d4-20664eae0de2
 Id_4=c9158591-e668-402d-b396-b277c0676a87
 Id_5=dd2a3f59-1d56-4654-b033-6ac3631e4a89
@@ -34,7 +36,9 @@ Name_15=\s
 Name_16=\s
 Name_17=\s
 Name_18=\s
+Name_19=\s
 Name_2=\s
+Name_20=\s
 Name_3=\s
 Name_4=\s
 Name_5=\s
@@ -42,7 +46,7 @@ Name_6=\s
 Name_7=\s
 Name_8=\s
 Name_9=\s
-Number=18
+Number=20
 Rows=1
 
 [Effect-Blur]
@@ -53,9 +57,6 @@ BorderWidth=5
 CustomLayoutRows=3
 LayoutMode=1
 ZoomDuration=200
-
-[Effect-Overview]
-BlurBackground=false
 
 [Effect-PresentWindows]
 AllowClosingWindows=false
@@ -92,6 +93,7 @@ highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_scaleEnabled=false
+overviewEnabled=true
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
@@ -102,7 +104,7 @@ enableMonocleLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
-floatingClass=spectacle,systemsettings,godot,qalculate-gtk,ark
+floatingClass=yakuake,spectacle,systemsettings,godot,qalculate-gtk,ark,kclock
 ignoreClass=
 ignoreRole=
 keepFloatAbove=false
