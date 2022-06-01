@@ -9,11 +9,6 @@ switch-to-activity-790d39d9-8b48-419f-ae47-f103a52947f3=none,none,Switch to acti
 switch-to-activity-fead6ac1-9029-42ea-99c5-d27d0a2b4c0a=none,none,Switch to activity "Default"
 switch-to-activity-ff92c110-7e96-4ec9-8a30-594174f73e21=none,none,Switch to activity "Prep Guardicore"
 
-[Alacritty.desktop]
-New=none,none,New Terminal
-_k_friendly_name=Alacritty
-_launch=Meta+T,none,Alacritty
-
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Hebrew=none,none,Switch keyboard layout to Hebrew
@@ -279,7 +274,7 @@ _launch=Meta+F,Meta+E,Dolphin
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
 _k_friendly_name=Konsole
-_launch=Ctrl+Alt+T\tMeta+Return,Ctrl+Alt+T,Konsole
+_launch=Meta+T\tMeta+Return\tCtrl+Alt+T,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents

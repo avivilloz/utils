@@ -11,6 +11,10 @@ FirstRun=false
 [KFileDialog Settings]
 detailViewIconSize=16
 
+[Shortcuts]
+close-session=Ctrl+Q
+new-session=Ctrl+T; Ctrl+Return
+
 [Window]
 Height=57
 KeepOpen=false

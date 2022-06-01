@@ -1,6 +1,9 @@
 [CompactMode]
 FontWeight=50
 
+[Desktop Entry]
+DefaultProfile=nord.profile
+
 [DetailsMode]
 FontWeight=50
 

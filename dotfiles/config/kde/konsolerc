@@ -21,6 +21,9 @@ eDP-1 Width 1920x1080=1906
 eDP-1 XPosition 1920x1080=7
 eDP-1 YPosition 1920x1080=27
 
+[Notification Messages]
+CloseAllEmptyTabs=true
+
 [TabBar]
 TabBarPosition=Top
 

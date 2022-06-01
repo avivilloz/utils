@@ -295,7 +295,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][115][Applets][127][Configuration]
-PreloadWeight=91
+PreloadWeight=96
 
 [Containments][115][Applets][128]
 immutability=1
@@ -491,7 +491,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 
 [Containments][204][Applets][297][Configuration][Appearance]
 showDate=false
