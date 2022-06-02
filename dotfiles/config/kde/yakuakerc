@@ -18,5 +18,5 @@ next-session=Shift+Right; Ctrl+PgDown
 previous-session=Shift+Left; Ctrl+PgUp
 
 [Window]
-Height=57
+Height=58
 KeepOpen=false
