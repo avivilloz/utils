@@ -43,6 +43,8 @@ alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias nvxup="sudo nvidia-xconfig"
 alias nvrun="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
 alias nvsmi="nvidia-smi"
+alias enctls="sudo envycontrol --dm sddm -s"
+alias enctlq="envycontrol --query"
 
 #alacritty
 alias at='alacritty-themes'

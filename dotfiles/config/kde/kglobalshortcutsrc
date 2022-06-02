@@ -63,6 +63,10 @@ new-window=Meta+B,none,New Window
 _k_friendly_name=GitHub Desktop
 _launch=Meta+G,none,GitHub Desktop
 
+[io.optimus_manager.OptimusManagerQt.desktop]
+_k_friendly_name=Optimus Manager
+_launch=none,none,Optimus Manager
+
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
@@ -265,6 +269,13 @@ playmedia=none,,Play media playback
 playpausemedia=Media Play\tMeta+?,Media Play,Play/Pause media playback
 previousmedia=Meta+<\tMedia Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
+
+[org.flameshot.Flameshot.desktop]
+Capture=Ctrl+Print,none,Take screenshot
+Configure=none,none,Configure
+Launcher=none,none,Open launcher
+_k_friendly_name=Flameshot
+_launch=none,none,Flameshot
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin

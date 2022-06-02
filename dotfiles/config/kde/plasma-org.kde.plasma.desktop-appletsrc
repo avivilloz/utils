@@ -295,7 +295,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][115][Applets][127][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][115][Applets][128]
 immutability=1
@@ -323,6 +323,7 @@ extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2
 
 [Containments][147]
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=ff92c110-7e96-4ec9-8a30-594174f73e21
 formfactor=0
