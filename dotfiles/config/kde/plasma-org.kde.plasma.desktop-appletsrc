@@ -173,6 +173,16 @@ subsReplace="Telegram","Gimp","Gimp","GitHub"
 immutability=1
 plugin=org.kde.plasma.appmenu
 
+[Containments][108][Applets][282][Configuration]
+PreloadWeight=55
+
+[Containments][108][Applets][282][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][108][Applets][282][Shortcuts]
+global=Alt+Return
+
 [Containments][108][Applets][293]
 immutability=1
 plugin=org.kde.plasma.activitypager

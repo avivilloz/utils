@@ -12,7 +12,7 @@ FirstRun=false
 detailViewIconSize=16
 
 [Shortcuts]
-close-session=Ctrl+Q; Ctrl+W
+close-session=Ctrl+W;\s
 new-session=Ctrl+T; Ctrl+Return
 next-session=Shift+Right; Ctrl+PgDown
 previous-session=Shift+Left; Ctrl+PgUp
