@@ -92,7 +92,6 @@ NightTemperature=4400
 bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
-desktopgridEnabled=false
 forceblurEnabled=false
 highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
@@ -235,6 +234,7 @@ active=-1
 count=0
 
 [TabBox]
+DesktopMode=2
 HighlightWindows=false
 LayoutName=org.kde.breeze.desktop
 

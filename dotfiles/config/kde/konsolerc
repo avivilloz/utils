@@ -23,7 +23,7 @@ ToolBarsMovable=Disabled
 eDP-1 Height 1920x1080=1016
 eDP-1 Width 1920x1080=948
 eDP-1 XPosition 1920x1080=964
-eDP-1 YPosition 1920x1080=541
+eDP-1 YPosition 1920x1080=29
 
 [Notification Messages]
 CloseAllEmptyTabs=true
