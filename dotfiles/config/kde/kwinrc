@@ -93,7 +93,6 @@ blurEnabled=true
 contrastEnabled=true
 desktopgridEnabled=false
 forceblurEnabled=false
-highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_morphingpopupsEnabled=false
@@ -235,11 +234,11 @@ count=0
 
 [TabBox]
 DesktopMode=0
-HighlightWindows=false
 LayoutName=org.kde.breeze.desktop
 
 [TabBoxAlternative]
-HighlightWindows=false
+ActivitiesMode=0
+DesktopMode=0
 
 [Windows]
 AutoRaiseInterval=700
