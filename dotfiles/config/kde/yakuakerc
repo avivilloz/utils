@@ -12,10 +12,12 @@ FirstRun=false
 detailViewIconSize=16
 
 [Shortcuts]
-close-session=Ctrl+W;\s
+close-session=Ctrl+W; Ctrl+Q
 new-session=Ctrl+T; Ctrl+Return
-next-session=Shift+Right; Ctrl+PgDown
-previous-session=Shift+Left; Ctrl+PgUp
+next-session=Shift+Right; Ctrl+Tab
+next-terminal=none
+previous-session=Shift+Left; Ctrl+Shift+Tab
+previous-terminal=none
 
 [Window]
 Height=58
