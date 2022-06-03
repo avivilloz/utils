@@ -151,6 +151,8 @@ Dialog Size=846,608
 MaximumRemoteSize=0
 
 [Shortcuts]
+DocumentBack=Alt+Shift+Left;\s
+DocumentForward=Alt+Shift+Right;\s
 FullScreen=
 
 [WM]

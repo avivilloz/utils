@@ -55,8 +55,12 @@ BlurStrength=11
 [Effect-DesktopGrid]
 BorderWidth=5
 CustomLayoutRows=3
+DesktopNameAlignment=33
 LayoutMode=1
-ZoomDuration=200
+ZoomDuration=70
+
+[Effect-Overview]
+BlurBackground=false
 
 [Effect-PresentWindows]
 AllowClosingWindows=false
@@ -88,11 +92,15 @@ NightTemperature=4400
 bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
+desktopgridEnabled=false
 forceblurEnabled=false
 highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_scaleEnabled=false
+mousemarkEnabled=true
+overviewEnabled=true
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
@@ -228,6 +236,7 @@ count=0
 
 [TabBox]
 HighlightWindows=false
+LayoutName=org.kde.breeze.desktop
 
 [TabBoxAlternative]
 DesktopMode=2
