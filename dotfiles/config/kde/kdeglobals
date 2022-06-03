@@ -151,15 +151,7 @@ Dialog Size=846,608
 MaximumRemoteSize=0
 
 [Shortcuts]
-Back=Back
-BackwardWord=
-DocumentBack=Alt+Shift+Left;\s
-DocumentForward=Alt+Shift+Right;\s
-Forward=Forward
-ForwardWord=
-FullScreen=
-NextCompletion=
-PrevCompletion=
+Forward=Forward; Alt+Right
 
 [WM]
 activeBackground=47,52,63

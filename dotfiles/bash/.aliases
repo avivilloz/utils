@@ -216,5 +216,7 @@ alias pyvedeact="deactivate"
 
 #kde plasma theme
 alias kdechdwp="bash $scriptsdir/kde/kdechdwp.sh" #change kde default wallpaper
-alias plshr="killall plasmashell && kstart plasmashell" #restart plasmashell
 alias kwinr="kwin_x11 --replace"
+alias pshr="killall plasmashell && kstart plasmashell" #restart plasmashell
+alias pshstart="kstart plasmashell"
+alias pshstop="killall plasmashell"
