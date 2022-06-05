@@ -98,7 +98,6 @@ kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_scaleEnabled=false
 mousemarkEnabled=true
-overviewEnabled=true
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
@@ -109,8 +108,8 @@ enableMonocleLayout=false
 enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
-floatingClass=yakuake,spectacle,systemsettings,godot,qalculate-gtk,ark,kclock
-ignoreClass=
+floatingClass=yakuake,spectacle,qalculate-gtk,ark,kclock
+ignoreClass=systemsettings,godot
 ignoreRole=
 keepFloatAbove=false
 layoutPerActivity=false
@@ -233,11 +232,9 @@ active=-1
 count=0
 
 [TabBox]
-DesktopMode=0
 LayoutName=org.kde.breeze.desktop
 
 [TabBoxAlternative]
-ActivitiesMode=0
 DesktopMode=0
 
 [Windows]
