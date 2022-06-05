@@ -15,9 +15,9 @@ detailViewIconSize=16
 close-session=Ctrl+W;\s
 file_quit=Ctrl+Q
 new-session=Ctrl+T; Ctrl+Return
-next-session=Shift+Right; Ctrl+Tab
+next-session=Ctrl+PgDown; Ctrl+Tab
 next-terminal=none
-previous-session=Shift+Left; Ctrl+Shift+Tab
+previous-session=Ctrl+PgUp; Ctrl+Shift+Tab
 previous-terminal=none
 
 [Window]
