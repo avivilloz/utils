@@ -118,6 +118,9 @@ menuFont=Iosevka,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Iosevka,8,-1,5,50,0,0,0,0,0
 toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 
+[Icons]
+Theme=Tela-nord-dark
+
 [KDE]
 LookAndFeelPackage=org.kde.default.desktop
 
