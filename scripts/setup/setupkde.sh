@@ -15,18 +15,20 @@ echo do you want to config kde? [y/n]
 read ans
 if [ $ans  = "y" ]; then
     #config
-	kdeconfigfilespath="~/git/utils/dotfiles/config/kde"
-    configfilespath="~/.config"
-	for file in $kdeconfigfilespath/*;
+	kdeconfigfilespath=~/git/utils/dotfiles/config/kde
+    configfilespath=~/.config
+	cd $kdeconfigfilespath
+	for file in *;
 	do
         rm -rf $configfilespath/$file
 		ln -sf $kdeconfigfilespath/$file $configfilespath/$file
 	done
 
     #share
-	kdesharefilespath="~/git/utils/resources/share/kde"
-    sharefilespath="~/.local/share"
-	for file in $kdesharefilespath/*;
+	kdesharefilespath=~/git/utils/resources/share/kde
+    sharefilespath=~/.local/share
+	cd $kdesharefilespath
+	for file in *;
 	do
         rm -rf $sharefilespath/$file
 		ln -sf $kdesharefilespath/$file $sharefilespath/$file
