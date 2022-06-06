@@ -231,9 +231,6 @@ count=0
 active=-1
 count=0
 
-[TabBox]
-LayoutName=org.kde.breeze.desktop
-
 [TabBoxAlternative]
 DesktopMode=0
 

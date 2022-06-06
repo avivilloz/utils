@@ -43,8 +43,11 @@ alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 alias nvxup="sudo nvidia-xconfig"
 alias nvrun="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
 alias nvsmi="nvidia-smi"
-alias enctls="sudo envycontrol --dm sddm -s"
-alias enctlq="envycontrol --query"
+
+#graphic cards
+alias currgpu="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
+alias gpus="bash $scriptsdir/gpu/gpuswitch.sh"
+alias gpuq="envycontrol --query"
 
 #alacritty
 alias at='alacritty-themes'
@@ -77,9 +80,6 @@ alias bupdf="bash $scriptsdir/backup/backupdesktopfiles.sh"
 #setup
 alias addsetup="bash $scriptsdir/setup/addsetup.sh"
 alias setup="bash $scriptsdir/setup/setup.sh"
-
-#graphic cards
-alias currgc="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
 
 #boot options
 alias bootopl="efibootmgr"
@@ -152,15 +152,15 @@ alias archup="bash $scriptsdir/update/archup.sh"
 alias debup="bash $scriptsdir/update/debup.sh"
 
 #gcc compilation aliases: debug mode, release mode
-alias gd='gcc -ansi -pedantic-errors -Wall -Wextra -g'
-alias gr='gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
-alias gd99='gcc -std=c99 -pedantic-errors -Wall -Wextra -g'
-alias gr99='gcc -std=c99 -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
+alias gccd='gcc -ansi -pedantic-errors -Wall -Wextra -g'
+alias gccr='gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
+alias gccd99='gcc -std=c99 -pedantic-errors -Wall -Wextra -g'
+alias gccr99='gcc -std=c99 -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
 
-alias gdpp='g++ -std=gnu++98 -Weffc++ -pedantic-errors -Wall -Wextra -g'
-alias grpp='g++ -std=gnu++98 -Weffc++ -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
-alias gdpp11='g++ -std=gnu++11 -Weffc++ -pedantic-errors -Wall -Wextra -g'
-alias grpp11='g++ -std=gnu++11 -Weffc++ -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
+alias gppd='g++ -std=gnu++98 -Weffc++ -pedantic-errors -Wall -Wextra -g'
+alias gppr='g++ -std=gnu++98 -Weffc++ -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
+alias gppd11='g++ -std=gnu++11 -Weffc++ -pedantic-errors -Wall -Wextra -g'
+alias gppr11='g++ -std=gnu++11 -Weffc++ -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
 
 #valgrind
 alias vlg='valgrind --leak-check=yes --track-origins=yes'
@@ -192,7 +192,7 @@ alias mpl="mpc playlist"
 alias mup="mpc update && mpc ls | mpc add"
 alias mcl="mpc clear"
 alias mtg="mpc toggle"
-alias mm="bash $scriptsdir/mpd/music_manager.sh"
+alias mm="bash $scriptsdir/mpd/musicmanager.sh"
 
 #python
 alias pipin="python -m pip install"

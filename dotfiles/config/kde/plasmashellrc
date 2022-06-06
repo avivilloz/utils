@@ -5,6 +5,9 @@ Number of Actions=0
 HDMI-0 Height 1920x1080=482
 HDMI-0 Width 1920x1080=544
 
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
 [PlasmaViews][Panel 108]
 alignment=132
 panelOpacity=2
@@ -36,5 +39,6 @@ thickness=22
 thickness=22
 
 [ScreenConnectors]
-0=eDP-1-1
-1=HDMI-0
+0=HDMI-0
+1=eDP-1-1
+2=eDP-1

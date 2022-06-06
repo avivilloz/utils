@@ -108,8 +108,8 @@ AccentColor=111,125,154
 AllowKDEAppsToRememberWindowPositions=false
 BrowserApplication=firefox.desktop
 ColorSchemeHash=d912f872ee4a43675890870527bc91e4688464f2
-TerminalApplication=alacritty
-TerminalService=Alacritty.desktop
+TerminalApplication=konsole
+TerminalService=org.kde.konsole.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=Iosevka,10,-1,5,50,0,0,0,0,0
@@ -117,9 +117,6 @@ font=Iosevka,11,-1,5,50,0,0,0,0,0
 menuFont=Iosevka,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Iosevka,8,-1,5,50,0,0,0,0,0
 toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
-
-[Icons]
-Theme=Tela-nord-dark
 
 [KDE]
 LookAndFeelPackage=org.kde.default.desktop
