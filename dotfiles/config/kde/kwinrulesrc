@@ -60,7 +60,7 @@ wmclassmatch=1
 [1]
 Description=Application settings for gnucash
 clientmachine=localhost
-desktops=10d44f74-66be-4544-b73e-f5eb09078136
+desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
 wmclass=gnucash
 wmclassmatch=1

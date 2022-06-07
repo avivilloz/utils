@@ -83,6 +83,7 @@ DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
+filterActivityInfo=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
 
@@ -107,9 +108,6 @@ plugin=org.kde.plasma.showActivityManager
 [Containments][108][Applets][301][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
-
-[Containments][108][Applets][301][Configuration][General]
-showActivityIcon=false
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
