@@ -15,6 +15,9 @@ restartCommand1=/usr/lib/DiscoverNotifier,-session,10144e2d5e5000165108963900000
 restartStyleHint1=0
 userId1=avivilloz
 
+[SubSession: 045e3a75-2e80-4e2c-afc3-559b7ff6e6d8]
+count=0
+
 [SubSession: 0dfec7fa-a2f3-4590-bdc4-06c1d60246ad]
 count=0
 
@@ -58,6 +61,9 @@ count=0
 count=0
 
 [SubSession: 538a94b7-97c1-48a7-9c5c-b09dd0d41a24]
+count=0
+
+[SubSession: 53ad1cba-0937-4085-9be8-5ea0f941be82]
 count=0
 
 [SubSession: 5e9413dd-d654-4156-9b86-3cbfe8b96b0f]

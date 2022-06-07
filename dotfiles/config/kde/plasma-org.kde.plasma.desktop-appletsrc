@@ -1,16 +1,25 @@
 [ActionPlugins][0]
-BackButton;NoModifier=switchactivity
-ForwardButton;NoModifier=switchwindow
-LeftButton;NoModifier=org.kde.applauncher
-MiddleButton;NoModifier=org.kde.switchdesktop
+BackButton;NoModifier=org.kde.switchdesktop
+ForwardButton;NoModifier=switchactivity
+LeftButton;ControlModifier=org.kde.applauncher
+MiddleButton;NoModifier=switchwindow
 RightButton;NoModifier=org.kde.contextmenu
+
+[ActionPlugins][0][BackButton;NoModifier]
+mode=1
 
 [ActionPlugins][0][ForwardButton;NoModifier]
 mode=0
 showAppsByName=true
 
-[ActionPlugins][0][LeftButton;NoModifier]
+[ActionPlugins][0][LeftButton;ControlModifier]
 showAppsByName=false
+
+[ActionPlugins][0][LeftButton;NoModifier]
+showAppsByName=true
+
+[ActionPlugins][0][MiddleButton;NoModifier]
+mode=0
 
 [ActionPlugins][0][RightButton;NoModifier]
 _add panel=true
@@ -362,6 +371,7 @@ ToolBoxButtonY=22
 
 [Containments][298][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][299]
 ItemGeometries-1920x1080=
@@ -445,35 +455,6 @@ plugin=org.kde.plasma.bluetooth
 [Containments][311][General]
 extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.kclock_1x2,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.kclock_1x2,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
-
-[Containments][326]
-ItemGeometriesHorizontal=
-activityId=761977ae-4293-4904-8616-66fe2bdd8e06
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][326][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][326][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
-
-[Containments][329]
-activityId=53ad1cba-0937-4085-9be8-5ea0f941be82
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][329][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
