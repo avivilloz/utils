@@ -1,6 +1,16 @@
 [ActionPlugins][0]
+BackButton;NoModifier=switchactivity
+ForwardButton;NoModifier=switchwindow
+LeftButton;NoModifier=org.kde.applauncher
+MiddleButton;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
-wheel:Vertical;NoModifier=org.kde.switchdesktop
+
+[ActionPlugins][0][ForwardButton;NoModifier]
+mode=0
+showAppsByName=true
+
+[ActionPlugins][0][LeftButton;NoModifier]
+showAppsByName=false
 
 [ActionPlugins][0][RightButton;NoModifier]
 _add panel=true
@@ -20,6 +30,9 @@ edit mode=true
 manage activities=true
 remove=true
 showAppsByName=false
+
+[ActionPlugins][0][wheel:Vertical;NoModifier]
+mode=0
 
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
@@ -338,6 +351,10 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][298][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][298][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=516
@@ -430,6 +447,7 @@ extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.kclock_1x2,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
 
 [Containments][326]
+ItemGeometriesHorizontal=
 activityId=761977ae-4293-4904-8616-66fe2bdd8e06
 formfactor=0
 immutability=1
@@ -438,7 +456,23 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][326][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][326][Wallpaper][org.kde.image][General]
+Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+
+[Containments][329]
+activityId=53ad1cba-0937-4085-9be8-5ea0f941be82
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][329][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments107Appletsts][116][Configuration][General]
