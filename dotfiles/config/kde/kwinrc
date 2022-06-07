@@ -97,6 +97,7 @@ kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_morphingpopupsEnabled=false
 kwin4_effect_scaleEnabled=false
 mousemarkEnabled=true
+overviewEnabled=true
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
@@ -183,6 +184,10 @@ active=-1
 count=0
 
 [SubSession: 6921c859-1c8d-44a0-b27c-6a0fa6306210]
+active=-1
+count=0
+
+[SubSession: 761977ae-4293-4904-8616-66fe2bdd8e06]
 active=-1
 count=0
 
