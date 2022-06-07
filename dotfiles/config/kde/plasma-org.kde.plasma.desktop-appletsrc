@@ -13,7 +13,7 @@ mode=0
 showAppsByName=true
 
 [ActionPlugins][0][LeftButton;ControlModifier]
-showAppsByName=false
+showAppsByName=true
 
 [ActionPlugins][0][LeftButton;NoModifier]
 showAppsByName=true
