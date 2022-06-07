@@ -1,8 +1,8 @@
 [ActionPlugins][0]
-BackButton;NoModifier=org.kde.switchdesktop
-ForwardButton;NoModifier=switchactivity
-LeftButton;ControlModifier=org.kde.applauncher
-MiddleButton;NoModifier=switchwindow
+LeftButton;AltModifier=switchactivity
+LeftButton;ControlModifier=org.kde.switchdesktop
+RightButton;AltModifier=switchwindow
+RightButton;ControlModifier=org.kde.applauncher
 RightButton;NoModifier=org.kde.contextmenu
 
 [ActionPlugins][0][BackButton;NoModifier]
@@ -13,6 +13,7 @@ mode=0
 showAppsByName=true
 
 [ActionPlugins][0][LeftButton;ControlModifier]
+mode=0
 showAppsByName=true
 
 [ActionPlugins][0][LeftButton;NoModifier]
@@ -20,6 +21,12 @@ showAppsByName=true
 
 [ActionPlugins][0][MiddleButton;NoModifier]
 mode=0
+
+[ActionPlugins][0][RightButton;AltModifier]
+mode=0
+
+[ActionPlugins][0][RightButton;ControlModifier]
+showAppsByName=false
 
 [ActionPlugins][0][RightButton;NoModifier]
 _add panel=true
