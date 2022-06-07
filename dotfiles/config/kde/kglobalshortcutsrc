@@ -82,7 +82,7 @@ _k_friendly_name=Custom Shortcuts Service
 {21da10ab-c59a-4563-a1f3-1e0ea39f906e}=Alt+Shift+F11,none,plasmashell_restart
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 {d7cd144e-22cc-40ed-a19a-ca388dd06074}=Alt+Shift+F10,none,kwin_restart
-{f96cca5d-1825-4a4c-a426-2354cb6021d9}=Meta+M,none,music_manager
+{f96cca5d-1825-4a4c-a426-2354cb6021d9}=Meta+M,none,musicmanager
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -107,7 +107,7 @@ ClearLastMouseMark=Meta+Shift+F12,Meta+Shift+F12,Clear Last Mouse Mark
 ClearMouseMarks=Meta+Shift+F11,Meta+Shift+F11,Clear All Mouse Marks
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tCtrl+Space,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeAll=Ctrl+Space\tLaunch (C)\tCtrl+F10,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 Increase Opacity=none,,Increase Opacity of Active Window by 5 %
 Invert=Meta+Ctrl+I,Meta+Ctrl+I,Toggle Invert Effect

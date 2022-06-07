@@ -93,6 +93,7 @@ blurEnabled=true
 contrastEnabled=true
 desktopgridEnabled=false
 forceblurEnabled=false
+highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_morphingpopupsEnabled=false
@@ -109,7 +110,7 @@ enableSpreadLayout=false
 enableStairLayout=false
 enableThreeColumnLayout=false
 floatingClass=yakuake,spectacle,qalculate-gtk,ark,kclock
-ignoreClass=godot
+ignoreClass=godot,systemsettings
 ignoreRole=
 keepFloatAbove=false
 layoutPerActivity=false
@@ -231,8 +232,12 @@ count=0
 active=-1
 count=0
 
+[TabBox]
+HighlightWindows=false
+
 [TabBoxAlternative]
 DesktopMode=0
+HighlightWindows=false
 
 [Windows]
 AutoRaiseInterval=700
