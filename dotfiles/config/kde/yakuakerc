@@ -12,9 +12,9 @@ FirstRun=false
 detailViewIconSize=16
 
 [Shortcuts]
-close-session=Ctrl+W;\s
+close-session=Ctrl+Shift+W;\s
 file_quit=Ctrl+Q
-new-session=Ctrl+T; Ctrl+Return
+new-session=Ctrl+Shift+T; Ctrl+Shift+Return
 next-session=Ctrl+PgDown; Ctrl+Tab
 next-terminal=none
 previous-session=Ctrl+PgUp; Ctrl+Shift+Tab

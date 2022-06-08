@@ -220,3 +220,6 @@ alias kwinr="kwin_x11 --replace"
 alias pshr="killall plasmashell && kstart plasmashell" #restart plasmashell
 alias pshstart="kstart plasmashell"
 alias pshstop="killall plasmashell"
+
+#vim
+alias vimpi="vim -c PlugInstall -c q -c q"
