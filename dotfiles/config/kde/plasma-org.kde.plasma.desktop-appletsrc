@@ -464,6 +464,7 @@ extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.kclock_1x2,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
 
 [Containments][331]
+ItemGeometriesHorizontal=
 activityId=557529b3-80e9-4453-9fda-d75e2e239f99
 formfactor=0
 immutability=1

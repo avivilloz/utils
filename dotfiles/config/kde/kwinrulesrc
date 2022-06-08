@@ -487,7 +487,7 @@ wmclassmatch=1
 [36]
 Description=Application settings for obsidian
 clientmachine=localhost
-desktops=7a47ee5d-b293-45f1-90d4-20664eae0de2
+desktops=2f8afb21-cc63-4c74-8ed9-1c3cc3e34e30
 desktopsrule=2
 noborderrule=2
 wmclass=obsidian

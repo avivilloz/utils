@@ -2,10 +2,10 @@
 update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_shortcuts_from_kwin.upd:bismuth-shortcuts-from-kwin
 
 [ActivityManager]
-_k_friendly_name=Plasma
+_k_friendly_name=Activity Manager
 switch-to-activity-2a98bbc4-a46c-4da4-bb6c-1073da83dbd3=none,none,Switch to activity "Project Budget"
-switch-to-activity-2f5a77ef-1256-4783-aea5-1d50178edb63=,none,Switch to activity "Default"
-switch-to-activity-557529b3-80e9-4453-9fda-d75e2e239f99=,none,Switch to activity "GameDev"
+switch-to-activity-2f5a77ef-1256-4783-aea5-1d50178edb63=none,none,Switch to activity "Default"
+switch-to-activity-557529b3-80e9-4453-9fda-d75e2e239f99=none,none,Switch to activity "GameDev"
 switch-to-activity-fead6ac1-9029-42ea-99c5-d27d0a2b4c0a=none,none,Switch to activity "Default"
 switch-to-activity-ff92c110-7e96-4ec9-8a30-594174f73e21=none,none,Switch to activity "Prep Guardicore"
 
@@ -108,7 +108,7 @@ ClearLastMouseMark=Meta+Shift+F12,Meta+Shift+F12,Clear Last Mouse Mark
 ClearMouseMarks=Meta+Shift+F11,Meta+Shift+F11,Clear All Mouse Marks
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+Space\tLaunch (C)\tCtrl+F10,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeAll=Meta+S\tLaunch (C)\tCtrl+F10,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 Increase Opacity=none,,Increase Opacity of Active Window by 5 %
 Invert=Meta+Ctrl+I,Meta+Ctrl+I,Toggle Invert Effect
@@ -154,9 +154,9 @@ Switch to Desktop 6=none,,Switch to Desktop 6
 Switch to Desktop 7=none,,Switch to Desktop 7
 Switch to Desktop 8=none,,Switch to Desktop 8
 Switch to Desktop 9=none,,Switch to Desktop 9
-Switch to Next Desktop=none,,Switch to Next Desktop
+Switch to Next Desktop=Meta+Alt+Tab,,Switch to Next Desktop
 Switch to Next Screen=none,,Switch to Next Screen
-Switch to Previous Desktop=none,,Switch to Previous Desktop
+Switch to Previous Desktop=Meta+Alt+Shift+Tab,,Switch to Previous Desktop
 Switch to Previous Screen=none,,Switch to Previous Screen
 Switch to Screen 0=none,,Switch to Screen 0
 Switch to Screen 1=none,,Switch to Screen 1
@@ -323,7 +323,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Activity switching
+_k_friendly_name=Plasma
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=Meta+0,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
@@ -342,7 +342,7 @@ activate widget 180=none,none,Activate Minimal Menu Widget
 activate widget 249=Meta+A,none,Activate Application Dashboard Widget
 activate widget 282=Alt+Return,none,Activate Global Menu Widget
 activate widget 293=none,none,Activate Activity Pager Widget
-activate widget 328=,none,Activate Activity Pager Widget
+activate widget 328=none,none,Activate Activity Pager Widget
 activate widget 4=none,none,Activate Pager Widget
 activate widget 50=none,none,Activate Lock/Logout Widget
 activate widget 8=none,none,Activate System Tray Widget
