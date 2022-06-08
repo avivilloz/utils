@@ -123,7 +123,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][108][Applets][310][Configuration]
-PreloadWeight=55
+PreloadWeight=70
 SystrayContainmentId=311
 
 [Containments][108][Applets][328]
@@ -240,12 +240,13 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=85
+PreloadWeight=95
 
 [Containments][204][Applets][297][Configuration][Appearance]
 customDateFormat=ddd d/M/yy
 dateDisplayFormat=BesideTime
 dateFormat=custom
+showDate=false
 showSeconds=true
 use24hFormat=2
 
@@ -458,6 +459,10 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][311][Applets][325]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][311][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][311][General]
 extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.kclock_1x2,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
