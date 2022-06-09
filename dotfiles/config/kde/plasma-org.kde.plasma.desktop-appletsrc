@@ -123,7 +123,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][108][Applets][310][Configuration]
-PreloadWeight=70
+PreloadWeight=100
 SystrayContainmentId=311
 
 [Containments][108][Applets][328]
@@ -424,6 +424,9 @@ plugin=org.kde.plasma.keyboardlayout
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][311][Applets][316][Configuration]
+PreloadWeight=55
+
 [Containments][311][Applets][317]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
@@ -431,6 +434,9 @@ plugin=org.kde.plasma.keyboardindicator
 [Containments][311][Applets][318]
 immutability=1
 plugin=org.kde.plasma.volume
+
+[Containments][311][Applets][318][Configuration]
+PreloadWeight=60
 
 [Containments][311][Applets][319]
 immutability=1
@@ -452,13 +458,22 @@ plugin=org.kde.plasma.battery
 immutability=1
 plugin=org.kde.plasma.mediacontroller
 
+[Containments][311][Applets][323][Configuration]
+PreloadWeight=60
+
 [Containments][311][Applets][324]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
+[Containments][311][Applets][324][Configuration]
+PreloadWeight=55
+
 [Containments][311][Applets][325]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][311][Applets][325][Configuration]
+PreloadWeight=55
 
 [Containments][311][ConfigDialog]
 DialogHeight=600

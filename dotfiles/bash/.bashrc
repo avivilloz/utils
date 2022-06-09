@@ -34,6 +34,8 @@ PS1='\[\033[01;32m\]\u \[\033[01;34m\]\W\[\033[00m\] \$ '
 # don't put duplicate lines or lines starting with space in the history.
 HISTCONTROL=ignoreboth
 
+HISTTIMEFORMAT="%Y-%m-%d %T "
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
