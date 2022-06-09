@@ -7,8 +7,10 @@ echo -------------------------------------------------------------------------
 echo do you want to do a complete install of kde on arch -needs yay installed- ? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    sudo pacman -S plasma sddm kdeconnect ark dolphin konsole gwenview okular spectacle yakuake packagekit-qt5 --needed
+    sudo pacman -S sddm plasma kdeconnect ark dolphin konsole gwenview okular spectacle yakuake packagekit-qt5 --needed
     yay -S kwin-bismuth --needed
+
+	sudo systemctl enable sddm
 fi
 
 echo do you want to config kde? [y/n]
