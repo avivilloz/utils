@@ -1,0 +1,7 @@
+[Desktop Entry]
+Charset=
+Hidden=false
+Keys=archwiki,arch,awiki,alwiki
+Name=ArchWiki
+Query=https://wiki.archlinux.org/index.php?search=\\{@}
+Type=Service
