@@ -11,6 +11,12 @@ if [ $ans  = "y" ]; then
     yay -S nerd-fonts-complete kwin-bismuth kclock --needed
 fi
 
+echo do you want to install needed packages for debian? [y/n]
+read ans
+if [ $ans  = "y" ]; then
+	sudo apt install kwin-bismuth
+fi
+
 echo do you want to config kde? [y/n]
 read ans
 if [ $ans  = "y" ]; then
@@ -33,4 +39,10 @@ if [ $ans  = "y" ]; then
         rm -rf $sharefilespath/$file
 		ln -sf $kdesharefilespath/$file $sharefilespath/$file
 	done
+
+	#fonts
+	gitfontspath=~/git/utils/resources/fonts
+    localfontspath=~/.fonts
+	rm -rf $localfontspath
+	ln -sf $gitfontspath $localfontspath
 fi
