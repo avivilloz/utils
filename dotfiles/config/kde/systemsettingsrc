@@ -1,0 +1,47 @@
+[KFileDialog Settings]
+Recent Files[$e]=ign-0011.png,file:$HOME/git/utils/scripts/mpd/mm.sh,file:$HOME/.local/share/applications/mm.desktop,file:$HOME/git/utils/scripts/kde/plasmashell_restart.sh,file:$HOME/Pictures/profile/IMG_2272.JPG,file:$HOME/.local/share/wallpapers/ign_unsplash46.png,file:$HOME/.local/share/wallpapers/ign-0009.png,file:$HOME/.local/share/wallpapers/archlinux.png,file:///mnt/sda1/pictures/gabi/Foto/celphone_pics/IMG-20200910-WA0001.jpg
+Recent URLs[$e]=file:///mnt/sda1/pictures/gabi/Foto/celphone_pics/,file:$HOME/.local/share/wallpapers/,file:$HOME/.local/share/,file:$HOME/.local/,file:$HOME/Pictures/profile/,file:$HOME/git/utils/scripts/mpd/,file:$HOME/git/utils/scripts/,file:$HOME/git/utils/,file:$HOME/git/utils/scripts/kde/,file:$HOME/git/,file:$HOME/.local/share/applications/
+detailViewIconSize=48
+
+[MainWindow]
+HDMI-0 Height 1920x1080=874
+HDMI-0 Width 1920x1080=1281
+HDMI-0 XPosition 1920x1080=319
+HDMI-0 YPosition 1920x1080=100
+HDMI-0 eDP-1-1 Height 1920x1080=774
+HDMI-0 eDP-1-1 Width 1920x1080=1126
+HDMI-0 eDP-1-1 XPosition 1920x1080=2317
+HDMI-0 eDP-1-1 YPosition 1920x1080=144
+HDMI-1-0 Height 1920x1080=1016
+HDMI-1-0 Width 1920x1080=1906
+HDMI-1-0 XPosition 1920x1080=7
+HDMI-1-0 YPosition 1920x1080=29
+HDMI-1-0 eDP-1 Height 1920x1080=1016
+HDMI-1-0 eDP-1 Width 1920x1080=1906
+HDMI-1-0 eDP-1 XPosition 1920x1080=1927
+HDMI-1-0 eDP-1 YPosition 1920x1080=29
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABQEAAANqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 HDMI-1-0 Height 1920x1080=770
+eDP-1 HDMI-1-0 Width 1920x1080=1122
+eDP-1 HDMI-1-0 XPosition 1920x1080=399
+eDP-1 HDMI-1-0 YPosition 1920x1080=190
+eDP-1 Height 1920x1080=1016
+eDP-1 Width 1920x1080=1906
+eDP-1 XPosition 1920x1080=7
+eDP-1 YPosition 1920x1080=29
+eDP-1-1 Height 1920x1080=770
+eDP-1-1 Width 1920x1080=1122
+eDP-1-1 XPosition 1920x1080=399
+eDP-1-1 YPosition 1920x1080=177
+
+[Open-with settings]
+CompletionMode=1
+History=opti,fla,yaku,flame,akre,github,yak,konso,/home/avivilloz/git/utils/scripts/kde/plasmashell_restart.sh,mm,/home/avivilloz/git/utils/scripts/mpd/mm.sh,latt,git,thun,fire
+
+[UiSettings]
+ColorScheme=Default
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=false

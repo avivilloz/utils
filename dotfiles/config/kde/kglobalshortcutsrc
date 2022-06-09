@@ -84,6 +84,7 @@ _k_friendly_name=Custom Shortcuts Service
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
 {d7cd144e-22cc-40ed-a19a-ca388dd06074}=Alt+Shift+F10,none,kwin_restart
 {f96cca5d-1825-4a4c-a426-2354cb6021d9}=Meta+M,none,musicmanager
+{fcf1b46d-0f2f-4108-aecd-a030addca730}=Alt+G,none,New Action
 
 [kmix]
 _k_friendly_name=Audio Volume
