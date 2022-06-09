@@ -122,11 +122,6 @@ screenGapTop=3
 tileLayoutGap=3
 untileByDragging=false
 
-[Script-forceblur]
-blurExceptMatching=true
-blurMatching=false
-patterns=
-
 [SubSession: 0dfec7fa-a2f3-4590-bdc4-06c1d60246ad]
 active=-1
 count=0

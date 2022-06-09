@@ -4,19 +4,11 @@ echo -------------------------------------------------------------------------
 echo setup kde
 echo -------------------------------------------------------------------------
 
-echo do you want to do a complete install of kde on arch - includes fonts installation, and needs yay installed? [y/n]
+echo do you want to do a complete install of kde on arch -needs yay installed- ? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    sudo pacman -S plasma sddm kdeconnect ark dolphin konsole gwenview okular spectacle kcolorchooser packagekit-qt5 yakuake kdepim-addons akregator --needed
-    yay -S nerd-fonts-complete kwin-bismuth kclock --needed
-fi
-
-echo do you want to install needed packages for debian? [y/n]
-read ans
-if [ $ans  = "y" ]; then
-	echo "deb http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list > /dev/null
-	wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
-	sudo apt update && sudo apt install kwin-bismuth
+    sudo pacman -S plasma sddm kdeconnect ark dolphin konsole gwenview okular spectacle yakuake packagekit-qt5 --needed
+    yay -S kwin-bismuth --needed
 fi
 
 echo do you want to config kde? [y/n]
