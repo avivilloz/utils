@@ -256,3 +256,5 @@ WindowSnapZone=0
 BorderSize=Tiny
 BorderSizeAuto=false
 ShowToolTips=false
+library=org.kde.bismuth.decoration
+theme=Bismuth
