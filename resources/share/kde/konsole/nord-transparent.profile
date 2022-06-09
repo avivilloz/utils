@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=nord-transparent
-Font=JetBrainsMono Nerd Font,14,-1,5,50,0,0,0,0,0
+Font=JetBrainsMono Nerd Font,15,-1,5,50,0,0,0,0,0
 LineSpacing=0
 
 [General]
