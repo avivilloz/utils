@@ -136,7 +136,7 @@ ForegroundPositive[$d]
 ForegroundVisited[$d]
 
 [Data]
-DataCount=5
+DataCount=4
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
@@ -1082,32 +1082,6 @@ TriggersCount=1
 Key=Meta+M
 Type=SHORTCUT
 Uuid={f96cca5d-1825-4a4c-a426-2354cb6021d9}
-
-[Data_5]
-Comment=Comment
-Enabled=true
-Name=New Action
-Type=SIMPLE_ACTION_DATA
-
-[Data_5Actions]
-ActionsCount=1
-
-[Data_5Actions0]
-CommandURL=hello
-Type=COMMAND_URL
-
-[Data_5Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_5Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_5Triggers0]
-Key=Alt+G
-Type=SHORTCUT
-Uuid={fcf1b46d-0f2f-4108-aecd-a030addca730}
 
 [DirSelect Dialog]
 DirSelectDialog Size[$d]

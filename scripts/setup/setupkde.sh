@@ -11,13 +11,16 @@ if [ $ans  = "y" ]; then
     yay -S nerd-fonts-complete kwin-bismuth kclock --needed
 fi
 
-echo do you want to install needed packages for debian? [y/n]
+echo do you want to install needed packages for kde-neon? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-	echo "deb http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list > /dev/null
-	wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
-	sudo apt update && sudo apt install kwin-bismuth
-	sudo apt install -f
+	pkcon install kwin-bismuth
+fi
+
+echo do you want to install needed packages for ubuntu? [y/n]
+read ans
+if [ $ans  = "y" ]; then
+	sudo apt install kwin-bismuth
 fi
 
 echo do you want to config kde? [y/n]

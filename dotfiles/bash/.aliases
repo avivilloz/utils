@@ -146,6 +146,14 @@ alias dnfarm="sudo dnf autoremove"
 alias dnfcc="sudo dnf clean packages"
 alias dnfl="sudo dnf list installed"
 
+#kde neon
+alias knin="pkcon install"
+alias knup="pkcon update"
+alias knrm="pkcon remove"
+alias knrpl="pkcon repo-list"
+alias knrpe="pkcon repo-enable"
+alias knrpe="pkcon repo-disable"
+
 #all packet managers
 alias fedup="bash $scriptsdir/update/fedup.sh"
 alias archup="bash $scriptsdir/update/archup.sh"
