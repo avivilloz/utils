@@ -112,11 +112,11 @@ TerminalApplication=konsole
 TerminalService=org.kde.konsole.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
-font=JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0
-menuFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
-smallestReadableFont=JetBrainsMono Nerd Font,9,-1,5,50,0,0,0,0,0
-toolBarFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+fixed=Iosevka,10,-1,5,50,0,0,0,0,0
+font=Iosevka,11,-1,5,50,0,0,0,0,0
+menuFont=Iosevka,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Iosevka,9,-1,5,50,0,0,0,0,0
+toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 
 [KDE]
 LookAndFeelPackage=org.kde.default.desktop
@@ -156,7 +156,7 @@ Forward=Forward; Alt+Right
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=JetBrainsMono Nerd Font,10,-1,5,50,0,0,0,0,0
+activeFont=Iosevka,10,-1,5,50,0,0,0,0,0
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63

@@ -242,7 +242,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][204][Applets][297][Configuration][Appearance]
 customDateFormat=ddd d/M/yy
@@ -444,6 +444,9 @@ PreloadWeight=60
 immutability=1
 plugin=org.kde.kdeconnect
 
+[Containments][311][Applets][319][Configuration]
+PreloadWeight=60
+
 [Containments][311][Applets][320]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
@@ -468,7 +471,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][311][Applets][325]
 immutability=1
