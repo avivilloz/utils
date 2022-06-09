@@ -7,11 +7,12 @@ echo -------------------------------------------------------------------------
 echo do you want to setup desktop files? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-	desktopfilespath=~/git/utils/dotfiles/desktopfiles
-	applicationspath=~/.local/share/applications
-	cd $desktopfilespath
+	gitdesktopfiles=~/git/utils/dotfiles/desktopfiles
+	localdesktopfiles=~/.local/share/applications
+	mkdir -p $localdesktopfiles
+	cd $gitdesktopfiles
 	for file in *;
 	do
-		ln -sf $desktopfilespath/$file $applicationspath/$file
+		ln -sf $gitdesktopfiles/$file $localdesktopfiles/$file
 	done
 fi
