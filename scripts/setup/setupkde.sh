@@ -17,6 +17,7 @@ if [ $ans  = "y" ]; then
 	echo "deb http://deb.volian.org/volian/ scar main" | sudo tee /etc/apt/sources.list.d/volian-archive-scar-unstable.list > /dev/null
 	wget -qO - https://deb.volian.org/volian/scar.key | sudo tee /etc/apt/trusted.gpg.d/volian-archive-scar-unstable.gpg > /dev/null
 	sudo apt update && sudo apt install kwin-bismuth
+	sudo apt install -f
 fi
 
 echo do you want to config kde? [y/n]
