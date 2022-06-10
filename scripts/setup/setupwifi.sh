@@ -7,7 +7,9 @@ echo -------------------------------------------------------------------------
 echo do you want to setup network? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-	host=
-	password=
+	echo "wifi host:"
+	read host
+	echo "password:"
+	read password
 	sudo nmcli device wifi connect $host password $password
 fi

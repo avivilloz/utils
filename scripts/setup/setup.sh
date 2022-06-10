@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bash ~/git/utils/scripts/setup/setupnetwork.sh
+bash ~/git/utils/scripts/setup/setupwifi.sh
 bash ~/git/utils/scripts/setup/setupbash.sh
 bash ~/git/utils/scripts/setup/setupvim.sh
 bash ~/git/utils/scripts/setup/setupgit.sh
