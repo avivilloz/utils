@@ -59,8 +59,6 @@ alias mappen="bash $scriptsdir/random/mappen.sh"
 alias chrome="/opt/google/chrome/google-chrome"
 
 #edit
-alias edscript="bash $scriptsdir/edscript.sh"
-alias edalacritty="vim ~/.config/alacritty/alacritty.yml"
 alias edgrub="sudo vim /etc/default/grub"
 alias edgdm="sudo vim /etc/gdm/custom.conf"
 alias edsddm="sudo vim /etc/sddm.conf"

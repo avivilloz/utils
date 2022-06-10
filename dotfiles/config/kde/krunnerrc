@@ -2,6 +2,7 @@
 ActivityAware=false
 HistoryEnabled=false
 RetainPriorSearch=false
+history=
 
 [PlasmaRunnerManager]
 migrated=true
