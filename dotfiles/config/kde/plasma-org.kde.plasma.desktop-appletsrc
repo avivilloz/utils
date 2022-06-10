@@ -358,44 +358,6 @@ DialogWidth=1920
 [Containments][270][General]
 AppletOrder=274;286;272;273
 
-[Containments][298]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=2f5a77ef-1256-4783-aea5-1d50178edb63
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][298][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][298][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=516
-ToolBoxButtonY=22
-
-[Containments][298][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
-SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
-
-[Containments][299]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=2f5a77ef-1256-4783-aea5-1d50178edb63
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][299][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
-
 [Containments][311]
 activityId=
 formfactor=2
@@ -484,12 +446,13 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][311][General]
-extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.kclock_1x2,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
-knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.kclock_1x2,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
+extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
+knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard
 
-[Containments][331]
+[Containments][332]
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=557529b3-80e9-4453-9fda-d75e2e239f99
+activityId=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 formfactor=0
 immutability=1
 lastScreen=0
@@ -497,7 +460,7 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][331][Wallpaper][org.kde.image][General]
+[Containments][332][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments107Appletsts][116][Configuration][General]
