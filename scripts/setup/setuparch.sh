@@ -31,6 +31,9 @@ if [ $ans  = "y" ]; then
 	echo "echo "127.0.0.1	localhost\n::1	localhost\n127.0.1.1	$hostname" > /etc/hosts"
 	echo "127.0.0.1	localhost\n::1	localhost\n127.0.1.1	$hostname" > /etc/hosts
 
+	echo "vim /etc/hosts"
+	vim /etc/hosts
+
 	echo "passwd"
 	passwd
 
