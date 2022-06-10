@@ -38,11 +38,11 @@ eDP-1-1 YPosition 1920x1080=177
 eDP1 Height 1920x1080=770
 eDP1 Width 1920x1080=1122
 eDP1 XPosition 1920x1080=399
-eDP1 YPosition 1920x1080=177
+eDP1 YPosition 1920x1080=152
 
 [Open-with settings]
 CompletionMode=1
-History=opti,fla,yaku,flame,akre,github,yak,konso,/home/avivilloz/git/utils/scripts/kde/plasmashell_restart.sh,mm,/home/avivilloz/git/utils/scripts/mpd/mm.sh,latt,git,thun,fire
+History=firefo,opti,fla,yaku,flame,akre,github,yak,konso,/home/avivilloz/git/utils/scripts/kde/plasmashell_restart.sh,mm,/home/avivilloz/git/utils/scripts/mpd/mm.sh,latt,git,thun
 
 [UiSettings]
 ColorScheme=Default
