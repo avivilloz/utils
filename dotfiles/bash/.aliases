@@ -22,6 +22,8 @@ alias dus="du -sh *"
 alias duh="du -hs .[^.]*"
 alias dua="du -sch .[!.]* * |sort -h"
 alias findappname="xprop | grep WM_CLASS"
+alias username="whoami"
+alias hostname="echo $HOSTNAME"
 
 #system
 alias sysctlstart="sudo systemctl start"
@@ -231,3 +233,15 @@ alias pshstop="killall plasmashell"
 
 #vim
 alias vimpi="vim -c PlugInstall -c q -c q"
+
+#docker
+alias dkrr="sudo docker run"
+alias dkrrd="sudo docker run -d" #run detached (in the background)
+alias dkrps="sudo docker ps"
+alias dkrpsa="sudo docker ps -a" #show all containers, even paused ones
+alias dkrpull="sudo docker pull"
+alias dkrimgs="sudo docker images"
+alias dkrstart="sudo docker start"
+alias dkrstop="sudo docker stop"
+alias dkrlogs="sudo docker logs"
+alias dkrit="sudo docker exec -it /bin/bash" #gets you into the container's shell session (virtual environment, like python)
