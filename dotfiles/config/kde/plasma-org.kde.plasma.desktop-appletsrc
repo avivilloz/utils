@@ -425,7 +425,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][311][Applets][323][Configuration]
-PreloadWeight=60
+PreloadWeight=80
 
 [Containments][311][Applets][324]
 immutability=1
@@ -452,7 +452,9 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde
 [Containments][332]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=961dd88f-7878-41cc-8d07-cfa3265ca6d3
+
+[Containments][333]
+activityId=42bec42c-d331-4fce-b5f5-e8f8c8760459
 formfactor=0
 immutability=1
 lastScreen=0
@@ -460,7 +462,19 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][332][Wallpaper][org.kde.image][General]
+[Containments][333][Wallpaper][org.kde.image][General]
+Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+
+[Containments][334]
+activityId=338d8d7f-821b-4127-a934-8991f48bcdc3
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][334][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments107Appletsts][116][Configuration][General]

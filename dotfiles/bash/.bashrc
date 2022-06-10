@@ -29,7 +29,12 @@ DAEMON_COREFILE_LIMIT=unlimited
 ulimit -c unlimited
 
 #PS1='\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;34m\]\W\[\033[00m\] \$ '
-PS1='\[\033[01;32m\]\u \[\033[01;34m\]\W\[\033[00m\] \$ '
+#PS1='\[\033[01;32m\]\u \[\033[01;34m\]\W\[\033[00m\] \$ '
+if [ "$(whoami)" == root ]; then
+    PS1='\[\033[01;34m\]\W \[\033[01;31m\]\$ \[\033[00m\]'
+else
+    PS1='\[\033[01;34m\]\W \[\033[01;32m\]\$ \[\033[00m\]'
+fi
 
 # don't put duplicate lines or lines starting with space in the history.
 HISTCONTROL=ignoreboth
