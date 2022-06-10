@@ -124,21 +124,14 @@ alias pcmlq="pacman -Qe | grep"
 alias pcmq="pacman -Ss"
 
 #yay
-alias yyin="yay -S"
-alias yyup="yay -Syu"
-alias yyrm="yay -Rns"
-alias yyarm="yay -Yc"
-alias yycrm="yay -Scc"
-alias yyl="yay -Qe"
-alias yylq="yay -Qe | grep"
-alias yyq="yay -Ss"
-
-#paru
-alias prin="paru -S"
-alias prup="paru -Syu"
-alias prrm="paru -Rns"
-alias prl="paru -Qe"
-alias prq="paru -Ss"
+alias yayin="yay -S"
+alias yayup="yay -Syu"
+alias yayrm="yay -Rns"
+alias yayarm="yay -Yc"
+alias yaycrm="yay -Scc"
+alias yayl="yay -Qe"
+alias yaylq="yay -Qe | grep"
+alias yayq="yay -Ss"
 
 #dnf
 alias dnfin="sudo dnf install"

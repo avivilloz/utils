@@ -33,3 +33,9 @@ if [ $ans  = "y" ]; then
     sudo systemctl enable --now snapd.socket
     sudo ln -s /var/lib/snapd/snap /snap
 fi
+
+echo do you want to setup appimages? [y/n]
+read ans
+if [ $ans  = "y" ]; then
+    yay -S appimagelauncher
+fi
