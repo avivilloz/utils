@@ -87,6 +87,7 @@ DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
+filterActivityInfo=false
 lengthMarginsLock=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
@@ -127,18 +128,13 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=100
 SystrayContainmentId=311
 
-[Containments][108][Applets][328]
+[Containments][108][Applets][338]
 immutability=1
-plugin=org.kde.plasma.activitypager
+plugin=org.kde.plasma.showActivityManager
 
-[Containments][108][Applets][328][Configuration][ConfigDialog]
+[Containments][108][Applets][338][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
-
-[Containments][108][Applets][328][Configuration][General]
-displayedText=Number
-showOnlyCurrentScreen=true
-wrapPage=true
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
@@ -148,7 +144,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=328;308;281;282;309;310
+AppletOrder=338;308;281;282;309;310
 
 [Containments][204]
 activityId=
@@ -348,6 +344,7 @@ DialogWidth=720
 
 [Containments][270][Applets][286][Configuration][General]
 containmentType=Plasma
+filterActivityInfo=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
 
