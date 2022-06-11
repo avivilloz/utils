@@ -8,3 +8,4 @@ bash ~/git/utils/scripts/setup/setupsda.sh
 bash ~/git/utils/scripts/setup/setuppackagemanagers.sh
 bash ~/git/utils/scripts/setup/setupkde.sh
 bash ~/git/utils/scripts/setup/setupdesktopfiles.sh
+bash ~/git/utils/scripts/setup/setupapplications.sh
