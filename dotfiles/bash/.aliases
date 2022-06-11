@@ -25,6 +25,11 @@ alias findappname="xprop | grep WM_CLASS"
 alias username="whoami"
 alias hostname="echo $HOSTNAME"
 
+#format
+alias columnize="bash $scriptsdir/format/columnize.sh"
+alias tailize="bash $scriptsdir/format/tailize.sh"
+alias lessize="bash $scriptsdir/format/lessize.sh"
+
 #system
 alias sysctlstart="sudo systemctl start"
 alias sysctlstop="sudo systemctl stop"
@@ -235,4 +240,10 @@ alias dkrimgs="sudo docker images"
 alias dkrstart="sudo docker start"
 alias dkrstop="sudo docker stop"
 alias dkrlogs="sudo docker logs"
-alias dkrit="sudo docker exec -it /bin/bash" #gets you into the container's shell session (virtual environment, like python)
+alias dkrit="sudo docker exec -it /bin/bash" #gets you into the container's shell session (virtual environment, like python), it stands for interactive terminal
+alias dkrnwcr="sudo docker network create"
+alias dkrnwl="sudo docker network ls"
+
+#docker compose
+alias dkrcomup="sudo docker-compose up -f"
+alias dkrcomdown="docker-compose down -f"
