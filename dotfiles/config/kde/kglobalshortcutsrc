@@ -4,9 +4,6 @@ update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_sh
 [ActivityManager]
 _k_friendly_name=Plasma
 switch-to-activity-2f5a77ef-1256-4783-aea5-1d50178edb63=none,none,Switch to activity "Default"
-switch-to-activity-338d8d7f-821b-4127-a934-8991f48bcdc3=,none,Switch to activity "Youtube"
-switch-to-activity-42bec42c-d331-4fce-b5f5-e8f8c8760459=,none,Switch to activity "Code"
-switch-to-activity-557529b3-80e9-4453-9fda-d75e2e239f99=,none,Switch to activity "GameDev"
 switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -323,7 +320,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Activity switching
 activate task manager entry 1=Meta+1,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=Meta+0,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=Meta+2,Meta+2,Activate Task Manager Entry 2
