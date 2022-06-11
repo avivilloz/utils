@@ -32,7 +32,6 @@ if [ $ans  = "y" ]; then
 	sudo pacman -S timeshift
 	sudo pacman -S telegram-qt
 	sudo pacman -S stacer
-	sudo pacman -S superproductivity-bin
 	sudo pacman -S kdenlive
 	sudo pacman -S krita
 	sudo pacman -S kcharselect
