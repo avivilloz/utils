@@ -53,7 +53,7 @@ alias nvsmi="nvidia-smi"
 
 #graphic cards
 alias currgpu="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
-alias gpus="bash $scriptsdir/gpu/gpuswitch.sh"
+alias gpus="sudo bash $scriptsdir/gpu/gpuswitch.sh"
 alias gpuq="envycontrol --query"
 
 #alacritty
