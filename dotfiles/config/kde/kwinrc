@@ -1,7 +1,9 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,bismuth_new_logger.upd:bismuth-new-logger
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,bismuth_new_logger.upd:bismuth-new-logger,kwin.upd:overview-group-plugin-id
 
 [Compositing]
+GLTextureFilter=1
+LatencyPolicy=High
 OpenGLIsUnsafe=false
 WindowsBlockCompositing=false
 
@@ -53,13 +55,38 @@ BlurStrength=11
 [Effect-DesktopGrid]
 BorderWidth=5
 CustomLayoutRows=3
+DesktopLayoutMode=1
+DesktopNameAlignment=68
 LayoutMode=1
+ShowAddRemove=false
 ZoomDuration=50
 
 [Effect-Overview]
 BlurBackground=false
 
 [Effect-PresentWindows]
+AllowClosingWindows=false
+BorderActivateAll=9
+DrawWindowCaptions=false
+DrawWindowIcons=false
+LayoutMode=1
+MiddleButtonDesktop=2
+RightButtonDesktop=2
+RightButtonWindow=6
+
+[Effect-blur]
+BlurStrength=11
+
+[Effect-desktopgrid]
+BorderWidth=5
+CustomLayoutRows=3
+LayoutMode=1
+ZoomDuration=50
+
+[Effect-overview]
+BlurBackground=false
+
+[Effect-presentwindows]
 AllowClosingWindows=false
 BorderActivateAll=9
 DrawWindowCaptions=false
@@ -89,14 +116,12 @@ NightTemperature=4400
 bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
-desktopgridEnabled=false
 forceblurEnabled=false
 highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_scaleEnabled=false
 mousemarkEnabled=true
-overviewEnabled=true
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false

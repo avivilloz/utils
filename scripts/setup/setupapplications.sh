@@ -11,6 +11,7 @@ if [ $ans  = "y" ]; then
 	sudo pacman -S git --needed
 	sudo pacman -S mpc mpd ncmpcpp --needed
 	sudo systemctl enable --now mpd
+	yay -S mpdris2 --needed
 	sudo pacman -S neofetch --needed
 	sudo pacman -S obsidian --needed
 	sudo pacman -S bitwarden --needed

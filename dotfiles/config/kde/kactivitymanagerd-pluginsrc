@@ -1,2 +1,6 @@
 [Plugin-org.kde.ActivityManager.Resources.Scoring]
+off-the-record-activities=
 what-to-remember=1
+
+[Plugin-org.kde.ActivityManager.VirtualDesktopSwitch]
+desktop-for-961dd88f-7878-41cc-8d07-cfa3265ca6d3=10
