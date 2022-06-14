@@ -9,6 +9,9 @@ read ans
 if [ $ans  = "y" ]; then
 	sudo pacman -S vim --needed
 	sudo pacman -S git --needed
+	sudo pacman -S mpc mpd ncmpcpp --needed
+	sudo systemctl enable --now mpd
+	sudo pacman -S neofetch --needed
 	sudo pacman -S obsidian --needed
 	sudo pacman -S bitwarden --needed
 	sudo pacman -S blender --needed
