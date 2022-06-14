@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-249-961dd88f-7878-41cc-8d07-cfa3265ca6d3]
+ordering=applications:firefox.desktop,applications:org.kde.discover.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-249-global]
+ordering=applications:firefox.desktop,applications:org.kde.discover.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop
