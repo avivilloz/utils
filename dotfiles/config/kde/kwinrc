@@ -96,6 +96,9 @@ MiddleButtonDesktop=2
 RightButtonDesktop=2
 RightButtonWindow=6
 
+[Effect-windowview]
+BorderActivateAll=9
+
 [ElectricBorders]
 BottomLeft=ApplicationLauncher
 BottomRight=ShowDesktop
