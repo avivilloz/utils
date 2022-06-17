@@ -80,6 +80,8 @@ BlurStrength=11
 [Effect-desktopgrid]
 BorderWidth=5
 CustomLayoutRows=3
+DesktopLayoutMode=1
+DesktopNameAlignment=68
 LayoutMode=1
 ZoomDuration=50
 
