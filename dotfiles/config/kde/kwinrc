@@ -83,6 +83,7 @@ CustomLayoutRows=3
 DesktopLayoutMode=1
 DesktopNameAlignment=68
 LayoutMode=1
+ShowAddRemove=false
 ZoomDuration=50
 
 [Effect-overview]

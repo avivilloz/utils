@@ -137,7 +137,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][108][ConfigDialog]
-DialogHeight=91
+DialogHeight=93
 DialogWidth=1920
 
 [Containments][108][Configuration]
@@ -189,7 +189,6 @@ DialogWidth=800
 
 [Containments][204][Applets][211][Configuration][General]
 groupedTaskVisualization=2
-iconSpacing=3
 launchers=
 maxStripes=1
 showOnlyCurrentDesktop=false
@@ -257,7 +256,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][ConfigDialog]
-DialogHeight=91
+DialogHeight=93
 DialogWidth=1920
 
 [Containments][204][General]
@@ -425,6 +424,9 @@ plugin=org.kde.plasma.clipboard
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][311][Applets][322][Configuration]
+PreloadWeight=60
+
 [Containments][311][Applets][323]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -476,8 +478,8 @@ DialogWidth=800
 
 [Containments][339][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=387
-ToolBoxButtonY=24
+ToolBoxButtonX=357
+ToolBoxButtonY=22
 
 [Containments][339][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png

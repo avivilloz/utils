@@ -249,3 +249,8 @@ alias dkrnwl="sudo docker network ls"
 #docker compose
 alias dkrcomup="sudo docker-compose up -f"
 alias dkrcomdown="docker-compose down -f"
+
+#lenovo
+
+alias ideapcme="ideapad-cm enable"
+alias ideapcmstat="ideapad-cm status"
