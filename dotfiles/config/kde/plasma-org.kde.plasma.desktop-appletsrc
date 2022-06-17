@@ -137,7 +137,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][108][ConfigDialog]
-DialogHeight=93
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][108][Configuration]
@@ -189,6 +189,7 @@ DialogWidth=800
 
 [Containments][204][Applets][211][Configuration][General]
 groupedTaskVisualization=2
+iconSpacing=3
 launchers=
 maxStripes=1
 showOnlyCurrentDesktop=false
@@ -460,6 +461,7 @@ DialogWidth=800
 extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2
 iconSpacing=1
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.notifications,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2
+scaleIconsToFit=true
 
 [Containments][339]
 ItemGeometries-1920x1080=
@@ -478,8 +480,8 @@ DialogWidth=800
 
 [Containments][339][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=357
-ToolBoxButtonY=22
+ToolBoxButtonX=387
+ToolBoxButtonY=20
 
 [Containments][339][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
