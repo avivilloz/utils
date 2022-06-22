@@ -193,26 +193,6 @@ launchers=
 maxStripes=1
 showOnlyCurrentDesktop=false
 
-[Containments][204][Applets][249]
-immutability=1
-plugin=org.kde.plasma.kickerdash
-
-[Containments][204][Applets][249][Configuration]
-PreloadWeight=100
-
-[Containments][204][Applets][249][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][249][Configuration][General]
-customButtonImage=archlinux
-favoritesPortedToKAstats=true
-showRecentApps=false
-showRecentDocs=false
-
-[Containments][204][Applets][249][Shortcuts]
-global=Meta+A
-
 [Containments][204][Applets][261][Configuration]
 PreloadWeight=100
 
@@ -255,12 +235,28 @@ use24hFormat=2
 DialogHeight=600
 DialogWidth=800
 
+[Containments][204][Applets][341]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][204][Applets][341][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][341][Configuration][General]
+favoritesPortedToKAstats=true
+showRecentApps=false
+showRecentDocs=false
+
+[Containments][204][Applets][341][Shortcuts]
+global=Meta+A
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=249;211;209;205;208;297;296
+AppletOrder=341;211;209;205;208;297;296
 
 [Containments][263]
 activityId=
