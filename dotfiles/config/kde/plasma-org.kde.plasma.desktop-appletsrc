@@ -235,20 +235,25 @@ use24hFormat=2
 DialogHeight=600
 DialogWidth=800
 
-[Containments][204][Applets][341]
+[Containments][204][Applets][342]
 immutability=1
-plugin=org.kde.plasma.kickerdash
+plugin=org.kde.plasma.kickoff
 
-[Containments][204][Applets][341][Configuration][ConfigDialog]
+[Containments][204][Applets][342][Configuration]
+PreloadWeight=100
+
+[Containments][204][Applets][342][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
-[Containments][204][Applets][341][Configuration][General]
+[Containments][204][Applets][342][Configuration][General]
+applicationsDisplay=0
 favoritesPortedToKAstats=true
-showRecentApps=false
-showRecentDocs=false
+primaryActions=3
+showActionButtonCaptions=false
+systemFavorites=lock-screen\\,logout\\,save-session\\,switch-user\\,suspend\\,hibernate\\,reboot\\,shutdown
 
-[Containments][204][Applets][341][Shortcuts]
+[Containments][204][Applets][342][Shortcuts]
 global=Meta+A
 
 [Containments][204][ConfigDialog]
@@ -256,7 +261,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=341;211;209;205;208;297;296
+AppletOrder=342;211;209;205;208;297;296
 
 [Containments][263]
 activityId=
@@ -421,7 +426,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][311][Applets][322][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][311][Applets][323]
 immutability=1
