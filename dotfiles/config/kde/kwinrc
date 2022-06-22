@@ -122,6 +122,7 @@ NightTemperature=4400
 bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
+desktopgridEnabled=false
 forceblurEnabled=false
 highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true

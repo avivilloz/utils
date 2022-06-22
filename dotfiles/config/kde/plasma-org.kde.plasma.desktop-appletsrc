@@ -189,7 +189,6 @@ DialogWidth=800
 
 [Containments][204][Applets][211][Configuration][General]
 groupedTaskVisualization=2
-iconSpacing=3
 launchers=
 maxStripes=1
 showOnlyCurrentDesktop=false
@@ -257,7 +256,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][ConfigDialog]
-DialogHeight=93
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
