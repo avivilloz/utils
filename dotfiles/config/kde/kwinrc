@@ -109,7 +109,7 @@ TopLeft=ActivityManager
 TopRight=LockScreen
 
 [ModifierOnlyShortcuts]
-Meta=org.kde.krunner,/App,,toggleDisplay
+Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
 [NightColor]
 Active=true

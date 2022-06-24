@@ -254,7 +254,7 @@ showActionButtonCaptions=false
 systemFavorites=lock-screen\\,logout\\,save-session\\,switch-user\\,suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][204][Applets][342][Shortcuts]
-global=Meta+A
+global=Alt+F1
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
@@ -444,14 +444,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=80
+PreloadWeight=90
 
 [Containments][311][Applets][325]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][311][Applets][325][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][311][ConfigDialog]
 DialogHeight=600
