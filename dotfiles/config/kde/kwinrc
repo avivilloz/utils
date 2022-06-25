@@ -109,7 +109,7 @@ TopLeft=ActivityManager
 TopRight=LockScreen
 
 [ModifierOnlyShortcuts]
-Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
+Meta=org.kde.krunner,/App,,toggleDisplay
 
 [NightColor]
 Active=true
@@ -132,6 +132,7 @@ mousemarkEnabled=true
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
+windowviewEnabled=false
 
 [Script-bismuth]
 enableFloatingLayout=true
