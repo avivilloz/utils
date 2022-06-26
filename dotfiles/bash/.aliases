@@ -251,6 +251,10 @@ alias dkrcomup="sudo docker-compose up -f"
 alias dkrcomdown="docker-compose down -f"
 
 #lenovo
-
 alias ideapcme="ideapad-cm enable"
 alias ideapcmstat="ideapad-cm status"
+
+#tmux
+alias tmuxns="tmux new -s"
+alias tmuxls="tmux ls"
+alias tmuxatts="tmux attach-session -t"
