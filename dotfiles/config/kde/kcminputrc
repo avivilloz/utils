@@ -7,7 +7,7 @@ RepeatDelay=250
 RepeatRate=50
 
 [Mouse]
-X11LibInputXAccelProfileFlat=true
+X11LibInputXAccelProfileFlat=false
 XLbInptNaturalScroll=false
 
 [Tmp]

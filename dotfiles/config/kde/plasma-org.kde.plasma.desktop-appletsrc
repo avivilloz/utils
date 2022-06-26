@@ -235,26 +235,22 @@ use24hFormat=2
 DialogHeight=600
 DialogWidth=800
 
-[Containments][204][Applets][344]
+[Containments][204][Applets][345]
 immutability=1
-plugin=org.kde.plasma.kicker
+plugin=com.gitlab.cupnoodles14.kickoff
 
-[Containments][204][Applets][344][Configuration]
+[Containments][204][Applets][345][Configuration]
 PreloadWeight=100
 
-[Containments][204][Applets][344][Configuration][ConfigDialog]
-DialogHeight=691
-DialogWidth=1145
+[Containments][204][Applets][345][Configuration][ConfigDialog]
+DialogHeight=719
+DialogWidth=965
 
-[Containments][204][Applets][344][Configuration][General]
-alignResultsToBottom=false
+[Containments][204][Applets][345][Configuration][General]
 favoritesPortedToKAstats=true
-showIconsRootLevel=true
-showRecentApps=false
-showRecentDocs=false
-useExtraRunners=false
+menuItems=application:t,leave:t,computer:t,oftenUsed:f,bookmark:f,used:f
 
-[Containments][204][Applets][344][Shortcuts]
+[Containments][204][Applets][345][Shortcuts]
 global=Meta+A
 
 [Containments][204][ConfigDialog]
@@ -262,7 +258,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=344;211;209;205;208;297;296
+AppletOrder=345;211;209;205;208;297;296
 
 [Containments][263]
 activityId=

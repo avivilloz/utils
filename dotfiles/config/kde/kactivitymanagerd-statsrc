@@ -21,3 +21,9 @@ ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.
 
 [Favorites-org.kde.plasma.kicker.favorites.instance-344-global]
 ordering=preferred://browser,org.kde.kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.discover
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-345-961dd88f-7878-41cc-8d07-cfa3265ca6d3]
+ordering=preferred://browser,kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.kate.desktop,org.kde.discover.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-345-global]
+ordering=preferred://browser,kontact.desktop,systemsettings.desktop,org.kde.dolphin.desktop,ktp-contactlist.desktop,org.kde.kate.desktop,org.kde.discover.desktop

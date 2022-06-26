@@ -9,3 +9,6 @@ migrated=true
 
 [Plugins]
 baloosearchEnabled=false
+plasma-runner-browserhistoryEnabled=true
+plasma-runner-browsertabsEnabled=true
+webshortcutsEnabled=true

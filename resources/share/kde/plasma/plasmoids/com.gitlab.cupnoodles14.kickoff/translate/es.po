@@ -1,0 +1,239 @@
+# Translation of kickoff in es
+# Copyright (C) 2021
+# This file is distributed under the same license as the kickoff package.
+# Carlos Barraza <carlosbarrazaes@gmail.com>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kickoff\n"
+"Report-Msgid-Bugs-To: https://gitlab.com/cupnoodles14/plasma-kickoff-grid\n"
+"POT-Creation-Date: 2021-11-17 07:21+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Carlos Barraza <carlosbarrazaes@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../metadata.desktop
+msgid "Application Launcher (Favorites in a Grid)"
+msgstr "Lanzador de Aplicaciones (Favoritos en una Cuadricula)"
+
+#: ../metadata.desktop
+msgid "Launcher to start applications"
+msgstr "Lanzador para iniciar aplicaciones"
+
+#: ../contents/config/config.qml
+msgid "General"
+msgstr "General"
+
+#: ../contents/config/config.qml ../contents/ui/ConfigButtons.qml ../contents/ui/FullRepresentation.qml
+msgid "Favorites"
+msgstr "Favoritos"
+
+#: ../contents/config/config.qml ../contents/ui/ConfigButtons.qml ../contents/ui/FullRepresentation.qml
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: ../contents/config/config.qml
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: ../contents/ui/ApplicationsView.qml
+msgid "All Applications"
+msgstr "Todas las Aplicaciones"
+
+#: ../contents/ui/ApplicationsView.qml
+msgid "Applications updated."
+msgstr "Aplicaciones actualizadas."
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Eliminar de Favoritos"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Agregar a Favoritos"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "En todas las Actividades"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr "En la Actividad actual"
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr "Mostrar en Favoritos"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "List views icon size:"
+msgstr "Tamaño de los iconos de la vista de lista"
+
+#: ../contents/ui/ConfigAdvanced.qml ../contents/ui/ConfigGridView.qml
+msgid "Small"
+msgstr "Pequeño"
+
+#: ../contents/ui/ConfigAdvanced.qml ../contents/ui/ConfigGridView.qml
+msgid "Large"
+msgstr "Grande"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "Hide subtitles in list views"
+msgstr "Ocultar los subtitulos"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "Horizontal inner margins:"
+msgstr "Margenes interiores horizontales"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "Vertical inner margins:"
+msgstr "Margenes interiores verticales:"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "Horizontal outer margins:"
+msgstr "Margenes exteriores horizontales:"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "Vertical outer margins:"
+msgstr "Margenes exteriores verticales:"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "Resize the menu using the mouse (Meta + RMB drag by default)"
+msgstr "Redimencionar el menú usando el ratón (Meta + Clic derecho arrastrar por defecto)"
+
+#: ../contents/ui/ConfigAdvanced.qml
+msgid "Menu width/height:"
+msgstr "Menú ancho/alto"
+
+#: ../contents/ui/ConfigApplications.qml
+msgid "Use the same parameters as Favorites tab"
+msgstr "Usar los mismos parametros que la pestaña Favoritos"
+
+#: ../contents/ui/ConfigButtons.qml ../contents/ui/FullRepresentation.qml
+msgid "Computer"
+msgstr "Computador"
+
+#: ../contents/ui/ConfigButtons.qml ../contents/ui/FullRepresentation.qml
+msgid "History"
+msgstr "Historial"
+
+#: ../contents/ui/ConfigButtons.qml ../contents/ui/FullRepresentation.qml
+msgid "Often Used"
+msgstr "Mas Usado"
+
+#: ../contents/ui/ConfigButtons.qml ../contents/ui/FullRepresentation.qml
+msgid "Leave"
+msgstr "Salir"
+
+#: ../contents/ui/ConfigButtons.qml
+msgid "Active Tabs"
+msgstr "Pestañas Activas"
+
+#: ../contents/ui/ConfigButtons.qml
+msgid "Inactive Tabs"
+msgstr "Pestañas Inactivas"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon:"
+msgstr "Icono:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Escoger..."
+
+#: ../contents/ui/ConfigGeneral.qml
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Restablecer Icono"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "General:"
+msgstr "General:"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Switch tabs on hover"
+msgstr "Cambiar pestañas al pasar el ratón"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Show applications by name"
+msgstr "Mostrar aplicaciones por nombres"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Configure enabled search plugins"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Sort alphabetically"
+msgstr "Ordenar Alfabéticamente"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Drag tabs between the boxes to show/hide them, or reorder the visible tabs by dragging."
+msgstr "Arrastra las pestañas para mostrarlas, ocultarlas o reordenarlas"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Flow:"
+msgstr "Orden:"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Rows"
+msgstr "Filas"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Columns"
+msgstr "Columnas"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Maximum columns on screen:"
+msgstr "Maximo de columnas en pantalla:"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Always use maximum columns"
+msgstr "Siempre usar el maximo de columnas"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Icon size:"
+msgstr "Tamaño"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Label position:"
+msgstr "Posicion de la etiqueta:"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Right"
+msgstr "Derecha"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Bottom"
+msgstr "Abajo"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Hidden"
+msgstr "Oculto"
+
+#: ../contents/ui/ConfigGridView.qml
+msgid "Display subtitles"
+msgstr "Mostrar Subtitulos"
+
+#: ../contents/ui/Header.qml
+msgid "%2@%3 (%1)"
+msgstr "%2@%3 (%1)"
+
+#: ../contents/ui/Header.qml
+msgid "%1@%2"
+msgstr "%1@%2"
+
+#: ../contents/ui/Header.qml
+msgid "Search..."
+msgstr "Buscar..."
+
+#: ../contents/ui/Kickoff.qml
+msgid "Edit Applications..."
+msgstr "Editar Aplicación..."
+
+#~ msgid "Expand search to bookmarks, files and emails"
+#~ msgstr "Expandir la búsqueda a marcadores, archivos y correos electrónicos"
