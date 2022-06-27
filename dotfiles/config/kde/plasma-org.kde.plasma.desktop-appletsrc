@@ -257,6 +257,7 @@ DialogWidth=883
 [Containments][204][Applets][350][Configuration][General]
 favoritesPortedToKAstats=true
 menuItems=application:t,leave:t,computer:t,oftenUsed:f,bookmark:f,used:f
+switchTabsOnHover=false
 
 [Containments][204][Applets][350][Shortcuts]
 global=Meta+A

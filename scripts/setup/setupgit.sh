@@ -14,4 +14,6 @@ if [ $ans  = "y" ]; then
 	cd ~/.ssh
 	cp -rf ~/git/utils/dotfiles/ssh/.ssh/config .
 	ssh-keygen -t ed25519 -C "$git_user_email" -f id_ed25519_avivilloz
+
+	sudo ln -sf ~/git /root/git
 fi
