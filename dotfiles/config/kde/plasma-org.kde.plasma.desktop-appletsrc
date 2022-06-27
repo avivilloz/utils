@@ -235,22 +235,29 @@ use24hFormat=2
 DialogHeight=600
 DialogWidth=800
 
-[Containments][204][Applets][345]
+[Containments][204][Applets][350]
 immutability=1
 plugin=com.gitlab.cupnoodles14.kickoff
 
-[Containments][204][Applets][345][Configuration]
+[Containments][204][Applets][350][Configuration]
 PreloadWeight=100
 
-[Containments][204][Applets][345][Configuration][ConfigDialog]
-DialogHeight=719
-DialogWidth=965
+[Containments][204][Applets][350][Configuration][Advanced]
+horizontalSelectionMargin=1
+itemHorizontalMargin=0
+itemVerticalMargin=2
+menuHeight=51
+menuWidth=16
 
-[Containments][204][Applets][345][Configuration][General]
+[Containments][204][Applets][350][Configuration][ConfigDialog]
+DialogHeight=701
+DialogWidth=883
+
+[Containments][204][Applets][350][Configuration][General]
 favoritesPortedToKAstats=true
 menuItems=application:t,leave:t,computer:t,oftenUsed:f,bookmark:f,used:f
 
-[Containments][204][Applets][345][Shortcuts]
+[Containments][204][Applets][350][Shortcuts]
 global=Meta+A
 
 [Containments][204][ConfigDialog]
@@ -258,7 +265,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=345;211;209;205;208;297;296
+AppletOrder=350;211;209;205;208;297;296
 
 [Containments][263]
 activityId=
@@ -401,7 +408,11 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][311][Applets][318][Configuration]
-PreloadWeight=60
+PreloadWeight=70
+
+[Containments][311][Applets][318][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][311][Applets][319]
 immutability=1
@@ -423,7 +434,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][311][Applets][322][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 
 [Containments][311][Applets][323]
 immutability=1
@@ -503,6 +514,8 @@ ToolBoxButtonY=22
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][346]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 formfactor=0
 immutability=1
