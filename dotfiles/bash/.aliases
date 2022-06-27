@@ -260,5 +260,5 @@ alias ideapcmstat="ideapad-cm status"
 
 #tmux
 alias tmuxns="tmux new -s"
-alias tmuxls="tmux ls"
-alias tmuxatts="tmux attach-session -t"
+alias tmuxls="tmux list-sessions"
+alias tmuxas="tmux attach-session -t"
