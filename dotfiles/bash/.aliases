@@ -24,6 +24,7 @@ alias dua="du -sch .[!.]* * |sort -h"
 alias findappname="xprop | grep WM_CLASS"
 alias username="whoami"
 alias hostname="echo $HOSTNAME"
+alias envg="env | grep"
 
 #format
 alias columnize="bash $scriptsdir/format/columnize.sh"
