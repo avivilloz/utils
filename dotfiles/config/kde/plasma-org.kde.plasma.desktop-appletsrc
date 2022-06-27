@@ -136,13 +136,6 @@ plugin=org.kde.plasma.showActivityManager
 DialogHeight=600
 DialogWidth=800
 
-[Containments][108][Applets][351]
-immutability=1
-plugin=org.kde.plasma.notifications
-
-[Containments][108][Applets][351][Configuration]
-PreloadWeight=60
-
 [Containments][108][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
