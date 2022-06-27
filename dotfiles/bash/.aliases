@@ -185,6 +185,7 @@ alias gclone="git clone"
 alias gdiff="git diff"
 alias gpull="git pull"
 alias gsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
+alias gqp="bash $scriptsdir/git/git_quick_push.sh"
 
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
