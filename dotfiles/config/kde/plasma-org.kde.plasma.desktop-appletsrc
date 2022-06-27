@@ -243,9 +243,10 @@ plugin=com.gitlab.cupnoodles14.kickoff
 PreloadWeight=100
 
 [Containments][204][Applets][350][Configuration][Advanced]
-horizontalSelectionMargin=1
-itemHorizontalMargin=0
-itemVerticalMargin=2
+allowDragResize=false
+horizontalSelectionMargin=0
+itemHorizontalMargin=1.5
+itemVerticalMargin=1.5
 menuHeight=51
 menuWidth=16
 
