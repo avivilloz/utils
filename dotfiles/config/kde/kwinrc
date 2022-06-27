@@ -104,7 +104,6 @@ BorderActivateAll=9
 BottomLeft=ApplicationLauncher
 BottomRight=ShowDesktop
 TopLeft=ActivityManager
-TopRight=LockScreen
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
@@ -126,7 +125,6 @@ highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_scaleEnabled=false
-mousemarkEnabled=true
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
