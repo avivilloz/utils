@@ -271,13 +271,13 @@ _launch=none,none,Flameshot
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
-_launch=Meta+F,Meta+E,Dolphin
+_launch=Meta+F\tMeta+E,Meta+E,Dolphin
 
 [org.kde.konsole.desktop]
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
 _k_friendly_name=Konsole
-_launch=Meta+Return\tCtrl+Alt+T,Ctrl+Alt+T,Konsole
+_launch=Ctrl+Alt+T\tMeta+Return\tMeta+T,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
