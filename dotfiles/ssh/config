@@ -2,3 +2,8 @@ Host avivilloz github.com
     HostName github.com
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_ed25519_avivilloz
+
+Host ailloz github.com
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519_ailloz
