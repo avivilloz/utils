@@ -178,13 +178,13 @@ alias hlg='valgrind --tool=helgrind'
 #git
 alias gadd="git add ."
 alias gcomm="git commit -m"
-alias gpush="bash $scriptsdir/git/gitpush.sh"
+alias gpush="git push"
 alias gstat="git status"
 alias glog="git log"
-alias gconfig="bash $scriptsdir/git/gitconfig.sh"
 alias gclone="git clone"
 alias gdiff="git diff"
 alias gpull="git pull"
+alias gsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
 
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
