@@ -5,6 +5,9 @@ org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
 [activities]
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=Default
 
+[activities-icons]
+961dd88f-7878-41cc-8d07-cfa3265ca6d3=activities
+
 [main]
 currentActivity=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 runningActivities=961dd88f-7878-41cc-8d07-cfa3265ca6d3

@@ -2,9 +2,9 @@
 update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_shortcuts_from_kwin.upd:bismuth-shortcuts-from-kwin
 
 [ActivityManager]
-_k_friendly_name=Activity Manager
+_k_friendly_name=Plasma
 switch-to-activity-2f5a77ef-1256-4783-aea5-1d50178edb63=none,none,Switch to activity "Default"
-switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=none,none,Switch to activity "Default"
+switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -253,11 +253,11 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next\tMeta+>,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play\tMeta+?,Media Play,Play/Pause media playback
 previousmedia=Meta+<\tMedia Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -300,7 +300,7 @@ _launch=Print,Print,Launch Spectacle
 
 [org.kde.yakuake.desktop]
 _k_friendly_name=Yakuake
-_launch=F12,none,Yakuake
+_launch=Ctrl+`,none,Yakuake
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness

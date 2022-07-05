@@ -28,9 +28,9 @@ alias hostname="echo $HOSTNAME"
 alias envg="env | grep"
 
 #format
-alias columnize="bash $scriptsdir/format/columnize.sh"
-alias tailize="bash $scriptsdir/format/tailize.sh"
-alias lessize="bash $scriptsdir/format/lessize.sh"
+alias columnify="bash $scriptsdir/format/columnize.sh"
+alias tailify="bash $scriptsdir/format/tailize.sh"
+alias lessify="bash $scriptsdir/format/lessize.sh"
 
 #system
 alias sysctlstart="sudo systemctl start"

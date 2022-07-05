@@ -100,11 +100,6 @@ RightButtonWindow=6
 [Effect-windowview]
 BorderActivateAll=9
 
-[ElectricBorders]
-BottomLeft=ApplicationLauncher
-BottomRight=ShowDesktop
-TopLeft=ActivityManager
-
 [ModifierOnlyShortcuts]
 Meta=org.kde.krunner,/App,,toggleDisplay
 

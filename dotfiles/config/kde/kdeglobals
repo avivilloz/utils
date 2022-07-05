@@ -120,7 +120,7 @@ smallestReadableFont=Iosevka,9,-1,5,50,0,0,0,0,0
 toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 
 [KDE]
-AnimationDurationFactor=1
+AnimationDurationFactor=0
 LookAndFeelPackage=org.kde.default.desktop
 
 [KFileDialog Settings]
@@ -138,6 +138,7 @@ Show Speedbar=true
 Show hidden files=true
 Sort by=Name
 Sort directories first=true
+Sort hidden files last=false
 Sort reversed=true
 Speedbar Width=138
 View Style=DetailTree
@@ -151,6 +152,9 @@ Dialog Size=846,608
 
 [PreviewSettings]
 MaximumRemoteSize=0
+
+[QtQuickRendererSettings]
+SceneGraphBackend=software
 
 [Shortcuts]
 Forward=Forward; Alt+Right

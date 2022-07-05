@@ -13,7 +13,7 @@ if [ "$mmstatus" = "opened" ]; then
     exit 0
 fi
 
-mpDris2 &
+#mpDris2 &
 
 echo "opened" > ~/.mmstatus
 mpc clear

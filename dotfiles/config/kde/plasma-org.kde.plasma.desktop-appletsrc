@@ -87,7 +87,7 @@ DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
-filterActivityInfo=false
+lengthFirstMargin=2
 lengthMarginsLock=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
@@ -128,14 +128,6 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=100
 SystrayContainmentId=311
 
-[Containments][108][Applets][338]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
-[Containments][108][Applets][338][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][108][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -144,7 +136,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][108][General]
-AppletOrder=338;308;281;282;309;310
+AppletOrder=281;282;308;309;310
 
 [Containments][204]
 activityId=
@@ -235,6 +227,17 @@ use24hFormat=2
 DialogHeight=624
 DialogWidth=867
 
+[Containments][204][Applets][338]
+immutability=1
+plugin=org.kde.plasma.showActivityManager
+
+[Containments][204][Applets][338][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][338][Configuration][General]
+showActivityName=false
+
 [Containments][204][Applets][350]
 immutability=1
 plugin=com.gitlab.cupnoodles14.kickoff
@@ -267,7 +270,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=350;211;209;205;208;297;296
+AppletOrder=350;338;211;209;205;208;297;296
 
 [Containments][270]
 activityId=
@@ -362,7 +365,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][311][Applets][318][Configuration]
-PreloadWeight=70
+PreloadWeight=75
 
 [Containments][311][Applets][318][Configuration][ConfigDialog]
 DialogHeight=600
@@ -373,7 +376,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][311][Applets][319][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][311][Applets][320]
 immutability=1
@@ -406,14 +409,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][311][Applets][325]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][311][Applets][325][Configuration]
-PreloadWeight=70
+PreloadWeight=80
 
 [Containments][311][ConfigDialog]
 DialogHeight=600
@@ -505,6 +508,9 @@ showAtCenter=true
 
 [Containments204Appletsts][211][Configuration][General]
 unhideOnAttention=false
+
+[Containments204Appletsts][338][Configuration][General]
+showActivityName=false
 
 [Containments2Appletsts][103][Configuration][General]
 boldFont=false
