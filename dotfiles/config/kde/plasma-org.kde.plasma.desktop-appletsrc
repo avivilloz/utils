@@ -87,6 +87,7 @@ DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
+italicFont=true
 lengthFirstMargin=2
 lengthMarginsLock=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
@@ -416,7 +417,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][311][Applets][325][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][311][ConfigDialog]
 DialogHeight=600

@@ -179,7 +179,7 @@ Walk Through Windows of Current Application Alternative=none,,Walk Through Windo
 Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
-Window Close=Meta+Q\tAlt+F4,Alt+F4,Close Window
+Window Close=Meta+X\tAlt+F4,Alt+F4,Close Window
 Window Fullscreen=F11,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
@@ -300,7 +300,7 @@ _launch=Print,Print,Launch Spectacle
 
 [org.kde.yakuake.desktop]
 _k_friendly_name=Yakuake
-_launch=Ctrl+`,none,Yakuake
+_launch=Meta+`,none,Yakuake
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -348,7 +348,7 @@ cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
-manage activities=Meta+`,Meta+Q,Show Activity Switcher
+manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,Meta+Tab,Walk through activities
 previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
