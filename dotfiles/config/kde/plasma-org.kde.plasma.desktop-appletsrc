@@ -87,8 +87,7 @@ DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
-italicFont=true
-lengthFirstMargin=2
+lengthFirstMargin=4
 lengthMarginsLock=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
@@ -450,7 +449,8 @@ ToolBoxButtonX=387
 ToolBoxButtonY=20
 
 [Containments][339][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/ign_unsplash46.png
+SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][340]
 ItemGeometries-1920x1080=

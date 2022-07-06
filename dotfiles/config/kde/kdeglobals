@@ -24,7 +24,7 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=64,69,82
+BackgroundAlternate=95,107,133
 BackgroundNormal=60,68,84
 DecorationFocus=111,125,154
 DecorationHover=111,125,154
@@ -106,7 +106,7 @@ History Items[$e]=file:$HOME/notes
 [General]
 AccentColor=111,125,154
 AllowKDEAppsToRememberWindowPositions=false
-BrowserApplication=firefox.desktop
+BrowserApplication=google-chrome.desktop
 ColorSchemeHash=d912f872ee4a43675890870527bc91e4688464f2
 TerminalApplication=konsole
 TerminalService=org.kde.konsole.desktop
@@ -118,6 +118,9 @@ font=Iosevka,11,-1,5,50,0,0,0,0,0
 menuFont=Iosevka,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Iosevka,9,-1,5,50,0,0,0,0,0
 toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
+
+[Icons]
+Theme=Tela-nord
 
 [KDE]
 AnimationDurationFactor=0
@@ -160,10 +163,10 @@ SceneGraphBackend=software
 Forward=Forward; Alt+Right
 
 [WM]
-activeBackground=47,52,63
+activeBackground=45,52,66
 activeBlend=47,52,63
 activeFont=Iosevka,10,-1,5,50,0,0,0,0,0
-activeForeground=211,218,227
-inactiveBackground=47,52,63
+activeForeground=255,255,255
+inactiveBackground=45,52,66
 inactiveBlend=47,52,63
-inactiveForeground=102,106,115
+inactiveForeground=171,173,179
