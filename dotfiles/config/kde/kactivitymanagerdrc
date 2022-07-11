@@ -3,9 +3,11 @@ org.kde.ActivityManager.ResourceScoringEnabled=false
 org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
 
 [activities]
+4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=GameDev
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=Default
 
 [activities-icons]
+4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=activities
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=activities
 
 [main]

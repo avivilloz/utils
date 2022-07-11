@@ -87,7 +87,7 @@ DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
-lengthFirstMargin=4
+lengthFirstMargin=2
 lengthMarginsLock=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
@@ -365,7 +365,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][311][Applets][318][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 
 [Containments][311][Applets][318][Configuration][ConfigDialog]
 DialogHeight=600
@@ -416,7 +416,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][311][Applets][325][Configuration]
-PreloadWeight=85
+PreloadWeight=100
 
 [Containments][311][ConfigDialog]
 DialogHeight=600
@@ -487,6 +487,25 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
 
 [Containments][346][Wallpaper][org.kde.image][General]
+Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+
+[Containments][351]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][351][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=387
+ToolBoxButtonY=20
+
+[Containments][351][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments107Appletsts][116][Configuration][General]

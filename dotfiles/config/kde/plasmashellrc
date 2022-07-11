@@ -8,7 +8,7 @@ HDMI-0 Width 1920x1080=544
 [PlasmaViews][Panel 108]
 alignment=132
 floating=0
-panelOpacity=2
+panelOpacity=0
 panelVisibility=0
 
 [PlasmaViews][Panel 108][Defaults]
@@ -24,7 +24,7 @@ thickness=20
 [PlasmaViews][Panel 204]
 alignment=132
 floating=0
-panelOpacity=2
+panelOpacity=0
 panelVisibility=0
 
 [PlasmaViews][Panel 204][Defaults]
