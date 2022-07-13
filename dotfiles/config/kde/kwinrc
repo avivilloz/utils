@@ -268,12 +268,11 @@ count=0
 
 [TabBox]
 HighlightWindows=false
-LayoutName=coverswitch
+LayoutName=org.kde.breeze.desktop
 
 [TabBoxAlternative]
 DesktopMode=0
 HighlightWindows=false
-LayoutName=coverswitch
 
 [Windows]
 AutoRaiseInterval=700
