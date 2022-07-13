@@ -4,11 +4,6 @@ case $- in
       *) return;;
 esac
 
-#default bashrc for current system
-if [ -f ~/.bashrc_system ]; then
-    . ~/.bashrc_system
-fi
-
 #variables
 if [ -f ~/.variables ]; then
     . ~/.variables

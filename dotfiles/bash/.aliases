@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#folders
+alias utils="cd $utilsdir"
+alias notes="cd ~/git/notes"
+
 #general
 alias falias=". ~/.aliases"
 alias nf="neofetch"
@@ -262,3 +266,6 @@ alias ideapcmstat="ideapad-cm status"
 alias tmuxns="tmux new -s"
 alias tmuxls="tmux list-sessions"
 alias tmuxas="tmux attach-session -t"
+
+#guardicore
+alias sshtester="bash $scriptsdir/guardicore/sshtester.sh"
