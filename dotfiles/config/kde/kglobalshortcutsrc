@@ -2,9 +2,9 @@
 update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_shortcuts_from_kwin.upd:bismuth-shortcuts-from-kwin
 
 [ActivityManager]
-_k_friendly_name=Activity Manager
+_k_friendly_name=Plasma
 switch-to-activity-2f5a77ef-1256-4783-aea5-1d50178edb63=none,none,Switch to activity "Default"
-switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=none,none,Switch to activity "GameDev"
+switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=,none,Switch to activity "GameDev"
 switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -180,7 +180,7 @@ Walk Through Windows of Current Application Alternative=none,,Walk Through Windo
 Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
-Window Close=Alt+F4\tMeta+Q\tMeta+X,Alt+F4,Close Window
+Window Close=Alt+F4\tMeta+X,Alt+F4,Close Window
 Window Fullscreen=F11,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
@@ -301,7 +301,7 @@ _launch=Print,Print,Launch Spectacle
 
 [org.kde.yakuake.desktop]
 _k_friendly_name=Yakuake
-_launch=Ctrl+`,none,Yakuake
+_launch=Meta+`,none,Yakuake
 
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -349,7 +349,7 @@ cycle-panels=Meta+Alt+P,Meta+Alt+P,Move keyboard focus between panels
 cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
-manage activities=Meta+`,Meta+Q,Show Activity Switcher
+manage activities=Meta+Q,Meta+Q,Show Activity Switcher
 next activity=Meta+Tab,Meta+Tab,Walk through activities
 previous activity=Meta+Shift+Tab,Meta+Shift+Tab,Walk through activities (Reverse)
 repeat_action=Ctrl+Alt+R,Meta+Ctrl+R,Manually Invoke Action on Current Clipboard
