@@ -119,9 +119,6 @@ menuFont=Iosevka,10,-1,5,50,0,0,0,0,0
 smallestReadableFont=Iosevka,9,-1,5,50,0,0,0,0,0
 toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 
-[Icons]
-Theme=Tela-nord
-
 [KDE]
 AnimationDurationFactor=0
 LookAndFeelPackage=org.kde.default.desktop
@@ -163,10 +160,10 @@ SceneGraphBackend=software
 Forward=Forward; Alt+Right
 
 [WM]
-activeBackground=45,52,66
+activeBackground=47,52,63
 activeBlend=47,52,63
 activeFont=Iosevka,10,-1,5,50,0,0,0,0,0
-activeForeground=255,255,255
-inactiveBackground=45,52,66
+activeForeground=211,218,227
+inactiveBackground=47,52,63
 inactiveBlend=47,52,63
-inactiveForeground=171,173,179
+inactiveForeground=102,106,115

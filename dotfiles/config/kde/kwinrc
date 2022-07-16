@@ -268,7 +268,6 @@ count=0
 
 [TabBox]
 HighlightWindows=false
-LayoutName=org.kde.breeze.desktop
 
 [TabBoxAlternative]
 DesktopMode=0
@@ -288,5 +287,3 @@ WindowSnapZone=0
 BorderSize=Tiny
 BorderSizeAuto=false
 ShowToolTips=false
-library=org.kde.bismuth.decoration
-theme=Bismuth
