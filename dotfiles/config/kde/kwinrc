@@ -278,8 +278,6 @@ AutoRaiseInterval=700
 BorderSnapZone=0
 DelayFocusInterval=0
 ElectricBorderDelay=50
-ElectricBorderTiling=false
-ElectricBorders=1
 FocusStealingPreventionLevel=0
 WindowSnapZone=0
 
@@ -287,3 +285,5 @@ WindowSnapZone=0
 BorderSize=Tiny
 BorderSizeAuto=false
 ShowToolTips=false
+library=org.kde.bismuth.decoration
+theme=Bismuth
