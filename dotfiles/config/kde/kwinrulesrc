@@ -150,7 +150,7 @@ wmclassmatch=1
 Description=Application settings for systemsettings
 clientmachine=localhost
 desktops=50dbccb3-6be6-483c-b5ff-8b3a34ba9895
-desktopsrule=2
+desktopsrule=3
 wmclass=systemsettings
 wmclassmatch=1
 
@@ -441,7 +441,7 @@ wmclassmatch=1
 Description=Application settings for firefox
 clientmachine=localhost
 desktops=9adde762-95cd-4826-b72f-c114f59aa5bd
-desktopsrule=2
+desktopsrule=3
 wmclass=navigator firefox
 wmclasscomplete=true
 wmclassmatch=1
