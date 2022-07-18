@@ -645,7 +645,7 @@ wmclassmatch=1
 Description=Application settings for dolphin
 clientmachine=localhost
 desktops=0de04f99-8017-4cda-96c4-1ff218c0a219
-desktopsrule=2
+desktopsrule=3
 wmclass=dolphin
 wmclassmatch=1
 
