@@ -18,6 +18,7 @@ export scriptsdir=$utilsdir/scripts
 export bashrc=~/.bashrc
 export aliases=~/.aliases
 export variables=~/.variables
+export session_variables=~/.session_variables
 
 #vim
 export vimrc=~/.vimrc

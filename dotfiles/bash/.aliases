@@ -81,6 +81,7 @@ alias edlogind="sudo -H vim /etc/systemd/logind.conf"
 alias edbash="$edit $bashrc"
 alias edalias="$edit $aliases"
 alias edvar="$edit $variables"
+alias edsvar="$edit $session_variables"
 alias edvim="$edit $vimrc"
 alias edsetup="$edit $scriptsdir/setup/setup.sh"
 
@@ -97,6 +98,9 @@ alias setup="bash $scriptsdir/setup/setup.sh"
 #boot options
 alias bootopl="efibootmgr"
 alias bootoprm="sudo efibootmgr -Bb" 
+
+#pkg
+alias pkg="bash $scriptsdir/package_manager/pkg.sh"
 
 #apt
 alias aptin="sudo apt install"
@@ -163,9 +167,9 @@ alias knrpe="pkcon repo-enable"
 alias knrpe="pkcon repo-disable"
 
 #all packet managers
-alias fedup="bash $scriptsdir/update/fedup.sh"
-alias archup="bash $scriptsdir/update/archup.sh"
-alias debup="bash $scriptsdir/update/debup.sh"
+alias fedup="bash $scriptsdir/package_manager/fedup.sh"
+alias archup="bash $scriptsdir/package_manager/archup.sh"
+alias debup="bash $scriptsdir/package_manager/debup.sh"
 
 #gcc compilation aliases: debug mode, release mode
 alias gccd='gcc -ansi -pedantic-errors -Wall -Wextra -g'
@@ -214,22 +218,22 @@ alias mtg="mpc toggle"
 alias mm="bash $scriptsdir/mpd/musicmanager.sh"
 
 #python
-alias pipin="python -m pip install"
-alias pipup="python -m pip install -U" #updates package
-alias piprm="python -m pip uninstall -y"
-alias piprin="python -m pip install -r" #install all packages from requirements file (need to specify file)
-alias piprup="python -m pip install -U -r"
-alias piprrm="python -m pip uninstall -y -r"
-alias pipl="python -m pip list" #lists environment packages
-alias pipshow="python -m pip show" #shows specific package
-alias pipcfgl="python3 -m pip config list -vv"
-alias pipfreeze="python -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
+alias pipin="$python_version -m pip install"
+alias pipup="$python_version -m pip install -U" #updates package
+alias piprm="$python_version -m pip uninstall -y"
+alias piprin="$python_version -m pip install -r" #install all packages from requirements file (need to specify file)
+alias piprup="$python_version -m pip install -U -r"
+alias piprrm="$python_version -m pip uninstall -y -r"
+alias pipl="$python_version -m pip list" #lists environment packages
+alias pipshow="$python_version -m pip show" #shows specific package
+alias pipcfgl="$python_version3 -m pip config list -vv"
+alias pipfreeze="$python_version -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
 
 #python venv
-alias pyvecr="python -m venv"
-alias pyvecrssp="python -m venv --system-site-packages" #gives access to system site packages
-alias pyvecrwp="python -m venv --without-pip"
-alias pyvecrwpssp="python -m venv --without-pip --system-site-packages"
+alias pyvecr="$python_version -m venv"
+alias pyvecrssp="$python_version -m venv --system-site-packages" #gives access to system site packages
+alias pyvecrwp="$python_version -m venv --without-pip"
+alias pyvecrwpssp="$python_version -m venv --without-pip --system-site-packages"
 alias pyveact=". $scriptsdir/python/pyveact.sh"
 alias pyvedeact="deactivate"
 
