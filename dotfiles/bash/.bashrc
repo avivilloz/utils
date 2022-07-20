@@ -9,6 +9,11 @@ if [ -f ~/.variables ]; then
     . ~/.variables
 fi
 
+#session dependent variables
+if [ -f ~/.session_variables ]; then
+    . ~/.session_variables
+fi
+
 #aliases
 if [ -f ~/.aliases ]; then
     . ~/.aliases

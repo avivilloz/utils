@@ -272,3 +272,6 @@ alias tmuxas="tmux attach-session -t"
 
 #guardicore
 alias sshtester="bash $scriptsdir/guardicore/sshtester.sh"
+
+#iptables
+alias iptlL="sudo iptables-legacy -L -v --line-numbers"

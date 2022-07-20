@@ -21,6 +21,7 @@ if [ $ans  = "y" ]; then
     ln -sf ~/git/utils/dotfiles/bash/.bashrc ~/.bashrc
     ln -sf ~/git/utils/dotfiles/bash/.aliases ~/.aliases
     ln -sf ~/git/utils/dotfiles/bash/.variables ~/.variables
+    mkdir -p ~/.session_variables
 
     #root
     sudo ln -sf ~/git/utils/dotfiles/bash/.bashrc /root/.bashrc
