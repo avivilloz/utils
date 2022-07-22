@@ -112,6 +112,7 @@ NightTemperature=4400
 bismuthEnabled=true
 blurEnabled=true
 contrastEnabled=true
+desktopchangeosdEnabled=true
 desktopgridEnabled=false
 forceblurEnabled=false
 highlightwindowEnabled=false
@@ -135,12 +136,11 @@ keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
 preventProtrusion=false
-screenGapBottom=3
-screenGapLeft=3
-screenGapRight=3
-screenGapTop=3
-tileLayoutGap=3
 untileByDragging=false
+
+[Script-desktopchangeosd]
+PopupHideDelay=500
+TextOnly=true
 
 [SubSession: 0dfec7fa-a2f3-4590-bdc4-06c1d60246ad]
 active=-1

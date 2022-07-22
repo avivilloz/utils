@@ -237,31 +237,17 @@ DialogWidth=800
 [Containments][204][Applets][338][Configuration][General]
 showActivityName=false
 
-[Containments][204][Applets][350]
+[Containments][204][Applets][352]
 immutability=1
-plugin=com.gitlab.cupnoodles14.kickoff
+plugin=org.kde.plasma.kickerdash
 
-[Containments][204][Applets][350][Configuration]
+[Containments][204][Applets][352][Configuration]
 PreloadWeight=100
 
-[Containments][204][Applets][350][Configuration][Advanced]
-allowDragResize=false
-horizontalSelectionMargin=0
-itemHorizontalMargin=1.5
-itemVerticalMargin=1.5
-menuHeight=51
-menuWidth=16
-
-[Containments][204][Applets][350][Configuration][ConfigDialog]
-DialogHeight=701
-DialogWidth=883
-
-[Containments][204][Applets][350][Configuration][General]
+[Containments][204][Applets][352][Configuration][General]
 favoritesPortedToKAstats=true
-menuItems=application:t,leave:t,computer:t,oftenUsed:f,bookmark:f,used:f
-switchTabsOnHover=false
 
-[Containments][204][Applets][350][Shortcuts]
+[Containments][204][Applets][352][Shortcuts]
 global=Meta+A
 
 [Containments][204][ConfigDialog]
@@ -269,7 +255,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][General]
-AppletOrder=350;338;211;209;205;208;297;296
+AppletOrder=352;338;211;209;205;208;297;296
 
 [Containments][270]
 activityId=
@@ -502,7 +488,6 @@ wallpaperplugin=org.kde.image
 [Containments][351][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
-ToolBoxButtonY=20
 
 [Containments][351][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png

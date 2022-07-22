@@ -180,7 +180,7 @@ Walk Through Windows of Current Application Alternative (Reverse)=none,,Walk Thr
 Window Above Other Windows=none,,Keep Window Above Others
 Window Below Other Windows=none,,Keep Window Below Others
 Window Close=Meta+X\tAlt+F4,Alt+F4,Close Window
-Window Fullscreen=F11,,Make Window Fullscreen
+Window Fullscreen=F11\tMeta+Shift+PgUp,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
@@ -271,7 +271,7 @@ _launch=none,none,Flameshot
 
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
-_launch=Meta+F\tMeta+E,Meta+E,Dolphin
+_launch=Meta+F,Meta+E,Dolphin
 
 [org.kde.konsole.desktop]
 NewTab=none,none,Open a New Tab
@@ -338,7 +338,7 @@ activate widget 293=none,none,Activate Activity Pager Widget
 activate widget 323=none,none,Activate Media Player Widget
 activate widget 333=none,none,Activate Activities Widget
 activate widget 338=none,none,Activate Activities Widget
-activate widget 350=Meta+A,none,Activate Application Launcher (Favorites in a Grid) Widget
+activate widget 352=Meta+A,none,Activate Application Dashboard Widget
 activate widget 4=none,none,Activate Pager Widget
 activate widget 50=none,none,Activate Lock/Logout Widget
 activate widget 8=none,none,Activate System Tray Widget
