@@ -146,6 +146,7 @@ BrowserApplication=firefox.desktop
 ColorSchemeHash=d912f872ee4a43675890870527bc91e4688464f2
 TerminalApplication=konsole
 TerminalService=org.kde.konsole.desktop
+UseSystemBell=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
 accentColorFromWallpaper=false

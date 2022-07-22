@@ -1,0 +1,115 @@
+17:38:55.443: CPU Name: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+17:38:55.443: CPU Speed: 2600.000MHz
+17:38:55.444: Physical Cores: 6, Logical Cores: 12
+17:38:55.444: Physical Memory: 7826MB Total, 919MB Free
+17:38:55.444: Kernel Version: Linux 5.18.12-arch1-1
+17:38:55.444: Distribution: "Arch Linux" Unknown
+17:38:55.444: Session Type: x11
+17:38:55.444: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+17:38:55.445: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+17:38:55.445: Portable mode: false
+17:38:55.517: OBS 27.2.4-2 (linux)
+17:38:55.517: ---------------------------------
+17:38:55.518: ---------------------------------
+17:38:55.518: audio settings reset:
+17:38:55.518: 	samples per sec: 48000
+17:38:55.518: 	speakers:        2
+17:38:55.519: ---------------------------------
+17:38:55.519: Initializing OpenGL...
+17:38:55.573: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1050/PCIe/SSE2
+17:38:55.573: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.57, shading language 3.30 NVIDIA via Cg compiler
+17:38:55.580: ---------------------------------
+17:38:55.580: video settings reset:
+17:38:55.580: 	base resolution:   1920x1080
+17:38:55.580: 	output resolution: 1920x1080
+17:38:55.580: 	downscale filter:  Bicubic
+17:38:55.580: 	fps:               60/1
+17:38:55.580: 	format:            NV12
+17:38:55.580: 	YUV mode:          709/Partial
+17:38:55.580: NV12 texture support not available
+17:38:55.581: Audio monitoring device:
+17:38:55.581: 	name: Default
+17:38:55.581: 	id: default
+17:38:55.581: ---------------------------------
+17:38:55.583: Failed to load 'en-US' text for module: 'decklink-captions.so'
+17:38:55.584: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+17:38:55.640: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:38:55.640: No blackmagic support
+17:38:55.647: v4l2loopback not installed, virtual camera disabled
+17:38:55.650: NVENC supported
+17:38:55.650: FFMPEG VAAPI supported
+17:38:55.655: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+17:38:55.655: 
+17:38:55.655: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+17:38:55.656: ---------------------------------
+17:38:55.656:   Loaded Modules:
+17:38:55.656:     text-freetype2.so
+17:38:55.656:     rtmp-services.so
+17:38:55.656:     obs-x264.so
+17:38:55.656:     obs-transitions.so
+17:38:55.656:     obs-outputs.so
+17:38:55.656:     obs-libfdk.so
+17:38:55.656:     obs-filters.so
+17:38:55.656:     obs-ffmpeg.so
+17:38:55.656:     linux-v4l2.so
+17:38:55.656:     linux-pulseaudio.so
+17:38:55.656:     linux-jack.so
+17:38:55.656:     linux-decklink.so
+17:38:55.656:     linux-capture.so
+17:38:55.656:     linux-alsa.so
+17:38:55.656:     image-source.so
+17:38:55.656:     frontend-tools.so
+17:38:55.656:     decklink-ouput-ui.so
+17:38:55.656:     decklink-captions.so
+17:38:55.656: ---------------------------------
+17:38:55.656: ==== Startup complete ===============================================
+17:38:55.687: All scene data cleared
+17:38:55.687: ------------------------------------------------
+17:38:55.690: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.56) 15.0.0'
+17:38:55.690: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:38:55.690: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+17:38:55.690: [Loaded global audio device]: 'Desktop Audio'
+17:38:55.690: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.56) 15.0.0'
+17:38:55.691: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+17:38:55.691: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+17:38:55.691: [Loaded global audio device]: 'Mic/Aux'
+17:38:55.691: xshm-input: Geometry 1920x1080 @ 0,0
+17:38:55.692: v4l2-input: Start capture from /dev/video0
+17:38:55.805: v4l2-input: Input: 0
+17:38:55.806: v4l2-input: Resolution: 1920x1080
+17:38:55.806: v4l2-input: Pixelformat: MJPG
+17:38:55.806: v4l2-input: Linesize: 0 Bytes
+17:38:55.807: v4l2-input: Framerate: 30.00 fps
+17:38:55.809: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+17:38:55.862: xcompcap: [window-capture: 'firefox'] update settings:
+17:38:55.862: 	title: (8) OBS Studio Tips and Tricks - YouTube — Mozilla Firefox
+17:38:55.862: 	class: Navigator
+17:38:55.862: 	Bit depth: 32
+17:38:55.862: 	Found proper GLXFBConfig (in 9): yes
+17:38:55.862: 
+17:38:55.865: Switched to scene 'coding'
+17:38:55.866: ------------------------------------------------
+17:38:55.866: Loaded scenes:
+17:38:55.866: - scene 'camera':
+17:38:55.866:     - source: 'logitech c920' (v4l2_input)
+17:38:55.866: - scene 'screen':
+17:38:55.866:     - source: 'screen capture' (xshm_input)
+17:38:55.866:     - source: 'logitech c920' (v4l2_input)
+17:38:55.866: - scene 'browser':
+17:38:55.866:     - source: 'firefox' (xcomposite_input)
+17:38:55.866:     - source: 'logitech c920' (v4l2_input)
+17:38:55.866: - scene 'coding':
+17:38:55.866:     - source: 'vscode' (xcomposite_input)
+17:38:55.866:     - source: 'open folder' (xcomposite_input)
+17:38:55.866:     - source: 'logitech c920' (v4l2_input)
+17:38:55.866: ------------------------------------------------
+17:38:56.117: v4l2-input: /dev/video0: select timed out
+17:38:56.117: v4l2-input: /dev/video0: failed to log status
+17:38:56.278: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+17:38:56.278: 
+17:40:50.567: User switched to scene 'screen'
+17:40:50.855: User switched to scene 'coding'
+17:40:51.369: User switched to scene 'coding'
+17:40:52.662: User switched to scene 'coding'
+17:40:53.443: User switched to scene 'screen'
+17:40:53.787: User switched to scene 'coding'

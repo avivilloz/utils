@@ -95,6 +95,10 @@ MiddleButtonDesktop=2
 RightButtonDesktop=2
 RightButtonWindow=6
 
+[Effect-trackmouse]
+Control=false
+Meta=false
+
 [Effect-windowview]
 BorderActivateAll=9
 
@@ -121,6 +125,7 @@ kwin4_effect_scaleEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
+trackmouseEnabled=true
 windowviewEnabled=false
 
 [Script-bismuth]
