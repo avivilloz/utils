@@ -662,7 +662,7 @@ wmclassmatch=1
 Description=Application settings for code
 clientmachine=localhost
 desktops=c8bea3ef-adea-46e1-b204-1b0468c6187f
-desktopsrule=2
+desktopsrule=3
 wmclass=code
 wmclassmatch=1
 

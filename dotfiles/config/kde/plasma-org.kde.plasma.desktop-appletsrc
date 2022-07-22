@@ -448,7 +448,7 @@ ToolBoxButtonX=387
 ToolBoxButtonY=20
 
 [Containments][339][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/ign_unsplash46.png
+Image=/home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][340]
