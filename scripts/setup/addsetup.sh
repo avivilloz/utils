@@ -8,9 +8,10 @@ fi
 
 . ~/.variables
 
-setuptemplate="$scriptsdir/setup/setuptemplate.sh"
+setup=$scriptsdir/setup/setup.sh
 newsetup="$scriptsdir/setup/setup$1.sh"
+setuptemplate="$scriptsdir/setup/setuptemplate.sh"
 
-echo "bash $newsetup" >> $scriptsdir/setup/setup.sh
+echo "bash ~/git/utils/scripts/setup/setup$1.sh" >> $setup
 cp $setuptemplate $newsetup
 $edit $newsetup

@@ -136,8 +136,8 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [DirSelect Dialog]
-DirSelectDialog Size=871,602
-History Items[$e]=file:$HOME/Pictures/screenshots,file:$HOME/notes
+DirSelectDialog Size=871,586
+History Items[$e]=file:$HOME/Videos/obs,file:$HOME/Videos/obs,file:$HOME/Pictures/screenshots,file:$HOME/notes
 
 [General]
 AccentColor=111,125,154
