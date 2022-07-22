@@ -279,3 +279,6 @@ alias tester="bash $scriptsdir/guardicore/sshtester.sh"
 
 #iptables
 alias iptlL="sudo iptables-legacy -L -v --line-numbers"
+
+#commands
+alias commandsfor="bash $scriptsdir/commandsfor/commandsfor.sh"
