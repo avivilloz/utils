@@ -135,6 +135,11 @@ keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
 preventProtrusion=false
+screenGapBottom=3
+screenGapLeft=3
+screenGapRight=3
+screenGapTop=3
+tileLayoutGap=3
 untileByDragging=false
 
 [SubSession: 0dfec7fa-a2f3-4590-bdc4-06c1d60246ad]
