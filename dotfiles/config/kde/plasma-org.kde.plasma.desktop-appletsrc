@@ -81,6 +81,9 @@ textType=1
 immutability=1
 plugin=org.kde.windowtitle
 
+[Containments][108][Applets][281][Configuration]
+PreloadWeight=42
+
 [Containments][108][Applets][281][Configuration][ConfigDialog]
 DialogHeight=626
 DialogWidth=899
@@ -97,7 +100,7 @@ immutability=1
 plugin=org.kde.plasma.appmenu
 
 [Containments][108][Applets][282][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][108][Applets][282][Configuration][ConfigDialog]
 DialogHeight=600
@@ -110,12 +113,18 @@ global=Alt+Return
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][108][Applets][308][Configuration]
+PreloadWeight=42
+
 [Containments][108][Applets][308][Configuration][General]
 length=715
 
 [Containments][108][Applets][309]
 immutability=1
 plugin=org.kde.plasma.panelspacer
+
+[Containments][108][Applets][309][Configuration]
+PreloadWeight=42
 
 [Containments][108][Applets][309][Configuration][General]
 length=872
@@ -125,7 +134,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][108][Applets][310][Configuration]
-PreloadWeight=100
+PreloadWeight=97
 SystrayContainmentId=311
 
 [Containments][108][ConfigDialog]
@@ -133,7 +142,7 @@ DialogHeight=91
 DialogWidth=1920
 
 [Containments][108][Configuration]
-PreloadWeight=34
+PreloadWeight=26
 
 [Containments][108][General]
 AppletOrder=281;282;308;309;310
@@ -164,6 +173,9 @@ wrapPage=true
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][204][Applets][208][Configuration]
+PreloadWeight=42
+
 [Containments][204][Applets][208][Configuration][General]
 length=348
 
@@ -171,9 +183,15 @@ length=348
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][204][Applets][209][Configuration]
+PreloadWeight=42
+
 [Containments][204][Applets][211]
 immutability=1
 plugin=org.kde.plasma.icontasks
+
+[Containments][204][Applets][211][Configuration]
+PreloadWeight=42
 
 [Containments][204][Applets][211][Configuration][ConfigDialog]
 DialogHeight=600
@@ -204,6 +222,9 @@ DialogWidth=800
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
+[Containments][204][Applets][296][Configuration]
+PreloadWeight=42
+
 [Containments][204][Applets][296][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
@@ -213,12 +234,13 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][204][Applets][297][Configuration][Appearance]
 customDateFormat=ddd d/M
 dateDisplayFormat=BesideTime
 dateFormat=custom
+showDate=false
 showSeconds=true
 use24hFormat=2
 
@@ -242,7 +264,7 @@ immutability=1
 plugin=com.gitlab.cupnoodles14.kickoff
 
 [Containments][204][Applets][354][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][204][Applets][354][Configuration][Advanced]
 horizontalSelectionMargin=2
@@ -263,9 +285,15 @@ switchTabsOnHover=false
 [Containments][204][Applets][354][Shortcuts]
 global=Meta+A
 
+[Containments][204][Applets][355][Configuration]
+PreloadWeight=52
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
+
+[Containments][204][Configuration]
+PreloadWeight=42
 
 [Containments][204][General]
 AppletOrder=354;338;211;209;205;208;297;296
@@ -283,6 +311,9 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.appmenu
 
+[Containments][270][Applets][272][Configuration]
+PreloadWeight=42
+
 [Containments][270][Applets][272][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -291,6 +322,9 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][270][Applets][273][Configuration]
+PreloadWeight=42
+
 [Containments][270][Applets][273][Configuration][General]
 length=766
 
@@ -298,9 +332,15 @@ length=766
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][270][Applets][274][Configuration]
+PreloadWeight=42
+
 [Containments][270][Applets][286]
 immutability=1
 plugin=org.kde.windowtitle
+
+[Containments][270][Applets][286][Configuration]
+PreloadWeight=42
 
 [Containments][270][Applets][286][Configuration][ConfigDialog]
 DialogHeight=540
@@ -315,6 +355,9 @@ subsReplace="Telegram","Gimp","Gimp","GitHub"
 [Containments][270][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
+
+[Containments][270][Configuration]
+PreloadWeight=42
 
 [Containments][270][General]
 AppletOrder=274;286;272;273
@@ -332,38 +375,50 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
+[Containments][311][Applets][312][Configuration]
+PreloadWeight=42
+
 [Containments][311][Applets][313]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][311][Applets][313][Configuration]
-PreloadWeight=52
+PreloadWeight=44
 
 [Containments][311][Applets][314]
 immutability=1
 plugin=org.kde.plasma.vault
 
+[Containments][311][Applets][314][Configuration]
+PreloadWeight=42
+
 [Containments][311][Applets][315]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
+
+[Containments][311][Applets][315][Configuration]
+PreloadWeight=42
 
 [Containments][311][Applets][316]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][311][Applets][316][Configuration]
-PreloadWeight=75
+PreloadWeight=67
 
 [Containments][311][Applets][317]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
+
+[Containments][311][Applets][317][Configuration]
+PreloadWeight=42
 
 [Containments][311][Applets][318]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][311][Applets][318][Configuration]
-PreloadWeight=90
+PreloadWeight=82
 
 [Containments][311][Applets][318][Configuration][ConfigDialog]
 DialogHeight=600
@@ -374,25 +429,28 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][311][Applets][319][Configuration]
-PreloadWeight=80
+PreloadWeight=72
 
 [Containments][311][Applets][320]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
+
+[Containments][311][Applets][320][Configuration]
+PreloadWeight=42
 
 [Containments][311][Applets][321]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][311][Applets][321][Configuration]
-PreloadWeight=60
+PreloadWeight=52
 
 [Containments][311][Applets][322]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][311][Applets][322][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][311][Applets][323]
 immutability=1
@@ -410,18 +468,21 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=92
+PreloadWeight=76
 
 [Containments][311][Applets][325]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][311][Applets][325][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][311][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
+
+[Containments][311][Configuration]
+PreloadWeight=42
 
 [Containments][311][General]
 extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.plasma.notifications
@@ -444,6 +505,9 @@ wallpaperplugin=org.kde.image
 DialogHeight=600
 DialogWidth=800
 
+[Containments][339][Configuration]
+PreloadWeight=42
+
 [Containments][339][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
@@ -464,6 +528,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][340][Configuration]
+PreloadWeight=42
+
 [Containments][340][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
@@ -483,6 +550,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][346][Configuration]
+PreloadWeight=42
+
 [Containments][346][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
@@ -501,12 +571,60 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][351][Configuration]
+PreloadWeight=42
+
 [Containments][351][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
 
 [Containments][351][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+
+[Containments][356][Applets][357][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][358][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][359][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][360][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][361][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][362][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][363][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][364][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][365][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][366][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][367][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][368][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][369][Configuration]
+PreloadWeight=42
+
+[Containments][356][Applets][370][Configuration]
+PreloadWeight=42
+
+[Containments][356][Configuration]
+PreloadWeight=42
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
