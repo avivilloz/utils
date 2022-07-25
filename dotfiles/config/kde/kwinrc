@@ -140,6 +140,11 @@ keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
 preventProtrusion=false
+screenGapBottom=10
+screenGapLeft=12
+screenGapRight=12
+screenGapTop=10
+tileLayoutGap=10
 untileByDragging=false
 
 [Script-desktopchangeosd]
@@ -286,8 +291,6 @@ FocusStealingPreventionLevel=0
 WindowSnapZone=0
 
 [org.kde.kdecoration2]
-BorderSize=Tiny
-BorderSizeAuto=false
 ButtonsOnRight=IAX
 ShowToolTips=false
 library=org.kde.bismuth.decoration

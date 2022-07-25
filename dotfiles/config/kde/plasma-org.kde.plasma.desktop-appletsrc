@@ -248,23 +248,12 @@ use24hFormat=2
 DialogHeight=624
 DialogWidth=867
 
-[Containments][204][Applets][338]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
-[Containments][204][Applets][338][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][338][Configuration][General]
-showActivityName=false
-
 [Containments][204][Applets][354]
 immutability=1
 plugin=com.gitlab.cupnoodles14.kickoff
 
 [Containments][204][Applets][354][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][204][Applets][354][Configuration][Advanced]
 horizontalSelectionMargin=2
