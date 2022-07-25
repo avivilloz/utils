@@ -134,7 +134,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][108][Applets][310][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 SystrayContainmentId=311
 
 [Containments][108][ConfigDialog]
@@ -240,7 +240,6 @@ PreloadWeight=92
 customDateFormat=ddd d/M
 dateDisplayFormat=BesideTime
 dateFormat=custom
-showDate=false
 showSeconds=true
 use24hFormat=2
 
@@ -568,6 +567,18 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
 
 [Containments][351][Wallpaper][org.kde.image][General]
+Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+
+[Containments][355]
+activityId=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][355][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][356][Applets][357][Configuration]
