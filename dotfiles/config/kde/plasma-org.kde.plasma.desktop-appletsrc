@@ -252,7 +252,7 @@ immutability=1
 plugin=com.gitlab.cupnoodles14.kickoff
 
 [Containments][204][Applets][354][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][204][Applets][354][Configuration][Advanced]
 horizontalSelectionMargin=2
