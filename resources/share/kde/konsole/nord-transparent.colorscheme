@@ -90,10 +90,10 @@ Color=216,222,233
 
 [General]
 Anchor=0.5,0.5
-Blur=true
+Blur=false
 ColorRandomization=false
 Description=nord-transparent
 FillStyle=Tile
-Opacity=0.6
+Opacity=0.7
 Wallpaper=
 WallpaperOpacity=1

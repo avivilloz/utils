@@ -240,6 +240,7 @@ PreloadWeight=92
 customDateFormat=ddd d/M
 dateDisplayFormat=BesideTime
 dateFormat=custom
+showDate=false
 showSeconds=true
 use24hFormat=2
 
