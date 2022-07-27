@@ -14,12 +14,12 @@ panelVisibility=0
 [PlasmaViews][Panel 108][Defaults]
 maxLength=1920
 minLength=1920
-thickness=20
+thickness=24
 
 [PlasmaViews][Panel 108][Horizontal1920]
 maxLength=1920
 minLength=1920
-thickness=20
+thickness=24
 
 [PlasmaViews][Panel 204]
 alignment=132

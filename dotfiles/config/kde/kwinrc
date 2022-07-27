@@ -285,7 +285,8 @@ WindowSnapZone=0
 [org.kde.kdecoration2]
 BorderSize=NoSides
 BorderSizeAuto=false
+ButtonsOnLeft=M
 ButtonsOnRight=IAX
 ShowToolTips=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Nordic
+library=org.kde.breeze
+theme=Breeze

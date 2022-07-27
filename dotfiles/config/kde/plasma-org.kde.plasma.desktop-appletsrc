@@ -90,7 +90,8 @@ DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
-lengthFirstMargin=2
+lengthFirstMargin=4
+lengthLastMargin=4
 lengthMarginsLock=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
@@ -234,7 +235,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][204][Applets][297][Configuration][Appearance]
 customDateFormat=ddd d/M
@@ -469,7 +470,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=98
+PreloadWeight=100
 
 [Containments][311][Applets][325]
 immutability=1
@@ -512,7 +513,7 @@ PreloadWeight=42
 [Containments][339][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=395
-ToolBoxButtonY=20
+ToolBoxButtonY=24
 
 [Containments][339][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
