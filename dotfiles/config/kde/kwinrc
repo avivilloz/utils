@@ -288,5 +288,3 @@ WindowSnapZone=0
 ButtonsOnLeft=M
 ButtonsOnRight=IAX
 ShowToolTips=false
-library=org.kde.breeze
-theme=Breeze
