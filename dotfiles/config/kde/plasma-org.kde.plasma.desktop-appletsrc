@@ -257,15 +257,16 @@ plugin=com.gitlab.cupnoodles14.kickoff
 PreloadWeight=100
 
 [Containments][204][Applets][354][Configuration][Advanced]
+allowDragResize=false
 horizontalSelectionMargin=2
 itemHorizontalMargin=0
 itemVerticalMargin=2.5
-menuHeight=63.75
-menuWidth=22.125
+menuHeight=63
+menuWidth=22
 
 [Containments][204][Applets][354][Configuration][ConfigDialog]
-DialogHeight=590
-DialogWidth=988
+DialogHeight=658
+DialogWidth=969
 
 [Containments][204][Applets][354][Configuration][General]
 favoritesPortedToKAstats=true
