@@ -2,11 +2,13 @@
 Frames=0
 
 [Appearance]
-BackgroundColorOpacity=30
+BackgroundColorOpacity=40
+Blur=True
 HideSkinBorders=true
+Translucency=true
 
 [Desktop Entry]
-DefaultProfile=nord.profile
+DefaultProfile=nord-transparent.profile
 
 [Dialogs]
 FirstRun=false
@@ -24,6 +26,6 @@ previous-session=Ctrl+PgUp; Ctrl+Shift+Tab
 previous-terminal=none
 
 [Window]
-Height=48
+Height=52
 KeepOpen=false
 Width=100
