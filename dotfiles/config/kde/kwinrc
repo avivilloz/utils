@@ -30,16 +30,16 @@ Name_12=\s
 Name_13=\s
 Name_14=\s
 Name_15=\s
-Name_16=\s
+Name_16=\s
 Name_17=\s
 Name_2=\s
 Name_3=\s
 Name_4=\s
-Name_5=\s
+Name_5= \s
 Name_6=\s
 Name_7=\s
 Name_8=\s
-Name_9=\s
+Name_9=\s
 Number=17
 Rows=1
 
@@ -283,9 +283,9 @@ FocusStealingPreventionLevel=0
 WindowSnapZone=0
 
 [org.kde.kdecoration2]
-BorderSize=None
+BorderSize=NoSides
 BorderSizeAuto=false
 ButtonsOnRight=IAX
 ShowToolTips=false
-library=org.kde.bismuth.decoration
-theme=Bismuth
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Nordic

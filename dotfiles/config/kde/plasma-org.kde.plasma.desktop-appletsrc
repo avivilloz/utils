@@ -469,7 +469,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=78
+PreloadWeight=98
 
 [Containments][311][Applets][325]
 immutability=1
@@ -511,7 +511,7 @@ PreloadWeight=42
 
 [Containments][339][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=387
+ToolBoxButtonX=395
 ToolBoxButtonY=20
 
 [Containments][339][Wallpaper][org.kde.image][General]
