@@ -139,6 +139,11 @@ keepFloatAbove=false
 layoutPerActivity=false
 layoutPerDesktop=false
 preventProtrusion=false
+screenGapBottom=10
+screenGapLeft=10
+screenGapRight=10
+screenGapTop=10
+tileLayoutGap=10
 untileByDragging=false
 
 [Script-desktopchangeosd]
