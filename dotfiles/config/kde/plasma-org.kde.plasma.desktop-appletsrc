@@ -641,6 +641,18 @@ PreloadWeight=42
 [Containments][356][Configuration]
 PreloadWeight=42
 
+[Containments][357]
+activityId=961dd88f-7878-41cc-8d07-cfa3265ca6d3
+formfactor=0
+immutability=1
+lastScreen=4
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][357][Wallpaper][org.kde.image][General]
+Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+
 [Containments107Appletsts][116][Configuration][General]
 length=911
 
