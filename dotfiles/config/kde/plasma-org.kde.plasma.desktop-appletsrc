@@ -91,7 +91,6 @@ DialogWidth=899
 [Containments][108][Applets][281][Configuration][General]
 containmentType=Plasma
 lengthFirstMargin=2
-lengthLastMargin=2
 lengthMarginsLock=false
 subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
 subsReplace="Telegram","Gimp","Gimp","GitHub"
@@ -235,7 +234,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][204][Applets][297][Configuration][Appearance]
 customDateFormat=ddd d/M
@@ -292,7 +291,7 @@ showActivityIcon=false
 showActivityName=false
 
 [Containments][204][ConfigDialog]
-DialogHeight=82
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][Configuration]
@@ -513,7 +512,7 @@ PreloadWeight=42
 
 [Containments][339][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=460
+ToolBoxButtonX=395
 ToolBoxButtonY=20
 
 [Containments][339][Wallpaper][org.kde.image][General]
