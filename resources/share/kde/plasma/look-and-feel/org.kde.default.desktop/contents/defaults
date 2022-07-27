@@ -23,7 +23,7 @@ LayoutName=org.kde.breeze.desktop
 LayoutName=org.kde.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
-library=org.kde.bismuth.decoration
+library=org.kde.breeze
 
 [KSplash]
 Theme=org.kde.Breeze
