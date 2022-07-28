@@ -5,14 +5,16 @@ export term=konsole
 
 #default editor
 export edit=vim
-export edit_flags=-p
+export edit_all=vim -p
 
 #gitdir
 export gitdir=~/git
 
-#config
+#utils
 export utilsdir=$gitdir/utils
 export scriptsdir=$utilsdir/scripts
+export fsdir=$utilsdir/fs
+export backupdir=$utilsdir/fs_backup
 
 #bash
 export bashrc=~/.bashrc
@@ -29,11 +31,5 @@ declare -A git_users
 git_users["avivilloz"]="avivilloz@gmail.com"
 git_users["ailloz"]="ailloz@akamai.com"
 
-#work
-export workdir=$gitdir/work
-
 #path
 export PATH="$HOME/.local/bin:$PATH"
-
-#current project
-export currpdir="$gitdir"
