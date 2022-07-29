@@ -64,8 +64,6 @@ if [ $ans  = "y" ]; then
 	done
 
 	#directories in home/user
-	rm -rf $real_user/.ssh
-	ln -sf $user/.ssh $real_user/.ssh
 	rm -rf $real_user/.fonts
 	ln -sf $user/.fonts $real_user/.fonts
 fi

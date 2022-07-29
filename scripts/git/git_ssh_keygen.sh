@@ -2,7 +2,7 @@
 
 if [ $# -ne 2 ]
 then
-	echo "provide github [1]username and [2]email"
+	echo "provide github username[1] and email[2]"
 	exit 1
 fi
 
@@ -16,4 +16,5 @@ Host $1 github.com
     IdentityFile ~/.ssh/id_ed25519_$1" \
 >> ~/.ssh/config
 
+mv id_ed25519_$1* ~/.ssh
 cat ~/.ssh/id_ed25519_$1.pub
