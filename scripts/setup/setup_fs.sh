@@ -30,6 +30,19 @@ if [ $ans  = "y" ]; then
 		fi
 	done
 
+	#only files in home/user
+	user="$utils_fs_dir/home/user"
+	for file in $user/* $user/.[^.]*; do
+		if [ -f $file ]; then
+			user_link="$real_user${file#"$user"}"
+			root_link="/root${file#"$user"}"
+			rm -rf $user_link
+			ln -sf $file $user_link
+			rm -rf $root_link
+			ln -sf $file $root_link
+		fi
+	done
+
 	user_config="$user/.config"
 	real_user_config="$real_user/.config"
 	for file in $user_config/*; do
@@ -47,19 +60,6 @@ if [ $ans  = "y" ]; then
 			link="$real_user_local_share${file#"$user_local_share"}"
 			rm -rf $link
 			ln -sf $file $link
-		fi
-	done
-
-	#only files in home/user
-	user="$utils_fs_dir/home/user"
-	for file in $user/* $user/.[^.]*; do
-		if [ -f $file ]; then
-			user_link="$real_user${file#"$user"}"
-			root_link="/root${file#"$user"}"
-			rm -rf $user_link
-			ln -sf $file $user_link
-			rm -rf $root_link
-			ln -sf $file $root_link
 		fi
 	done
 
