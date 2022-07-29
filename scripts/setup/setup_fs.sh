@@ -43,8 +43,13 @@ if [ $ans  = "y" ]; then
 		fi
 	done
 
+	#directories in home/user
+	rm -rf $real_user/.fonts
+	ln -sf $user/.fonts $real_user/.fonts
+
 	user_config="$user/.config"
 	real_user_config="$real_user/.config"
+    mkdir -p $real_user_config
 	for file in $user_config/*; do
 		if [ -f $file ] || [ -d $file ]; then
 			link="$real_user_config${file#"$user_config"}"
@@ -55,6 +60,7 @@ if [ $ans  = "y" ]; then
 
 	user_local_share="$user/.local/share"
 	real_user_local_share="$real_user/.local/share"
+    mkdir -p $real_user_local_share
 	for file in $user_local_share/*; do
 		if [ -f $file ] || [ -d $file ]; then
 			link="$real_user_local_share${file#"$user_local_share"}"
@@ -62,8 +68,4 @@ if [ $ans  = "y" ]; then
 			ln -sf $file $link
 		fi
 	done
-
-	#directories in home/user
-	rm -rf $real_user/.fonts
-	ln -sf $user/.fonts $real_user/.fonts
 fi
