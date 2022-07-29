@@ -5,7 +5,6 @@ export term=konsole
 
 #default editor
 export edit=vim
-export edit_all=vim -p
 
 #gitdir
 export gitdir=~/git

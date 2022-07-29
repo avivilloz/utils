@@ -7,7 +7,10 @@ echo -------------------------------------------------------------------------
 echo do you want to link files from utils to your file system? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-	utils_fs_dir="$HOME/git/utils/fs"
+	echo "username:"
+	read username
+	real_user="/home/$username"
+	utils_fs_dir="$real_user/git/utils/fs"
 
 	etc="$utils_fs_dir/etc"
 	for file in $etc/*; do
@@ -20,7 +23,7 @@ if [ $ans  = "y" ]; then
 
 	usr_share="$utils_fs_dir/usr/share"
 	for file in $usr_share/*; do
-		if [ -f $file ]; then
+		if [ -f $file ] || [ -d $file ]; then
 			link=${file#"$utils_fs_dir"}
 			rm -rf $link
 			ln -sf $file $link
@@ -30,7 +33,7 @@ if [ $ans  = "y" ]; then
 	user_config="$user/.config"
 	real_user_config="$real_user/.config"
 	for file in $user_config/*; do
-		if [ -f $file ]; then
+		if [ -f $file ] || [ -d $file ]; then
 			link="$real_user_config${file#"$user_config"}"
 			rm -rf $link
 			ln -sf $file $link
@@ -40,7 +43,7 @@ if [ $ans  = "y" ]; then
 	user_local_share="$user/.local/share"
 	real_user_local_share="$real_user/.local/share"
 	for file in $user_local_share/*; do
-		if [ -f $file ]; then
+		if [ -f $file ] || [ -d $file ]; then
 			link="$real_user_local_share${file#"$user_local_share"}"
 			rm -rf $link
 			ln -sf $file $link
@@ -49,7 +52,6 @@ if [ $ans  = "y" ]; then
 
 	#only files in home/user
 	user="$utils_fs_dir/home/user"
-	real_user=$HOME
 	for file in $user/* $user/.[^.]*; do
 		if [ -f $file ]; then
 			user_link="$real_user${file#"$user"}"
