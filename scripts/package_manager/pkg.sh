@@ -4,8 +4,10 @@
 
 # in = install package
 # rm = remove package
-# up = update all packages and remove uneeded ones
+# up = update all packages and remove uneeded ones/cache
 # l = list all packages
+# lg = grep fomr list of all packages
+# q = query through database
 
 if [ "$session" == "debian" ]; then
     if [ "$1" == "in" ]; then
@@ -17,15 +19,22 @@ if [ "$session" == "debian" ]; then
         sudo apt upgrade
         sudo apt autoremove
     fi
-elif [ "$session" == "ubuntu" ]; then
+elif [ "$session" == "arch" ]; then
     if [ "$1" == "in" ]; then
-        sudo snap install $2
+        yay -S $2
     elif [ "$1" == "rm" ]; then
-        sudo snap remove $2
+        yay -Rns $2
     elif [ "$1" == "up" ]; then
-        sudo snap refresh
+        yay -Syu
+        yay -Yc
+        yay -Scc
     elif [ "$1" == "l" ]; then
-        snap list
+        yay -Qe
+    elif [ "$1" == "lg" ]; then
+        yay -Qe | grep $2
+    fi
+    elif [ "$1" == "q" ]; then
+        yay -Ss $2
     fi
 fi
 

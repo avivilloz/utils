@@ -61,7 +61,7 @@ alias nvsmi="nvidia-smi"
 
 #graphic cards
 alias currgpu="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
-alias gpus="sudo bash $scriptsdir/gpu/gpuswitch.sh"
+alias gpus="envycontrol --dm sddm -s"
 alias gpuq="envycontrol --query"
 
 #alacritty
@@ -86,10 +86,7 @@ alias edvim="$edit $vimrc"
 alias edsetup="$edit $scriptsdir/setup/setup.sh"
 
 #backup
-alias addbup="bash $scriptsdir/backup/addbackup.sh"
-alias bupkde="bash $scriptsdir/backup/backupkde.sh"
-alias bupalacritty="bash $scriptsdir/backup/backupalacritty.sh"
-alias bupdf="bash $scriptsdir/backup/backupdesktopfiles.sh"
+alias backupfs="rm -rf $utilsdir/fs_backup && cp $utilsdir/fs $utilsdir/fs_backup"
 
 #setup
 alias addsetup="bash $scriptsdir/setup/addsetup.sh"
@@ -274,6 +271,3 @@ alias tester="bash $scriptsdir/guardicore/sshtester.sh"
 
 #iptables
 alias iptlL="sudo iptables-legacy -L -v --line-numbers"
-
-#commands
-alias commandsfor="bash $scriptsdir/commandsfor/commandsfor.sh"
