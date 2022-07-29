@@ -11,32 +11,40 @@ if [ $ans  = "y" ]; then
 
 	etc="$utils_fs_dir/etc"
 	for file in $etc/*; do
-		link=${file#"$utils_fs_dir"}
-		rm -rf $link
-		ln -sf $file $link
+		if [ -f $file ]; then
+			link=${file#"$utils_fs_dir"}
+			rm -rf $link
+			ln -sf $file $link
+		fi
 	done
 
 	usr_share="$utils_fs_dir/usr/share"
 	for file in $usr_share/*; do
-		link=${file#"$utils_fs_dir"}
-		rm -rf $link
-		ln -sf $file $link
+		if [ -f $file ]; then
+			link=${file#"$utils_fs_dir"}
+			rm -rf $link
+			ln -sf $file $link
+		fi
 	done
 
 	user_config="$user/.config"
 	real_user_config="$real_user/.config"
 	for file in $user_config/*; do
-		link="$real_user_config${file#"$user_config"}"
-		rm -rf $link
-		ln -sf $file $link
+		if [ -f $file ]; then
+			link="$real_user_config${file#"$user_config"}"
+			rm -rf $link
+			ln -sf $file $link
+		fi
 	done
 
 	user_local_share="$user/.local/share"
 	real_user_local_share="$real_user/.local/share"
 	for file in $user_local_share/*; do
-		link="$real_user_local_share${file#"$user_local_share"}"
-		rm -rf $link
-		ln -sf $file $link
+		if [ -f $file ]; then
+			link="$real_user_local_share${file#"$user_local_share"}"
+			rm -rf $link
+			ln -sf $file $link
+		fi
 	done
 
 	#only files in home/user
