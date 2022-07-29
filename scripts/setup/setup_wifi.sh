@@ -11,5 +11,6 @@ if [ $ans  = "y" ]; then
 	read host
 	echo "password:"
 	read password
-	sudo nmcli device wifi connect $host password $password
+	echo "sudo nmcli device wifi connect $host password $password"
+	nmcli device wifi connect $host password $password
 fi
