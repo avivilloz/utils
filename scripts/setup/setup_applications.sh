@@ -51,4 +51,5 @@ if [ $ans  = "y" ]; then
 	sudo pacman -S stremio --needed
 	sudo pacman -S akregator --needed
 	yay -S aseprite --needed
+	yay -S google-chrome --needed
 fi

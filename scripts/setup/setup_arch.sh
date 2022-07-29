@@ -4,7 +4,7 @@ echo -------------------------------------------------------------------------
 echo setup arch linux
 echo -------------------------------------------------------------------------
 
-echo do you want to setup arch linux after partitioning and installation? [y/n]
+echo do you want to setup arch linux after partitioning and installation of linux and vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
 	echo "ln -sf /usr/share/zoneinfo/Israel /etc/localtime"

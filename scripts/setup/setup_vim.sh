@@ -7,9 +7,6 @@ echo -------------------------------------------------------------------------
 echo do you want to setup vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-	ln -sf ~/git/utils/dotfiles/vim/.vimrc ~/.vimrc
-	sudo ln -sf ~/git/utils/dotfiles/vim/.vimrc /root/.vimrc
-
 	mkdir ~/.vim
 	mkdir ~/.vim/autoload
 	mkdir ~/.vim/plugged
