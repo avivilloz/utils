@@ -1,6 +1,7 @@
 [Common]
 OutlineCloseButton=true
 ShadowSize=ShadowSmall
+ShadowStrength=128
 
 [Windeco]
 TitleAlignment=AlignLeft
