@@ -260,8 +260,8 @@ allowDragResize=false
 horizontalSelectionMargin=2
 itemHorizontalMargin=0
 itemVerticalMargin=2.5
-menuHeight=63
-menuWidth=22
+menuHeight=51
+menuWidth=16
 
 [Containments][204][Applets][354][Configuration][ConfigDialog]
 DialogHeight=658
