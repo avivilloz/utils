@@ -6,15 +6,17 @@ then
 	exit 1
 fi
 
+ssh_key_file="github_ssh_key_for_$1"
+
 mkdir -p ~/.ssh
-ssh-keygen -t ed25519 -C "$2" -f "id_ed25519_$1"
+ssh-keygen -t ed25519 -C "$2" -f "$ssh_key_file"
 
 echo "
 Host $1 github.com
     HostName github.com
     PreferredAuthentications publickey
-    IdentityFile ~/.ssh/id_ed25519_$1" \
+    IdentityFile ~/.ssh/$ssh_key_file" \
 >> ~/.ssh/config
 
-mv id_ed25519_$1* ~/.ssh
-cat ~/.ssh/id_ed25519_$1.pub
+mv $ssh_key_file* ~/.ssh/
+cat ~/.ssh/$ssh_key_file.pub
