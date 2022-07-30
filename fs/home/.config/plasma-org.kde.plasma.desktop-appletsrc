@@ -564,7 +564,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
 
 [Containments][346][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/
+Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][351]
