@@ -539,7 +539,7 @@ ToolBoxButtonX=387
 ToolBoxButtonY=22
 
 [Containments][340][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+Image=/home/avivilloz/Pictures/profile/IMG_2272.JPG
 
 [Containments][346]
 ItemGeometries-1920x1080=
@@ -552,6 +552,10 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][346][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][346][Configuration]
 PreloadWeight=42
 
@@ -560,7 +564,8 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
 
 [Containments][346][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
+Image=/home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/
+SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][351]
 ItemGeometries-1920x1080=
@@ -572,6 +577,10 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][351][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][351][Configuration]
 PreloadWeight=42
@@ -651,7 +660,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][357][Wallpaper][org.kde.image][General]
-Image=file:///home/avivilloz/git/utils/resources/share/kde/wallpapers/Default/contents/images/1920x1080.png
+Image=/home/avivilloz/Pictures/profile/IMG_2272.JPG
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
