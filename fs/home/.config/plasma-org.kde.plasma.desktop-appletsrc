@@ -259,7 +259,7 @@ PreloadWeight=100
 allowDragResize=false
 horizontalSelectionMargin=2
 itemHorizontalMargin=0
-itemVerticalMargin=2.5
+itemVerticalMargin=2
 menuHeight=51
 menuWidth=16
 
