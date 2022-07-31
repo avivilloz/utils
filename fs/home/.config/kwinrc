@@ -274,6 +274,7 @@ count=0
 
 [TabBox]
 HighlightWindows=false
+LayoutName=org.kde.breeze.desktop
 
 [TabBoxAlternative]
 DesktopMode=0
