@@ -85,7 +85,7 @@ decrease_volume=Ctrl+{\tVolume Down,Volume Down,Decrease Volume
 increase_microphone_volume=Ctrl+)\tMicrophone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Volume Up\tCtrl+},Volume Up,Increase Volume
 mic_mute=Ctrl+_\tMeta+Volume Mute\tMicrophone Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
-mute=Volume Mute\t,Volume Mute,Mute
+mute=Ctrl+|\tVolume Mute,Volume Mute,Mute
 
 [ksmserver]
 Halt Without Confirmation=none,,Halt Without Confirmation
