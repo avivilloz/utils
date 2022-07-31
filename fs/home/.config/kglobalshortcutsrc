@@ -80,12 +80,12 @@ _k_friendly_name=Custom Shortcuts Service
 
 [kmix]
 _k_friendly_name=Audio Volume
-decrease_microphone_volume=Ctrl+Shift+Down\tMicrophone Volume Down,Microphone Volume Down,Decrease Microphone Volume
-decrease_volume=Ctrl+Shift+Left\tVolume Down,Volume Down,Decrease Volume
-increase_microphone_volume=Microphone Volume Up\tCtrl+Shift+Up,Microphone Volume Up,Increase Microphone Volume
-increase_volume=Ctrl+Shift+Right\tVolume Up,Volume Up,Increase Volume
-mic_mute=Microphone Mute\tCtrl+|\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
-mute=Volume Mute\tCtrl+",Volume Mute,Mute
+decrease_microphone_volume=Microphone Volume Down\tCtrl+(,Microphone Volume Down,Decrease Microphone Volume
+decrease_volume=Ctrl+{\tVolume Down,Volume Down,Decrease Volume
+increase_microphone_volume=Ctrl+)\tMicrophone Volume Up,Microphone Volume Up,Increase Microphone Volume
+increase_volume=Volume Up\tCtrl+},Volume Up,Increase Volume
+mic_mute=Ctrl+_\tMeta+Volume Mute\tMicrophone Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
+mute=Volume Mute\t,Volume Mute,Mute
 
 [ksmserver]
 Halt Without Confirmation=none,,Halt Without Confirmation
