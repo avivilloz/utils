@@ -257,8 +257,7 @@ PreloadWeight=100
 
 [Containments][204][Applets][354][Configuration][Advanced]
 allowDragResize=false
-horizontalSelectionMargin=2
-itemHorizontalMargin=0
+horizontalSelectionMargin=0
 itemVerticalMargin=2
 menuHeight=51
 menuWidth=16
@@ -269,7 +268,7 @@ DialogWidth=969
 
 [Containments][204][Applets][354][Configuration][General]
 favoritesPortedToKAstats=true
-menuItems=application:t,leave:t,computer:t,oftenUsed:f,bookmark:f,used:f
+menuItems=application:t,leave:t,computer:t,bookmark:f,used:f,oftenUsed:f
 switchTabsOnHover=false
 
 [Containments][204][Applets][354][Shortcuts]
