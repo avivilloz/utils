@@ -6,7 +6,7 @@ then
 	exit 1
 fi
 
-ssh_key_file="github_ssh_key_for_$1"
+ssh_key_file="~/.ssh/github_ssh_key_for_$1"
 
 mkdir -p ~/.ssh
 ssh-keygen -t ed25519 -C "$2" -f "$ssh_key_file"
@@ -18,5 +18,4 @@ Host $1 github.com
     IdentityFile ~/.ssh/$ssh_key_file" \
 >> ~/.ssh/config
 
-mv $ssh_key_file* ~/.ssh/
 cat ~/.ssh/$ssh_key_file.pub
