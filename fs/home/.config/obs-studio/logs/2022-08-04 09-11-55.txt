@@ -1,0 +1,171 @@
+09:11:55.456: CPU Name: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+09:11:55.456: CPU Speed: 2600.000MHz
+09:11:55.457: Physical Cores: 6, Logical Cores: 12
+09:11:55.457: Physical Memory: 7826MB Total, 4885MB Free
+09:11:55.457: Kernel Version: Linux 5.18.16-arch1-1
+09:11:55.457: Distribution: "Arch Linux" Unknown
+09:11:55.457: Session Type: x11
+09:11:55.457: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+09:11:55.458: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+09:11:55.458: Portable mode: false
+09:11:55.534: OBS 27.2.4-2 (linux)
+09:11:55.534: ---------------------------------
+09:11:55.535: ---------------------------------
+09:11:55.535: audio settings reset:
+09:11:55.535: 	samples per sec: 48000
+09:11:55.535: 	speakers:        2
+09:11:55.539: ---------------------------------
+09:11:55.539: Initializing OpenGL...
+09:11:55.584: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1050/PCIe/SSE2
+09:11:55.584: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.65.01, shading language 3.30 NVIDIA via Cg compiler
+09:11:55.632: ---------------------------------
+09:11:55.632: video settings reset:
+09:11:55.632: 	base resolution:   1920x1080
+09:11:55.632: 	output resolution: 1920x1080
+09:11:55.632: 	downscale filter:  Bicubic
+09:11:55.632: 	fps:               60/1
+09:11:55.632: 	format:            NV12
+09:11:55.632: 	YUV mode:          709/Partial
+09:11:55.633: NV12 texture support not available
+09:11:55.647: Audio monitoring device:
+09:11:55.647: 	name: Default
+09:11:55.647: 	id: default
+09:11:55.647: ---------------------------------
+09:11:55.650: Failed to load 'en-US' text for module: 'decklink-captions.so'
+09:11:55.652: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+09:11:55.715: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+09:11:55.715: No blackmagic support
+09:11:55.725: v4l2loopback not installed, virtual camera disabled
+09:11:55.734: NVENC supported
+09:11:55.734: FFMPEG VAAPI supported
+09:11:55.759: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+09:11:55.759: 
+09:11:55.759: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+09:11:55.763: ---------------------------------
+09:11:55.763:   Loaded Modules:
+09:11:55.763:     text-freetype2.so
+09:11:55.763:     rtmp-services.so
+09:11:55.763:     obs-x264.so
+09:11:55.763:     obs-transitions.so
+09:11:55.763:     obs-outputs.so
+09:11:55.763:     obs-libfdk.so
+09:11:55.763:     obs-filters.so
+09:11:55.763:     obs-ffmpeg.so
+09:11:55.763:     linux-v4l2.so
+09:11:55.763:     linux-pulseaudio.so
+09:11:55.763:     linux-jack.so
+09:11:55.763:     linux-decklink.so
+09:11:55.763:     linux-capture.so
+09:11:55.763:     linux-alsa.so
+09:11:55.763:     image-source.so
+09:11:55.763:     frontend-tools.so
+09:11:55.763:     decklink-ouput-ui.so
+09:11:55.763:     decklink-captions.so
+09:11:55.763: ---------------------------------
+09:11:55.763: ==== Startup complete ===============================================
+09:11:55.811: All scene data cleared
+09:11:55.811: ------------------------------------------------
+09:11:55.826: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.56) 15.0.0'
+09:11:55.827: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:11:55.827: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+09:11:55.827: [Loaded global audio device]: 'Desktop Audio'
+09:11:55.829: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.56) 15.0.0'
+09:11:55.830: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+09:11:55.830: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+09:11:55.830: [Loaded global audio device]: 'Mic/Aux'
+09:11:55.848: v4l2-input: Start capture from /dev/video0
+09:11:55.957: v4l2-input: Input: 0
+09:11:55.982: v4l2-input: Resolution: 1280x720
+09:11:55.982: v4l2-input: Pixelformat: MJPG
+09:11:55.982: v4l2-input: Linesize: 0 Bytes
+09:11:55.995: v4l2-input: Framerate: 30.00 fps
+09:11:56.000: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+09:11:56.002: xshm-input: Geometry 1920x1080 @ 0,0
+09:11:56.007: Switched to scene 'screen'
+09:11:56.033: ------------------------------------------------
+09:11:56.033: Loaded scenes:
+09:11:56.033: - scene 'camera':
+09:11:56.033:     - source: 'logitech c920' (v4l2_input)
+09:11:56.033: - scene 'screen':
+09:11:56.033:     - source: 'screen capture' (xshm_input)
+09:11:56.033:     - source: 'logitech c920' (v4l2_input)
+09:11:56.033: - scene 'browser':
+09:11:56.033:     - source: 'firefox' (xcomposite_input)
+09:11:56.033:     - source: 'logitech c920' (v4l2_input)
+09:11:56.033: - scene 'coding':
+09:11:56.033:     - source: 'vscode' (xcomposite_input)
+09:11:56.033:     - source: 'open folder' (xcomposite_input)
+09:11:56.033:     - source: 'logitech c920' (v4l2_input)
+09:11:56.033: ------------------------------------------------
+09:11:56.170: v4l2-input: /dev/video0: select timed out
+09:11:56.170: v4l2-input: /dev/video0: failed to log status
+09:11:56.785: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+09:11:56.785: 
+09:11:56.806: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+09:11:56.806: 
+09:12:57.006: User switched to scene 'browser'
+09:12:57.852: User switched to scene 'camera'
+09:13:00.552: v4l2-input: /dev/video3 seems to not support video capture
+09:13:00.552: v4l2-input: /dev/video1 seems to not support video capture
+09:13:00.944: v4l2-input: Found device 'HD Pro Webcam C920' at /dev/video2
+09:13:00.945: v4l2-input: Found device 'Integrated Camera: Integrated C' at /dev/video0
+09:13:00.947: v4l2-input: Found input 'Camera 1' (Index 0)
+09:13:00.947: v4l2-controls: setting default for Power Line Frequency to 1
+09:13:00.947: v4l2-controls: setting default for Auto Exposure to 3
+09:13:00.948: v4l2-input: Pixelformat: Motion-JPEG (available)
+09:13:00.948: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+09:13:00.948: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:13:00.948: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:13:00.948: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:13:00.948: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:13:00.951: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:13:00.953: v4l2-input: Pixelformat: Motion-JPEG (available)
+09:13:00.953: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+09:13:00.953: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:13:00.953: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:13:00.953: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:13:00.953: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:13:00.956: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:13:00.959: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:13:00.960: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:13:01.010: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:13:01.026: v4l2-input: /dev/video0: Stopped capture after 668 frames
+09:13:01.028: v4l2-input: Start capture from /dev/video0
+09:13:01.029: v4l2-input: Input: 0
+09:13:01.053: v4l2-input: Resolution: 1280x720
+09:13:01.053: v4l2-input: Pixelformat: MJPG
+09:13:01.053: v4l2-input: Linesize: 0 Bytes
+09:13:01.066: v4l2-input: Framerate: 30.00 fps
+09:13:01.067: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+09:13:01.237: v4l2-input: /dev/video0: select timed out
+09:13:01.237: v4l2-input: /dev/video0: failed to log status
+09:13:03.917: v4l2-input: /dev/video0: Stopped capture after 79 frames
+09:13:03.920: v4l2-input: Start capture from /dev/video2
+09:13:04.006: v4l2-input: Found input 'Camera 1' (Index 0)
+09:13:04.007: v4l2-controls: setting default for Power Line Frequency to 2
+09:13:04.007: v4l2-controls: setting default for Auto Exposure to 3
+09:13:04.007: v4l2-input: Input: 0
+09:13:04.010: v4l2-input: Resolution: 640x480
+09:13:04.011: v4l2-input: Pixelformat: MJPG
+09:13:04.011: v4l2-input: Linesize: 0 Bytes
+09:13:04.011: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+09:13:04.011: v4l2-input: Pixelformat: Motion-JPEG (available)
+09:13:04.011: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:13:04.011: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:13:04.011: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:13:04.011: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:13:04.012: v4l2-input: Framerate: 30.00 fps
+09:13:04.014: v4l2-input: /dev/video2: select timeout set to 166666 (5x frame periods)
+09:13:04.015: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:13:04.324: v4l2-input: /dev/video2: select timed out
+09:13:04.324: v4l2-input: /dev/video2: failed to log status
+09:13:06.602: v4l2-input: /dev/video2: Stopped capture after 68 frames
+09:13:08.639: v4l2-input: Start capture from /dev/video2
+09:13:08.641: v4l2-input: Input: 0
+09:13:08.643: v4l2-input: Resolution: 1920x1080
+09:13:08.643: v4l2-input: Pixelformat: MJPG
+09:13:08.643: v4l2-input: Linesize: 0 Bytes
+09:13:08.644: v4l2-input: Framerate: 30.00 fps
+09:13:08.651: v4l2-input: /dev/video2: select timeout set to 166666 (5x frame periods)
+09:13:08.959: v4l2-input: /dev/video2: select timed out
+09:13:08.959: v4l2-input: /dev/video2: failed to log status

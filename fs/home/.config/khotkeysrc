@@ -1170,6 +1170,7 @@ ForwardWord[$d]
 FullScreen[$d]
 NextCompletion[$d]
 PrevCompletion[$d]
+Quit[$d]
 
 [Voice]
 Shortcut=
