@@ -119,7 +119,6 @@ kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_rubberband_maximizeEnabled=false
 kwin4_effect_scaleEnabled=false
-overviewEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
