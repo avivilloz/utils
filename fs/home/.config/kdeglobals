@@ -195,7 +195,7 @@ SceneGraphBackend=software
 
 [Shortcuts]
 Forward=Forward; Alt+Right
-Quit=
+Quit=; Ctrl+Q
 
 [WM]
 activeBackground=47,52,63

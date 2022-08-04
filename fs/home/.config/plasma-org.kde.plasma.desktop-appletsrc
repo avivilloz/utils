@@ -249,7 +249,7 @@ DialogHeight=624
 DialogWidth=867
 
 [Containments][204][Applets][297][Shortcuts]
-global=Meta+C
+global=Alt+C
 
 [Containments][204][Applets][354]
 immutability=1
@@ -495,7 +495,7 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.
 scaleIconsToFit=true
 
 [Containments][311][Shortcuts]
-global=Meta+Z
+global=Alt+Z
 
 [Containments][339]
 ItemGeometries-1920x1080=
