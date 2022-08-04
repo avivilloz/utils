@@ -132,10 +132,10 @@ Switch to Desktop 10=Alt+Shift+V,,Switch to Desktop 10
 Switch to Desktop 11=Alt+Shift+G,,Switch to Desktop 11
 Switch to Desktop 12=Alt+Shift+A,,Switch to Desktop 12
 Switch to Desktop 13=Alt+Shift+C,,Switch to Desktop 13
-Switch to Desktop 14=Alt+Shift+I,,Switch to Desktop 14
+Switch to Desktop 14=Alt+Shift+Z,,Switch to Desktop 14
 Switch to Desktop 15=none,,Switch to Desktop 15
 Switch to Desktop 16=none,,Switch to Desktop 16
-Switch to Desktop 17=Alt+Shift+Z,,Switch to Desktop 17
+Switch to Desktop 17=none,,Switch to Desktop 17
 Switch to Desktop 18=none,,Switch to Desktop 18
 Switch to Desktop 19=none,,Switch to Desktop 19
 Switch to Desktop 2=Alt+Shift+B,Ctrl+F2,Switch to Desktop 2
@@ -277,7 +277,7 @@ _launch=Meta+F,Meta+E,Dolphin
 NewTab=none,none,Open a New Tab
 NewWindow=none,none,Open a New Window
 _k_friendly_name=Konsole
-_launch=Ctrl+Alt+T\tMeta+T,Ctrl+Alt+T,Konsole
+_launch=Ctrl+Alt+T\tMeta+T\tMeta+Return,Ctrl+Alt+T,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
