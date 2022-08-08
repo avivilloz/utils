@@ -563,6 +563,7 @@ activity=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 clientmachine=localhost
 desktops=dd2a3f59-1d56-4654-b033-6ac3631e4a89
 desktopsrule=2
+noborderrule=2
 wmclass=obsidian
 wmclassmatch=1
 
