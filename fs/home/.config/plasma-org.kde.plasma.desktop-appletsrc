@@ -383,7 +383,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][311][Applets][313][Configuration]
-PreloadWeight=44
+PreloadWeight=49
 
 [Containments][311][Applets][314]
 immutability=1
