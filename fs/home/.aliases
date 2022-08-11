@@ -5,6 +5,7 @@ alias utils="cd $utilsdir"
 alias notes="cd ~/git/notes"
 
 #general
+alias fbash=". ~/.bashrc"
 alias falias=". ~/.aliases"
 alias nf="neofetch"
 alias vi="vim"
@@ -187,6 +188,7 @@ alias hlg='valgrind --tool=helgrind'
 alias gadd="git add ."
 alias gcomm="git commit -m"
 alias gpush="git push"
+alias gpr="git push --set-upstream origin"
 alias gstat="git status"
 alias glog="git log"
 alias gclone="git clone"
@@ -196,6 +198,7 @@ alias gpull="git pull"
 alias gsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
 alias gqp="bash $scriptsdir/git/git_quick_push.sh"
 alias gqpm="bash $scriptsdir/git/git_quick_push_msg.sh"
+alias gqcpp="bash $scriptsdir/git/git_quick_cherry_pick_push.sh"
 
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
