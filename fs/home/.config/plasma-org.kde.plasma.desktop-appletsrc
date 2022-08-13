@@ -491,7 +491,7 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.
 scaleIconsToFit=true
 
 [Containments][311][Shortcuts]
-global=Alt+S
+global=Alt+X
 
 [Containments][339]
 ItemGeometries-1920x1080=
