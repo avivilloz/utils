@@ -20,3 +20,4 @@ Host $1
 >> ~/.ssh/config
 
 cat $identity_file.pub
+chmod 400 $identity_file
