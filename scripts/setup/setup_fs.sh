@@ -42,8 +42,8 @@ if [ $ans  = "y" ]; then
 			root_link="/root${file#"$home"}"
 			rm -rf $home_link
 			ln -sf $file $home_link
-			rm -rf $root_link
-			ln -sf $file $root_link
+			sudo rm -rf $root_link
+			sudo ln -sf $file $root_link
 		fi
 	done
 
