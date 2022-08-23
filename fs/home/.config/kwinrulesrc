@@ -495,7 +495,6 @@ activity=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 clientmachine=localhost
 desktops=6094e0d0-0750-45a9-a216-4b22c5784050
 desktopsrule=2
-noborderrule=2
 wmclass=steam
 wmclassmatch=1
 
