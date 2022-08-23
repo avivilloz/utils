@@ -500,8 +500,6 @@ wmclassmatch=1
 
 [35]
 Description=Application settings for aseprite
-activity=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
-activityrule=2
 clientmachine=localhost
 desktops=358ce474-a158-4706-a7d3-81193331cc79
 desktopsrule=2

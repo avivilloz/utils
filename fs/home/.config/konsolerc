@@ -16,8 +16,8 @@ DefaultProfile=nord-transparent.profile
 ConfigVersion=1
 
 [MainWindow]
-HDMI-0 Height 1920x1080=848
-HDMI-0 Width 1920x1080=1868
+HDMI-0 Height 1920x1080=882
+HDMI-0 Width 1920x1080=1587
 HDMI-0 Window-Maximized 1920x1080=true
 HDMI-0 XPosition 1920x1080=164
 HDMI-0 YPosition 1920x1080=68
