@@ -8,7 +8,7 @@ HideSkinBorders=true
 Translucency=true
 
 [Desktop Entry]
-DefaultProfile=nord-transparent.profile
+DefaultProfile=nord.profile
 
 [Dialogs]
 FirstRun=false

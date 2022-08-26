@@ -1,14 +1,8 @@
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 
-[CompactMode]
-FontWeight=50
-
 [Desktop Entry]
 DefaultProfile=nord.profile
-
-[DetailsMode]
-FontWeight=50
 
 [General]
 RememberOpenedTabs=false
@@ -16,7 +10,6 @@ Version=201
 ViewPropsTimestamp=2022,4,17,3,19,34.104
 
 [IconsMode]
-FontWeight=50
 PreviewSize=96
 
 [KFileDialog Settings]
