@@ -266,11 +266,12 @@ count=0
 
 [TabBox]
 HighlightWindows=false
-LayoutName=org.kde.breeze.desktop
+LayoutName=thumbnail_grid
 
 [TabBoxAlternative]
 DesktopMode=0
 HighlightWindows=false
+LayoutName=thumbnail_grid
 
 [Windows]
 AutoRaiseInterval=700
