@@ -287,7 +287,6 @@ DialogWidth=800
 groupedTaskVisualization=2
 launchers=
 maxStripes=1
-showOnlyCurrentDesktop=false
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
