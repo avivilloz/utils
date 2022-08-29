@@ -288,6 +288,20 @@ groupedTaskVisualization=2
 launchers=
 maxStripes=1
 
+[Containments][204][Applets][361]
+immutability=1
+plugin=org.kde.milou
+
+[Containments][204][Applets][361][Configuration]
+PreloadWeight=65
+
+[Containments][204][Applets][361][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][361][Shortcuts]
+global=Meta+S
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -296,7 +310,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=354;356;360;209;205;208;297;296
+AppletOrder=354;356;361;360;209;205;208;297;296
 
 [Containments][270]
 activityId=
