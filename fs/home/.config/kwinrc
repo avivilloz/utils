@@ -3,7 +3,6 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=false
 
 [Desktops]
 Id_1=9adde762-95cd-4826-b72f-c114f59aa5bd
@@ -66,9 +65,9 @@ BlurStrength=11
 [Effect-desktopgrid]
 BorderWidth=5
 CustomLayoutRows=3
-DesktopLayoutMode=2
+DesktopLayoutMode=1
 DesktopNameAlignment=68
-LayoutMode=1
+LayoutMode=0
 ShowAddRemove=false
 ZoomDuration=50
 
