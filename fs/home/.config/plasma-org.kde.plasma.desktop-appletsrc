@@ -367,7 +367,7 @@ subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub 
 subsReplace="Telegram","Gimp","Gimp","GitHub"
 
 [Containments][270][ConfigDialog]
-DialogHeight=91
+DialogHeight=93
 DialogWidth=1920
 
 [Containments][270][Configuration]
@@ -545,16 +545,20 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
+[Containments][340][ConfigDialog]
+DialogHeight=630
+DialogWidth=840
+
 [Containments][340][Configuration]
 PreloadWeight=42
 
 [Containments][340][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=387
-ToolBoxButtonY=22
+ToolBoxButtonX=357
 
 [Containments][340][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/Pictures/profile/IMG_2272.JPG
+Image=/home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/
+SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][346]
 ItemGeometries-1920x1080=
