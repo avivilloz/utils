@@ -271,7 +271,7 @@ alias tmuxas="tmux attach-session -t"
 
 #guardicore
 alias gct="bash $scriptsdir/guardicore/sshtester.sh"
-alias gcedta="$python_version $scriptsdir/guardicore/edit_tester_annotations.py"
+alias gcaddta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
 
 #iptables
 alias iptlL="sudo iptables-legacy -L -v --line-numbers"
