@@ -312,70 +312,6 @@ PreloadWeight=42
 [Containments][204][General]
 AppletOrder=354;356;361;360;209;205;208;297;296
 
-[Containments][270]
-activityId=
-formfactor=2
-immutability=1
-lastScreen=1
-location=3
-plugin=org.kde.panel
-wallpaperplugin=org.kde.image
-
-[Containments][270][Applets][272]
-immutability=1
-plugin=org.kde.plasma.appmenu
-
-[Containments][270][Applets][272][Configuration]
-PreloadWeight=42
-
-[Containments][270][Applets][272][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][270][Applets][273]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][270][Applets][273][Configuration]
-PreloadWeight=42
-
-[Containments][270][Applets][273][Configuration][General]
-length=766
-
-[Containments][270][Applets][274]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][270][Applets][274][Configuration]
-PreloadWeight=42
-
-[Containments][270][Applets][286]
-immutability=1
-plugin=org.kde.windowtitle
-
-[Containments][270][Applets][286][Configuration]
-PreloadWeight=42
-
-[Containments][270][Applets][286][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][270][Applets][286][Configuration][General]
-containmentType=Plasma
-filterActivityInfo=false
-subsMatch="Telegram Desktop","Gimp-.*","GNU Image Manipulation Program","GitHub Desktop"
-subsReplace="Telegram","Gimp","Gimp","GitHub"
-
-[Containments][270][ConfigDialog]
-DialogHeight=93
-DialogWidth=1920
-
-[Containments][270][Configuration]
-PreloadWeight=42
-
-[Containments][270][General]
-AppletOrder=274;286;272;273
-
 [Containments][311]
 activityId=
 formfactor=2
@@ -432,7 +368,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][311][Applets][318][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][311][Applets][318][Configuration][ConfigDialog]
 DialogHeight=600
@@ -557,7 +493,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=357
 
 [Containments][340][Wallpaper][org.kde.image][General]
-Image=/home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/
+Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][346]
