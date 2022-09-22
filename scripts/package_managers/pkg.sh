@@ -32,7 +32,6 @@ elif [ "$session" == "arch" ]; then
         yay -Qe
     elif [ "$1" == "lg" ]; then
         yay -Qe | grep $2
-    fi
     elif [ "$1" == "q" ]; then
         yay -Ss $2
     fi

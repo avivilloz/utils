@@ -7,6 +7,8 @@ alias notes="cd ~/git/notes"
 #general
 alias fbash=". ~/.bashrc"
 alias falias=". ~/.aliases"
+alias fvar=". ~/.variables"
+alias fsvar=". ~/.session_variables"
 alias nf="neofetch"
 alias vi="vim"
 alias v="vim"
