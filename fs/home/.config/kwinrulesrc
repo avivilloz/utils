@@ -500,7 +500,7 @@ wmclassmatch=1
 [35]
 Description=Application settings for virtualbox manager
 clientmachine=localhost
-desktops=e61bb637-0dca-4a44-9af1-bd3e10d8cc4f
+desktops=1da9f6dc-128b-404c-bef9-20ed7eea8cdf
 desktopsrule=2
 wmclass=virtualbox manager
 wmclassmatch=1

@@ -374,6 +374,9 @@ PreloadWeight=100
 DialogHeight=600
 DialogWidth=800
 
+[Containments][311][Applets][318][Configuration][General]
+raiseMaximumVolume=true
+
 [Containments][311][Applets][319]
 immutability=1
 plugin=org.kde.kdeconnect
