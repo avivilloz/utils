@@ -277,3 +277,6 @@ alias gcaddta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
 
 #iptables
 alias iptlL="sudo iptables-legacy -L -v --line-numbers"
+
+#apex legends
+alias apexcacheup="curl -LO --output-dir ~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/ https://github.com/bcook254/apex-legends-cache/raw/main/r5apex.dxvk-cache"
