@@ -46,6 +46,7 @@ alias sysctlstart="sudo systemctl start"
 alias sysctlstop="sudo systemctl stop"
 alias sysctle="sudo systemctl enable"
 alias sysctlr="sudo systemctl restart"
+alias sysctlrnm="sudo systemctl restart NetworkManager"
 alias sysctlstat="sudo systemctl status"
 alias sysctld="sudo systemctl disable"
 
