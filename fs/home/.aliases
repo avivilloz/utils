@@ -281,3 +281,6 @@ alias iptlL="sudo iptables-legacy -L -v --line-numbers"
 
 #apex legends
 alias apexcacheup="curl -LO --output-dir ~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/ https://github.com/bcook254/apex-legends-cache/raw/main/r5apex.dxvk-cache"
+
+#cache
+alias clc="sync; echo 3 > /proc/sys/vm/drop_caches"
