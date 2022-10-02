@@ -157,7 +157,7 @@ smallestReadableFont=Iosevka,9,-1,5,50,0,0,0,0,0
 toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 
 [KDE]
-AnimationDurationFactor=0
+AnimationDurationFactor=0.5
 LookAndFeelPackage=org.kde.default.desktop
 
 [KFileDialog Settings]

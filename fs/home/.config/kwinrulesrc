@@ -788,8 +788,6 @@ wmclassmatch=1
 Description=all windows
 clientmachine=localhost
 desktops=0fe31765-4d96-4731-9bfd-dab6647cbb36
-noborder=true
-noborderrule=2
 wmclass=*
 wmclasscomplete=true
 
