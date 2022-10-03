@@ -3,5 +3,4 @@ ShadowSize=ShadowNone
 ShadowStrength=128
 
 [Windeco]
-ButtonSize=ButtonSmall
 TitleAlignment=AlignLeft
