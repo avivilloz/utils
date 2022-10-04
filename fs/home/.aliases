@@ -191,7 +191,7 @@ alias hlg='valgrind --tool=helgrind'
 alias gadd="git add ."
 alias guadd="git reset"
 alias gcomm="git commit -m"
-alias grcomm"git revert --strategy resolve" #commit id
+alias grcomm="git revert --strategy resolve" #commit id
 alias gpush="git push"
 alias gpr="git push --set-upstream origin"
 alias gstat="git status"
