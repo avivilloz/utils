@@ -107,6 +107,7 @@ NightTemperature=4400
 [Plugins]
 blurEnabled=true
 contrastEnabled=true
+desktopgridEnabled=false
 forceblurEnabled=false
 highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
