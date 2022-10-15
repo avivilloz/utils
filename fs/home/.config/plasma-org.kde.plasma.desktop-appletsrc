@@ -218,6 +218,8 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
 PreloadWeight=100
+popupHeight=500
+popupWidth=440
 
 [Containments][204][Applets][297][Configuration][Appearance]
 customDateFormat=ddd d/M
@@ -233,32 +235,6 @@ DialogWidth=867
 
 [Containments][204][Applets][297][Shortcuts]
 global=
-
-[Containments][204][Applets][354]
-immutability=1
-plugin=com.gitlab.cupnoodles14.kickoff
-
-[Containments][204][Applets][354][Configuration]
-PreloadWeight=100
-
-[Containments][204][Applets][354][Configuration][Advanced]
-allowDragResize=false
-horizontalSelectionMargin=0
-itemVerticalMargin=2
-menuHeight=51
-menuWidth=16
-
-[Containments][204][Applets][354][Configuration][ConfigDialog]
-DialogHeight=658
-DialogWidth=969
-
-[Containments][204][Applets][354][Configuration][General]
-favoritesPortedToKAstats=true
-menuItems=application:t,leave:t,computer:t,bookmark:f,used:f,oftenUsed:f
-switchTabsOnHover=false
-
-[Containments][204][Applets][354][Shortcuts]
-global=Meta+A
 
 [Containments][204][Applets][355][Configuration]
 PreloadWeight=52
@@ -288,29 +264,43 @@ groupedTaskVisualization=2
 launchers=
 maxStripes=1
 
-[Containments][204][Applets][361]
+[Containments][204][Applets][364]
 immutability=1
-plugin=org.kde.milou
+plugin=com.gitlab.cupnoodles14.kickoff
 
-[Containments][204][Applets][361][Configuration]
+[Containments][204][Applets][364][Configuration]
 PreloadWeight=100
+popupHeight=800
+popupWidth=724
 
-[Containments][204][Applets][361][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
+[Containments][204][Applets][364][Configuration][Advanced]
+allowDragResize=false
+horizontalSelectionMargin=0
+itemVerticalMargin=2
+menuHeight=51
+menuWidth=16
 
-[Containments][204][Applets][361][Shortcuts]
-global=Meta+S
+[Containments][204][Applets][364][Configuration][ConfigDialog]
+DialogHeight=658
+DialogWidth=969
+
+[Containments][204][Applets][364][Configuration][General]
+favoritesPortedToKAstats=true
+menuItems=application:t,leave:t,computer:t,bookmark:f,used:f,oftenUsed:f
+switchTabsOnHover=false
+
+[Containments][204][Applets][364][Shortcuts]
+global=Meta+A
 
 [Containments][204][ConfigDialog]
-DialogHeight=99
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][204][Configuration]
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=354;356;361;360;209;205;208;297;296
+AppletOrder=364;356;360;209;205;208;297;296
 
 [Containments][311]
 activityId=
@@ -319,6 +309,8 @@ immutability=1
 lastScreen=0
 location=3
 plugin=org.kde.plasma.private.systemtray
+popupHeight=480
+popupWidth=480
 wallpaperplugin=org.kde.image
 
 [Containments][311][Applets][312]
@@ -421,7 +413,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][311][Applets][325]
 immutability=1

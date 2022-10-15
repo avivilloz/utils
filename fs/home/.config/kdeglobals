@@ -191,7 +191,8 @@ Dialog Size=846,608
 MaximumRemoteSize=0
 
 [QtQuickRendererSettings]
-SceneGraphBackend=software
+ForceGlCoreProfile=true
+SceneGraphBackend=automaticbackend
 
 [Shortcuts]
 Forward=Forward; Alt+Right

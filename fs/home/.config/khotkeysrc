@@ -1158,6 +1158,7 @@ Version=2
 MaximumRemoteSize[$d]
 
 [QtQuickRendererSettings]
+ForceGlCoreProfile[$d]
 SceneGraphBackend[$d]
 
 [Shortcuts]
