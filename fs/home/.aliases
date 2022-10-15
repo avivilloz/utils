@@ -5,6 +5,7 @@ alias utils="cd $utilsdir"
 alias notes="cd ~/git/notes"
 
 #general
+alias k="pkill -9"
 alias fbash=". ~/.bashrc"
 alias falias=". ~/.aliases"
 alias fvar=". ~/.variables"
