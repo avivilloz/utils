@@ -281,6 +281,7 @@ BorderSnapZone=0
 DelayFocusInterval=0
 ElectricBorderDelay=50
 FocusStealingPreventionLevel=0
+RollOverDesktops=true
 WindowSnapZone=0
 
 [org.kde.kdecoration2]
