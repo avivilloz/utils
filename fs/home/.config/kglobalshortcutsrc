@@ -364,7 +364,7 @@ show-on-mouse-pos=Meta+V,Meta+V,Open Klipper at Mouse Position
 stop current activity=none,Meta+S,Stop Current Activity
 switch to next activity=Ctrl+Alt+Right,,Switch to Next Activity
 switch to previous activity=Ctrl+Alt+Left,,Switch to Previous Activity
-toggle do not disturb=Alt+N,,Toggle do not disturb
+toggle do not disturb=Meta+N,,Toggle do not disturb
 
 [plasmawindowed]
 _k_friendly_name=plasmawindowed
