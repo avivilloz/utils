@@ -101,7 +101,7 @@ ClearLastMouseMark=Meta+Shift+F12,Meta+Shift+F12,Clear Last Mouse Mark
 ClearMouseMarks=Meta+Shift+F11,Meta+Shift+F11,Clear Mouse Marks
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tMeta+E,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeAll=Ctrl+F10\tMeta+S,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Increase Opacity=none,,Increase Opacity of Active Window by 5 %
@@ -284,7 +284,7 @@ _launch=Ctrl+Alt+T\tMeta+T\tMeta+Return,Ctrl+Alt+T,Konsole
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Search\tMeta+S\tAlt+Space\tAlt+F2,Alt+Space\tAlt+F2\tSearch,KRunner
+_launch=Search\tAlt+F2\tAlt+Space,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
