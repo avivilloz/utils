@@ -402,7 +402,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][311][Applets][323][Configuration]
-PreloadWeight=5
+PreloadWeight=2
 
 [Containments][311][Applets][323][Configuration][ConfigDialog]
 DialogHeight=600
@@ -450,8 +450,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][339][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
+DialogHeight=734
+DialogWidth=1015
 
 [Containments][339][Configuration]
 PreloadWeight=42
