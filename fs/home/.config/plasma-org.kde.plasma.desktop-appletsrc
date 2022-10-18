@@ -402,7 +402,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][311][Applets][323][Configuration]
-PreloadWeight=10
+PreloadWeight=5
 
 [Containments][311][Applets][323][Configuration][ConfigDialog]
 DialogHeight=600
