@@ -402,7 +402,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][311][Applets][323][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][311][Applets][323][Configuration][ConfigDialog]
 DialogHeight=600
@@ -459,7 +459,7 @@ PreloadWeight=42
 [Containments][339][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
-ToolBoxButtonY=20
+ToolBoxButtonY=22
 
 [Containments][339][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
