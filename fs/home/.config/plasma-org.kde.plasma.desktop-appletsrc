@@ -34,6 +34,7 @@ _context=true
 _display_settings=true
 _lock_screen=true
 _logout=true
+_open_terminal=false
 _run_command=false
 _sep1=true
 _sep2=true
@@ -278,11 +279,19 @@ allowDragResize=false
 horizontalSelectionMargin=0
 itemVerticalMargin=2
 menuHeight=51
-menuWidth=16
+menuWidth=19
+
+[Containments][204][Applets][364][Configuration][Applications]
+applicationsEnableSubtitles=false
 
 [Containments][204][Applets][364][Configuration][ConfigDialog]
-DialogHeight=658
-DialogWidth=969
+DialogHeight=656
+DialogWidth=869
+
+[Containments][204][Applets][364][Configuration][Favorites]
+favoritesColumns=1
+favoritesEnableSubtitles=false
+favoritesFlow=2
 
 [Containments][204][Applets][364][Configuration][General]
 favoritesPortedToKAstats=true
@@ -402,7 +411,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][311][Applets][323][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][311][Applets][323][Configuration][ConfigDialog]
 DialogHeight=600
