@@ -90,6 +90,7 @@ DialogHeight=626
 DialogWidth=899
 
 [Containments][108][Applets][281][Configuration][General]
+capitalFont=false
 containmentType=Plasma
 lengthFirstMargin=2
 lengthMarginsLock=false
@@ -222,6 +223,7 @@ dateDisplayFormat=BesideTime
 dateFormat=custom
 showDate=false
 showSeconds=true
+use24hFormat=2
 
 [Containments][204][Applets][297][Configuration][ConfigDialog]
 DialogHeight=624
