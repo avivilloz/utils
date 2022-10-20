@@ -77,7 +77,6 @@ ShowAddRemove=false
 ZoomDuration=50
 
 [Effect-overview]
-BlurBackground=false
 LayoutMode=0
 
 [Effect-presentwindows]
