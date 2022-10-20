@@ -259,6 +259,7 @@ DialogWidth=800
 groupedTaskVisualization=2
 launchers=
 maxStripes=1
+showOnlyCurrentDesktop=false
 
 [Containments][204][Applets][364]
 immutability=1
@@ -270,10 +271,11 @@ popupHeight=800
 popupWidth=724
 
 [Containments][204][Applets][364][Configuration][Advanced]
+allowDragResize=false
 horizontalSelectionMargin=0
 itemVerticalMargin=2
-menuHeight=25
-menuWidth=15
+menuHeight=51
+menuWidth=19
 
 [Containments][204][Applets][364][Configuration][Applications]
 applicationsEnableSubtitles=false
