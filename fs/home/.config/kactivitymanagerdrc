@@ -13,6 +13,6 @@ org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=activities
 
 [main]
-currentActivity=6ae4af5b-3084-412e-b669-d83cca87e720
+currentActivity=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 runningActivities=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 stoppedActivities=

@@ -339,6 +339,23 @@ global=Meta+S
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][204][Applets][371]
+immutability=1
+plugin=adhe.textcommand
+
+[Containments][204][Applets][371][Configuration][Appearance]
+boldText=false
+fixedFont=true
+fontSize=18
+paddingLeft=0
+paddingRight=12
+paddingTop=1
+textLabel=
+
+[Containments][204][Applets][371][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -347,7 +364,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=364;368;356;360;370;366;365;205;208;297;296
+AppletOrder=364;368;356;371;360;370;366;365;205;208;297;296
 
 [Containments][311]
 activityId=
