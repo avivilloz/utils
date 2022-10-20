@@ -280,18 +280,16 @@ menuWidth=19
 applicationsEnableSubtitles=false
 
 [Containments][204][Applets][364][Configuration][ConfigDialog]
-DialogHeight=656
-DialogWidth=869
+DialogHeight=662
+DialogWidth=911
 
 [Containments][204][Applets][364][Configuration][Favorites]
 favoritesColumns=1
 favoritesEnableSubtitles=false
-favoritesFlow=2
 
 [Containments][204][Applets][364][Configuration][General]
 favoritesPortedToKAstats=true
 menuItems=application:t,leave:t,computer:t,bookmark:f,used:f,oftenUsed:f
-switchTabsOnHover=false
 
 [Containments][204][Applets][364][Shortcuts]
 global=Meta+A
