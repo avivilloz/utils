@@ -3,9 +3,7 @@ update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_sh
 
 [ActivityManager]
 _k_friendly_name=System Settings
-switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=none,none,Switch to activity "Game Development"
-switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=none,none,Switch to activity "Main"
-switch-to-activity-e06efc39-cd82-4566-9646-75cffa64f30b=,none,Switch to activity "Video Production"
+switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=,none,Switch to activity "Game Development"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
