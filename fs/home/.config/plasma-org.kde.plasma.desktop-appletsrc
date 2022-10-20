@@ -180,7 +180,7 @@ PreloadWeight=42
 
 [Containments][204][Applets][208][Configuration][General]
 expanding=false
-length=500
+length=480
 
 [Containments][204][Applets][261][Configuration]
 PreloadWeight=100
@@ -272,8 +272,8 @@ popupWidth=724
 [Containments][204][Applets][364][Configuration][Advanced]
 horizontalSelectionMargin=0
 itemVerticalMargin=2
-menuHeight=51
-menuWidth=18.55
+menuHeight=25
+menuWidth=15
 
 [Containments][204][Applets][364][Configuration][Applications]
 applicationsEnableSubtitles=false
@@ -444,7 +444,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=89
+PreloadWeight=81
 
 [Containments][311][Applets][325]
 immutability=1
