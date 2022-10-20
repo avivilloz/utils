@@ -488,8 +488,8 @@ scaleIconsToFit=true
 global=
 
 [Containments][339]
-ItemGeometries-1920x1080=Applet-372:768,48,368,176,0;
-ItemGeometriesHorizontal=Applet-372:768,48,368,176,0;
+ItemGeometries-1920x1080=Applet-377:816,112,288,144,0;
+ItemGeometriesHorizontal=Applet-377:816,112,288,144,0;
 activityId=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 formfactor=0
 immutability=1
@@ -498,22 +498,14 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][339][Applets][372]
+[Containments][339][Applets][377]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][339][Applets][372][Configuration]
-PreloadWeight=80
-UserBackgroundHints=
-popupHeight=500
-popupWidth=440
-
-[Containments][339][Applets][372][Configuration][Appearance]
+[Containments][339][Applets][377][Configuration][Appearance]
 dateFormat=longDate
-fontFamily=Iosevka
-fontSize=11
 
-[Containments][339][Applets][372][Configuration][ConfigDialog]
+[Containments][339][Applets][377][Configuration][ConfigDialog]
 DialogHeight=600
 DialogWidth=800
 
@@ -586,8 +578,8 @@ Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/c
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][351]
-ItemGeometries-1920x1080=Applet-373:784,48,336,176,0;
-ItemGeometriesHorizontal=Applet-373:784,48,336,176,0;
+ItemGeometries-1920x1080=Applet-376:816,112,288,144,0;
+ItemGeometriesHorizontal=Applet-376:816,112,288,144,0;
 activityId=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 formfactor=0
 immutability=1
@@ -596,21 +588,25 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][351][Applets][373]
+[Containments][351][Applets][376]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
-[Containments][351][Applets][373][Configuration]
-PreloadWeight=60
+[Containments][351][Applets][376][Configuration]
+PreloadWeight=55
 popupHeight=500
 popupWidth=440
 
-[Containments][351][Applets][373][Configuration][Appearance]
+[Containments][351][Applets][376][Configuration][Appearance]
+customDateFormat=dddd, MMMM dd, yyyy
 dateFormat=longDate
+fontFamily=Iosevka
+fontSize=28
+fontStyleName=Regular
 
-[Containments][351][Applets][373][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
+[Containments][351][Applets][376][Configuration][ConfigDialog]
+DialogHeight=689
+DialogWidth=958
 
 [Containments][351][ConfigDialog]
 DialogHeight=600
@@ -711,8 +707,8 @@ wallpaperplugin=org.kde.image
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][369]
-ItemGeometries-1920x1080=Applet-374:736,48,432,176,0;
-ItemGeometriesHorizontal=Applet-374:736,48,432,176,0;
+ItemGeometries-1920x1080=Applet-374:816,112,288,144,0;
+ItemGeometriesHorizontal=Applet-374:816,112,288,144,0;
 activityId=6ae4af5b-3084-412e-b669-d83cca87e720
 formfactor=0
 immutability=1
