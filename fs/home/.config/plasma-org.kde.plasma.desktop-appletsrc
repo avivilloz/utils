@@ -179,7 +179,7 @@ PreloadWeight=42
 
 [Containments][204][Applets][208][Configuration][General]
 expanding=false
-length=490
+length=480
 
 [Containments][204][Applets][261][Configuration]
 PreloadWeight=100

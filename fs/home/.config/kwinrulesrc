@@ -102,7 +102,7 @@ wmclassmatch=1
 [12]
 Description=Application settings for akregator
 clientmachine=localhost
-desktops=62c3e04b-0481-4bb4-8ba5-b0875a7b3b50
+desktops=281cb55b-fd23-4162-9fef-5dbfd9c62632
 desktopsrule=2
 maximizehoriz=true
 maximizevert=true
