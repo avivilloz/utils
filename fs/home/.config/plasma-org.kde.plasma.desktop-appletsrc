@@ -586,6 +586,24 @@ wallpaperplugin=org.kde.image
 [Containments][362][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
+[Containments][381]
+activityId=6aded87e-c0fd-4dc7-a9b9-99e2aae0a7d4
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][382]
+activityId=0a388990-04b9-4602-92ad-2c4082a37f48
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [Containments107Appletsts][116][Configuration][General]
 length=911
 
