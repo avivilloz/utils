@@ -346,6 +346,7 @@ activate widget 338=none,none,Activate Activities Widget
 activate widget 360=none,none,Activate Icons-only Task Manager Widget
 activate widget 361=none,none,Activate Search Widget
 activate widget 364=Meta+A,none,Activate Application Launcher (Favorites in a Grid) Widget
+activate widget 372=,none,Activate Digital Clock Widget
 activate widget 4=none,none,Activate Pager Widget
 activate widget 50=none,none,Activate Lock/Logout Widget
 activate widget 8=none,none,Activate System Tray Widget

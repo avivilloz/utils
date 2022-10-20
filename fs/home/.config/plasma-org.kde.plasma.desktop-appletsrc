@@ -179,7 +179,7 @@ PreloadWeight=42
 
 [Containments][204][Applets][208][Configuration][General]
 expanding=false
-length=480
+length=490
 
 [Containments][204][Applets][261][Configuration]
 PreloadWeight=100
@@ -489,8 +489,8 @@ scaleIconsToFit=true
 global=
 
 [Containments][339]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
+ItemGeometries-1920x1080=Applet-372:768,48,368,176,0;
+ItemGeometriesHorizontal=Applet-372:768,48,368,176,0;
 activityId=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 formfactor=0
 immutability=1
@@ -498,6 +498,25 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][339][Applets][372]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][339][Applets][372][Configuration]
+PreloadWeight=80
+UserBackgroundHints=
+popupHeight=500
+popupWidth=440
+
+[Containments][339][Applets][372][Configuration][Appearance]
+dateFormat=longDate
+fontFamily=Iosevka
+fontSize=11
+
+[Containments][339][Applets][372][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][339][ConfigDialog]
 DialogHeight=734
@@ -568,8 +587,8 @@ Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/c
 SlidePaths=/home/avivilloz/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][351]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
+ItemGeometries-1920x1080=Applet-373:784,48,336,176,0;
+ItemGeometriesHorizontal=Applet-373:784,48,336,176,0;
 activityId=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 formfactor=0
 immutability=1
@@ -577,6 +596,22 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][351][Applets][373]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][351][Applets][373][Configuration]
+PreloadWeight=60
+popupHeight=500
+popupWidth=440
+
+[Containments][351][Applets][373][Configuration][Appearance]
+dateFormat=longDate
+
+[Containments][351][Applets][373][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
 
 [Containments][351][ConfigDialog]
 DialogHeight=600
@@ -677,6 +712,8 @@ wallpaperplugin=org.kde.image
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][369]
+ItemGeometries-1920x1080=Applet-374:736,48,432,176,0;
+ItemGeometriesHorizontal=Applet-374:736,48,432,176,0;
 activityId=6ae4af5b-3084-412e-b669-d83cca87e720
 formfactor=0
 immutability=1
@@ -684,6 +721,22 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][369][Applets][374]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][369][Applets][374][Configuration][Appearance]
+dateFormat=longDate
+
+[Containments][369][Applets][374][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][369][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=387
+ToolBoxButtonY=20
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
