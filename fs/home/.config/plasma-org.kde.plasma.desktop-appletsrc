@@ -323,23 +323,6 @@ wrapPage=true
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
-[Containments][204][Applets][371]
-immutability=1
-plugin=adhe.textcommand
-
-[Containments][204][Applets][371][Configuration][Appearance]
-boldText=false
-fixedFont=true
-fontSize=18
-paddingLeft=0
-paddingRight=14
-paddingTop=1
-textLabel=
-
-[Containments][204][Applets][371][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -348,7 +331,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=364;356;371;360;370;366;365;205;208;297;296
+AppletOrder=364;356;360;370;366;365;205;208;297;296
 
 [Containments][311]
 activityId=
@@ -706,6 +689,8 @@ wallpaperplugin=org.kde.image
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][378]
+ItemGeometries-1920x1080=Applet-379:832,112,256,144,0;
+ItemGeometriesHorizontal=Applet-379:832,112,256,144,0;
 activityId=e06efc39-cd82-4566-9646-75cffa64f30b
 formfactor=0
 immutability=1
@@ -713,6 +698,22 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][378][Applets][379]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][378][Applets][379][Configuration][Appearance]
+dateFormat=longDate
+
+[Containments][378][Applets][379][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][378][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=387
+ToolBoxButtonY=20
 
 [Containments107Appletsts][116][Configuration][General]
 length=911
