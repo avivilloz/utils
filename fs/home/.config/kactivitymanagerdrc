@@ -3,16 +3,16 @@ org.kde.ActivityManager.ResourceScoringEnabled=false
 org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
 
 [activities]
-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=Game Development
-6ae4af5b-3084-412e-b669-d83cca87e720=YouTube Production
+4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=Gamedev
+6ae4af5b-3084-412e-b669-d83cca87e720=Production
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=Default
 
 [activities-icons]
-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=input-gamepad
-6ae4af5b-3084-412e-b669-d83cca87e720=youtube
+4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=applications-games-symbolic
+6ae4af5b-3084-412e-b669-d83cca87e720=view-list-video-symbolic
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=activities
 
 [main]
-currentActivity=961dd88f-7878-41cc-8d07-cfa3265ca6d3
+currentActivity=6ae4af5b-3084-412e-b669-d83cca87e720
 runningActivities=961dd88f-7878-41cc-8d07-cfa3265ca6d3
 stoppedActivities=
