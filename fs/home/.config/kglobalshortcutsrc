@@ -285,7 +285,7 @@ _launch=Ctrl+Alt+T\tMeta+T\tMeta+Return,Ctrl+Alt+T,Konsole
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Alt+Space\tSearch\tAlt+F2,Alt+Space\tAlt+F2\tSearch,KRunner
+_launch=Search\tAlt+F2\tMeta+S\tAlt+Space,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
@@ -346,7 +346,6 @@ activate widget 338=none,none,Activate Activities Widget
 activate widget 360=none,none,Activate Icons-only Task Manager Widget
 activate widget 361=none,none,Activate Search Widget
 activate widget 364=Meta+A,none,Activate Application Launcher (Favorites in a Grid) Widget
-activate widget 368=Meta+S,none,Activate Search Widget
 activate widget 4=none,none,Activate Pager Widget
 activate widget 50=none,none,Activate Lock/Logout Widget
 activate widget 8=none,none,Activate System Tray Widget

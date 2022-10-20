@@ -321,20 +321,6 @@ displayedText=Number
 showOnlyCurrentScreen=true
 wrapPage=true
 
-[Containments][204][Applets][368]
-immutability=1
-plugin=org.kde.milou
-
-[Containments][204][Applets][368][Configuration]
-PreloadWeight=100
-
-[Containments][204][Applets][368][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][368][Shortcuts]
-global=Meta+S
-
 [Containments][204][Applets][370]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -364,7 +350,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=364;368;356;371;360;370;366;365;205;208;297;296
+AppletOrder=364;356;371;360;370;366;365;205;208;297;296
 
 [Containments][311]
 activityId=
