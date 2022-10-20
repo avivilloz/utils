@@ -160,7 +160,7 @@ toolBarFont=Iosevka,10,-1,5,50,0,0,0,0,0
 Theme=Tela-nord
 
 [KDE]
-AnimationDurationFactor=0
+AnimationDurationFactor=0.5
 LookAndFeelPackage=org.kde.default.desktop
 
 [KFileDialog Settings]
