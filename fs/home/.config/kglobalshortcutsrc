@@ -3,9 +3,9 @@ update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_sh
 
 [ActivityManager]
 _k_friendly_name=System Settings
-switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=,none,Switch to activity "Gamedev"
-switch-to-activity-6ae4af5b-3084-412e-b669-d83cca87e720=,none,Switch to activity "Production"
-switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=,none,Switch to activity "Default"
+switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=none,none,Switch to activity "Game Development"
+switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=none,none,Switch to activity "Main"
+switch-to-activity-e06efc39-cd82-4566-9646-75cffa64f30b=,none,Switch to activity "Video Production"
 
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
@@ -256,11 +256,11 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next\tCtrl+>,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play\tCtrl+?,Media Play,Play/Pause media playback
 previousmedia=Ctrl+<\tMedia Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -285,7 +285,7 @@ _launch=Ctrl+Alt+T\tMeta+T\tMeta+Return,Ctrl+Alt+T,Konsole
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
-_launch=Search\tAlt+F2\t\tAlt+Space,Alt+Space\tAlt+F2\tSearch,KRunner
+_launch=Search\tAlt+F2\tAlt+Space,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector

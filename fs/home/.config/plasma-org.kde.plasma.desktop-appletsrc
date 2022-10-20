@@ -270,18 +270,17 @@ popupHeight=800
 popupWidth=724
 
 [Containments][204][Applets][364][Configuration][Advanced]
-allowDragResize=false
 horizontalSelectionMargin=0
 itemVerticalMargin=2
 menuHeight=51
-menuWidth=19
+menuWidth=18.55
 
 [Containments][204][Applets][364][Configuration][Applications]
 applicationsEnableSubtitles=false
 
 [Containments][204][Applets][364][Configuration][ConfigDialog]
-DialogHeight=662
-DialogWidth=911
+DialogHeight=758
+DialogWidth=964
 
 [Containments][204][Applets][364][Configuration][Favorites]
 favoritesColumns=1
@@ -706,32 +705,14 @@ wallpaperplugin=org.kde.image
 [Containments][362][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
-[Containments][369]
-ItemGeometries-1920x1080=Applet-374:816,112,288,144,0;
-ItemGeometriesHorizontal=Applet-374:816,112,288,144,0;
-activityId=6ae4af5b-3084-412e-b669-d83cca87e720
+[Containments][378]
+activityId=e06efc39-cd82-4566-9646-75cffa64f30b
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][369][Applets][374]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][369][Applets][374][Configuration][Appearance]
-dateFormat=longDate
-
-[Containments][369][Applets][374][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][369][General]
-ToolBoxButtonState=topcenter
-ToolBoxButtonX=387
-ToolBoxButtonY=20
 
 [Containments107Appletsts][116][Configuration][General]
 length=911

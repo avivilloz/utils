@@ -4,15 +4,15 @@ org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
 
 [activities]
 4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=Game Development
-6ae4af5b-3084-412e-b669-d83cca87e720=Video Production
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=Main
+e06efc39-cd82-4566-9646-75cffa64f30b=Video Production
 
 [activities-icons]
 4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=input-gaming
-6ae4af5b-3084-412e-b669-d83cca87e720=record
 961dd88f-7878-41cc-8d07-cfa3265ca6d3=activities
+e06efc39-cd82-4566-9646-75cffa64f30b=record
 
 [main]
 currentActivity=961dd88f-7878-41cc-8d07-cfa3265ca6d3
-runningActivities=961dd88f-7878-41cc-8d07-cfa3265ca6d3
+runningActivities=961dd88f-7878-41cc-8d07-cfa3265ca6d3,4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 stoppedActivities=
