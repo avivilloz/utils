@@ -312,7 +312,7 @@ DialogWidth=800
 [Containments][204][Applets][365][Configuration][General]
 containmentType=Plasma
 lengthPercentage=90
-lengthPixels=8
+lengthPixels=10
 
 [Containments][204][Applets][366]
 immutability=1
@@ -327,6 +327,20 @@ displayedText=Number
 showOnlyCurrentScreen=true
 wrapPage=true
 
+[Containments][204][Applets][368]
+immutability=1
+plugin=org.kde.milou
+
+[Containments][204][Applets][368][Configuration]
+PreloadWeight=100
+
+[Containments][204][Applets][368][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][368][Shortcuts]
+global=Meta+S
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -335,7 +349,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=364;356;360;209;366;365;205;208;297;296
+AppletOrder=364;368;356;360;209;366;365;205;208;297;296
 
 [Containments][311]
 activityId=
@@ -448,7 +462,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=97
+PreloadWeight=89
 
 [Containments][311][Applets][325]
 immutability=1
@@ -660,6 +674,15 @@ wallpaperplugin=org.kde.image
 
 [Containments][362][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
+
+[Containments][369]
+activityId=6ae4af5b-3084-412e-b669-d83cca87e720
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments107Appletsts][116][Configuration][General]
 length=911

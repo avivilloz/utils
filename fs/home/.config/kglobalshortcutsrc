@@ -3,7 +3,8 @@ update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_sh
 
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=none,none,Switch to activity "Production"
+switch-to-activity-4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23=none,none,Switch to activity "Game Development"
+switch-to-activity-6ae4af5b-3084-412e-b669-d83cca87e720=none,none,Switch to activity "YouTube Production"
 switch-to-activity-961dd88f-7878-41cc-8d07-cfa3265ca6d3=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
@@ -101,7 +102,7 @@ ClearLastMouseMark=Meta+Shift+F12,Meta+Shift+F12,Clear Last Mouse Mark
 ClearMouseMarks=Meta+Shift+F11,Meta+Shift+F11,Clear Mouse Marks
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5 %
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tMeta+S,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeAll=Ctrl+F10\tMeta+E,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Increase Opacity=none,,Increase Opacity of Active Window by 5 %
@@ -345,6 +346,7 @@ activate widget 338=none,none,Activate Activities Widget
 activate widget 360=none,none,Activate Icons-only Task Manager Widget
 activate widget 361=none,none,Activate Search Widget
 activate widget 364=Meta+A,none,Activate Application Launcher (Favorites in a Grid) Widget
+activate widget 368=Meta+S,none,Activate Search Widget
 activate widget 4=none,none,Activate Pager Widget
 activate widget 50=none,none,Activate Lock/Logout Widget
 activate widget 8=none,none,Activate System Tray Widget
