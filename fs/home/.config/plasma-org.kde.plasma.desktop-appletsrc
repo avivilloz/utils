@@ -180,7 +180,7 @@ PreloadWeight=42
 
 [Containments][204][Applets][208][Configuration][General]
 expanding=false
-length=480
+length=500
 
 [Containments][204][Applets][261][Configuration]
 PreloadWeight=100
@@ -234,18 +234,6 @@ global=
 
 [Containments][204][Applets][355][Configuration]
 PreloadWeight=52
-
-[Containments][204][Applets][356]
-immutability=1
-plugin=org.kde.plasma.showActivityManager
-
-[Containments][204][Applets][356][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][356][Configuration][General]
-showActivityIcon=false
-showActivityName=false
 
 [Containments][204][Applets][360]
 immutability=1
@@ -333,7 +321,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=364;356;360;370;380;365;205;208;297;296
+AppletOrder=364;360;370;380;365;205;208;297;296
 
 [Containments][311]
 activityId=
@@ -446,7 +434,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=81
+PreloadWeight=86
 
 [Containments][311][Applets][325]
 immutability=1
