@@ -247,7 +247,6 @@ DialogWidth=800
 groupedTaskVisualization=2
 launchers=
 maxStripes=1
-showOnlyCurrentDesktop=false
 
 [Containments][204][Applets][364]
 immutability=1
@@ -313,6 +312,25 @@ displayedText=Number
 showOnlyCurrentScreen=true
 wrapPage=true
 
+[Containments][204][Applets][385]
+immutability=1
+plugin=org.kde.milou
+
+[Containments][204][Applets][385][Configuration]
+PreloadWeight=55
+
+[Containments][204][Applets][386]
+immutability=1
+plugin=org.kde.plasma.showActivityManager
+
+[Containments][204][Applets][386][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][386][Configuration][General]
+showActivityIcon=false
+showActivityName=false
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -321,7 +339,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=364;360;370;380;365;205;208;297;296
+AppletOrder=364;385;386;360;370;380;365;205;208;297;296
 
 [Containments][311]
 activityId=
@@ -409,7 +427,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][311][Applets][321][Configuration]
-PreloadWeight=67
+PreloadWeight=77
 
 [Containments][311][Applets][322]
 immutability=1
