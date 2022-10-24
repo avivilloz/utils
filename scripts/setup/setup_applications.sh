@@ -19,7 +19,6 @@ if [ $ans  = "y" ]; then
 	sudo pacman -S audacity --needed
 	sudo pacman -S discord --needed
 	sudo pacman -S flameshot --needed
-	sudo pacman -S gcompris-qt --needed
 	sudo pacman -S balena-etcher --needed
 	sudo pacman -S github-desktop --needed
 	sudo pacman -S firefox-appmenu --needed
@@ -52,4 +51,5 @@ if [ $ans  = "y" ]; then
 	sudo pacman -S akregator --needed
 	yay -S aseprite --needed
 	yay -S google-chrome --needed
+	yay -S huiontablet --needed
 fi
