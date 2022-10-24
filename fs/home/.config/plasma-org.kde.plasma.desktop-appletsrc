@@ -179,7 +179,6 @@ plugin=org.kde.plasma.panelspacer
 PreloadWeight=42
 
 [Containments][204][Applets][208][Configuration][General]
-expanding=false
 length=460
 
 [Containments][204][Applets][261][Configuration]
@@ -453,7 +452,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=86
+PreloadWeight=96
 
 [Containments][311][Applets][325]
 immutability=1

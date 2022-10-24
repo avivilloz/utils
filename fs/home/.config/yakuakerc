@@ -26,6 +26,6 @@ previous-session=Ctrl+PgUp; Ctrl+Shift+Tab
 previous-terminal=none
 
 [Window]
-Height=69
+Height=62
 KeepOpen=false
 Width=100
