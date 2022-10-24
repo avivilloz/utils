@@ -180,7 +180,7 @@ PreloadWeight=42
 
 [Containments][204][Applets][208][Configuration][General]
 expanding=false
-length=480
+length=460
 
 [Containments][204][Applets][261][Configuration]
 PreloadWeight=100
@@ -317,7 +317,7 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][204][Applets][385][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][204][Applets][386]
 immutability=1
