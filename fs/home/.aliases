@@ -19,6 +19,7 @@ alias ve="$term -e vim"
 alias c="clear"
 alias cc="cd && clear"
 alias e="exit"
+alias q="exit"
 alias r="ranger"
 alias t="htop"
 alias h="htop"
@@ -68,13 +69,6 @@ alias nvsmi="nvidia-smi"
 alias currgpu="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
 alias gpus="envycontrol --dm sddm -s"
 alias gpuq="envycontrol --query"
-
-#alacritty
-alias at='alacritty-themes'
-
-#exec
-alias mappen="bash $scriptsdir/random/mappen.sh"
-alias chrome="/opt/google/chrome/google-chrome"
 
 #edit
 alias edgrub="sudo vim /etc/default/grub"
