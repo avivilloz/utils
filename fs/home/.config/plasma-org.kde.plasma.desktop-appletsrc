@@ -317,7 +317,7 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][204][Applets][385][Configuration]
-PreloadWeight=65
+PreloadWeight=80
 
 [Containments][204][Applets][386]
 immutability=1
@@ -452,7 +452,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=96
+PreloadWeight=100
 
 [Containments][311][Applets][325]
 immutability=1
