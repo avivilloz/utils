@@ -5,9 +5,6 @@ Number of Actions=0
 HDMI-0 Height 1920x1080=482
 HDMI-0 Width 1920x1080=544
 
-[PlasmaTransientsConfig]
-PreloadWeight=42
-
 [PlasmaViews][Panel 108]
 alignment=1
 floating=0
