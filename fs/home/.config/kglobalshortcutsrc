@@ -348,6 +348,7 @@ activate widget 361=none,none,Activate Search Widget
 activate widget 364=Meta+A,none,Activate Application Launcher (Favorites in a Grid) Widget
 activate widget 392=Alt+F1,none,Activate Application Launcher Widget
 activate widget 4=none,none,Activate Pager Widget
+activate widget 442=,none,Activate Application Launcher Widget
 activate widget 50=none,none,Activate Lock/Logout Widget
 activate widget 8=none,none,Activate System Tray Widget
 clear-history=none,,Clear Clipboard History
