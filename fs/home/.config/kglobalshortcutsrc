@@ -369,10 +369,6 @@ switch to next activity=Ctrl+Alt+Right,,Switch to Next Activity
 switch to previous activity=Ctrl+Alt+Left,,Switch to Previous Activity
 toggle do not disturb=Meta+N,,Toggle do not disturb
 
-[plasmawindowed]
-_k_friendly_name=plasmawindowed
-activate widget 3=none,none,Activate Sticky Note Widget
-
 [systemsettings.desktop]
 _k_friendly_name=System Settings
 _launch=Tools\tMeta+/,Tools,System Settings
