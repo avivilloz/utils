@@ -30,12 +30,12 @@ panelVisibility=0
 [PlasmaViews][Panel 204][Defaults]
 maxLength=1920
 minLength=1920
-thickness=32
+thickness=28
 
 [PlasmaViews][Panel 204][Horizontal1920]
 maxLength=1920
 minLength=1920
-thickness=32
+thickness=28
 
 [PlasmaViews][Panel 263][Defaults]
 thickness=20
