@@ -128,8 +128,8 @@ minLength=112
 thickness=50
 
 [ScreenConnectors]
-0=HDMI-0
-1=eDP-1-1
+0=eDP-1-1
+1=HDMI-0
 2=:0.0
 3=eDP1
 4=eDP-1
