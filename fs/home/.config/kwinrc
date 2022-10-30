@@ -111,6 +111,7 @@ NightTemperature=4400
 blurEnabled=true
 contrastEnabled=true
 forceblurEnabled=false
+highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_morphingpopupsEnabled=false
@@ -286,10 +287,13 @@ active=-1
 count=0
 
 [TabBox]
-LayoutName=org.kde.breeze.desktop
+HighlightWindows=false
+LayoutName=coverswitch
 
 [TabBoxAlternative]
 DesktopMode=0
+HighlightWindows=false
+LayoutName=coverswitch
 
 [Windows]
 AutoRaiseInterval=700
