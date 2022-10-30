@@ -288,12 +288,12 @@ count=0
 
 [TabBox]
 HighlightWindows=false
-LayoutName=thumbnail_grid
+LayoutName=coverswitch
 
 [TabBoxAlternative]
 DesktopMode=0
 HighlightWindows=false
-LayoutName=thumbnail_grid
+LayoutName=coverswitch
 
 [Windows]
 AutoRaiseInterval=700
