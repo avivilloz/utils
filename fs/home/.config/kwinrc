@@ -111,6 +111,7 @@ NightTemperature=4400
 blurEnabled=true
 contrastEnabled=true
 forceblurEnabled=false
+highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_morphingpopupsEnabled=false
@@ -286,11 +287,13 @@ active=-1
 count=0
 
 [TabBox]
-LayoutName=big_icons
+HighlightWindows=false
+LayoutName=thumbnail_grid
 
 [TabBoxAlternative]
 DesktopMode=0
-LayoutName=big_icons
+HighlightWindows=false
+LayoutName=thumbnail_grid
 
 [Windows]
 AutoRaiseInterval=700
