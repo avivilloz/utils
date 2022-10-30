@@ -67,7 +67,7 @@ alias nvrun="__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
 alias nvsmi="nvidia-smi"
 
 #graphic cards
-alias currgpu="glxinfo | egrep 'OpenGL vendor|OpenGL renderer'"
+alias currgpu="glxinfo | grep -E 'OpenGL vendor|OpenGL renderer'"
 alias gpus="sudo envycontrol --dm sddm -s"
 alias gpuq="envycontrol --query"
 
