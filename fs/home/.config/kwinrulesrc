@@ -376,6 +376,8 @@ Description=Application settings for obs
 clientmachine=localhost
 desktops=\\0
 desktopsrule=2
+screen=1
+screenrule=3
 wmclass=obs
 wmclassmatch=1
 

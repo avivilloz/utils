@@ -13,6 +13,6 @@ org.kde.ActivityManager.VirtualDesktopSwitchEnabled=true
 6aded87e-c0fd-4dc7-a9b9-99e2aae0a7d4=input-gamepad-symbolic
 
 [main]
-currentActivity=6aded87e-c0fd-4dc7-a9b9-99e2aae0a7d4
+currentActivity=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 runningActivities=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23,6aded87e-c0fd-4dc7-a9b9-99e2aae0a7d4
 stoppedActivities=0a388990-04b9-4602-92ad-2c4082a37f48
