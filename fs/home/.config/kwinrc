@@ -110,6 +110,7 @@ NightTemperature=4400
 [Plugins]
 blurEnabled=true
 contrastEnabled=true
+desktopchangeosdEnabled=true
 forceblurEnabled=false
 highlightwindowEnabled=false
 kwin4_effect_fadeEnabled=true
@@ -142,7 +143,7 @@ tileLayoutGap=5
 untileByDragging=false
 
 [Script-desktopchangeosd]
-PopupHideDelay=500
+PopupHideDelay=300
 TextOnly=true
 
 [SubSession: 0dfec7fa-a2f3-4590-bdc4-06c1d60246ad]
