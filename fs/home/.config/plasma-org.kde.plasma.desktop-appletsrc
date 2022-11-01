@@ -313,6 +313,7 @@ DialogWidth=800
 
 [Containments][204][Applets][491][Configuration][General]
 containmentType=Plasma
+lengthPixels=10
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
