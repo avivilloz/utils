@@ -16,8 +16,12 @@ windowSize=980,630
 [PlasmaThemeExtended]
 outlineWidth=1
 
+[PlasmaTransientsConfig]
+PreloadWeight=42
+
 [ScreenConnectors]
 10=HDMI-0:::0,0 1920x1080
+11=eDP-1-1:::0,0 1920x1080
 
 [UniversalSettings]
 badges3DStyle=false
@@ -34,3 +38,6 @@ showInfoWindow=true
 singleModeLayoutName=My Layout
 userConfiguredAutostart=true
 version=2
+
+[UniversalSettings][ScreenScales]
+HDMI-0=1.457;1
