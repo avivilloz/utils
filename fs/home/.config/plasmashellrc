@@ -127,6 +127,22 @@ thickness=50
 minLength=112
 thickness=50
 
+[PlasmaViews][Panel 492]
+alignment=132
+floating=0
+panelOpacity=2
+panelVisibility=1
+
+[PlasmaViews][Panel 492][Defaults]
+maxLength=1080
+minLength=112
+thickness=50
+
+[PlasmaViews][Panel 492][Vertical1080]
+maxLength=1080
+minLength=112
+thickness=50
+
 [ScreenConnectors]
 0=HDMI-0
 1=eDP-1-1

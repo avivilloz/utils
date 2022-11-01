@@ -121,7 +121,6 @@ screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
 trackmouseEnabled=true
-windowviewEnabled=false
 
 [Script-bismuth]
 enableFloatingLayout=true
