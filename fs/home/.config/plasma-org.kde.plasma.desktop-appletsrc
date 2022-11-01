@@ -300,6 +300,19 @@ DialogWidth=800
 containmentType=Plasma
 lengthPixels=10
 
+[Containments][204][Applets][514]
+immutability=1
+plugin=org.kde.plasma.icontasks
+
+[Containments][204][Applets][514][Configuration][ConfigDialog]
+DialogHeight=600
+DialogWidth=800
+
+[Containments][204][Applets][514][Configuration][General]
+groupedTaskVisualization=2
+launchers=preferred://browser
+maxStripes=1
+
 [Containments][204][ConfigDialog]
 DialogHeight=91
 DialogWidth=1920
@@ -308,7 +321,7 @@ DialogWidth=1920
 PreloadWeight=42
 
 [Containments][204][General]
-AppletOrder=364;385;386;440;490;491;488;370;297;296
+AppletOrder=364;385;386;514;440;490;491;488;370;297;296
 
 [Containments][311]
 activityId=
