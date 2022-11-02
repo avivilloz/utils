@@ -179,7 +179,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][204][Applets][297][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 popupHeight=500
 popupWidth=440
 
@@ -206,7 +206,7 @@ immutability=1
 plugin=com.gitlab.cupnoodles14.kickoff
 
 [Containments][204][Applets][364][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 popupHeight=800
 popupWidth=724
 
@@ -402,7 +402,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][311][Applets][318][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][311][Applets][318][Configuration][ConfigDialog]
 DialogHeight=600
@@ -1256,7 +1256,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][498][Applets][514][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 
 [Containments][498][Configuration]
 PreloadWeight=34
