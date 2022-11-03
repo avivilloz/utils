@@ -184,22 +184,24 @@ alias vlg='valgrind --leak-check=yes --track-origins=yes'
 alias hlg='valgrind --tool=helgrind'
 
 #git
-alias gadd="git add ."
-alias guadd="git reset"
-alias gcomm="git commit -m"
-alias grcomm="git revert --strategy resolve" #commit id
-alias gpush="git push"
-alias gpr="git push --set-upstream origin"
-alias gstat="git status"
-alias glog="git log"
-alias gclone="git clone"
-alias gdf="git diff"
-alias gdft="git difftool"
-alias gpull="git pull"
-alias gsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
-alias gqp="bash $scriptsdir/git/git_quick_push.sh"
-alias gqpm="bash $scriptsdir/git/git_quick_push_msg.sh"
-alias gqcpp="bash $scriptsdir/git/git_quick_cherry_pick_push.sh"
+alias gitadd="git add ."
+alias gitaddr="git reset"
+alias gitcomm="git commit -m"
+alias gitcommr="git revert --strategy resolve" #commit id
+alias gitpush="git push"
+alias gitpr="git push --set-upstream origin"
+alias gitstat="git status"
+alias gitlog="git log"
+alias gitclone="git clone"
+alias gitdf="git diff"
+alias gitdft="git difftool"
+alias gitpull="git pull"
+alias gitsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
+alias gitqp="bash $scriptsdir/git/git_quick_push.sh"
+alias gitqpm="bash $scriptsdir/git/git_quick_push_msg.sh"
+alias gitqcpp="bash $scriptsdir/git/git_quick_cherry_pick_push.sh"
+alias gitbrrmr="git push origin --delete"
+alias gitbrrml="git branch -D"
 
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
