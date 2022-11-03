@@ -402,7 +402,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][311][Applets][318][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][311][Applets][318][Configuration][ConfigDialog]
 DialogHeight=600
@@ -1256,7 +1256,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][498][Applets][514][Configuration]
-PreloadWeight=18
+PreloadWeight=10
 
 [Containments][498][Configuration]
 PreloadWeight=34
