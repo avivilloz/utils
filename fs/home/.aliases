@@ -273,7 +273,7 @@ alias tmuxls="tmux list-sessions"
 alias tmuxas="tmux attach-session -t"
 
 #guardicore
-alias gcsshtt="bash $scriptsdir/guardicore/ssh_to_tester.sh"
+alias gcssht="bash $scriptsdir/guardicore/ssh_to_tester.sh"
 alias gcaddta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
 
 #iptables
