@@ -190,7 +190,7 @@ alias gitcomm="git commit -m"
 alias gitcommr="git revert --strategy resolve" #commit id
 alias gitpush="git push"
 alias gitpr="git push --set-upstream origin"
-alias gitst="git status"
+alias gits="git status"
 alias gitlog="git log"
 alias gitclone="git clone"
 alias gitdf="git diff"
@@ -273,7 +273,7 @@ alias tmuxls="tmux list-sessions"
 alias tmuxas="tmux attach-session -t"
 
 #guardicore
-alias gcsshtt="bash $scriptsdir/guardicore/ssh_to_tester.sh"
+alias gcssht="bash $scriptsdir/guardicore/ssh_to_tester.sh"
 alias gcaddta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
 
 #iptables
