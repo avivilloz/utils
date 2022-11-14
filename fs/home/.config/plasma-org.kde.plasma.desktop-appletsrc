@@ -247,7 +247,7 @@ immutability=1
 plugin=org.kde.milou
 
 [Containments][204][Applets][385][Configuration]
-PreloadWeight=82
+PreloadWeight=92
 
 [Containments][204][Applets][386]
 immutability=1
@@ -430,7 +430,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][311][Applets][321][Configuration]
-PreloadWeight=69
+PreloadWeight=79
 
 [Containments][311][Applets][322]
 immutability=1
@@ -455,14 +455,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=93
+PreloadWeight=98
 
 [Containments][311][Applets][325]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][311][Applets][325][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][311][Applets][436]
 immutability=1
@@ -509,7 +509,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][351][Applets][376][Configuration]
-PreloadWeight=77
+PreloadWeight=82
 popupHeight=500
 popupWidth=440
 
@@ -1256,7 +1256,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][498][Applets][514][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][498][Configuration]
 PreloadWeight=34
