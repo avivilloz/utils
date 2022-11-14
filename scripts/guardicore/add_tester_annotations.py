@@ -13,7 +13,9 @@ annotations.update({
     'type': 'thin',
     'environment_name': 'Thin-300-Regular',
     'vcenter': '10.0.0.22',
-    'build_nightly': True
+    'build_nightly': True,
+    'testing_branch': 'master',
+    'branch': 'master'
 })
 
 res = requests.post('https://tester-config.gc.guardicore.com/save_details', data=annotations,
