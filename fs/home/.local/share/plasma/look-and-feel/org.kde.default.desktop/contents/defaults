@@ -26,4 +26,4 @@ LayoutName=org.kde.breeze.desktop
 library=org.kde.breeze
 
 [KSplash]
-Theme=org.kde.Breeze
+Theme=QuarksSplashDark
