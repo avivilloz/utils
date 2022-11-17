@@ -285,9 +285,6 @@ count=0
 active=-1
 count=0
 
-[TabBox]
-LayoutName=thumbnail_grid
-
 [TabBoxAlternative]
 DesktopMode=0
 LayoutName=thumbnail_grid

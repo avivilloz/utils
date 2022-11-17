@@ -509,12 +509,13 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][351][Applets][376][Configuration]
-PreloadWeight=82
+PreloadWeight=87
 popupHeight=500
 popupWidth=440
 
 [Containments][351][Applets][376][Configuration][Appearance]
 customDateFormat=dddd, MMMM dd, yyyy
+dateDisplayFormat=BelowTime
 dateFormat=longDate
 fontFamily=Iosevka
 fontSize=28
