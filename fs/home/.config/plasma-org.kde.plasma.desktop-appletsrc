@@ -130,7 +130,7 @@ PreloadWeight=100
 SystrayContainmentId=311
 
 [Containments][108][ConfigDialog]
-DialogHeight=99
+DialogHeight=91
 DialogWidth=1920
 
 [Containments][108][Configuration]
@@ -184,10 +184,9 @@ popupHeight=500
 popupWidth=440
 
 [Containments][204][Applets][297][Configuration][Appearance]
-customDateFormat=ddd d/M
+customDateFormat=ddd d/MMM
 dateDisplayFormat=BesideTime
 dateFormat=custom
-showDate=false
 showSeconds=true
 use24hFormat=2
 
@@ -455,7 +454,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=90
+PreloadWeight=95
 
 [Containments][311][Applets][325]
 immutability=1
@@ -494,8 +493,8 @@ knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.
 global=Meta+S
 
 [Containments][351]
-ItemGeometries-1920x1080=Applet-376:816,112,288,144,0;
-ItemGeometriesHorizontal=Applet-376:816,112,288,144,0;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 formfactor=0
 immutability=1
@@ -503,27 +502,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][351][Applets][376]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][351][Applets][376][Configuration]
-PreloadWeight=87
-popupHeight=500
-popupWidth=440
-
-[Containments][351][Applets][376][Configuration][Appearance]
-customDateFormat=dddd, MMMM dd, yyyy
-dateDisplayFormat=BelowTime
-dateFormat=longDate
-fontFamily=Iosevka
-fontSize=28
-fontStyleName=Regular
-
-[Containments][351][Applets][376][Configuration][ConfigDialog]
-DialogHeight=689
-DialogWidth=958
 
 [Containments][351][ConfigDialog]
 DialogHeight=600
@@ -619,8 +597,8 @@ PreloadWeight=42
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
 
 [Containments][381]
-ItemGeometries-1920x1080=Applet-383:816,112,288,144,0;
-ItemGeometriesHorizontal=Applet-383:816,112,288,144,0;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=6aded87e-c0fd-4dc7-a9b9-99e2aae0a7d4
 formfactor=0
 immutability=1
@@ -628,22 +606,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][381][Applets][383]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][381][Applets][383][Configuration]
-PreloadWeight=47
-popupHeight=500
-popupWidth=440
-
-[Containments][381][Applets][383][Configuration][Appearance]
-dateFormat=longDate
-
-[Containments][381][Applets][383][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
 
 [Containments][381][Configuration]
 PreloadWeight=42
@@ -654,8 +616,8 @@ ToolBoxButtonX=387
 ToolBoxButtonY=20
 
 [Containments][382]
-ItemGeometries-1920x1080=Applet-384:816,112,288,144,0;
-ItemGeometriesHorizontal=Applet-384:816,112,288,144,0;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=0a388990-04b9-4602-92ad-2c4082a37f48
 formfactor=0
 immutability=1
@@ -663,20 +625,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][382][Applets][384]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][382][Applets][384][Configuration]
-PreloadWeight=42
-
-[Containments][382][Applets][384][Configuration][Appearance]
-dateFormat=longDate
-
-[Containments][382][Applets][384][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
 
 [Containments][382][Configuration]
 PreloadWeight=42
