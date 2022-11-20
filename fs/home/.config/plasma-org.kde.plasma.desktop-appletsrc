@@ -283,7 +283,6 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][Applets][514][Configuration][General]
-fill=false
 groupedTaskVisualization=2
 iconSpacing=3
 launchers=
