@@ -187,6 +187,7 @@ popupWidth=440
 customDateFormat=ddd d/M
 dateDisplayFormat=BesideTime
 dateFormat=custom
+showDate=false
 showSeconds=true
 use24hFormat=2
 
@@ -297,7 +298,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][204][General]
-AppletOrder=364;385;386;296;440;514;370;297
+AppletOrder=364;385;386;440;514;370;297;296
 
 [Containments][311]
 activityId=
