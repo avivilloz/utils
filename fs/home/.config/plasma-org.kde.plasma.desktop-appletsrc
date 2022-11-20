@@ -329,6 +329,7 @@ DialogHeight=600
 DialogWidth=800
 
 [Containments][204][Applets][514][Configuration][General]
+fill=false
 groupedTaskVisualization=2
 launchers=
 maxStripes=1
@@ -513,7 +514,7 @@ PreloadWeight=34
 [Containments][351][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
-ToolBoxButtonY=24
+ToolBoxButtonY=20
 
 [Containments][351][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
