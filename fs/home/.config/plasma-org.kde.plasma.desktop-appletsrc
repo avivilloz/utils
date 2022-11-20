@@ -270,53 +270,6 @@ plugin=org.kde.plasma.panelspacer
 [Containments][204][Applets][440][Configuration]
 PreloadWeight=42
 
-[Containments][204][Applets][488]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][204][Applets][488][Configuration]
-PreloadWeight=42
-
-[Containments][204][Applets][488][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][488][Configuration][General]
-displayedText=Name
-showOnlyCurrentScreen=true
-wrapPage=true
-
-[Containments][204][Applets][490]
-immutability=1
-plugin=org.kde.plasma.activitypager
-
-[Containments][204][Applets][490][Configuration]
-PreloadWeight=42
-
-[Containments][204][Applets][490][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][490][Configuration][General]
-displayedText=Number
-showOnlyCurrentScreen=true
-wrapPage=true
-
-[Containments][204][Applets][491]
-immutability=1
-plugin=org.kde.latte.spacer
-
-[Containments][204][Applets][491][Configuration]
-PreloadWeight=42
-
-[Containments][204][Applets][491][Configuration][ConfigDialog]
-DialogHeight=600
-DialogWidth=800
-
-[Containments][204][Applets][491][Configuration][General]
-containmentType=Plasma
-lengthPixels=10
-
 [Containments][204][Applets][514]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -331,8 +284,10 @@ DialogWidth=800
 [Containments][204][Applets][514][Configuration][General]
 fill=false
 groupedTaskVisualization=2
+iconSpacing=3
 launchers=
 maxStripes=1
+showOnlyCurrentDesktop=false
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
@@ -342,7 +297,7 @@ DialogWidth=1920
 PreloadWeight=34
 
 [Containments][204][General]
-AppletOrder=364;385;386;514;440;490;491;488;370;297;296
+AppletOrder=364;385;386;296;440;514;370;297
 
 [Containments][311]
 activityId=
