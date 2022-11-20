@@ -184,7 +184,7 @@ popupHeight=500
 popupWidth=440
 
 [Containments][204][Applets][297][Configuration][Appearance]
-customDateFormat=ddd d/MMM
+customDateFormat=ddd d/M
 dateDisplayFormat=BesideTime
 dateFormat=custom
 showSeconds=true
@@ -513,7 +513,7 @@ PreloadWeight=34
 [Containments][351][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=387
-ToolBoxButtonY=20
+ToolBoxButtonY=24
 
 [Containments][351][Wallpaper][org.kde.image][General]
 Image=file:///home/avivilloz/git/utils/fs/home/.local/share/wallpapers/Default/contents/images/1920x1080.png
