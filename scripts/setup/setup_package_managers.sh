@@ -4,30 +4,6 @@ echo -------------------------------------------------------------------------
 echo setup package managers
 echo -------------------------------------------------------------------------
 
-echo do you want to edit pacman.conf? [y/n]
-read ans
-if [ $ans = "y" ]; then
-    sudo vim /etc/pacman.conf
-fi
-
-echo do you want to update pacman? [y/n]
-read ans
-if [ $ans = "y" ]; then
-    sudo pacman -Syu
-fi
-
-
-echo do you want to setup chaotic aur? [y/n]
-read ans
-if [ $ans = "y" ]; then
-    sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
-    sudo pacman-key --lsign-key FBA220DFC880C036
-    sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' \
-        'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
-    sudo echo "[chaotic-aur]" >> /etc/pacman.conf
-    sudo echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
-fi
-
 echo do you want to setup yay? [y/n]
 read ans
 if [ $ans  = "y" ]; then
@@ -37,6 +13,7 @@ if [ $ans  = "y" ]; then
     makepkg -si
     cd ..
     rm -rf yay-git/
+    yay -Syu
 fi
 
 echo do you want to setup flatpak? [y/n]
@@ -44,6 +21,7 @@ read ans
 if [ $ans  = "y" ]; then
     sudo pacman -S --needed flatpak
     flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    flatpak update
 fi
 
 echo do you want to setup snap? [y/n]
@@ -56,6 +34,7 @@ if [ $ans  = "y" ]; then
     rm -rf snapd
     sudo systemctl enable --now snapd.socket
     sudo ln -s /var/lib/snapd/snap /snap
+    sudo snap refresh
 fi
 
 echo do you want to setup app-image? [y/n]
