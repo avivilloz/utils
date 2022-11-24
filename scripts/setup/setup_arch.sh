@@ -5,7 +5,7 @@ echo setup arch linux
 echo -------------------------------------------------------------------------
 
 echo do you want to setup arch linux after partitioning and installation of \
-	linux, linux-headers, git and vim? [y/n]
+	base, base-devel, linux, linux-firmware, linux-headers, git and vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
 

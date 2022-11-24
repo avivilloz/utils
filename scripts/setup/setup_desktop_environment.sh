@@ -7,7 +7,7 @@ echo -------------------------------------------------------------------------
 echo "do you want to install xorg? [y/n]"
 read ans
 if [ $ans  = "y" ]; then
-    pacman -S --needed xorg xorg-xwayland
+    sudo pacman -S --needed xorg xorg-xwayland
 fi
 
 echo which desktop environment would you like to install? [gnome/kde]
