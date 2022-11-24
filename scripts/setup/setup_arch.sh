@@ -8,6 +8,7 @@ echo do you want to setup arch linux after partitioning and installation of \
 	linux, linux-headers, git and vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
+
 	echo "ln -sf /usr/share/zoneinfo/Israel /etc/localtime"
 	echo "[y/n]"
 	read ans
@@ -106,7 +107,7 @@ if [ $ans  = "y" ]; then
 	echo "[y/n]"
 	read ans
 	if [ $ans  = "y" ]; then
-		pacman -S grub efibootmgr
+		pacman -S --needed grub efibootmgr
 	fi
 
 	echo "mkdir -p /boot/efi"
@@ -144,7 +145,7 @@ if [ $ans  = "y" ]; then
 	echo "[y/n]"
 	read ans
 	if [ $ans  = "y" ]; then
-		pacman -S networkmanager
+		pacman -S --needed networkmanager
 	fi
 
 	echo "systemctl enable NetworkManager"
@@ -154,38 +155,4 @@ if [ $ans  = "y" ]; then
 		systemctl enable NetworkManager
 	fi
 
-	echo "vim /etc/pacman.conf"
-	echo "[y/n]"
-	read ans
-	if [ $ans = "y" ]; then
-		vim /etc/pacman.conf
-	fi
-
-	echo "vim /etc/systemd/logind.conf"
-	echo "[y/n]"
-	read ans
-	if [ $ans = "y" ]; then
-		vim /etc/systemd/logind.conf
-	fi
-
-	echo "pacman -S intel-ucode"
-	echo "[y/n]"
-	read ans
-	if [ $ans  = "y" ]; then
-		pacman -S intel-ucode
-	fi
-
-	echo "pacman -S xorg"
-	echo "[y/n]"
-	read ans
-	if [ $ans  = "y" ]; then
-		pacman -S xorg xorg-xwayland
-	fi
-
-	echo "pacman -S nvidia nvidia-utils nvidia-settings"
-	echo "[y/n]"
-	read ans
-	if [ $ans  = "y" ]; then
-		pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils mesa lib32-mesa xf86-video-intel vulkan-intel
-	fi
 fi
