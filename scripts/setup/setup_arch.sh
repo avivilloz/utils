@@ -110,28 +110,11 @@ if [ $ans  = "y" ]; then
 		pacman -S --needed grub efibootmgr
 	fi
 
-	echo "mkdir -p /boot/efi"
+	echo "grub-install --target=x86_64-efi --bootloader-id=archlinux --efi-directory=/boot"
 	echo "[y/n]"
 	read ans
 	if [ $ans  = "y" ]; then
-		mkdir -p /boot/efi
-	fi
-
-	echo "efi device: [sda$/nvme0n1p$]"
-	read efidevice
-
-	echo "mount /dev/$efidevice /boot/efi"
-	echo "[y/n]"
-	read ans
-	if [ $ans  = "y" ]; then
-		mount /dev/$efidevice /boot/efi
-	fi
-
-	echo "grub-install --target=x86_64-efi --bootloader-id=arch-grub --efi-directory=/boot/efi"
-	echo "[y/n]"
-	read ans
-	if [ $ans  = "y" ]; then
-		grub-install --target=x86_64-efi --bootloader-id=arch-grub --efi-directory=/boot/efi
+		grub-install --target=x86_64-efi --bootloader-id=archlinux --efi-directory=/boot
 	fi
 
 	echo "grub-mkconfig -o /boot/grub/grub.cfg"
