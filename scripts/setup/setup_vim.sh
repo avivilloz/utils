@@ -4,13 +4,18 @@ echo -------------------------------------------------------------------------
 echo setup vim
 echo -------------------------------------------------------------------------
 
-echo do you want to setup vim? [y/n]
+echo do you want to setup .vimrc? [y/n]
 read ans
 if [ $ans  = "y" ]; then
 	vim_dotfiles=~/git/utils/dotfiles/vim
 
 	ln -sf $vim_dotfiles/.vimrc ~/.vimrc
+	sudo ln -sf $vim_dotfiles/.vimrc /root/.vimrc
+fi
 
+echo do you want to setup .vim dir? [y/n]
+read ans
+if [ $ans  = "y" ]; then
 	mkdir ~/.vim
 	mkdir ~/.vim/autoload
 	mkdir ~/.vim/plugged
@@ -24,6 +29,5 @@ if [ $ans  = "y" ]; then
 
 	vim -c PlugInstall -c q -c q!
 
-	sudo ln -sf $vim_dotfiles/.vimrc /root/.vimrc
 	sudo ln -sf ~/.vim /root/.vim
 fi
