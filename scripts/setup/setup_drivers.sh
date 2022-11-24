@@ -21,6 +21,7 @@ read ans
 if [ $ans  = "y" ]; then
 	sudo pacman -S --needed nvidia nvidia-utils nvidia-settings lib32-nvidia-utils mesa-utils
 	sudo sed -i 's/GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX="nvidia-drm.modeset=1"/g' /etc/default/grub
+	sudo sed -i 's/MODULES=()/MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)/g' /etc/mkinitcpio.conf
 	sudo grub-mkconfig -o /boot/grub/grub.cfg
 fi
 
