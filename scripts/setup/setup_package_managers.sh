@@ -4,6 +4,17 @@ echo -------------------------------------------------------------------------
 echo setup yay
 echo -------------------------------------------------------------------------
 
+echo "do you want to setup chaotic aur? [y/n]"
+echo "[y/n]"
+read ans
+if [ $ans = "y" ]; then
+    pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
+    pacman-key --lsign-key FBA220DFC880C036
+    pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+    echo "[chaotic-aur]" >> /etc/pacman.conf
+    echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
+fi
+
 echo do you want to setup yay? [y/n]
 read ans
 if [ $ans  = "y" ]; then

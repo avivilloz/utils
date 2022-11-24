@@ -4,7 +4,8 @@ echo -------------------------------------------------------------------------
 echo setup arch linux
 echo -------------------------------------------------------------------------
 
-echo do you want to setup arch linux after partitioning and installation of linux and vim? [y/n]
+echo do you want to setup arch linux after partitioning and installation of \
+	linux, linux-headers, git and vim? [y/n]
 read ans
 if [ $ans  = "y" ]; then
 	echo "ln -sf /usr/share/zoneinfo/Israel /etc/localtime"
@@ -153,6 +154,20 @@ if [ $ans  = "y" ]; then
 		systemctl enable NetworkManager
 	fi
 
+	echo "vim /etc/pacman.conf"
+	echo "[y/n]"
+	read ans
+	if [ $ans = "y" ]; then
+		vim /etc/pacman.conf
+	fi
+
+	echo "vim /etc/systemd/logind.conf"
+	echo "[y/n]"
+	read ans
+	if [ $ans = "y" ]; then
+		vim /etc/systemd/logind.conf
+	fi
+
 	echo "pacman -S intel-ucode"
 	echo "[y/n]"
 	read ans
@@ -164,38 +179,13 @@ if [ $ans  = "y" ]; then
 	echo "[y/n]"
 	read ans
 	if [ $ans  = "y" ]; then
-		pacman -S xorg 
+		pacman -S xorg xorg-xwayland
 	fi
 
-	echo "pacman -S nvidia nvidia-utils nvidia-settings xf86-video-intel"
+	echo "pacman -S nvidia nvidia-utils nvidia-settings"
 	echo "[y/n]"
 	read ans
 	if [ $ans  = "y" ]; then
-		pacman -S nvidia nvidia-utils nvidia-settings xf86-video-intel
-	fi
-
-	echo "vim /etc/pacman.conf"
-	echo "[y/n]"
-	read ans
-	if [ $ans = "y" ]; then
-		vim /etc/pacman.conf
-	fi
-
-	echo "setup chaotic aur"
-	echo "[y/n]"
-	read ans
-	if [ $ans = "y" ]; then
-		pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
-		pacman-key --lsign-key FBA220DFC880C036
-		pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
-		echo "[chaotic-aur]" >> /etc/pacman.conf
-		echo "Include = /etc/pacman.d/chaotic-mirrorlist" >> /etc/pacman.conf
-	fi
-
-	echo "vim /etc/systemd/logind.conf"
-	echo "[y/n]"
-	read ans
-	if [ $ans = "y" ]; then
-		vim /etc/systemd/logind.conf
+		pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils mesa lib32-mesa xf86-video-intel vulkan-intel
 	fi
 fi
