@@ -10,7 +10,7 @@ switch-to-activity-6aded87e-c0fd-4dc7-a9b9-99e2aae0a7d4=none,none,Switch to acti
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Hebrew=none,none,Switch keyboard layout to Hebrew
-Switch to Next Keyboard Layout=Meta+Space,none,Switch to Next Keyboard Layout
+Switch to Next Keyboard Layout=Meta+Space,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [bismuth]
@@ -300,11 +300,11 @@ show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,,Media volume down
-mediavolumeup=none,,Media volume up
+mediavolumedown=none,none,Media volume down
+mediavolumeup=none,none,Media volume up
 nextmedia=Media Next\tCtrl+>,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,,Play media playback
+playmedia=none,none,Play media playback
 playpausemedia=Media Play\tCtrl+?,Media Play,Play/Pause media playback
 previousmedia=Ctrl+<\tMedia Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback

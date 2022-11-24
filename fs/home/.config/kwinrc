@@ -145,6 +145,10 @@ untileByDragging=false
 PopupHideDelay=300
 TextOnly=true
 
+[SubSession: 0a388990-04b9-4602-92ad-2c4082a37f48]
+active=-1
+count=0
+
 [SubSession: 0dfec7fa-a2f3-4590-bdc4-06c1d60246ad]
 active=-1
 count=0
@@ -285,6 +289,9 @@ count=0
 active=-1
 count=0
 
+[TabBox]
+LayoutName=thumbnail_grid
+
 [TabBoxAlternative]
 DesktopMode=0
 LayoutName=thumbnail_grid
@@ -297,6 +304,9 @@ ElectricBorderDelay=50
 FocusStealingPreventionLevel=0
 RollOverDesktops=true
 WindowSnapZone=0
+
+[Xwayland]
+Scale=1
 
 [org.kde.kdecoration2]
 ButtonsOnLeft=M

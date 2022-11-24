@@ -86,8 +86,8 @@ plugin=org.kde.windowtitle
 PreloadWeight=34
 
 [Containments][108][Applets][281][Configuration][ConfigDialog]
-DialogHeight=626
-DialogWidth=899
+DialogHeight=818
+DialogWidth=1236
 
 [Containments][108][Applets][281][Configuration][General]
 capitalFont=false
@@ -131,7 +131,7 @@ SystrayContainmentId=311
 
 [Containments][108][ConfigDialog]
 DialogHeight=91
-DialogWidth=1920
+DialogWidth=3840
 
 [Containments][108][Configuration]
 PreloadWeight=18
@@ -291,7 +291,7 @@ showOnlyCurrentDesktop=false
 
 [Containments][204][ConfigDialog]
 DialogHeight=91
-DialogWidth=1920
+DialogWidth=3840
 
 [Containments][204][Configuration]
 PreloadWeight=34
@@ -392,7 +392,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][311][Applets][322][Configuration]
-PreloadWeight=92
+PreloadWeight=97
 
 [Containments][311][Applets][323]
 immutability=1
@@ -410,7 +410,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][311][Applets][324][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][311][Applets][325]
 immutability=1
@@ -444,12 +444,15 @@ extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.
 hiddenItems=org.kde.kscreen,org.kde.plasma.kclock_1x2
 iconSpacing=1
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.keyboardlayout,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.kclock_1x2,org.kde.plasma.notifications
+scaleIconsToFit=true
 
 [Containments][311][Shortcuts]
 global=Meta+S
 
 [Containments][351]
 ItemGeometries-1920x1080=
+ItemGeometries-3840x2160=
+ItemGeometries-4096x2160=
 ItemGeometriesHorizontal=
 activityId=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 formfactor=0
@@ -468,7 +471,7 @@ PreloadWeight=34
 
 [Containments][351][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=387
+ToolBoxButtonX=1347
 ToolBoxButtonY=20
 
 [Containments][351][Wallpaper][org.kde.image][General]
@@ -537,6 +540,7 @@ PreloadWeight=42
 
 [Containments][362]
 ItemGeometries-1920x1080=
+ItemGeometries-3840x2160=
 ItemGeometriesHorizontal=
 activityId=4ffbb63b-d6d6-4c52-9378-f4f2dcf7cd23
 formfactor=0

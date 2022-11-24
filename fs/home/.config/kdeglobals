@@ -182,7 +182,7 @@ View Style=DetailTree
 
 [KScreen]
 ScaleFactor=1
-ScreenScaleFactors=eDP-1=1;HDMI-1-0=1;
+ScreenScaleFactors=HDMI-0=1;eDP-1-1=1;
 
 [KShortcutsDialog Settings]
 Dialog Size=846,608
