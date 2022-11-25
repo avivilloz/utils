@@ -13,19 +13,16 @@ if [ $ans  = "y" ]; then
 		mpv \
 		mpc \
 		mpd \
-		ncmpcpp \	
+		ncmpcpp \
 		htop \
 		ranger \
 		neofetch \
 		obsidian \
 		bitwarden \
-		blender \
 		audacity \
 		obs-studio \
-		kdenlive \
-		inkscape \
-		krita \
 		gimp \
+		kdenlive \
 		godot \
 		flameshot \
 		libreoffice-fresh \
@@ -39,7 +36,10 @@ if [ $ans  = "y" ]; then
 		stremio \
 		google-chrome \
 		solaar \
-		steam
+		steam \
+		inkscape \
+		krita \
+		blender
 
 	yay -S --needed \
 		aseprite \
@@ -48,5 +48,11 @@ if [ $ans  = "y" ]; then
 		proton-ge-custom-bin \
 		mpdris2
 
+	sudo rm /etc/xdg/autostart/huiontablet.desktop
+
 	sudo systemctl enable --now mpd
+
+	mkdir -p ~/.local/share/applications
+	ln -sf ~/git/utils/assets/applications/music_manager.desktop \
+		~/.local/share/applications/music_manager.desktop
 fi

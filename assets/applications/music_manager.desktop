@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Music Manager
 Comment=Music manager
-Exec=/home/avivilloz/git/utils/scripts/mpd/musicmanager.sh
+Exec=/home/avivilloz/git/utils/scripts/mpd/music_manager.sh
 Categories=Audio;Player;Music;
 Icon=deepin-music
 Terminal=true
