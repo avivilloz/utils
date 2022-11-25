@@ -10,35 +10,32 @@ if [ $ans  = "y" ]; then
 	sudo pacman -S --needed \
 		vim \
 		git \
+		mpv \
 		mpc \
 		mpd \
 		ncmpcpp \	
-		neofetch \
+		htop \
 		ranger \
+		neofetch \
 		obsidian \
 		bitwarden \
 		blender \
 		audacity \
 		obs-studio \
 		kdenlive \
+		inkscape \
 		krita \
 		gimp \
-		flameshot \
 		godot \
-		htop \
-		inkscape \
+		flameshot \
 		libreoffice-fresh \
-		mpv \
 		virtualbox \
 		virtualbox-host-modules-arch \
 		timeshift \
 		zoom \
 		discord \
-		telegram-qt \
 		stacer \
-		sweeper \
 		visual-studio-code-bin \
-		wireshark-qt \
 		stremio \
 		google-chrome \
 		solaar \

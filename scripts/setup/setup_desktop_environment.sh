@@ -30,6 +30,7 @@ if [ $ans  = "kde" ]; then
 		kcharselect \
 		kcolorchooser \
 		ktorrent \
+		sweeper \
 		qalculate-gtk \
         packagekit-qt5
 
