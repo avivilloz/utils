@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#default terminal
-export term=
-
 #default editor
 export edit=vim
 
@@ -32,3 +29,4 @@ git_users["avivilloz"]="avivilloz@gmail.com"
 
 #path
 export PATH="$HOME/.local/bin:$PATH"
+export XDG_CONFIG_HOME="$HOME/.config"

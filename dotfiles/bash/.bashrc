@@ -19,11 +19,6 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-#work setup
-if [ -f $workdir/.bashrc ]; then
-    . $workdir/.bashrc
-fi
-
 #allows me to dump core
 DAEMON_COREFILE_LIMIT=unlimited
 ulimit -c unlimited
