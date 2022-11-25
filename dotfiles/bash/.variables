@@ -29,3 +29,6 @@ git_users["avivilloz"]="avivilloz@gmail.com"
 
 #path
 export PATH="$HOME/.local/bin:$PATH"
+
+#gdm
+export gdm_home=/var/lib/gdm
