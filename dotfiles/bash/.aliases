@@ -126,7 +126,7 @@ alias fpremoterm="flatpak remote-delete"
 alias fpremotes="flatpak remotes"
 
 #pacman
-alias pcmin="sudo pacman -S"
+alias pcmin="sudo pacman -Syy; sudo pacman -S"
 alias pcmrm="sudo pacman -Rns"
 alias pcmup="sudo pacman -Syu"
 alias pcmupg="sudo pacman -Syuu"
@@ -138,7 +138,7 @@ alias pcmlq="pacman -Qe | grep"
 alias pcmq="pacman -Ss"
 
 #yay
-alias yayin="yay -S"
+alias yayin="yay -Syy; yay -S"
 alias yayup="yay -Syu"
 alias yayrm="yay -Rns"
 alias yayarm="yay -Yc"

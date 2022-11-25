@@ -7,6 +7,7 @@ echo -------------------------------------------------------------------------
 echo do you want to install applications on arch? [y/n]
 read ans
 if [ $ans  = "y" ]; then
+	sudo pacman -Syy
 	sudo pacman -S --needed \
 		vim \
 		git \

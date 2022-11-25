@@ -18,19 +18,14 @@ if [ $ans = "y" ]; then
     sudo pacman -U --needed 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
     echo "[chaotic-aur]" | sudo tee -a /etc/pacman.conf > /dev/null
     echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf > /dev/null
-fi
-
-echo do you want to update pacman? [y/n]
-read ans
-if [ $ans = "y" ]; then
-    sudo pacman -Syu
+    sudo pacman -Syy
 fi
 
 echo do you want to setup yay? [y/n]
 read ans
 if [ $ans  = "y" ]; then
     sudo pacman -S yay
-    yay -Syu
+    yay -Syy
 fi
 
 echo do you want to setup flatpak? [y/n]
