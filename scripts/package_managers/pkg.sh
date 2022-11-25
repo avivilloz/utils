@@ -21,6 +21,7 @@ if [ "$base_distro" == "debian" ]; then
     fi
 elif [ "$base_distro" == "arch" ]; then
     if [ "$1" == "in" ]; then
+        yay -Syy
         yay -S $2
     elif [ "$1" == "rm" ]; then
         yay -Rns $2
