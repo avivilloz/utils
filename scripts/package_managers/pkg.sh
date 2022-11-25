@@ -9,7 +9,7 @@
 # lg = grep fomr list of all packages
 # q = query through database
 
-if [ "$session" == "debian" ]; then
+if [ "$base_distro" == "debian" ]; then
     if [ "$1" == "in" ]; then
         sudo apt install $2
     elif [ "$1" == "rm" ]; then
@@ -19,7 +19,7 @@ if [ "$session" == "debian" ]; then
         sudo apt upgrade
         sudo apt autoremove
     fi
-elif [ "$session" == "arch" ]; then
+elif [ "$base_distro" == "arch" ]; then
     if [ "$1" == "in" ]; then
         yay -S $2
     elif [ "$1" == "rm" ]; then
