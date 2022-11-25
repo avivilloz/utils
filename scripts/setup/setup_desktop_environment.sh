@@ -49,4 +49,7 @@ if [ $ans  = "gnome" ]; then
         epiphany
 
 	sudo systemctl enable gdm
+
+    sudo sed -i 's/LABEL="gdm_prefer_xorg"/#LABEL="gdm_prefer_xorg"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
+    sudo sed -i 's/LABEL="gdm_disable_wayland"/#LABEL="gdm_disable_wayland"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
 fi

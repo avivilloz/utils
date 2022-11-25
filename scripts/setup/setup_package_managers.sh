@@ -4,15 +4,32 @@ echo -------------------------------------------------------------------------
 echo setup package managers
 echo -------------------------------------------------------------------------
 
+echo do you want to enable multilib? [y/n]
+read ans
+if [ $ans = "y" ]; then
+    sudo sed -i -z 's/#\[multilib\]\n#Include = \/etc\/pacman.d\/mirrorlist/\[multilib\]\nInclude = \/etc\/pacman.d\/mirrorlist/g' /etc/pacman.conf
+fi
+
+echo do you want to setup chaotic aur? [y/n]
+read ans
+if [ $ans = "y" ]; then
+    sudo pacman-key --recv-key FBA220DFC880C036 --keyserver keyserver.ubuntu.com
+    sudo pacman-key --lsign-key FBA220DFC880C036
+    sudo pacman -U --needed 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+    echo "[chaotic-aur]" | sudo tee -a /etc/pacman.conf > /dev/null
+    echo "Include = /etc/pacman.d/chaotic-mirrorlist" | sudo tee -a /etc/pacman.conf > /dev/null
+fi
+
+echo do you want to update pacman? [y/n]
+read ans
+if [ $ans = "y" ]; then
+    sudo pacman -Syu
+fi
+
 echo do you want to setup yay? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    git clone https://aur.archlinux.org/yay-git.git
-    chown -R $USER ./yay-git
-    cd yay-git/
-    makepkg -si
-    cd ..
-    rm -rf yay-git/
+    sudo pacman -S yay
     yay -Syu
 fi
 
