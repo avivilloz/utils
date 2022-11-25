@@ -15,3 +15,4 @@ bash ~/git/utils/scripts/setup/setup_package_managers.sh
 bash ~/git/utils/scripts/setup/setup_drivers.sh
 bash ~/git/utils/scripts/setup/setup_desktop_environment.sh
 bash ~/git/utils/scripts/setup/setup_applications.sh
+bash ~/git/utils/scripts/setup/setup_mpd.sh

@@ -49,12 +49,4 @@ if [ $ans  = "y" ]; then
 		mpdris2
 
 	sudo rm /etc/xdg/autostart/huiontablet.desktop
-
-	mkdir -p ~/.config/mpd
-	ln -sf ~/git/utils/dotfiles/mpd/mpd.conf ~/.config/mpd/mpd.conf
-	systemctl --user enable mpd
-
-	mkdir -p ~/.local/share/applications
-	ln -sf ~/git/utils/assets/applications/music_manager.desktop \
-		~/.local/share/applications/music_manager.desktop
 fi
