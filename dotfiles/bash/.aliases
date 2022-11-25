@@ -213,7 +213,7 @@ alias mpl="mpc playlist"
 alias mup="mpc update && mpc ls | mpc add"
 alias mcl="mpc clear"
 alias mtg="mpc toggle"
-alias mm="bash $scriptsdir/mpd/musicmanager.sh"
+alias mm="bash $scriptsdir/mpd/music_manager.sh"
 
 #python
 alias pipin="$python_version -m pip install"
