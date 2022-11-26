@@ -24,7 +24,7 @@ export vimdir=~/.vim
 
 #git
 declare -A git_users
-git_users["avivilloz"]="avivilloz@gmail.com"
+#git_users["avivilloz"]="avivilloz@gmail.com"
 #git_users["ailloz"]="ailloz@akamai.com"
 
 #path

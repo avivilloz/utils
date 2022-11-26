@@ -12,7 +12,7 @@ mkdir -p ~/.ssh
 ssh-keygen -t ed25519 -C "$2" -f "$identity_file"
 
 echo "\
-Host $1
+Host github.com
     User git
     HostName github.com
     PreferredAuthentications publickey
