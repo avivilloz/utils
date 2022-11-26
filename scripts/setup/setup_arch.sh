@@ -9,6 +9,7 @@ echo do you want to setup arch linux after partitioning and installation of \
 read ans
 if [ $ans  = "y" ]; then
 
+	echo blacklist pcspkr >> /etc/modprobe.d/blacklist.conf
 	echo "ln -sf /usr/share/zoneinfo/Israel /etc/localtime"
 	echo "[y/n]"
 	read ans

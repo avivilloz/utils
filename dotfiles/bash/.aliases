@@ -73,8 +73,8 @@ alias nvsmi="nvidia-smi"
 
 #graphic cards
 alias currgpu="glxinfo | grep -E 'OpenGL vendor|OpenGL renderer'"
-alias gpus="sudo envycontrol --dm $display_manager -s"
-#alias gpus="bash $scriptsdir/gpu/gpus.sh"
+#alias gpus="sudo envycontrol --dm $display_manager -s"
+alias gpus="bash $scriptsdir/gpu/gpus.sh"
 alias gpuq="envycontrol --query"
 
 #edit

@@ -53,12 +53,8 @@ Exec=/bin/sh -c 'while read -r trg; do case $trg in linux) exit 0; esac; done; /
 		echo 'ACTION=="add", DEVPATH=="/bus/pci/drivers/nvidia", RUN+="/usr/bin/nvidia-modprobe -c0 -u"' | sudo tee -a /etc/udev/rules.d/70-nvidia.rules > /dev/null
 	fi
 
-	echo do you want to force GBM as backend for Nvidia driver? [y/n]
-	read ans
-	if [ $ans  = "y" ]; then
-		echo export GBM_BACKEND=nvidia-drm >> ~/.bash_profile
-		echo export __GLX_VENDOR_LIBRARY_NAME=nvidia >> ~/.bash_profile
-	fi
+	echo "#export GBM_BACKEND=nvidia-drm" >> ~/.bash_profile
+	echo "#export __GLX_VENDOR_LIBRARY_NAME=nvidia" >> ~/.bash_profile
 fi
 
 echo do you want to install envycontrol for handling of hybrid GPUs? [y/n]

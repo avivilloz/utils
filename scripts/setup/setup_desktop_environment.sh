@@ -54,13 +54,9 @@ if [ $ans  = "gnome" ]; then
 
 	sudo systemctl enable gdm
 
-	echo do you want to always enable Wayland? [y/n]
-	read ans
-	if [ $ans  = "y" ]; then
-        sudo sed -i 's/LABEL="gdm_prefer_xorg"/#LABEL="gdm_prefer_xorg"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
-        sudo sed -i 's/LABEL="gdm_disable_wayland"/#LABEL="gdm_disable_wayland"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
-    fi
-
+    sudo sed -i 's/LABEL="gdm_prefer_xorg"/#LABEL="gdm_prefer_xorg"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
+    sudo sed -i 's/LABEL="gdm_disable_wayland"/#LABEL="gdm_disable_wayland"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
+    
     echo "To enable tap-to-click on gdm, follow the link: https://www.reddit.com/r/gnome/comments/gppye4/why_is_tap_to_click_not_enabled_by_default_on_gdm/"
     echo "To copy monitor configurations of gnome to gdm, link ~/.config/monitors.xml to /var/lib/gdm/.config/monitors.xml"
 fi
