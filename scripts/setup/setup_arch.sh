@@ -138,4 +138,10 @@ if [ $ans  = "y" ]; then
 		systemctl enable NetworkManager
 	fi
 
+	echo "systemctl enable bluetooth"
+	echo "[y/n]"
+	read ans
+	if [ $ans  = "y" ]; then
+		systemctl enable bluetooth
+	fi
 fi
