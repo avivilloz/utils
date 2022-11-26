@@ -19,7 +19,7 @@ fi
 echo do you want to install nvidia drivers for Nvidia GPU? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-	sudo pacman -S --needed nvidia nvidia-utils nvidia-settings lib32-nvidia-utils mesa-utils
+	sudo pacman -S --needed nvidia nvidia-utils nvidia-settings lib32-nvidia-utils opencl-nvidia mesa-utils
 
 	echo do you want to enable Nvidia kernel modules? [y/n]
 	read ans
