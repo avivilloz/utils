@@ -19,6 +19,20 @@ if [ "$base_distro" == "debian" ]; then
         sudo apt upgrade
         sudo apt autoremove
     fi
+elif [ "$base_distro" == "fedora" ]; then
+    if [ "$1" == "in" ]; then
+        sudo dnf install $2
+    elif [ "$1" == "rm" ]; then
+        sudo dnf remove $2
+    elif [ "$1" == "up" ]; then
+        sudo dnf upgrade --refresh
+        sudo dnf autoremove
+        sudo dnf clean packages
+    elif [ "$1" == "l" ]; then
+        sudo dnf list installed
+    elif [ "$1" == "lg" ]; then
+        sudo dnf list installed | grep $2
+    fi
 elif [ "$base_distro" == "arch" ]; then
     if [ "$1" == "in" ]; then
         yay -Syy
