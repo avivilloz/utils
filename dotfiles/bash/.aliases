@@ -44,12 +44,17 @@ alias tailify="bash $scriptsdir/format/tailize.sh"
 alias lessify="bash $scriptsdir/format/lessize.sh"
 
 #system
+alias sysctlc="sudo systemctl cancel"
 alias sysctlstart="sudo systemctl start"
 alias sysctlstop="sudo systemctl stop"
 alias sysctle="sudo systemctl enable"
+alias sysctlen="sudo systemctl enable --now"
+alias sysctld="sudo systemctl disable"
+alias sysctlue="systemctl --user enable"
+alias sysctluen="systemctl --user enable --now"
+alias sysctlud="systemctl --user disable"
 alias sysctlr="sudo systemctl restart"
 alias sysctlstat="sudo systemctl status"
-alias sysctld="sudo systemctl disable"
 alias nmr="sudo systemctl restart NetworkManager"
 alias pwr="sudo systemctl --user restart pipewire pipewire-pulse && sudo systemctl --user daemon-reload && systemctl --user status pipewire pipewire-pulse"
 
