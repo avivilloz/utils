@@ -24,7 +24,6 @@ if [ $ans  = "y" ]; then
 		audacity \
 		obs-studio \
 		gimp \
-		kdenlive \
 		godot \
 		flameshot \
 		libreoffice-fresh \
@@ -40,7 +39,7 @@ if [ $ans  = "y" ]; then
 		solaar \
 		steam \
 		inkscape \
-		krita \
+		davinci-resolve \
 		blender
 
 	yay -S --needed \
