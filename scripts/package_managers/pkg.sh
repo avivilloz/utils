@@ -22,7 +22,7 @@ if [ "$base_distro" == "debian" ]; then
 elif [ "$base_distro" == "arch" ]; then
     if [ "$1" == "in" ]; then
         yay -Syy
-        yay -S $2
+        yay -S --needed $2
     elif [ "$1" == "rm" ]; then
         yay -Rns $2
     elif [ "$1" == "up" ]; then

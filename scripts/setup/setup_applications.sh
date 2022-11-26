@@ -16,6 +16,7 @@ if [ $ans  = "y" ]; then
 		mpd \
 		ncmpcpp \
 		htop \
+		tree \
 		ranger \
 		neofetch \
 		obsidian \
