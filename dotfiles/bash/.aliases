@@ -97,7 +97,7 @@ alias bootopl="efibootmgr"
 alias bootoprm="sudo efibootmgr -Bb" 
 
 #pkg
-alias pkg="bash $scriptsdir/package_managers/pkg.sh"
+alias pkg="bash $scriptsdir/pkg/pkg.sh"
 
 #apt
 alias aptin="sudo apt install"
@@ -162,11 +162,6 @@ alias knrm="pkcon remove"
 alias knrpl="pkcon repo-list"
 alias knrpe="pkcon repo-enable"
 alias knrpe="pkcon repo-disable"
-
-#all packet managers
-alias fedup="bash $scriptsdir/package_managers/fedup.sh"
-alias archup="bash $scriptsdir/package_managers/archup.sh"
-alias debup="bash $scriptsdir/package_managers/debup.sh"
 
 #gcc compilation aliases: debug mode, release mode
 alias gccd='gcc -ansi -pedantic-errors -Wall -Wextra -g'

@@ -144,4 +144,5 @@ if [ $ans  = "y" ]; then
 	if [ $ans  = "y" ]; then
 		systemctl enable bluetooth
 	fi
+
 fi
