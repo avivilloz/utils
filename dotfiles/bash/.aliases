@@ -73,9 +73,9 @@ alias nvsmi="nvidia-smi"
 
 #graphic cards
 alias currgpu="glxinfo | grep -E 'OpenGL vendor|OpenGL renderer'"
-#alias gpus="sudo envycontrol --dm $display_manager -s"
 alias gpus="bash $scriptsdir/gpu/gpus.sh"
-alias gpuq="envycontrol --query"
+alias gpus_arch="bash $scriptsdir/gpu/gpus_arch.sh"
+alias gpuq_arch="envycontrol --query"
 
 #edit
 alias edgrub="sudo vim /etc/default/grub"
@@ -125,6 +125,7 @@ alias fpsearch="flatpak search"
 alias fpr="flatpak run"
 alias fpup="flatpak update"
 alias fpl="flatpak list"
+alias fplg="flatpak list | grep"
 alias fpla="flatpak list --app"
 alias fpfix="flatpak repair"
 alias fpremoteadd="flatpak remote-add --if-not-exists"
@@ -159,7 +160,8 @@ alias dnfrm="sudo dnf remove"
 alias dnfup="sudo dnf upgrade --refresh"
 alias dnfarm="sudo dnf autoremove"
 alias dnfcc="sudo dnf clean packages"
-alias dnfl="sudo dnf list installed"
+alias dnfl="dnf list installed"
+alias dnflg="dnf list installed | grep"
 
 #kde neon
 alias knin="pkcon install"

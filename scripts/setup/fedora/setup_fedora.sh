@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo blacklist pcspkr >> /etc/modprobe.d/blacklist.conf
+
 echo hostname:
 read new_hostname
 sudo hostnamectl set-hostname "$new_hostname"
@@ -33,6 +35,26 @@ sudo dnf install xorg-x11-drv-nvidia-power -y
 sudo systemctl enable nvidia-{suspend,resume,hibernate}
 sudo dnf install vulkan -y
 sudo dnf install vdpauinfo libva-vdpau-driver libva-utils
+
+sudo mkdir -p /etc/X11/xorg.conf.d/
+echo "\
+#This file is provided by xorg-x11-drv-nvidia
+#Do not edit
+
+Section "OutputClass"
+	Identifier "nvidia"
+	MatchDriver "nvidia-drm"
+	Driver "nvidia"
+	Option "AllowEmptyInitialConfiguration"
+	Option "SLI" "Auto"
+	Option "BaseMosaic" "on"
+	#Option "PrimaryGPU" "yes"
+EndSection
+
+Section "ServerLayout"
+	Identifier "layout"
+	Option "AllowNVIDIAGPUScreens"
+EndSection" | sudo tee -a /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
 
 # gdm settings
 sudo -u gdm dbus-launch gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click 'true'
