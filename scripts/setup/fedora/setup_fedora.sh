@@ -6,6 +6,8 @@ echo hostname:
 read new_hostname
 sudo hostnamectl set-hostname "$new_hostname"
 
+sudo passwd root
+
 bash ~/git/utils/scripts/setup/setup_base.sh
 
 echo "\
@@ -28,13 +30,14 @@ sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=Pack
 sudo dnf groupupdate sound-and-video -y
 
 # nvidia settings
-sudo dnf install akmod-nvidia -y
-sudo dnf install xorg-x11-drv-nvidia-cuda -y
-sudo dnf install xorg-x11-drv-nvidia-cuda-libs -y
-sudo dnf install xorg-x11-drv-nvidia-power -y
+sudo dnf install -y \
+	akmod-nvidia \
+	xorg-x11-drv-nvidia-cuda \
+	xorg-x11-drv-nvidia-cuda-libs \
+	xorg-x11-drv-nvidia-power \
 sudo systemctl enable nvidia-{suspend,resume,hibernate}
 sudo dnf install vulkan -y
-sudo dnf install vdpauinfo libva-vdpau-driver libva-utils
+sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
 
 sudo mkdir -p /etc/X11/xorg.conf.d/
 echo "\
@@ -56,40 +59,11 @@ Section "ServerLayout"
 	Option "AllowNVIDIAGPUScreens"
 EndSection" | sudo tee -a /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
 
+
 # gdm settings
-sudo -u gdm dbus-launch gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click 'true'
-sudo -u gdm dbus-launch gsettings set org.gnome.desktop.peripherals.keyboard numlock-state 'true'
 sudo ln -sf ~/.config/monitors.xml /var/lib/gdm/.config/monitors.xml
+#follow https://www.reddit.com/r/gnome/comments/gppye4/w for tap-to-click true
+#follow https://askubuntu.com/questions/977903/how-do-i-turn-numlock-on-for-login-screen-ubuntu-17-10-wayland for numlock-state on
 
-# apps
-
-sudo dnf install -y \
-	vim \
-	git \
-	mpv \
-	mpc \
-	mpd \
-	ncmpcpp \
-	htop \
-	tree \
-	ranger \
-	neofetch \
-	obsidian \
-	bitwarden \
-	audacity \
-	obs-studio \
-	gimp \
-	godot \
-	flameshot \
-	virtualbox \
-	timeshift \
-	zoom \
-	discord \
-	stacer \
-	stremio \
-	google-chrome \
-	solaar \
-	steam \
-	inkscape \
-	davinci-resolve \
-	blender
+bash ~/git/utils/scripts/setup/fedora/setup_applications.sh
+bash ~/git/utils/scripts/setup/setup_mpd.sh

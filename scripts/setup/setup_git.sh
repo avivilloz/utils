@@ -14,4 +14,6 @@ if [ $ans  = "y" ]; then
 	for key in ${!git_users[@]}; do
 		bash ~/git/utils/scripts/git/git_ssh_keygen.sh ${key} ${git_users[${key}]}
 	done
+	cd ~/git/utils
+	git remote set-url origin git@github.com:avivilloz/utils.git
 fi
