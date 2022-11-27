@@ -203,6 +203,7 @@ alias gqpm="bash $scriptsdir/git/git_quick_push_msg.sh"
 alias gqcpp="bash $scriptsdir/git/git_quick_cherry_pick_push.sh"
 alias gbrrmr="git push origin --delete"
 alias gbrrml="git branch -D"
+alias grurl="git remote set-url origin"
 
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"

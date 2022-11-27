@@ -12,19 +12,21 @@ defaultyes=True
 keepcache=True" | sudo tee -a /etc/dnf/dnf.conf > /dev/null
 
 dnf clean all
-sudo dnf update
+sudo dnf update -y
 
-sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-sudo dnf groupupdate core
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 
-sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
-sudo dnf groupupdate sound-and-video
+sudo dnf groupupdate core -y
 
-sudo dnf install akmod-nvidia
-sudo dnf install xorg-x11-drv-nvidia-cuda
-sudo dnf install xorg-x11-drv-nvidia-cuda-libs
-sudo dnf install xorg-x11-drv-nvidia-power
+sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin -y
+sudo dnf groupupdate sound-and-video -y
+
+sudo dnf install akmod-nvidia -y
+sudo dnf install xorg-x11-drv-nvidia-cuda -y
+sudo dnf install xorg-x11-drv-nvidia-cuda-libs -y
+sudo dnf install xorg-x11-drv-nvidia-power -y
 sudo systemctl enable nvidia-{suspend,resume,hibernate}
 # Optional: tweak "nvidia options NVreg_TemporaryFilePath=/var/tmp" from /etc/modprobe.d/nvidia.conf as needed if you have issue with /tmp as tmpfs with nvidia suspend )
-sudo dnf install vulkan
+sudo dnf install vulkan -y
