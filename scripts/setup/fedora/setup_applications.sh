@@ -26,11 +26,12 @@ sudo dnf install -y \
 	gnome-tweaks
 
 flatpak install \
-	obsidian \
-	bitwarden \
-	zoom \
-	stremio \
-	extensionmanager
+	md.obsidian.Obsidian \
+	com.bitwarden.desktop \
+	us.zoom.Zoom \
+	com.stremio.Stremio \
+	com.visualstudio.code \
+	com.mattjakeman.ExtensionManager
 
 #	davinci-resolve \
 #	aseprite
