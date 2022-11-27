@@ -26,7 +26,7 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 
 sudo dnf groupupdate core -y
 
-sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin -y
+sudo dnf groupupdate multimedia --setup="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin -y
 sudo dnf groupupdate sound-and-video -y
 
 # nvidia settings
@@ -44,21 +44,20 @@ echo "\
 #This file is provided by xorg-x11-drv-nvidia
 #Do not edit
 
-Section "OutputClass"
-	Identifier "nvidia"
-	MatchDriver "nvidia-drm"
-	Driver "nvidia"
-	Option "AllowEmptyInitialConfiguration"
-	Option "SLI" "Auto"
-	Option "BaseMosaic" "on"
-	#Option "PrimaryGPU" "yes"
+Section \"OutputClass\"
+	Identifier \"nvidia\"
+	MatchDriver \"nvidia-drm\"
+	Driver \"nvidia\"
+	Option \"AllowEmptyInitialConfiguration\"
+	Option \"SLI\" \"Auto\"
+	Option \"BaseMosaic\" \"on\"
+	#Option \"PrimaryGPU\" \"yes\"
 EndSection
 
-Section "ServerLayout"
-	Identifier "layout"
-	Option "AllowNVIDIAGPUScreens"
+Section \"ServerLayout\"
+	Identifier \"layout\"
+	Option \"AllowNVIDIAGPUScreens\"
 EndSection" | sudo tee -a /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
-
 
 # gdm settings
 sudo ln -sf ~/.config/monitors.xml /var/lib/gdm/.config/monitors.xml
