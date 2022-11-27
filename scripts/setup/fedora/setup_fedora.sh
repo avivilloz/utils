@@ -60,3 +60,36 @@ EndSection" | sudo tee -a /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
 sudo -u gdm dbus-launch gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click 'true'
 sudo -u gdm dbus-launch gsettings set org.gnome.desktop.peripherals.keyboard numlock-state 'true'
 sudo ln -sf ~/.config/monitors.xml /var/lib/gdm/.config/monitors.xml
+
+# apps
+
+sudo dnf install -y \
+	vim \
+	git \
+	mpv \
+	mpc \
+	mpd \
+	ncmpcpp \
+	htop \
+	tree \
+	ranger \
+	neofetch \
+	obsidian \
+	bitwarden \
+	audacity \
+	obs-studio \
+	gimp \
+	godot \
+	flameshot \
+	virtualbox \
+	timeshift \
+	zoom \
+	discord \
+	stacer \
+	stremio \
+	google-chrome \
+	solaar \
+	steam \
+	inkscape \
+	davinci-resolve \
+	blender
