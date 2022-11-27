@@ -21,17 +21,22 @@ if [ "$base_distro" == "debian" ]; then
     fi
 elif [ "$base_distro" == "fedora" ]; then
     if [ "$1" == "in" ]; then
-        sudo dnf install $2
+        sudo dnf install $2 -y
     elif [ "$1" == "rm" ]; then
-        sudo dnf remove $2
+        sudo dnf remove $2 -y
+        flatpak uninstall $2
     elif [ "$1" == "up" ]; then
-        sudo dnf upgrade --refresh
-        sudo dnf autoremove
-        sudo dnf clean packages
+        sudo dnf upgrade --refresh -y
+        sudo dnf autoremove -y
+        sudo dnf clean packages -y
+        flatpak update
+        flatpak uninstall --unused
     elif [ "$1" == "l" ]; then
         sudo dnf list installed
+        flatpak list
     elif [ "$1" == "lg" ]; then
         sudo dnf list installed | grep $2
+        flatpak list | grep $2
     fi
 elif [ "$base_distro" == "arch" ]; then
     if [ "$1" == "in" ]; then
