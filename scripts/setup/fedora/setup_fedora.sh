@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo blacklist pcspkr >> /etc/modprobe.d/blacklist.conf
+echo blacklist pcspkr | sudo tee -a /etc/modprobe.d/blacklist.conf > /dev/null
 
 echo hostname:
 read new_hostname
