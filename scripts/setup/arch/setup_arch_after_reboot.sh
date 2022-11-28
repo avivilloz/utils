@@ -8,9 +8,7 @@ if [ $ans = "n" ]; then
 fi
 
 bash ~/git/utils/scripts/setup/arch/setup_wifi.sh
-bash ~/git/utils/scripts/setup/setup_bash.sh
-bash ~/git/utils/scripts/setup/setup_vim.sh
-bash ~/git/utils/scripts/setup/setup_git.sh
+bash ~/git/utils/scripts/setup/setup_base.sh
 bash ~/git/utils/scripts/setup/arch/setup_package_managers.sh
 bash ~/git/utils/scripts/setup/arch/setup_drivers.sh
 bash ~/git/utils/scripts/setup/arch/setup_desktop_environment.sh

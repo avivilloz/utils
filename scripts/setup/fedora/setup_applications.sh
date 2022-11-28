@@ -23,6 +23,7 @@ sudo dnf install -y \
 	steam \
 	inkscape \
 	blender \
+	fragments \
 	gnome-tweaks
 
 flatpak install \

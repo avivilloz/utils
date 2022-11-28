@@ -53,10 +53,22 @@ if [ $ans  = "gnome" ]; then
         epiphany
 
 	sudo systemctl enable gdm
-
-    sudo sed -i 's/LABEL="gdm_prefer_xorg"/#LABEL="gdm_prefer_xorg"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
-    sudo sed -i 's/LABEL="gdm_disable_wayland"/#LABEL="gdm_disable_wayland"/g' /usr/lib/udev/rules.d/61-gdm.rules > /dev/null
     
-    echo "To enable tap-to-click on gdm, follow the link: https://www.reddit.com/r/gnome/comments/gppye4/why_is_tap_to_click_not_enabled_by_default_on_gdm/"
-    echo "To copy monitor configurations of gnome to gdm, link ~/.config/monitors.xml to /var/lib/gdm/.config/monitors.xml"
+    # gdm settings
+    mkdir -p /etc/systemd/system/gdm.service.d/
+    echo "\
+    [Service]
+    ExecStartPre=/bin/cp /home/avivilloz/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
+
+    mkdir -p /etc/dconf/db/gdm.d/
+    echo "\
+    [org/gnome/desktop/peripherals/touchpad]
+    tap-to-click=true" | sudo tee -a /etc/dconf/db/gdm.d/06-tap-to-click > /dev/null
+
+    sudo dnf install -y numlockx
+    echo "\
+    if [ -x /usr/bin/numlockx ]; then
+          /usr/bin/numlockx on
+    fi" | tee -a ~/.xprofile > /dev/null
+
 fi
