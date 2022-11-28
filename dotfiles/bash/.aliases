@@ -74,8 +74,7 @@ alias nvsmi="nvidia-smi"
 #graphic cards
 alias currgpu="glxinfo | grep -E 'OpenGL vendor|OpenGL renderer'"
 alias gpus="bash $scriptsdir/gpu/gpus.sh"
-alias gpus_arch="bash $scriptsdir/gpu/gpus_arch.sh"
-alias gpuq_arch="envycontrol --query"
+alias gpuq="envycontrol --query"
 
 #edit
 alias edgrub="sudo vim /etc/default/grub"
