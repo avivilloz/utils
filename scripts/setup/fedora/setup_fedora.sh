@@ -60,9 +60,20 @@ Section \"ServerLayout\"
 EndSection" | sudo tee -a /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
 
 # gdm settings
-sudo ln -sf ~/.config/monitors.xml /var/lib/gdm/.config/monitors.xml
-#follow https://www.reddit.com/r/gnome/comments/gppye4/w for tap-to-click true
-#follow https://askubuntu.com/questions/977903/how-do-i-turn-numlock-on-for-login-screen-ubuntu-17-10-wayland for numlock-state on
+mkdir -p /etc/systemd/system/gdm.service.d/
+echo "\
+[Service]
+ExecStartPre=/bin/cp /home/avivilloz/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
+
+echo "\
+[org/gnome/desktop/peripherals/touchpad]
+tap-to-click=true" | sudo tee -a /etc/dconf/db/gdm.d/06-tap-to-click > /dev/null
+
+sudo dnf install -y numlockx
+echo "\
+if [ -x /usr/bin/numlockx ]; then
+      /usr/bin/numlockx on
+fi" | tee -a ~/.xprofile > /dev/null
 
 bash ~/git/utils/scripts/setup/fedora/setup_applications.sh
 bash ~/git/utils/scripts/setup/setup_mpd.sh

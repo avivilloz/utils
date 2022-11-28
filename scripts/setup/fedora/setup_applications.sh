@@ -31,7 +31,8 @@ flatpak install \
 	us.zoom.Zoom \
 	com.stremio.Stremio \
 	com.visualstudio.code \
-	com.mattjakeman.ExtensionManager
+	com.mattjakeman.ExtensionManager \
+	net.davidotek.pupgui2
 
 #	davinci-resolve \
 #	aseprite
