@@ -73,6 +73,6 @@ if [ -x /usr/bin/numlockx ]; then
       /usr/bin/numlockx on
 fi" | tee -a ~/.xprofile > /dev/null
 
-bash ~/git/utils/scripts/setup/setup_base.sh
 bash ~/git/utils/scripts/setup/fedora/setup_applications.sh
+bash ~/git/utils/scripts/setup/setup_base.sh
 bash ~/git/utils/scripts/setup/setup_mpd.sh
