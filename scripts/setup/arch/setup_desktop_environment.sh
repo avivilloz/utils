@@ -55,11 +55,6 @@ if [ $ans  = "gnome" ]; then
 	sudo systemctl enable gdm
     
     # gdm settings
-    sudo mkdir -p /etc/systemd/system/gdm.service.d/
-    echo "\
-    [Service]
-    ExecStartPre=/bin/cp /home/avivilloz/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
-
     sudo mkdir -p /etc/dconf/db/gdm.d/
     echo "\
     [org/gnome/desktop/peripherals/touchpad]
