@@ -55,12 +55,12 @@ if [ $ans  = "gnome" ]; then
 	sudo systemctl enable gdm
     
     # gdm settings
-    mkdir -p /etc/systemd/system/gdm.service.d/
+    sudo mkdir -p /etc/systemd/system/gdm.service.d/
     echo "\
     [Service]
     ExecStartPre=/bin/cp /home/avivilloz/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
 
-    mkdir -p /etc/dconf/db/gdm.d/
+    sudo mkdir -p /etc/dconf/db/gdm.d/
     echo "\
     [org/gnome/desktop/peripherals/touchpad]
     tap-to-click=true" | sudo tee -a /etc/dconf/db/gdm.d/06-tap-to-click > /dev/null
