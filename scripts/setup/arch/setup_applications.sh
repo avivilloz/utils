@@ -40,7 +40,8 @@ if [ $ans  = "y" ]; then
 		steam \
 		inkscape \
 		davinci-resolve \
-		blender
+		blender \
+		gamemode
 
 	yay -S --needed \
 		aseprite \
