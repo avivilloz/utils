@@ -20,20 +20,21 @@ sudo dnf install -y \
 	stacer \
 	google-chrome-stable \
 	solaar \
-	steam \
 	inkscape \
 	blender \
 	fragments \
+	pureref \
 	gnome-tweaks
 
 flatpak install \
+	us.zoom.Zoom \
 	md.obsidian.Obsidian \
 	com.bitwarden.desktop \
-	us.zoom.Zoom \
 	com.stremio.Stremio \
 	com.visualstudio.code \
 	com.mattjakeman.ExtensionManager \
-	net.davidotek.pupgui2
+	com.valvesoftware.Steam \
+	com.vysp3r.ProtonPlus
 
 #	davinci-resolve \
 #	aseprite

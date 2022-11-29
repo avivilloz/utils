@@ -8,8 +8,6 @@ sudo hostnamectl set-hostname "$new_hostname"
 
 sudo passwd root
 
-bash ~/git/utils/scripts/setup/setup_base.sh
-
 echo "\
 # Added for speed:
 fastestmirror=True
@@ -63,7 +61,7 @@ EndSection" | sudo tee -a /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
 mkdir -p /etc/systemd/system/gdm.service.d/
 echo "\
 [Service]
-ExecStartPre=/bin/cp /home/avivilloz/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
+ExecStartPre=/bin/cp $HOME/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
 
 echo "\
 [org/gnome/desktop/peripherals/touchpad]
@@ -75,5 +73,6 @@ if [ -x /usr/bin/numlockx ]; then
       /usr/bin/numlockx on
 fi" | tee -a ~/.xprofile > /dev/null
 
+bash ~/git/utils/scripts/setup/setup_base.sh
 bash ~/git/utils/scripts/setup/fedora/setup_applications.sh
 bash ~/git/utils/scripts/setup/setup_mpd.sh
