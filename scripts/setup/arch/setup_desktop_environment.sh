@@ -65,7 +65,7 @@ if [ $ans  = "gnome" ]; then
     [org/gnome/desktop/peripherals/touchpad]
     tap-to-click=true" | sudo tee -a /etc/dconf/db/gdm.d/06-tap-to-click > /dev/null
 
-    sudo dnf install -y numlockx
+    sudo pacman -S numlockx --needed
     echo "\
     if [ -x /usr/bin/numlockx ]; then
           /usr/bin/numlockx on

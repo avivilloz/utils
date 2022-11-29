@@ -39,11 +39,7 @@ fi
 echo do you want to setup snap? [y/n]
 read ans
 if [ $ans  = "y" ]; then
-    git clone https://aur.archlinux.org/snapd.git
-    cd snapd
-    makepkg -si
-    cd ..
-    rm -rf snapd
+    yay -S snapd
     sudo systemctl enable --now snapd.socket
     sudo ln -s /var/lib/snapd/snap /snap
     sudo snap refresh
