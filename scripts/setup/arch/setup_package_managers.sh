@@ -4,6 +4,12 @@ echo -------------------------------------------------------------------------
 echo setup package managers
 echo -------------------------------------------------------------------------
 
+echo do you want to enable parallel downloads for pacman? [y/n]
+read ans
+if [ $ans = "y" ]; then
+    sudo sed -i -z 's/#ParallelDownloads = 5/ParallelDownloads = 10/g' /etc/pacman.conf
+fi
+
 echo do you want to enable multilib? [y/n]
 read ans
 if [ $ans = "y" ]; then
