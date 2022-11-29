@@ -23,7 +23,6 @@ sudo dnf install -y \
 	inkscape \
 	blender \
 	fragments \
-	pureref \
 	gnome-tweaks
 
 flatpak install \
@@ -37,4 +36,5 @@ flatpak install \
 	com.vysp3r.ProtonPlus
 
 #	davinci-resolve \
-#	aseprite
+#	aseprite \
+#	pureref
