@@ -18,7 +18,8 @@ elif [ "$base_distro" = "fedora" ];then
     if [ "$1" = "nvidia" ]; then
         sudo sed -i 's/#Option "PrimaryGPU" "yes"/Option "PrimaryGPU" "yes"/g' /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
         sudo sed -i 's/#WaylandEnable/WaylandEnable/g' /etc/gdm/custom.conf > /dev/null
-    elif [ "$1" = "hybrid" ]; then
+        sudo grubby --update-kernel=ALL --args='rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1'
+    else
 
         if ! grep -Fq '#Option "PrimaryGPU" "yes"' /etc/X11/xorg.conf.d/nvidia.conf; then
             sudo sed -i 's/Option "PrimaryGPU" "yes"/#Option "PrimaryGPU" "yes"/g' /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
@@ -27,6 +28,8 @@ elif [ "$base_distro" = "fedora" ];then
         if ! grep -Fq "#WaylandEnable=false" /etc/gdm/custom.conf; then
             sudo sed -i 's/WaylandEnable/#WaylandEnable/g' /etc/gdm/custom.conf > /dev/null
         fi
+
+        sudo grubby --update-kernel=ALL --remove-args='rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1'
 
     fi
 
