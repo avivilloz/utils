@@ -28,6 +28,7 @@ sudo dnf install -y \
 	gamemode \
 	mangohud \
 	protontricks \
+	antimicrox \
 	gnome-tweaks
 
 sudo sed -i 's/PrefersNonDefaultGPU=true/#PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
@@ -41,7 +42,6 @@ flatpak install \
 	com.visualstudio.code \
 	com.mattjakeman.ExtensionManager \
 	com.rafaelmardojai.Blanket \
-	io.github.antimicrox.antimicrox \
 	net.davidotek.pupgui2
 
 #	davinci-resolve \
