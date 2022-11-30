@@ -25,6 +25,9 @@ sudo dnf install -y \
 	fragments \
 	steam \
 	steam-devices \
+	gamemode \
+	mangohud \
+	protontricks \
 	gnome-tweaks
 
 sudo sed -i 's/PrefersNonDefaultGPU=true/#PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
@@ -37,6 +40,7 @@ flatpak install \
 	com.stremio.Stremio \
 	com.visualstudio.code \
 	com.mattjakeman.ExtensionManager \
+	com.rafaelmardojai.Blanket \
 	net.davidotek.pupgui2
 
 #	davinci-resolve \
