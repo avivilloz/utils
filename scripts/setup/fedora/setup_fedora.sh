@@ -32,7 +32,7 @@ sudo dnf install -y \
 	akmod-nvidia \
 	xorg-x11-drv-nvidia-cuda \
 	xorg-x11-drv-nvidia-cuda-libs \
-	xorg-x11-drv-nvidia-power \
+	xorg-x11-drv-nvidia-power
 sudo systemctl enable nvidia-{suspend,resume,hibernate}
 sudo dnf install vulkan -y
 sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y

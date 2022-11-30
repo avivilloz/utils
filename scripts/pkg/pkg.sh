@@ -10,24 +10,43 @@
 # q = query through database
 
 if [ "$base_distro" == "debian" ]; then
+
     if [ "$1" == "in" ]; then
-        sudo apt install $2
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                sudo apt install $2
+            fi
+        done
     elif [ "$1" == "rm" ]; then
-        sudo apt remove $2
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                sudo apt remove $2
+            fi
+        done
     elif [ "$1" == "up" ]; then
         sudo apt update
         sudo apt upgrade
         sudo apt autoremove
     fi
+
 elif [ "$base_distro" == "fedora" ]; then
+
     if [ "$1" == "in" ]; then
-        sudo dnf install $2 -y
-        if  [[ ! $(dnf list installed | grep $2) ]]; then
-            flatpak install $2
-        fi
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                sudo dnf install $pkg -y
+                if  [[ ! $(dnf list installed | grep $pkg) ]]; then
+                    flatpak install $pkg
+                fi
+            fi
+        done
     elif [ "$1" == "rm" ]; then
-        sudo dnf remove $2 -y
-        flatpak uninstall $2
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                sudo dnf remove $2 -y
+                flatpak uninstall $2
+            fi
+        done
     elif [ "$1" == "up" ]; then
         sudo dnf upgrade --refresh -y
         sudo dnf autoremove -y
@@ -41,12 +60,22 @@ elif [ "$base_distro" == "fedora" ]; then
         dnf list installed | grep $2
         flatpak list | grep $2
     fi
+
 elif [ "$base_distro" == "arch" ]; then
+
     if [ "$1" == "in" ]; then
         yay -Syy
-        yay -S --needed $2
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                yay -S --needed $2
+            fi
+        done
     elif [ "$1" == "rm" ]; then
-        yay -Rns $2
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                yay -Rns $2
+            fi
+        done
     elif [ "$1" == "up" ]; then
         yay -Syu
         yay -Yc
@@ -58,6 +87,7 @@ elif [ "$base_distro" == "arch" ]; then
     elif [ "$1" == "q" ]; then
         yay -Ss $2
     fi
+
 fi
 
 exit 0
