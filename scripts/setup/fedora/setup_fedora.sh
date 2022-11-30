@@ -37,6 +37,9 @@ sudo systemctl enable nvidia-{suspend,resume,hibernate}
 sudo dnf install vulkan -y
 sudo dnf install vdpauinfo libva-vdpau-driver libva-utils -y
 
+sudo grubby --update-kernel=ALL --remove-args='rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1'
+sudo grubby --update-kernel=ALL --remove-args='rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1'
+
 sudo mkdir -p /etc/X11/xorg.conf.d/
 echo "\
 #This file is provided by xorg-x11-drv-nvidia
