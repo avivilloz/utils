@@ -41,6 +41,7 @@ flatpak install \
 	com.visualstudio.code \
 	com.mattjakeman.ExtensionManager \
 	com.rafaelmardojai.Blanket \
+	io.github.antimicrox.antimicrox \
 	net.davidotek.pupgui2
 
 #	davinci-resolve \
