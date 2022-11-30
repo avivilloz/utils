@@ -23,8 +23,12 @@ sudo dnf install -y \
 	inkscape \
 	blender \
 	fragments \
+	steam \
 	steam-devices \
 	gnome-tweaks
+
+sudo sed -i 's/PrefersNonDefaultGPU=true/#PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
+sudo sed -i 's/X-KDE-RunOnDiscreteGpu=true/#X-KDE-RunOnDiscreteGpu=true/g' /usr/share/applications/steam.desktop
 
 flatpak install \
 	us.zoom.Zoom \
@@ -33,8 +37,7 @@ flatpak install \
 	com.stremio.Stremio \
 	com.visualstudio.code \
 	com.mattjakeman.ExtensionManager \
-	com.valvesoftware.Steam \
-	com.vysp3r.ProtonPlus
+	net.davidotek.pupgui2
 
 #	davinci-resolve \
 #	aseprite \
