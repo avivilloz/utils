@@ -22,13 +22,14 @@ sudo dnf install -y \
 	solaar \
 	inkscape \
 	blender \
-	fragments \
 	steam \
 	steam-devices \
+	lutris \
 	gamemode \
 	mangohud \
 	protontricks \
 	antimicrox \
+	transmission \
 	gnome-tweaks
 
 flatpak install \
@@ -40,6 +41,11 @@ flatpak install \
 	com.mattjakeman.ExtensionManager \
 	com.rafaelmardojai.Blanket \
 	net.davidotek.pupgui2
+
+sudo dnf remove -y \
+	totem \
+	gnome-photos \
+	cheese
 
 #	davinci-resolve \
 #	aseprite \
