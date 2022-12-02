@@ -6,7 +6,7 @@
 # rm = remove package
 # up = update all packages and remove uneeded ones/cache
 # l = list all packages
-# lg = grep fomr list of all packages
+# lg = grep -i from list of all packages
 # q = query through database
 
 if [ "$base_distro" == "debian" ]; then
@@ -35,7 +35,7 @@ elif [ "$base_distro" == "fedora" ]; then
         for pkg in "$@"; do
             if [ "$pkg" != "$1" ]; then
                 sudo dnf install $pkg -y
-                if  [[ ! $(dnf list installed | grep $pkg) ]]; then
+                if  [[ ! $(dnf list installed | grep -i $pkg) ]]; then
                     flatpak install $pkg
                 fi
             fi
@@ -57,8 +57,8 @@ elif [ "$base_distro" == "fedora" ]; then
         dnf list installed
         flatpak list
     elif [ "$1" == "lg" ]; then
-        dnf list installed | grep $2
-        flatpak list | grep $2
+        dnf list installed | grep -i $2
+        flatpak list --app | grep -i $2
     fi
 
 elif [ "$base_distro" == "arch" ]; then
@@ -83,7 +83,7 @@ elif [ "$base_distro" == "arch" ]; then
     elif [ "$1" == "l" ]; then
         yay -Qe
     elif [ "$1" == "lg" ]; then
-        yay -Qe | grep $2
+        yay -Qe | grep -i $2
     elif [ "$1" == "q" ]; then
         yay -Ss $2
     fi
