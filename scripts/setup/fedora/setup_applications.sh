@@ -1,4 +1,5 @@
-# apps
+#!/bin/bash
+
 sudo dnf install -y \
 	vim \
 	git \
@@ -28,9 +29,7 @@ sudo dnf install -y \
 	gamemode \
 	mangohud \
 	protontricks \
-	antimicrox \
-	transmission \
-	gnome-tweaks
+	antimicrox
 
 flatpak install \
 	us.zoom.Zoom \
@@ -38,15 +37,32 @@ flatpak install \
 	com.bitwarden.desktop \
 	com.stremio.Stremio \
 	com.visualstudio.code \
-	com.mattjakeman.ExtensionManager \
-	com.rafaelmardojai.Blanket \
 	net.davidotek.pupgui2
-
-sudo dnf remove -y \
-	totem \
-	gnome-photos \
-	cheese
 
 #	davinci-resolve \
 #	aseprite \
 #	pureref
+
+. ~/.session_variables
+
+if [ "$desktop_environment" = "gnome" ]; then
+
+	sudo dnf install -y \
+		transmission \
+		gnome-tweaks
+
+	flatpak install \
+		com.mattjakeman.ExtensionManager \
+		com.rafaelmardojai.Blanket
+
+	sudo dnf remove -y \
+		totem \
+		gnome-photos \
+		cheese
+
+elif [ "$desktop_environment" = "kde" ]; then
+
+	sudo dnf install -y \
+		ktorrent
+
+fi

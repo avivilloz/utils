@@ -60,15 +60,27 @@ Section \"ServerLayout\"
 	Option \"AllowNVIDIAGPUScreens\"
 EndSection" | sudo tee -a /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
 
-# gdm settings
-mkdir -p /etc/systemd/system/gdm.service.d/
-echo "\
-[Service]
-ExecStartPre=/bin/cp $HOME/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
+sudo dnf install -y \
+	vim \
+	git
 
-echo "\
-[org/gnome/desktop/peripherals/touchpad]
-tap-to-click=true" | sudo tee -a /etc/dconf/db/gdm.d/06-tap-to-click > /dev/null
+bash ~/git/utils/scripts/setup/setup_base.sh
+bash ~/git/utils/scripts/setup/fedora/setup_applications.sh
+bash ~/git/utils/scripts/setup/setup_mpd.sh
+
+. ~/.session_variables
+if [ "$display_manager" = "gdm" ]; then
+
+	mkdir -p /etc/systemd/system/gdm.service.d/
+	echo "\
+	[Service]
+	ExecStartPre=/bin/cp $HOME/.config/monitors.xml /var/lib/gdm/.config/monitors.xml" | sudo tee -a /etc/systemd/system/gdm.service.d/override.conf > /dev/null
+
+	echo "\
+	[org/gnome/desktop/peripherals/touchpad]
+	tap-to-click=true" | sudo tee -a /etc/dconf/db/gdm.d/06-tap-to-click > /dev/null
+
+fi
 
 sudo dnf install -y numlockx
 echo "\
@@ -77,7 +89,3 @@ if [ -x /usr/bin/numlockx ]; then
 fi" | tee -a ~/.xprofile > /dev/null
 
 sudo sed -i 's/#HandleLidSwitchDocked=ignore/HandleLidSwitchDocked=ignore/g' /etc/systemd/logind.conf > /dev/null
-
-bash ~/git/utils/scripts/setup/fedora/setup_applications.sh
-bash ~/git/utils/scripts/setup/setup_base.sh
-bash ~/git/utils/scripts/setup/setup_mpd.sh

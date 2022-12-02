@@ -27,7 +27,7 @@ elif [ "$base_distro" = "fedora" ];then
             sudo sed -i 's/X-KDE-RunOnDiscreteGpu=true/#X-KDE-RunOnDiscreteGpu=true/g' /usr/share/applications/steam.desktop
         fi
 
-    else if [ "$1" = "hybrid" ]; then
+    elif [ "$1" = "hybrid" ]; then
 
         if ! grep -Fq '#Option "PrimaryGPU" "yes"' /etc/X11/xorg.conf.d/nvidia.conf; then
             sudo sed -i 's/Option "PrimaryGPU" "yes"/#Option "PrimaryGPU" "yes"/g' /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
@@ -44,7 +44,7 @@ elif [ "$base_distro" = "fedora" ];then
         sudo sed -i 's/#PrefersNonDefaultGPU=true/PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
         sudo sed -i 's/#X-KDE-RunOnDiscreteGpu=true/X-KDE-RunOnDiscreteGpu=true/g' /usr/share/applications/steam.desktop
 
-    else if [ "$1" = "integrated" ]; then
+    elif [ "$1" = "integrated" ]; then
 
         if ! grep -Fq '#Option "PrimaryGPU" "yes"' /etc/X11/xorg.conf.d/nvidia.conf; then
             sudo sed -i 's/Option "PrimaryGPU" "yes"/#Option "PrimaryGPU" "yes"/g' /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
