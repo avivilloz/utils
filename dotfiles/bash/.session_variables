@@ -1,5 +1,6 @@
 #!/bin/bash
 
-export python_version=
-export display_manager=
 export base_distro=
+export display_manager=
+export desktop_environment=
+export python_version=
