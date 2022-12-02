@@ -31,9 +31,6 @@ sudo dnf install -y \
 	antimicrox \
 	gnome-tweaks
 
-sudo sed -i 's/PrefersNonDefaultGPU=true/#PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
-sudo sed -i 's/X-KDE-RunOnDiscreteGpu=true/#X-KDE-RunOnDiscreteGpu=true/g' /usr/share/applications/steam.desktop
-
 flatpak install \
 	us.zoom.Zoom \
 	md.obsidian.Obsidian \

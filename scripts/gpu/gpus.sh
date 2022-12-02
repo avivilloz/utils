@@ -17,9 +17,16 @@ if [ "$base_distro" = "arch" ];then
 elif [ "$base_distro" = "fedora" ];then
 
     if [ "$1" = "nvidia" ]; then
+
         sudo sed -i 's/#Option "PrimaryGPU" "yes"/Option "PrimaryGPU" "yes"/g' /etc/X11/xorg.conf.d/nvidia.conf > /dev/null
         sudo sed -i 's/#WaylandEnable/WaylandEnable/g' /etc/gdm/custom.conf > /dev/null
         sudo grubby --update-kernel=ALL --args='rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1'
+
+        if ! grep -Fq '#PrefersNonDefaultGPU=true' /usr/share/applications/steam.desktop; then
+            sudo sed -i 's/PrefersNonDefaultGPU=true/#PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
+            sudo sed -i 's/X-KDE-RunOnDiscreteGpu=true/#X-KDE-RunOnDiscreteGpu=true/g' /usr/share/applications/steam.desktop
+        fi
+
     else if [ "$1" = "hybrid" ]; then
 
         if ! grep -Fq '#Option "PrimaryGPU" "yes"' /etc/X11/xorg.conf.d/nvidia.conf; then
@@ -34,6 +41,9 @@ elif [ "$base_distro" = "fedora" ];then
             sudo grubby --update-kernel=ALL --args='rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1'
         fi
 
+        sudo sed -i 's/#PrefersNonDefaultGPU=true/PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
+        sudo sed -i 's/#X-KDE-RunOnDiscreteGpu=true/X-KDE-RunOnDiscreteGpu=true/g' /usr/share/applications/steam.desktop
+
     else if [ "$1" = "integrated" ]; then
 
         if ! grep -Fq '#Option "PrimaryGPU" "yes"' /etc/X11/xorg.conf.d/nvidia.conf; then
@@ -45,6 +55,9 @@ elif [ "$base_distro" = "fedora" ];then
         fi
 
         sudo grubby --update-kernel=ALL --remove-args='rd.driver.blacklist=nouveau modprobe.blacklist=nouveau nvidia-drm.modeset=1'
+
+        sudo sed -i 's/#PrefersNonDefaultGPU=true/PrefersNonDefaultGPU=true/g' /usr/share/applications/steam.desktop
+        sudo sed -i 's/#X-KDE-RunOnDiscreteGpu=true/X-KDE-RunOnDiscreteGpu=true/g' /usr/share/applications/steam.desktop
 
     fi
 
