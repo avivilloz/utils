@@ -250,7 +250,7 @@ alias pshstop="killall plasmashell"
 #vim
 alias vimpi="vim -c PlugInstall -c q -c q"
 
-#docker
+#docker - dkr
 alias dkrr="sudo docker run"
 alias dkrrd="sudo docker run -d" #run detached (in the background)
 alias dkrps="sudo docker ps"
@@ -264,28 +264,21 @@ alias dkrit="sudo docker exec -it /bin/bash" #gets you into the container's shel
 alias dkrnwcr="sudo docker network create"
 alias dkrnwl="sudo docker network ls"
 
-#docker compose
-alias dkrcomup="sudo docker-compose up -f"
-alias dkrcomdown="docker-compose down -f"
-
-#lenovo
-alias ideapcme="ideapad-cm enable"
-alias ideapcmstat="ideapad-cm status"
+#docker compose - dkrcmp
+alias dkrcmpup="sudo docker-compose up -f"
+alias dkrcmpdown="docker-compose down -f"
 
 #tmux
 alias tmuxns="tmux new -s"
 alias tmuxls="tmux list-sessions"
 alias tmuxas="tmux attach-session -t"
 
-#guardicore
-alias gcssht="bash $scriptsdir/guardicore/ssh_to_tester.sh"
-alias gcaddta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
+#guardicore centra - gcc
+alias gccsshtt="bash $scriptsdir/guardicore/ssh_to_tester.sh"
+alias gccaddta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
 
-#iptables
-alias iptlL="sudo iptables-legacy -L -v --line-numbers"
+#apex legends - apexl
+alias apexlcacheup="curl -LO --output-dir ~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/ https://github.com/bcook254/apex-legends-cache/raw/main/r5apex.dxvk-cache"
 
-#apex legends
-alias apexcacheup="curl -LO --output-dir ~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/ https://github.com/bcook254/apex-legends-cache/raw/main/r5apex.dxvk-cache"
-
-#cache
+#clear cache
 alias clc="sync; echo 3 > /proc/sys/vm/drop_caches"
