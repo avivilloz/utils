@@ -188,9 +188,9 @@ alias vlg='valgrind --leak-check=yes --track-origins=yes'
 alias hlg='valgrind --tool=helgrind'
 
 #git
-alias gadd="git add"
+alias gad="git add"
 alias gaddr="git reset"
-alias gcomm="git commit -m"
+alias gcm="git commit -m"
 alias gcommr="git revert --strategy resolve" #commit id
 alias gpsh="git push"
 alias gpll="git pull"
