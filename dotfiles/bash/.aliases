@@ -189,9 +189,9 @@ alias hlg='valgrind --tool=helgrind'
 
 #git
 alias gad="git add"
-alias grmad="git reset"
+alias gadrm="git reset"
 alias gcm="git commit -m"
-alias grmcm="git revert --strategy resolve" #commit id
+alias gcmrm="git revert --strategy resolve" #commit id
 alias gps="git push"
 alias gpl="git pull"
 alias gfps="git push --set-upstream origin"
@@ -200,7 +200,7 @@ alias glg="git log"
 alias gcl="git clone"
 alias gdf="git diff"
 alias gdft="git difftool"
-alias gitsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
+alias gsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
 alias gqp="bash $scriptsdir/git/git_quick_push.sh"
 alias gqpm="bash $scriptsdir/git/git_quick_push_msg.sh"
 alias gqcpp="bash $scriptsdir/git/git_quick_cherry_pick_push.sh"
