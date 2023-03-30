@@ -207,6 +207,9 @@ alias gqcpp="bash $scriptsdir/git/git_quick_cherry_pick_push.sh"
 alias gbrrmr="git push origin --delete"
 alias gbrrml="git branch -D"
 alias grurl="git remote set-url origin"
+alias gcp="git cherry-pick"
+alias gco="git checkout"
+alias gcob="git checkout -b"
 
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
@@ -274,8 +277,8 @@ alias tmuxls="tmux list-sessions"
 alias tmuxas="tmux attach-session -t"
 
 #guardicore centra - gcc
-alias gccsshtt="bash $scriptsdir/guardicore/ssh_to_tester.sh"
-alias gccaddta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
+alias sshtt="bash $scriptsdir/guardicore/ssh_to_tester.sh"
+alias addta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
 
 #apex legends - apexl
 alias apexlcacheup="curl -LO --output-dir ~/.local/share/Steam/steamapps/shadercache/1172470/DXVK_state_cache/ https://github.com/bcook254/apex-legends-cache/raw/main/r5apex.dxvk-cache"

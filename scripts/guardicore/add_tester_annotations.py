@@ -11,11 +11,11 @@ from copy import deepcopy
 annotations = deepcopy(AOL_CONF)
 annotations.update({
     'type': 'thin',
-    'environment_name': 'Thin-293-Regular',
+    'environment_name': 'Thin-34-Regular',
     'vcenter': '10.0.0.22',
-    'build_nightly': True,
-    'testing_branch': 'v42',
-    'branch': 'v42'
+    'build_nightly': False,
+    'testing_branch': 'master',
+    'branch': 'master'
 })
 
 res = requests.post('https://tester-config.gc.guardicore.com/save_details', data=annotations,
