@@ -152,7 +152,7 @@ alias yayrm="yay -Rns"
 alias yayarm="yay -Yc"
 alias yaycrm="yay -Scc"
 alias yayl="yay -Qe"
-alias yaylq="yay -Qe | grep -i"
+alias yaylg="yay -Qe | grep -i"
 alias yayq="yay -Ss"
 
 #dnf
