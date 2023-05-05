@@ -172,6 +172,12 @@ alias knrpl="pkcon repo-list"
 alias knrpe="pkcon repo-enable"
 alias knrpe="pkcon repo-disable"
 
+#nix
+alias nixina="bash $scriptsdir/pkg/nix_install_attribute.sh"
+alias nixin="nix-env --install"
+alias nixrm="nix-env --uninstall"
+alias nixq="nix-env -q"
+
 #gcc compilation aliases: debug mode, release mode
 alias gccd='gcc -ansi -pedantic-errors -Wall -Wextra -g'
 alias gccr='gcc -ansi -pedantic-errors -Wall -Wextra -DNDEBUG -O3'
