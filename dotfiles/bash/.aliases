@@ -217,6 +217,11 @@ alias grurl="git remote set-url origin"
 alias gcp="git cherry-pick"
 alias gco="git checkout"
 alias gcob="git checkout -b"
+alias gsth="git stash"
+alias gsthl="git stash list"
+alias gsthp="git stash pop"
+alias gsthd="git stash drop"
+alias gft="git fetch"
 
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"

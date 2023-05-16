@@ -11,7 +11,7 @@ from copy import deepcopy
 annotations = deepcopy(AOL_CONF)
 annotations.update({
     'type': 'thin',
-    'environment_name': 'Thin-34-Regular',
+    'environment_name': 'Thin-124-Regular',
     'vcenter': '10.0.0.22',
     'build_nightly': False,
     'testing_branch': 'master',
