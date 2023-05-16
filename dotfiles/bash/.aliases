@@ -152,7 +152,7 @@ alias yayrm="yay -Rns"
 alias yayarm="yay -Yc"
 alias yaycrm="yay -Scc"
 alias yayl="yay -Qe"
-alias yaylq="yay -Qe | grep -i"
+alias yaylg="yay -Qe | grep -i"
 alias yayq="yay -Ss"
 
 #dnf
@@ -171,6 +171,13 @@ alias knrm="pkcon remove"
 alias knrpl="pkcon repo-list"
 alias knrpe="pkcon repo-enable"
 alias knrpe="pkcon repo-disable"
+
+#nix
+alias nixina="bash $scriptsdir/pkg/nix_install_attribute.sh"
+alias nixin="nix-env --install"
+alias nixrm="nix-env --uninstall"
+alias nixq="nix-env -q"
+alias nixs="nix-env -qa --available"
 
 #gcc compilation aliases: debug mode, release mode
 alias gccd='gcc -ansi -pedantic-errors -Wall -Wextra -g'

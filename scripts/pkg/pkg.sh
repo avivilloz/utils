@@ -68,22 +68,30 @@ elif [ "$base_distro" == "arch" ]; then
         for pkg in "$@"; do
             if [ "$pkg" != "$1" ]; then
                 yay -S --needed $2
+                if  [[ ! $(yay -Qe | grep -i $pkg) ]]; then
+                    flatpak install $pkg
+                fi
             fi
         done
     elif [ "$1" == "rm" ]; then
         for pkg in "$@"; do
             if [ "$pkg" != "$1" ]; then
                 yay -Rns $2
+                flatpak uninstall $2
             fi
         done
     elif [ "$1" == "up" ]; then
         yay -Syu
         yay -Yc
         yay -Scc
+        flatpak update
+        flatpak uninstall --unused
     elif [ "$1" == "l" ]; then
         yay -Qe
+        flatpak list
     elif [ "$1" == "lg" ]; then
         yay -Qe | grep -i $2
+        flatpak list --app | grep -i $2
     elif [ "$1" == "q" ]; then
         yay -Ss $2
     fi
