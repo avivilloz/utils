@@ -243,6 +243,7 @@ alias piprin="$python_version -m pip install -r" #install all packages from requ
 alias piprup="$python_version -m pip install -U -r"
 alias piprrm="$python_version -m pip uninstall -y -r"
 alias pipl="$python_version -m pip list" #lists environment packages
+alias piplg="$python_version -m pip list | grep" #lists environment packages
 alias pipshow="$python_version -m pip show" #shows specific package
 alias pipcfgl="$python_version -m pip config list -vv"
 alias pipfreeze="$python_version -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
