@@ -19,9 +19,7 @@ alias ve="$term -e vim"
 alias c="clear"
 alias cc="cd && clear"
 alias e="exit"
-alias q="exit"
 alias r="ranger"
-alias t="htop"
 alias h="htop"
 alias hg="history | grep -i"
 alias psg="ps -e | grep -i"
@@ -88,14 +86,9 @@ alias edalias="$edit $aliases"
 alias edvar="$edit $variables"
 alias edsvar="$edit $session_variables"
 alias edvim="$edit $vimrc"
-alias edsetup="$edit $scriptsdir/setup/setup.sh"
-
-#backup
-alias backupfs="rm -rf $utilsdir/fs_backup && cp $utilsdir/fs $utilsdir/fs_backup"
 
 #setup
-alias addsetup="bash $scriptsdir/setup/addsetup.sh"
-alias setup="bash $scriptsdir/setup/setup.sh"
+alias setup_deck="bash $scriptsdir/setup/deck/setup.sh"
 
 #boot options
 alias bootopl="efibootmgr"
@@ -257,7 +250,6 @@ alias pyveact=". $scriptsdir/python/pyveact.sh"
 alias pyvedeact="deactivate"
 
 #kde plasma theme
-alias kdechdwp="bash $scriptsdir/kde/kdechdwp.sh" #change kde default wallpaper
 alias kwinr="kwin_x11 --replace"
 alias pshr="killall plasmashell && kstart plasmashell" #restart plasmashell
 alias pshstart="kstart plasmashell"
