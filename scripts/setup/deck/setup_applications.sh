@@ -8,7 +8,8 @@ sudo pacman -Syy
 sudo pacman -S --needed \
 	ranger \
 	neofetch \
-	yakuake
+	yakuake \
+	google-chrome
 	# vim \
 	# git \
 	# mpc \
@@ -31,7 +32,6 @@ sudo pacman -S --needed \
 	# stacer \
 	# visual-studio-code-bin \
 	# stremio \
-	# google-chrome \
 	# solaar \
 	# steam \
 	# inkscape \
