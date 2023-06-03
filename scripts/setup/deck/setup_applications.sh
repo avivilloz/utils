@@ -11,7 +11,6 @@ sudo pacman -S --needed \
 	yakuake
 	# vim \
 	# git \
-	# mpv \
 	# mpc \
 	# mpd \
 	# ncmpcpp \
