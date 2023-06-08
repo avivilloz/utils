@@ -2,10 +2,10 @@
 
 if [ $# -ne 1 ]
 then
-	echo "provide message in between quotation marks"
+	echo "provide commit message in between quotation marks"
 	exit 1
 fi
 
-git add .
+git add -u
 git commit -m '$1'
 git push
