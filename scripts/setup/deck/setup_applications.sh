@@ -9,7 +9,8 @@ sudo pacman -S --needed \
 	ranger \
 	neofetch \
 	yakuake \
-	google-chrome
+	solaar
+	# google-chrome \
 	# vim \
 	# git \
 	# mpc \

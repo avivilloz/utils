@@ -34,6 +34,7 @@ alias dua="du -sch .[!.]* * |sort -h"
 alias username="whoami"
 alias hostname="echo $HOSTNAME"
 alias envg="env | grep -i"
+alias miso="bash $scriptsdir/mount_iso.sh"
 
 #format
 alias columnify="bash $scriptsdir/format/columnize.sh"
