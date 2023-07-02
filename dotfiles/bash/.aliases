@@ -35,6 +35,7 @@ alias username="whoami"
 alias hostname="echo $HOSTNAME"
 alias envg="env | grep -i"
 alias miso="bash $scriptsdir/mount_iso.sh"
+alias unrarxe='unrar x -e'
 
 #format
 alias columnify="bash $scriptsdir/format/columnize.sh"
