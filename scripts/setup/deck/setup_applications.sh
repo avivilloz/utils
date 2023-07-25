@@ -9,8 +9,9 @@ sudo pacman -S --needed \
 	ranger \
 	neofetch \
 	yakuake \
-	solaar
-	# google-chrome \
+	solaar \
+	google-chrome
+	# flameshot \
 	# vim \
 	# git \
 	# mpc \
@@ -23,7 +24,6 @@ sudo pacman -S --needed \
 	# obs-studio \
 	# gimp \
 	# godot \
-	# flameshot \
 	# libreoffice-fresh \
 	# virtualbox \
 	# virtualbox-host-modules-arch \
