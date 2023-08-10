@@ -1,8 +1,7 @@
 #!/bin/bash
 
 #folders
-alias utils="cd $utilsdir"
-alias notes="cd ~/git/notes"
+alias cdu="cd $utilsdir"
 
 #general
 alias k="pkill -9"
@@ -223,6 +222,7 @@ alias gft="git fetch"
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
 alias mkproject="bash $scriptsdir/code/project.sh"
+alias cdp='cd $project_path'
 
 #mpd
 alias msp="mpc searchplay"

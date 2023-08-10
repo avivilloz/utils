@@ -23,5 +23,8 @@ sudo cp /home/deck/git/utils/dotfiles/pacman/pacman.conf /etc
 bash ~/git/utils/scripts/setup/deck/setup_package_managers.sh
 bash ~/git/utils/scripts/setup/deck/setup_applications.sh
 
+sudo pacman -S fakeroot
+
 kwriteconfig5 --file kwinrc --group ModifierOnlyShortcuts --key Meta "org.kde.krunner,/App,,toggleDisplay"
 kwin_x11 --replace
+
