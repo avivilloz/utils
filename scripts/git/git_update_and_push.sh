@@ -7,5 +7,5 @@ then
 fi
 
 git add -u
-git commit --allow-empty -m "$1"
+git commit -m "$1"
 git push
