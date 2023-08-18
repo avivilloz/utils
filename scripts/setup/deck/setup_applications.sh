@@ -9,8 +9,8 @@ sudo pacman -S --needed \
 	ranger \
 	neofetch \
 	yakuake \
-	solaar \
-	google-chrome
+	solaar
+	# google-chrome \
 	# flameshot \
 	# vim \
 	# git \
