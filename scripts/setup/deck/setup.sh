@@ -15,9 +15,8 @@ if [ $ans  = "y" ]; then
 fi
 
 sudo steamos-readonly disable
-sudo pacman-key --init
-sudo pacman-key --populate archlinux
 
+bash ~/git/utils/scripts/setup/deck/setup_pacman.sh
 bash ~/git/utils/scripts/setup/deck/setup_package_managers.sh
 bash ~/git/utils/scripts/setup/deck/setup_applications.sh
 
