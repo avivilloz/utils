@@ -223,6 +223,7 @@ alias gft="git fetch"
 alias lab="bash $scriptsdir/code/lab.sh"
 alias mkproject="bash $scriptsdir/code/project.sh"
 alias cdp='cd $project_path'
+alias cdg='cd ~/git'
 
 #godot
 alias cdgp='cd $godot_project_path'
