@@ -201,8 +201,8 @@ alias gfps="git push --set-upstream origin"
 alias gst="git status"
 alias glg="git log"
 alias gcl="git clone"
-alias gdf="git diff"
-alias gdft="git difftool"
+alias gdff="git diff"
+alias gdfft="git difftool"
 alias gsshkg="bash $scriptsdir/git/git_ssh_keygen.sh"
 alias gqp="bash $scriptsdir/git/git_quick_push.sh"
 alias gup="bash $scriptsdir/git/git_update_and_push.sh"
@@ -224,6 +224,11 @@ alias gft="git fetch"
 alias lab="bash $scriptsdir/code/lab.sh"
 alias mkproject="bash $scriptsdir/code/project.sh"
 alias cdp='cd $project_path'
+alias cdg='cd ~/git'
+
+#godot
+alias cdgp='cd $godot_project_path'
+alias gdf="bash $scriptsdir/godot/format_gdscript.sh"
 
 #mpd
 alias msp="mpc searchplay"

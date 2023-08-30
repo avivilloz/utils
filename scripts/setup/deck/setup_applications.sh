@@ -4,13 +4,15 @@ echo -------------------------------------------------------------------------
 echo setup applications
 echo -------------------------------------------------------------------------
 
-sudo pacman -Syy
-sudo pacman -S --needed \
+sudo yay -Syy
+sudo yay -S --needed \
 	ranger \
 	neofetch \
 	yakuake \
-	solaar \
-	google-chrome
+	visual-studio-code-bin \
+	pureref \
+	solaar
+	# google-chrome \
 	# flameshot \
 	# vim \
 	# git \
@@ -39,12 +41,8 @@ sudo pacman -S --needed \
 	# davinci-resolve \
 	# blender \
 	# gamemode
-
-# yay -S --needed \
 # 	aseprite \
 # 	huiontablet \
 # 	pureref \
 # 	proton-ge-custom-bin \
 # 	mpdris2
-
-# sudo rm /etc/xdg/autostart/huiontablet.desktop

@@ -1,13 +1,10 @@
 #!/bin/bash
 
 echo -------------------------------------------------------------------------
-echo setup package managers
+echo setup package pacman
 echo -------------------------------------------------------------------------
 
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin
-makepkg -si
-cd ..
-rm -rf yay-bin
-
-yay -Syy
+sudo pacman-key --init
+sudo pacman-key --populate archlinux
+sudo pacman-key --refresh-keys
+sudo pacman -S glibc linux-api-headers
