@@ -193,6 +193,7 @@ alias gad="git add"
 alias gadu="git add -u"
 alias gadrm="git reset"
 alias gcm="git commit -m"
+alias gcma="git commit --amend"
 alias gcmrm="git revert --strategy resolve" #commit id
 alias gps="git push"
 alias gpl="git pull"

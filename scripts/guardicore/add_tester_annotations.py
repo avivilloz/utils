@@ -11,7 +11,7 @@ from copy import deepcopy
 annotations = deepcopy(SPAN_COLLECTOR)
 annotations.update({
     'type': 'thin',
-    'environment_name': 'Thin-225-Priority',
+    'environment_name': 'Thin-2-Regular',
     'vcenter': '10.0.0.22',
     'build_nightly': False,
     'testing_branch': 'master',
