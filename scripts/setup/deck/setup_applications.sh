@@ -11,7 +11,6 @@ yay -S --needed \
 	ranger \
 	neofetch \
 	yakuake \
-	pureref \
 	solaar \
 	visual-studio-code-bin
 	# google-chrome \
