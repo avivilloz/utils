@@ -2,8 +2,11 @@
 
 . ~/.session_variables
 
+# r = refresh repos
+# ss = show status
 # in = install package
 # rm = remove package
+# u = update specific package
 # up = update all packages and remove uneeded ones/cache
 # l = list all packages
 # lg = grep -i from list of all packages
@@ -62,8 +65,13 @@ elif [ "$base_distro" == "fedora" ]; then
     fi
 
 elif [ "$base_distro" == "arch" ]; then
-
-    if [ "$1" == "in" ]; then
+    if [ "$1" == "r" ]; then
+        yay -Syy
+    elif [ "$1" == "ss" ]; then
+        yay -Sua
+    elif [ "$1" == "u" ]; then
+        yay -S $2
+    elif [ "$1" == "in" ]; then
         yay -Syy
         for pkg in "$@"; do
             if [ "$pkg" != "$1" ]; then
