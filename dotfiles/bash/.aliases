@@ -227,7 +227,6 @@ alias cdp='cd $project_path'
 alias cdg='cd ~/git'
 
 #godot
-alias cdgp='cd $godot_project_path'
 alias gdf="bash $scriptsdir/godot/format_gdscript.sh"
 
 #mpd
