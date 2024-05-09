@@ -6,8 +6,8 @@ echo -------------------------------------------------------------------------
 
 # sudo rm -rf /opt/visual-studio-code
 
-yay -Syy
-yay -S --needed \
+sudo pacman -Syy
+sudo pacman -S --needed \
 	ranger \
 	neofetch \
 	yakuake
