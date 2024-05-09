@@ -1,17 +1,17 @@
 #EDIT BEFORE IT RUNS
 
-#from tests.qa.jenkins.utils.tester_configs import SPAN_COLLECTOR
+#from tests.qa.jenkins.utils.tester_configs import AOL_CONF
 
 import requests
 import sys
 sys.path.append('/home/ailloz/git/guardicore2/tests/qa/jenkins/utils/')
-from tester_configs import SPAN_COLLECTOR
+from tester_configs import AOL_CONF
 from copy import deepcopy
 
-annotations = deepcopy(SPAN_COLLECTOR)
+annotations = deepcopy(AOL_CONF)
 annotations.update({
     'type': 'thin',
-    'environment_name': 'Thin-2-Regular',
+    'environment_name': 'Thin-286-Regular',
     'vcenter': '10.0.0.22',
     'build_nightly': False,
     'testing_branch': 'master',

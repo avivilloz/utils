@@ -291,7 +291,7 @@ alias tmuxls="tmux list-sessions"
 alias tmuxas="tmux attach-session -t"
 
 #guardicore centra - gcc
-alias sshtt="bash $scriptsdir/guardicore/ssh_to_tester.sh"
+alias ssht="bash $scriptsdir/guardicore/ssh_to_tester.sh"
 alias addta="bash $scriptsdir/guardicore/add_tester_annotations.sh"
 
 #apex legends - apexl
