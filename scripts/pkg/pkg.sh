@@ -68,6 +68,7 @@ elif [ "$base_distro" == "arch" ]; then
     if [ "$1" == "r" ]; then
         yay -Syy
     elif [ "$1" == "ss" ]; then
+        yay -Syy
         yay -Sua
     elif [ "$1" == "u" ]; then
         yay -S $2

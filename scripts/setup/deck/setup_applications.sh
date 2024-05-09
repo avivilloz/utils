@@ -4,16 +4,16 @@ echo -------------------------------------------------------------------------
 echo setup applications
 echo -------------------------------------------------------------------------
 
-sudo rm -rf /opt/visual-studio-code
+# sudo rm -rf /opt/visual-studio-code
 
 yay -Syy
 yay -S --needed \
 	ranger \
 	neofetch \
-	yakuake \
-	solaar \
-	visual-studio-code-bin
+	yakuake
 	# google-chrome \
+	# visual-studio-code-bin \
+	# solaar \
 	# flameshot \
 	# vim \
 	# git \
