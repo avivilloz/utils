@@ -109,3 +109,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
+#xhost +SI:localuser:$USER
