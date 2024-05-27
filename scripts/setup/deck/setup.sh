@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 
 
 echo Is initial setup? [y/n]
@@ -9,14 +9,15 @@ if [ $ans  = "y" ]; then
     echo 'choose su password:'
     sudo passwd
 
-    sudo mv /etc/bash.bashrc /home/deck/Documents
+    mkdir ~/Documents/deck
+    sudo mv /etc/bash.bashrc /home/deck/Documents/deck
 
     bash ~/git/utils/scripts/setup/setup_base.sh
 fi
 
-sudo steamos-readonly disable
+#sudo steamos-readonly disable
 
-bash ~/git/utils/scripts/setup/deck/setup_pacman.sh
+#bash ~/git/utils/scripts/setup/deck/setup_pacman.sh
 #bash ~/git/utils/scripts/setup/deck/setup_package_managers.sh
-bash ~/git/utils/scripts/setup/deck/setup_applications.sh
+#bash ~/git/utils/scripts/setup/deck/setup_applications.sh
 
