@@ -4,8 +4,6 @@ case $- in
       *) return;;
 esac
 
-#move to another distro using distrobox
-
 #variables
 if [ -f ~/.variables ]; then
     . ~/.variables
@@ -111,4 +109,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-xhost +SI:localuser:$USER

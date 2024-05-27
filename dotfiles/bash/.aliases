@@ -8,7 +8,7 @@ alias dbs='distrobox stop'
 alias dbr='distrobox rm'
 alias dbc='distrobox create'
 alias dbl='distrobox list'
-alias dbed='distrobox enter dev'
+alias dbe='distrobox enter'
 alias di="cat /etc/*-release"
 
 #general
