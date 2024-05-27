@@ -6,8 +6,15 @@ alias cdu="cd $utilsdir"
 #applications
 alias code="com.visualstudio.code"
 
+#distrobox
+alias dbs='distrobox stop'
+alias dbr='distrobox rm'
+alias dbc='distrobox create'
+alias dbl='distrobox list'
+alias dbed='distrobox enter dev'
+alias di="cat /etc/*-release"
+
 #general
-alias distroinfo="cat /etc/*-release"
 alias k="pkill -9"
 alias fbash=". ~/.bashrc"
 alias falias=". ~/.aliases"
