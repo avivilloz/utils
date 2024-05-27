@@ -3,9 +3,6 @@
 #folders
 alias cdu="cd $utilsdir"
 
-#applications
-alias code="com.visualstudio.code"
-
 #distrobox
 alias dbs='distrobox stop'
 alias dbr='distrobox rm'
@@ -107,6 +104,7 @@ alias bootopl="efibootmgr"
 alias bootoprm="sudo efibootmgr -Bb" 
 
 #pkg
+alias edpkg="$edit $scriptsdir/pkg/pkg.sh"
 alias pkg="bash $scriptsdir/pkg/pkg.sh"
 
 #apt
