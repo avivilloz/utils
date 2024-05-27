@@ -3,7 +3,11 @@
 #folders
 alias cdu="cd $utilsdir"
 
+#applications
+alias code="com.visualstudio.code"
+
 #general
+alias distroinfo="cat /etc/*-release"
 alias k="pkill -9"
 alias fbash=". ~/.bashrc"
 alias falias=". ~/.aliases"
