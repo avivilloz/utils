@@ -9,6 +9,7 @@ alias dbr='distrobox rm'
 alias dbc='distrobox create'
 alias dbl='distrobox list'
 alias dbe='distrobox enter'
+alias dbed='distrobox enter dev'
 alias di="cat /etc/*-release"
 
 #general
@@ -17,6 +18,7 @@ alias fbash=". ~/.bashrc"
 alias falias=". ~/.aliases"
 alias fvar=". ~/.variables"
 alias fsvar=". ~/.session_variables"
+alias f=". ~/.aliases; . ~/.variables; . ~/.session_variables"
 alias nf="neofetch"
 alias vi="vim"
 alias v="vim"
@@ -250,9 +252,9 @@ alias mm="bash $scriptsdir/mpd/music_manager.sh"
 alias pipin="$python_version -m pip install"
 alias pipup="$python_version -m pip install -U" #updates package
 alias piprm="$python_version -m pip uninstall -y"
-alias piprin="$python_version -m pip install -r" #install all packages from requirements file (need to specify file)
-alias piprup="$python_version -m pip install -U -r"
-alias piprrm="$python_version -m pip uninstall -y -r"
+alias pipinr="$python_version -m pip install -r requirements.txt"
+alias pipupr="$python_version -m pip install -U -r requirements.txt"
+alias piprmr="$python_version -m pip uninstall -y -r requirements.txt"
 alias pipl="$python_version -m pip list" #lists environment packages
 alias piplg="$python_version -m pip list | grep" #lists environment packages
 alias pipshow="$python_version -m pip show" #shows specific package
@@ -260,12 +262,12 @@ alias pipcfgl="$python_version -m pip config list -vv"
 alias pipfreeze="$python_version -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
 
 #python venv
-alias pyvec="$python_version -m venv"
-alias pyvecssp="$python_version -m venv --system-site-packages" #gives access to system site packages
-alias pyvecwp="$python_version -m venv --without-pip"
-alias pyvecwpssp="$python_version -m venv --without-pip --system-site-packages"
-alias pyvea=". $scriptsdir/python/pyveact.sh"
-alias pyved="deactivate"
+alias vec="$python_version -m venv"
+alias vecssp="$python_version -m venv --system-site-packages" #gives access to system site packages
+alias vecwp="$python_version -m venv --without-pip"
+alias vecwpssp="$python_version -m venv --without-pip --system-site-packages"
+alias vea=". $scriptsdir/python/pyveact.sh"
+alias ved="deactivate"
 
 #kde plasma theme
 alias kwinr="kwin_x11 --replace"
