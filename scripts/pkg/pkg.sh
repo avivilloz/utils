@@ -38,30 +38,22 @@ elif [ "$base_distro" == "fedora" ]; then
         for pkg in "$@"; do
             if [ "$pkg" != "$1" ]; then
                 sudo dnf install $pkg -y
-                if  [[ ! $(dnf list installed | grep -i $pkg) ]]; then
-                    flatpak install $pkg
-                fi
             fi
         done
     elif [ "$1" == "rm" ]; then
         for pkg in "$@"; do
             if [ "$pkg" != "$1" ]; then
                 sudo dnf remove $2 -y
-                flatpak uninstall $2
             fi
         done
     elif [ "$1" == "up" ]; then
         sudo dnf upgrade --refresh -y
         sudo dnf autoremove -y
         sudo dnf clean packages -y
-        flatpak update
-        flatpak uninstall --unused
     elif [ "$1" == "l" ]; then
         dnf list installed
-        flatpak list
     elif [ "$1" == "lg" ]; then
         dnf list installed | grep -i $2
-        flatpak list --app | grep -i $2
     fi
 
 elif [ "$base_distro" == "arch" ]; then
