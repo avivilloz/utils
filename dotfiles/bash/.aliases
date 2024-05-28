@@ -10,7 +10,7 @@ alias dbc='distrobox create'
 alias dbl='distrobox list'
 alias dbe='distrobox enter'
 alias dbed='distrobox enter dev'
-alias di="cat /etc/*-release"
+alias di="cat /etc/*-release" # distro information
 
 #general
 alias k="pkill -9"
