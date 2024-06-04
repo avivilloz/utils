@@ -110,6 +110,5 @@ if ! shopt -oq posix; then
 fi
 
 #distrobox setup
-#xhost +SI:localuser:$USER
-#distrobox enter dev
-#echo "ENTERED DISTROBOX ARCHLINUX DEV ENVIRONMENT"
+xhost +SI:localuser:$USER
+clear

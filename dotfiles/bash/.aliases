@@ -3,6 +3,10 @@
 #folders
 alias cdu="cd $utilsdir"
 
+#applications
+alias r='bash $scriptsdir/run/run.sh'
+alias run='bash $scriptsdir/run/run.sh'
+
 #distrobox
 alias dbs='distrobox stop'
 alias dbr='distrobox rm'
@@ -28,7 +32,6 @@ alias ve="$term -e vim"
 alias c="clear"
 alias cc="cd && clear"
 alias e="exit"
-alias r="ranger"
 alias h="htop"
 alias hg="history | grep -i"
 alias psg="ps -e | grep -i"
@@ -234,7 +237,8 @@ alias gft="git fetch"
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
 alias mkproject="bash $scriptsdir/code/project.sh"
-alias cdp='cd $project_path'
+alias cdp1='cd $project1_path'
+alias cdp2='cd $project2_path'
 alias cdg='cd ~/git'
 
 #godot
