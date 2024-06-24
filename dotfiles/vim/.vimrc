@@ -46,8 +46,9 @@ set incsearch
 set colorcolumn=80
 
 "sets column's color
+highlight ColorColumn ctermbg=magenta
 "highlight ColorColumn ctermbg=0 guibg=lightgrey
-highlight ColorColumn ctermbg=0
+"highlight ColorColumn ctermbg=0
 
 set nocompatible
 

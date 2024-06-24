@@ -6,6 +6,8 @@ alias cdu="cd $utilsdir"
 #applications
 alias r='bash $scriptsdir/run/run.sh'
 alias run='bash $scriptsdir/run/run.sh'
+alias godotp='bash $scriptsdir/run/run.sh godot -e'
+alias chrome='bash $scriptsdir/run/run.sh google-chrome-stable'
 
 #distrobox
 alias dbs='distrobox stop'
@@ -16,13 +18,15 @@ alias dbe='distrobox enter'
 alias dev='distrobox enter dev'
 alias di="cat /etc/*-release" # distro information
 
-#general
-alias k="pkill -9"
+#fetch
+alias f=". ~/.aliases; . ~/.variables; . ~/.session_variables"
 alias fbash=". ~/.bashrc"
 alias falias=". ~/.aliases"
 alias fvar=". ~/.variables"
 alias fsvar=". ~/.session_variables"
-alias f=". ~/.aliases; . ~/.variables; . ~/.session_variables"
+
+#general
+alias k="pkill -9"
 alias nf="neofetch"
 alias vi="vim"
 alias v="vim"
