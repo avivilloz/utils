@@ -28,7 +28,6 @@ export git_email="avivilloz@gmail.com"
 
 declare -A git_users
 git_users["avivilloz"]="avivilloz@gmail.com"
-#git_users["ailloz"]="ailloz@akamai.com"
 
 #path
 export PATH="$HOME/.local/bin:$PATH"

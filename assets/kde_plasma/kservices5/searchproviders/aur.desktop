@@ -1,7 +1,0 @@
-[Desktop Entry]
-Charset=
-Hidden=false
-Keys=aur
-Name=Aur
-Query=https://aur.archlinux.org/packages?O=0&K=\\{@}
-Type=Service
