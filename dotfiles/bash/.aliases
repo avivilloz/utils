@@ -270,12 +270,12 @@ alias pipcfgl="$python_version -m pip config list -vv"
 alias pipfreeze="$python_version -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
 
 #python venv
-alias vec="$python_version -m venv"
-alias vecssp="$python_version -m venv --system-site-packages" #gives access to system site packages
-alias vecwp="$python_version -m venv --without-pip"
-alias vecwpssp="$python_version -m venv --without-pip --system-site-packages"
-alias vea=". $scriptsdir/python/pyveact.sh"
-alias ved="deactivate"
+alias venvc="$python_version -m venv"
+alias venva=". $scriptsdir/python/pyveact.sh" # activate
+alias venvd="deactivate" # deactivate
+alias venvcssp="$python_version -m venv --system-site-packages" #gives access to system site packages
+alias venvcwp="$python_version -m venv --without-pip"
+alias venvcwpssp="$python_version -m venv --without-pip --system-site-packages"
 
 #kde plasma theme
 alias kwinr="kwin_x11 --replace"
