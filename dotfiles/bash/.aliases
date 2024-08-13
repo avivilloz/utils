@@ -10,12 +10,13 @@ alias godotp='bash $scriptsdir/run/run.sh godot -e'
 alias chrome='bash $scriptsdir/run/run.sh google-chrome-stable'
 
 #distrobox
-alias dbs='distrobox stop'
-alias dbr='distrobox rm'
-alias dbc='distrobox create'
-alias dbl='distrobox list'
-alias dbe='distrobox enter'
+alias dboxs='distrobox stop'
+alias dboxr='distrobox rm'
+alias dboxc='distrobox create'
+alias dboxl='distrobox list'
+alias dboxe='distrobox enter'
 alias dev='distrobox enter dev'
+alias testing='distrobox enter testing'
 alias di="cat /etc/*-release" # distro information
 
 #fetch
