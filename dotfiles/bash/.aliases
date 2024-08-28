@@ -1,5 +1,4 @@
 #!/bin/bash
-alias dev='distrobox enter dev'
 
 #folders
 alias cdu="cd $utilsdir"
