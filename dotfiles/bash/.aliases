@@ -1,4 +1,5 @@
 #!/bin/bash
+alias dev='distrobox enter dev'
 
 #folders
 alias cdu="cd $utilsdir"
@@ -8,6 +9,7 @@ alias r='bash $scriptsdir/run/run.sh'
 alias run='bash $scriptsdir/run/run.sh'
 alias godotp='bash $scriptsdir/run/run.sh godot -e'
 alias chrome='bash $scriptsdir/run/run.sh google-chrome-stable'
+alias mygpt='tgpt --provider duckduckgo --model gpt-4o-mini'
 
 #distrobox
 alias dboxs='distrobox stop'
@@ -17,6 +19,7 @@ alias dboxl='distrobox list'
 alias dboxe='distrobox enter'
 alias dev='distrobox enter dev'
 alias testing='distrobox enter testing'
+alias cc='distrobox enter content_creator'
 alias di="cat /etc/*-release" # distro information
 
 #fetch
@@ -35,7 +38,7 @@ alias vime="$term -e vim"
 alias vie="$term -e vim"
 alias ve="$term -e vim"
 alias c="clear"
-alias cc="cd && clear"
+alias cdc="cd && clear"
 alias e="exit"
 alias h="htop"
 alias hg="history | grep -i"
@@ -270,12 +273,12 @@ alias pipcfgl="$python_version -m pip config list -vv"
 alias pipfreeze="$python_version -m pip freeze > requirements.txt" #add environment needed packages versions to requirements file
 
 #python venv
-alias venvc="$python_version -m venv"
-alias venva=". $scriptsdir/python/pyveact.sh" # activate
-alias venvd="deactivate" # deactivate
-alias venvcssp="$python_version -m venv --system-site-packages" #gives access to system site packages
-alias venvcwp="$python_version -m venv --without-pip"
-alias venvcwpssp="$python_version -m venv --without-pip --system-site-packages"
+alias pyvc="$python_version -m venv"
+alias pyva=". $scriptsdir/python/pyveact.sh" # activate
+alias pyvd="deactivate" # deactivate
+alias pyvcssp="$python_version -m venv --system-site-packages" #gives access to system site packages
+alias pyvcwp="$python_version -m venv --without-pip"
+alias pyvcwpssp="$python_version -m venv --without-pip --system-site-packages"
 
 #kde plasma theme
 alias kwinr="kwin_x11 --replace"
