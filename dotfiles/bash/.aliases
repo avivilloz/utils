@@ -9,6 +9,7 @@ alias run='bash $scriptsdir/run/run.sh'
 alias godotp='bash $scriptsdir/run/run.sh godot -e'
 alias chrome='bash $scriptsdir/run/run.sh google-chrome-stable'
 alias mygpt='tgpt --provider duckduckgo --model gpt-4o-mini'
+#alias mygpt='tgpt --provider'
 
 #distrobox
 alias dboxs='distrobox stop'
@@ -273,7 +274,7 @@ alias pipfreeze="$python_version -m pip freeze > requirements.txt" #add environm
 
 #python venv
 alias pyvc="$python_version -m venv"
-alias pyva=". $scriptsdir/python/pyveact.sh" # activate
+alias pyve=". $scriptsdir/python/pyveact.sh" # activate/enter
 alias pyvd="deactivate" # deactivate
 alias pyvcssp="$python_version -m venv --system-site-packages" #gives access to system site packages
 alias pyvcwp="$python_version -m venv --without-pip"
