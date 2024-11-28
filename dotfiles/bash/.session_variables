@@ -8,7 +8,3 @@ export python_version=
 # main git user
 export git_name=avivilloz
 export git_email="avivilloz@gmail.com"
-
-# details to create ssh keys for remote git repos access (host information like github.com needs to be added in the future to work with setup_git.sh)
-declare -A git_users
-git_users["avivilloz"]="avivilloz@gmail.com"

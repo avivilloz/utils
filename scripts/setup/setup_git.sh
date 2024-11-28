@@ -16,8 +16,4 @@ if [ $ans  = "y" ]; then
 	if [ "$base_distro" = "arch" ]; then
 		sudo pacman -S openssh -needed
 	fi
-
-#	for key in ${!git_users[@]}; do
-#		bash ~/git/utils/scripts/git/git_ssh_keygen.sh ${key} ${git_users[${key}]}
-#	done
 fi
