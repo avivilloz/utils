@@ -22,13 +22,6 @@ export session_variables=~/.session_variables
 export vimrc=~/.vimrc
 export vimdir=~/.vim
 
-#git
-export git_name=avivilloz
-export git_email="avivilloz@gmail.com"
-
-declare -A git_users
-git_users["avivilloz"]="avivilloz@gmail.com"
-
 #path
 export PATH="$HOME/.local/bin:$PATH"
 

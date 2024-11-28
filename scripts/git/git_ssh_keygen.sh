@@ -1,20 +1,24 @@
 #!/bin/bash
 
-if [ $# -ne 2 ]
+if [ $# -ne 3 ]
 then
-	echo "provide github username[1] and email[2]"
+    echo "provide keylabel[1] (only needed to name the file), email[2] (important) and host[3] (important. host example: github.com, bitbucket.org, etc)"
 	exit 1
 fi
 
-identity_file=~/.ssh/github_ssh_key_for_$1
+keylabel=$1
+email=$2
+host=$3
+
+identity_file=~/.ssh/$keylabel
 
 mkdir -p ~/.ssh
-ssh-keygen -t ed25519 -C "$2" -f "$identity_file"
+ssh-keygen -t ed25519 -C "$email" -f "$identity_file"
 
 echo "\
-Host github.com
+Host $host
     User git
-    HostName github.com
+    HostName $host
     PreferredAuthentications publickey
     IdentityFile $identity_file"\
 >> ~/.ssh/config

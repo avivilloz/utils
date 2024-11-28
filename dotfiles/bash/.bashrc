@@ -112,3 +112,5 @@ fi
 #distrobox setup
 xhost +SI:localuser:$USER
 clear
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64

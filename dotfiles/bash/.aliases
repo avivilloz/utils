@@ -11,6 +11,9 @@ alias chrome='bash $scriptsdir/run/run.sh google-chrome-stable'
 alias mygpt='tgpt --provider duckduckgo --model gpt-4o-mini'
 #alias mygpt='tgpt --provider'
 
+#network
+alias tn="telnet"
+
 #distrobox
 alias dboxs='distrobox stop'
 alias dboxr='distrobox rm'
@@ -108,6 +111,7 @@ alias edalias="$edit $aliases"
 alias edvar="$edit $variables"
 alias edsvar="$edit $session_variables"
 alias edvim="$edit $vimrc"
+alias edaws="$edit ~/.aws/credentials"
 
 #setup
 alias setup_deck="bash $scriptsdir/setup/deck/setup.sh"
@@ -244,8 +248,7 @@ alias gft="git fetch"
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
 alias mkproject="bash $scriptsdir/code/project.sh"
-alias cdp1='cd $project1_path'
-alias cdp2='cd $project2_path'
+alias cdp='cd $project_path'
 alias cdg='cd ~/git'
 
 #godot

@@ -32,6 +32,24 @@ if [ "$base_distro" == "debian" ]; then
         sudo apt autoremove
     fi
 
+elif [ "$base_distro" == "ubuntu" ]; then
+
+    if [ "$1" == "in" ]; then
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                sudo snap install $2 --classic
+            fi
+        done
+    elif [ "$1" == "rm" ]; then
+        for pkg in "$@"; do
+            if [ "$pkg" != "$1" ]; then
+                sudo snap remove $2
+            fi
+        done
+    elif [ "$1" == "up" ]; then
+        sudo snap refresh
+    fi
+
 elif [ "$base_distro" == "fedora" ]; then
 
     if [ "$1" == "in" ]; then
