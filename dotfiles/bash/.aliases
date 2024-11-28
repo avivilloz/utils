@@ -2,6 +2,8 @@
 
 #folders
 alias cdu="cd $utilsdir"
+alias cdp='cd $project_path'
+alias cdg='cd ~/git'
 
 #applications
 alias r='bash $scriptsdir/run/run.sh'
@@ -248,8 +250,6 @@ alias gft="git fetch"
 #learning/projects scripts
 alias lab="bash $scriptsdir/code/lab.sh"
 alias mkproject="bash $scriptsdir/code/project.sh"
-alias cdp='cd $project_path'
-alias cdg='cd ~/git'
 
 #godot
 alias gdf="bash $scriptsdir/godot/format_gdscript.sh"
