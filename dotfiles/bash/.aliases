@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+#aws
+alias sso='aws sso login --profile Devops-dev-only-PS-437458439508'
+
 #folders
 alias cdu="cd $utilsdir"
 alias cdp='cd $project_path'
@@ -113,7 +117,7 @@ alias edalias="$edit $aliases"
 alias edvar="$edit $variables"
 alias edsvar="$edit $session_variables"
 alias edvim="$edit $vimrc"
-alias edaws="$edit ~/.aws/credentials"
+alias edaws="$edit ~/.aws/config"
 
 #setup
 alias setup_deck="bash $scriptsdir/setup/deck/setup.sh"
