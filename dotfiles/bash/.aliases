@@ -1,8 +1,8 @@
 #!/bin/bash
 
-
-#aws
-alias sso='aws sso login --profile Devops-dev-only-PS-437458439508'
+#maytronics
+alias sso='aws sso login --profile Devops-dev-only-PS-437458439508' # authenticate to aws with sso 
+alias sfs='ssh -i ~/.ssh/sf-slave ubuntu@54.217.37.95' #  connect to sf-slave
 
 #folders
 alias cdu="cd $utilsdir"
