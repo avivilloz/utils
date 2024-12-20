@@ -15,15 +15,15 @@ alias run='bash $scriptsdir/run/run.sh'
 alias godotp='bash $scriptsdir/run/run.sh godot -e'
 alias chrome='bash $scriptsdir/run/run.sh google-chrome-stable'
 alias mygpt='tgpt --provider duckduckgo --model gpt-4o-mini'
-#alias mygpt='tgpt --provider'
 
 #network
 alias tn="telnet"
 
 #distrobox
+#alias dboxc='distrobox create'
+alias dboxc='distrobox create --image docker.io/library/ubuntu:latest --name'
 alias dboxs='distrobox stop'
 alias dboxr='distrobox rm'
-alias dboxc='distrobox create'
 alias dboxl='distrobox list'
 alias dboxe='distrobox enter'
 alias dev='distrobox enter dev'
