@@ -1,8 +1,9 @@
 #!/bin/bash
 
 #maytronics
-alias sso='aws sso login --profile Devops-dev-only-PS-437458439508' # authenticate to aws with sso 
+alias sso='aws sso login --profile mt-portal' # authenticate to aws with sso 
 alias sfs='ssh -i ~/.ssh/sf-slave ubuntu@54.217.37.95' #  connect to sf-slave
+alias sqs='ssh -i ~/.ssh/sonarqube_key ubuntu@3.250.217.206' # connect to sonarqube server
 
 #folders
 alias cdu="cd $utilsdir"
