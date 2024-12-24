@@ -9,8 +9,8 @@ read ans
 if [ $ans  = "y" ]; then
 	vim_dotfiles=~/git/utils/dotfiles/vim
 
-	ln -sf $vim_dotfiles/.vimrc ~/.vimrc
-	sudo ln -sf $vim_dotfiles/.vimrc /root/.vimrc
+	ln -sf $vim_dotfiles/vimrc ~/.vimrc
+	sudo ln -sf $vim_dotfiles/vimrc /root/.vimrc
 fi
 
 echo do you want to setup .vim dir? [y/n]
