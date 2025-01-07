@@ -28,8 +28,6 @@ alias dboxr='distrobox rm'
 alias dboxl='distrobox list'
 alias dboxe='distrobox enter'
 alias dev='distrobox enter dev'
-alias testing='distrobox enter testing'
-alias cc='distrobox enter content_creator'
 alias di="cat /etc/*-release" # distro information
 
 #fetch
