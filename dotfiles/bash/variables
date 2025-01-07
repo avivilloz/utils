@@ -9,8 +9,6 @@ export gitdir=~/git
 #utils
 export utilsdir=$gitdir/utils
 export scriptsdir=$utilsdir/scripts
-export fsdir=$utilsdir/fs
-export backupdir=$utilsdir/fs_backup
 
 #bash
 export bashrc=~/.bashrc
